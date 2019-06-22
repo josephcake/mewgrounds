@@ -1,0 +1,124 @@
+#TempDisplayDiv{
+  width: 100%;
+  height: 90%;
+  overflow-y: auto;
+  background-color: rgb(255,255,255);
+  position: fixed;
+  margin: auto;
+  top: 5%;
+
+  /* left: 5; */
+}
+#closeTemp-btn{
+  width: 100%;
+  outline: none;
+  border: none;
+  height: 30px;
+  background-color: aquamarine;
+}
+.tempName{
+  margin: 20px auto;
+  text-align: center;
+  text-transform: capitalize;
+  /* color: floralwhite; */
+}
+
+
+
+.headerDisplayDiv{
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.temp-sprites{
+  /* width: 25%; */
+  margin: auto;
+}
+.temp-sprites img{
+  margin: auto;
+  /* width: 300px; */
+}
+.mainDisplayDiv{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.mainSprite{
+  margin: auto;
+}
+.mainSprite img{
+  background-color: rgba(0,0,0,0.8);
+}
+.mainInfo{
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 100;
+  height: 100%;
+  margin: auto;
+  display: block;
+  flex-wrap: wrap;
+}
+.mainTr{
+  margin: 0 auto;
+  width: 100%;
+}
+.pokedexHeader{
+  border-bottom: 1px lightgray solid;
+  text-align: center;
+}
+.info-left{
+  border-bottom: 1px lightgray solid;
+  margin: auto;
+  text-align: right;
+  /* font-family: 'Roboto Mono', monospace; */
+  font-weight: 100;
+}
+.info-right{
+  /* display: flex; */
+  text-transform: capitalize;
+  border-bottom: 1px lightgray solid;
+  text-align: left;
+  /* text-transform: none; */
+}
+
+.temp-type{
+  text-transform: capitalize;
+  cursor: pointer;
+  text-align: center;
+  /* display: flex; */
+  width: 80px;
+  flex-wrap: wrap;
+  /* margin: auto; */
+  padding: 4px;
+  border-radius: 8px;
+}
+
+.ability{
+  color:dodgerblue;
+  display: block;
+}
+.hidden-ability{
+  display: block;
+  color:lightgray;
+  font-style: italic;
+}
+.statsDiv{
+  width: 50%;
+}
+#statTable{
+  /* display: flex; */
+  width: 100%;
+}
+.stat-data{
+  /* width: 200px; */
+  margin: auto;
+  /* flex-wrap: wrap; */
+  width: 5%;
+}
+.statHeaders{
+  width: 5%;
+
+}
+.bar{
+  width: 80%;
+  border-bottom: 1px solid lightgray;
+}

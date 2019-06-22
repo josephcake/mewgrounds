@@ -1,0 +1,36 @@
+.navDiv{
+  /* border: 3px solid black; */
+  max-width: 100%;
+  margin: 5px 5px 15px 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 30px;
+  /* max-height: 40px; */
+  text-align: center;
+  /* margin-bottom: 10px; */
+
+}
+.navDiv:nth-of-type(1){
+  border-bottom: solid black 2px;
+}
+.navChoices{
+  margin: auto;
+}
+#Nav{
+  max-width: 100%;
+  /* height: 50px; */
+  /* border: 3px solid black; */
+  display: block;
+}
+.nav-tag{
+  text-transform: capitalize;
+  cursor: pointer;
+  text-align: center;
+  /* display: flex; */
+  width: 80px;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 4px;
+  border-radius: 8px;
+}
