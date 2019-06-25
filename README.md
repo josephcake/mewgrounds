@@ -1,14 +1,23 @@
 A simple Pokemon Info
 
-## Mewgrounds
+# Mewgrounds
 
-In the project directory, you can run:
+In the website, you can run then general actions:
 
-### Actions
+## Actions
 
+## `Search, Sort, and Filter`
+### `Indexes - (Pokemon, Moves)`
+### `Names - (Pokemon, Moves, Items, Abilities)`
+### `Types - (Primary, Secondary)`
+### `Stats - (Base, Min, Max, Total)`
+### `Moves - (Indexes, Name, Type, Power, Cat, Acc, PP, TM)`
+### `Items - (General, Battle, Hold, Berries, Machines, Medicine, Pokeballs)`
+### `Abilities - (Common, Hidden)`
 
-### `Filter by Gen`
-### `Filter by Name`
-### `Filter by Type`
-### `Sort by Index`
-### `Sort by Stats`
+Most actions can be combined to pinpoint a more accurate search. For example:
+Filter PRIMARY "Fire" types.
+Filter SECONDARY "Flying" types.
+Search by NAME "cha"
+
+## `// Charizard`
