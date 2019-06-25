@@ -14,6 +14,10 @@ class Search extends Component {
             ?
             "Search for a move..."
             :
+            this.props.currentPage === "Abilities"
+            ?
+            "Search for an ability..."
+            :
             "Search for an item..."
           } onChange={this.props.handleChange}/>
         </form>

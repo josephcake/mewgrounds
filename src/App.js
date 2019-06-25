@@ -19,6 +19,7 @@ import TempDisplay from './containers/TempDisplay.js'
 import PokemonStats from './containers/PokemonStats.js'
 import PokemonMoves from './containers/PokemonMoves.js'
 import PokemonItems from './containers/PokemonItems.js'
+import PokemonAbilities from './containers/PokemonAbilities.js'
 
 
 
@@ -56,10 +57,11 @@ class App extends Component{
         currentPage:"Stats"
       })
     }
-    // "is_main_series"
-    fetch("https://pokeapi.co/api/v2/ability/233")
-    .then(res=>res.json())
-    .then(console.log)
+    if(window.location.href.includes("abilities")){
+      this.setState({
+        currentPage:"Abilities"
+      })
+    }
   }
 
   handleChange=(e)=>{
@@ -156,6 +158,9 @@ class App extends Component{
           }} />
           <Route exact path='/items' render={() =>{
             return <PokemonItems value={this.state.value} filteredType={this.state.filterType}/>
+          }} />
+          <Route exact path='/abilities' render={() =>{
+            return <PokemonAbilities value={this.state.value} filteredType={this.state.filterType}/>
           }} />
           <Route path='/' render={() =>
              <div id="main">

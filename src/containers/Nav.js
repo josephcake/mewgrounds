@@ -27,7 +27,7 @@ class Nav extends Component {
             <Link onClick={this.props.handlePage} to="/items">Items</Link>
           </div>
           <div className="navChoices">
-            -6-
+            <Link onClick={this.props.handlePage} to="/abilities">Abilities</Link>
           </div>
           <div className="navChoices">
             -7-
@@ -45,6 +45,10 @@ class Nav extends Component {
           this.props.currentPage === "Items"
           ?
           <NavItems filterType={this.props.filterType}/>
+          :
+          this.props.currentPage === "Items"
+          ?
+          null
           :
           null
         }

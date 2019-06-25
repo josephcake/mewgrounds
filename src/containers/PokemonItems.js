@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import {items} from '../pokemonItemsData.js'
+import Item from '../components/Item.js'
 
 class PokemonItems extends Component {
   state = {
@@ -78,26 +79,35 @@ class PokemonItems extends Component {
     }
 
 
-    let itemsRows = [
-      <tr className="pokemonTableTR">
-        <th className="pokemonTableHeaders"></th>
-        <th onClick={this.sort} className="pokemonTableHeaders">Name</th>
-        <th onClick={this.sort} className="pokemonTableHeaders">Cat</th>
-        <th className="pokemonTableHeaders-effect">Effect</th>
-      </tr>
-    ]
-    for (let i=0; i<pItemsData.length; i++){
-        itemsRows.push(
-        <tr className={pItemsData[i].name.toLowerCase().includes(this.props.value.toLowerCase()) ? "pokemonStatsTR" : "hideSprite"}>
-          <td className="pokemonTableDatas"><img src={pItemsData[i].icon}/></td>
-          <td className="pokemonTableDatas">{pItemsData[i].name}</td>
-          <td className="pokemonTableDatas-cat">{pItemsData[i].cat}</td>
-          <td className="pokemonTableDatas">{pItemsData[i].effect}</td>
-        </tr>)
-    }
+    // let itemsRows = [
+    //   <tr className="pokemonTableTR">
+    //     <th className="pokemonTableHeaders"></th>
+    //     <th onClick={this.sort} className="pokemonTableHeaders">Name</th>
+    //     <th onClick={this.sort} className="pokemonTableHeaders">Cat</th>
+    //     <th className="pokemonTableHeaders-effect">Effect</th>
+    //   </tr>
+    // ]
+    // for (let i=0; i<pItemsData.length; i++){
+    //     itemsRows.push(
+    //     <tr className={pItemsData[i].name.toLowerCase().includes(this.props.value.toLowerCase()) ? "pokemonStatsTR" : "hideSprite"}>
+    //       <td className="pokemonTableDatas"><img src={pItemsData[i].icon}/></td>
+    //       <td className="pokemonTableDatas">{pItemsData[i].name}</td>
+    //       <td className="pokemonTableDatas-cat">{pItemsData[i].cat}</td>
+    //       <td className="pokemonTableDatas">{pItemsData[i].effect}</td>
+    //     </tr>)
+    //  }
+    let itemsRows = pItemsData.map(p=><Item p={p} value={this.props.value}/>)
+
     return(
       <div className="pokemonTableDiv">
         <table className="pokemonTable">
+        <tr className="pokemonTableTR">
+          <th className="pokemonTableHeaders"></th>
+          <th onClick={this.sort} className="pokemonTableHeaders">Name</th>
+          <th onClick={this.sort} className="pokemonTableHeaders">Cat</th>
+          <th className="pokemonTableHeaders-effect">Effect</th>
+        </tr>
+
             {itemsRows}
         </table>
       </div>

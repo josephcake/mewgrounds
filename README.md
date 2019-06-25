@@ -2,7 +2,7 @@ A simple Pokemon Info
 
 # Mewgrounds
 
-In the website, you can run then general actions:
+In the website, you can run these general actions:
 
 ## Actions
 
@@ -17,8 +17,8 @@ In the website, you can run then general actions:
 
 Most actions can be combined to pinpoint a more accurate search.
 For example:
-### Filter PRIMARY "Fire" types.
-### Filter SECONDARY "Flying" types.
-### Search by NAME "cha"
+### `Filter PRIMARY "Fire" types`
+### `Filter SECONDARY "Flying" types`
+### `Search by NAME "cha"`
 
 ## `// Charizard`
