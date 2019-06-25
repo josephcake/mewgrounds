@@ -25,7 +25,6 @@ class TempDisplay extends Component {
 
 
 
-
   render(){
     const {
       currentPoke,
@@ -125,13 +124,13 @@ class TempDisplay extends Component {
           </table>
         </div>
         <div className="statsDiv">
-          <h1 className="tempName-stat">Base Stats</h1>
+          <h1 className="tempName-stat">Base Stats <span className="gray_italic_text">(stats are compared to the highest within that category)</span></h1>
           <table id="statTable">
             <tr className="statTr"><th className="statHeaders info-right">Stat</th><td className="info-right stat-data">Base</td><td className="bar"><div></div></td><td className="info-right stat-data">Min</td><td className="info-right stat-data">Max</td></tr>
             <tr className="statTr"><th className="statHeaders info-right">HP</th><td className="info-right stat-data">{currentPokeDb.stat.hp.base}</td><td className="bar"><div style={{width:`${currentPokeDb.stat.hp.base/2.55}%`, borderRadius: `10px`, backgroundColor: 'coral', height: `15px`}}></div></td><td className="info-right stat-data">{currentPokeDb.stat.hp.min}</td><td className="info-right stat-data">{currentPokeDb.stat.hp.max}</td></tr>
-            <tr className="statTr"><th className="statHeaders info-right">Attack</th><td className="info-right stat-data">{currentPokeDb.stat.attack.base}</td><td className="bar"><div style={{width:`${currentPokeDb.stat.attack.base/1.3}%`, borderRadius: `10px`, backgroundColor: 'coral', height: `15px`}}></div></td><td className="info-right stat-data">{currentPokeDb.stat.attack.min}</td><td className="info-right stat-data">{currentPokeDb.stat.attack.max}</td></tr>
+            <tr className="statTr"><th className="statHeaders info-right">Attack</th><td className="info-right stat-data">{currentPokeDb.stat.attack.base}</td><td className="bar"><div style={{width:`${currentPokeDb.stat.attack.base/1.9}%`, borderRadius: `10px`, backgroundColor: 'coral', height: `15px`}}></div></td><td className="info-right stat-data">{currentPokeDb.stat.attack.min}</td><td className="info-right stat-data">{currentPokeDb.stat.attack.max}</td></tr>
             <tr className="statTr"><th className="statHeaders info-right">Defense</th><td className="info-right stat-data">{currentPokeDb.stat.defense.base}</td><td className="bar"><div style={{width:`${currentPokeDb.stat.defense.base/2.3}%`, borderRadius: `10px`, backgroundColor: 'coral', height: `15px`}}></div></td><td className="info-right stat-data">{currentPokeDb.stat.defense.min}</td><td className="info-right stat-data">{currentPokeDb.stat.defense.max}</td></tr>
-            <tr className="statTr"><th className="statHeaders info-right">Sp.Atk</th><td className="info-right stat-data">{currentPokeDb.stat.spAtk.base}</td><td className="bar"><div style={{width:`${currentPokeDb.stat.spAtk.base/1.8}%`, borderRadius: `10px`, backgroundColor: 'coral', height: `15px`}}></div></td><td className="info-right stat-data">{currentPokeDb.stat.spAtk.min}</td><td className="info-right stat-data">{currentPokeDb.stat.spAtk.max}</td></tr>
+            <tr className="statTr"><th className="statHeaders info-right">Sp.Atk</th><td className="info-right stat-data">{currentPokeDb.stat.spAtk.base}</td><td className="bar"><div style={{width:`${currentPokeDb.stat.spAtk.base/1.94}%`, borderRadius: `10px`, backgroundColor: 'coral', height: `15px`}}></div></td><td className="info-right stat-data">{currentPokeDb.stat.spAtk.min}</td><td className="info-right stat-data">{currentPokeDb.stat.spAtk.max}</td></tr>
             <tr className="statTr"><th className="statHeaders info-right">Sp.Def</th><td className="info-right stat-data">{currentPokeDb.stat.spDef.base}</td><td className="bar"><div style={{width:`${currentPokeDb.stat.spDef.base/2.3}%`, borderRadius: `10px`, backgroundColor: 'coral', height: `15px`}}></div></td><td className="info-right stat-data">{currentPokeDb.stat.spDef.min}</td><td className="info-right stat-data">{currentPokeDb.stat.spDef.max}</td></tr>
             <tr className="statTr"><th className="statHeaders info-right">Speed</th><td className="info-right stat-data">{currentPokeDb.stat.speed.base}</td><td className="bar"><div style={{width:`${currentPokeDb.stat.speed.base/1.8}%`, borderRadius: `10px`, backgroundColor: 'coral', height: `15px`}}></div></td><td className="info-right stat-data">{currentPokeDb.stat.speed.min}</td><td className="info-right stat-data">{currentPokeDb.stat.speed.max}</td></tr>
           </table>

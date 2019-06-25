@@ -5,7 +5,17 @@ class Search extends Component {
     return(
       <div id="SearchDiv">
         <form id="SearchForm" onSubmit={this.props.handleSubmit}>
-          <input id="SearchInput"type="text" value={this.props.value} placeholder="Search for a pokemon..." onChange={this.props.handleChange}/>
+          <input id="SearchInput"type="text" value={this.props.value} placeholder={
+            this.props.currentPage === "Home" || this.props.currentPage === "Stats"
+            ?
+            "Search for a pokemon..."
+            :
+            this.props.currentPage === "Moves"
+            ?
+            "Search for a move..."
+            :
+            "Search for an item..."
+          } onChange={this.props.handleChange}/>
         </form>
       </div>
     )

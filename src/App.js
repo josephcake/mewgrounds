@@ -2,17 +2,23 @@ import React, {Component} from 'react';
 import {pokemonData} from './pokemonBasicData'
 // import axios from 'axios'
 // import logo from './logo.svg';
+import { Switch, Route, Link, Redirect, withRouter } from "react-router-dom";
+// import { withRouter } from 'react-router-dom'
 import './App.css';
 import './style/Home.css'
 import './style/SpriteCard.css'
 import './style/Nav.css'
 import './style/Search.css'
 import './style/TempDisplay.css'
+import './style/pokemonStats.css'
+import './style/pokemonMoves.css'
 
 import Nav from './containers/Nav.js'
 import Home from './containers/Home.js'
 import TempDisplay from './containers/TempDisplay.js'
-
+import PokemonStats from './containers/PokemonStats.js'
+import PokemonMoves from './containers/PokemonMoves.js'
+import PokemonItems from './containers/PokemonItems.js'
 
 
 
@@ -22,21 +28,39 @@ class App extends Component{
     pData: pokemonData,
     value:"",
     filterType:"all",
+    secondaryType:"",
     clickedPoke: false,
-    currentPoke:{}
+    currentPoke:{},
+    currentPage:"Home"
 
   }
 
-  // componentDidMount(){
-    // let count = 1
-    // while(count <= 807){
-    //   axios.get(`https://pokeapi.co/api/v2/pokemon/${count}`)
-    //   .then(resp =>console.log(resp))
-    //   count ++
+  componentDidMount(){
+    // if(window.location.href.includes("home")){
+    //   this.setState({
+    //     currentPage:"Home"
+    //   })
     // }
-    // app.listen(port);
-    // console.log(port)
-  // }
+    if(window.location.href.includes("items")){
+      this.setState({
+        currentPage:"Items"
+      })
+    }
+    if(window.location.href.includes("moves")){
+      this.setState({
+        currentPage:"Moves"
+      })
+    }
+    if(window.location.href.includes("stats")){
+      this.setState({
+        currentPage:"Stats"
+      })
+    }
+    // "is_main_series"
+    fetch("https://pokeapi.co/api/v2/ability/233")
+    .then(res=>res.json())
+    .then(console.log)
+  }
 
   handleChange=(e)=>{
     console.log(e.target.value);
@@ -46,9 +70,25 @@ class App extends Component{
   }
 
   filterType=(e)=>{
-    console.log(e.target.innerText.toLowerCase());
+    // console.log(e.target.innerText.toLowerCase());
     this.setState({
-      filterType: e.target.innerText.toLowerCase()
+      filterType: e.target.innerText.toLowerCase(),
+      secondaryType: ""
+    })
+  }
+  filterSecondType=(e)=>{
+    // console.log(e.target.innerText.toLowerCase());
+    this.setState({
+      secondaryType: e.target.innerText.toLowerCase()
+    })
+  }
+
+  handlePage=(e)=>{
+    this.setState({
+      currentPage:e.target.innerText,
+      filterType: "all",
+      secondaryType: "",
+      value:""
     })
   }
 
@@ -59,7 +99,7 @@ class App extends Component{
       .then(resp => this.setState({
           clickedPoke: true,
           currentPoke: resp
-        }, console.log(resp))
+        })
       )
   }
   closeTemp=()=>{
@@ -80,25 +120,59 @@ class App extends Component{
       }else{
         pData = this.state.pData
       }
+      let secondaryDataTypes={}
+      for(let i=0; i<pData.length; i++){
+      	if(Object.keys(pData[i].type)[0] && Object.keys(pData[i].type)[0] !== this.state.filterType){
+      		secondaryDataTypes[Object.keys(pData[i].type)[0]] = 1
+      	}
+      	if(Object.keys(pData[i].type)[1] && Object.keys(pData[i].type)[1] !== this.state.filterType){
+      		secondaryDataTypes[Object.keys(pData[i].type)[1]] = 1
+      	}
+      }
+      secondaryDataTypes=Object.keys(secondaryDataTypes)
+      console.log(secondaryDataTypes);
 
+      if(this.state.secondaryType !== ""){
+        let newPData = []
+        pData.forEach(p => {
+          if(Object.keys(p.type).includes(this.state.secondaryType.toLowerCase())){
+            newPData.push(p)
+          }
+        })
+        pData = newPData
+      }
       // debugger
+
 
     return (
       <div id="App">
-        <Nav filterType={this.filterType} handleSubmit={this.handleSubmit} handleChange={this.handleChange} value={this.state.value}/>
-        <div id="main">
-          {
-            this.state.clickedPoke
-            ?
-            <TempDisplay filterType={this.filterType} currentPokeDb={this.state.pData[this.state.currentPoke.id - 1]}currentPoke={this.state.currentPoke} closeTemp={this.closeTemp}/>
-            :
-            null
-          }
-          <Home basicData={pData} value={this.state.value} filterType={this.filterType} clickPoke={this.clickPoke} />
-        </div>
+        <Nav currentPage={this.state.currentPage} handlePage={this.handlePage} filterType={this.filterType} filterSecondType={this.filterSecondType} filteredType={this.state.filterType} secondaryDataTypes={secondaryDataTypes} handleSubmit={this.handleSubmit} handleChange={this.handleChange} value={this.state.value}/>
+        <Switch>
+          <Route exact path='/stats' render={() =>{
+            return <PokemonStats value={this.state.value} pData={pData}/>
+          }} />
+          <Route exact path='/moves' render={() =>{
+            return <PokemonMoves value={this.state.value} filteredType={this.state.filterType}/>
+          }} />
+          <Route exact path='/items' render={() =>{
+            return <PokemonItems value={this.state.value} filteredType={this.state.filterType}/>
+          }} />
+          <Route path='/' render={() =>
+             <div id="main">
+             {
+               this.state.clickedPoke
+               ?
+               <TempDisplay filterType={this.filterType} currentPokeDb={this.state.pData[this.state.currentPoke.id - 1]}currentPoke={this.state.currentPoke} closeTemp={this.closeTemp}/>
+               :
+               null
+             }
+             <Home basicData={pData} value={this.state.value} filterType={this.filterType} clickPoke={this.clickPoke} />
+             </div>
+          }/>
+        </Switch>
       </div>
     );
   }
 }
 
-export default App;
+export default withRouter(App);

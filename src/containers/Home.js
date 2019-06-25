@@ -10,7 +10,7 @@ class Home extends Component {
       <div id="Home">
 
       <header id="HomeHeader">
-        Welcome to Pokemon Library
+        Mewgrounds
       </header>
 
         <div id="SpriteContainer">

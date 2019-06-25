@@ -1,0 +1,46 @@
+.pokemonTableDiv{
+  width: 80%;
+  margin: auto;
+}
+.pokemonTable{
+  margin: auto;
+  overflow: auto;
+  display: block;
+  /* width: 100%; */
+  border: 1px solid black;
+}
+.pokemonStatsTR:hover{
+  background-color: beige;
+}
+.pokemonTableHeaders{
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 900;
+  width: 200px;
+  margin: auto;
+  border-bottom: 1px solid black;
+}
+.pokemonTableHeaders-effect{
+  /* cursor: pointer; */
+  font-size: 1.2rem;
+  font-weight: 900;
+  width: 1000px;
+  margin: auto;
+  border-bottom: 1px solid black;
+}
+.pokemonTableDatas{
+  font-size: 1rem;
+  text-transform: capitalize;
+  padding: 8px;
+  border-bottom: 1px solid lightgray;
+  margin: auto;
+  text-align: center;
+}
+.pokemonTableDatas-cat{
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 8px auto;
+  border-bottom: 1px solid lightgray;
+  text-align: center;
+}

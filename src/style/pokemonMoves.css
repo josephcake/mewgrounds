@@ -1,0 +1,11 @@
+#pokemonMovesDiv{
+  width: 90%;
+  margin: auto;
+}
+#pokemonMovesTable{
+  margin: auto;
+  overflow: auto;
+  display: block;
+  width: 100%;
+  border: 1px solid black;
+}

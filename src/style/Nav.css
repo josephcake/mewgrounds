@@ -12,8 +12,12 @@
 
 }
 .navDiv:nth-of-type(1){
-  border-bottom: solid black 2px;
+  border-bottom: solid lightgray 2px;
+  padding-bottom: 6px;
 }
+/* .navDiv:nth-of-type(2){
+  border-bottom: solid lightgray 2px;
+} */
 .navChoices{
   margin: auto;
 }
@@ -28,9 +32,13 @@
   cursor: pointer;
   text-align: center;
   /* display: flex; */
-  width: 80px;
+  width: 85px;
   flex-wrap: wrap;
   margin: auto;
   padding: 4px;
   border-radius: 8px;
+}
+.nav-tag:visited{
+  outline-style: solid;
+  outline-color: pink;
 }

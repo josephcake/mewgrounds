@@ -23,7 +23,12 @@
   /* color: floralwhite; */
 }
 
-
+.gray_italic_text{
+  color: lightslategray;
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: 100;
+}
 
 .headerDisplayDiv{
   display: flex;
@@ -102,7 +107,7 @@
   font-style: italic;
 }
 .statsDiv{
-  width: 50%;
+  width: 100%;
 }
 #statTable{
   /* display: flex; */
