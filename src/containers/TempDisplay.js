@@ -2,29 +2,6 @@ import React, {Component} from 'react'
 
 class TempDisplay extends Component {
 
-
-
-//
-
-  // let statTable = document.querySelector(".resp-scroll .vitals-table tbody")
-  // statTable = $$('tr', document.querySelector(".resp-scroll .vitals-table tbody"))
-  // let tableObj = []
-  // for(let i=0;i<statTable.length;i++){
-  // 	tableObj.push(statTable[i].innerText)
-  // }
-  // copy(tableObj)
-  // [
-  //   "HP\t60\t\n\t230\t324",
-  //   "Attack\t62\t\n\t116\t245",
-  //   "Defense\t63\t\n\t117\t247",
-  //   "Sp. Atk\t80\t\n\t148\t284",
-  //   "Sp. Def\t80\t\n\t148\t284",
-  //   "Speed\t60\t\n\t112\t240"
-  // ]
-
-
-
-
   render(){
     const {
       currentPoke,

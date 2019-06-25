@@ -120,8 +120,9 @@ class PokemonAbilities extends Component {
     //       <td className="pokemonTableDatas">{pAbilitiesData[i].text}</td>
     //     </tr>)
     // }
+
+    let abilitiesRows = pAbilitiesData.map(p=><Ability clickPoke={this.props.clickPoke} p={p} value={this.props.value}/>)
     
-    let abilitiesRows = pAbilitiesData.map(p=><Ability p={p} value={this.props.value}/>)
     return(
       <div className="pokemonTableDiv">
         <table className="pokemonTable">

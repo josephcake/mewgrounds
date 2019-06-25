@@ -3,12 +3,15 @@
 }
 #HomeHeader{
   text-align: center;
-  font-size: 3rem;
-  font-weight: 900;
+  /* font-size: 3rem; */
+  /* font-weight: 900; */
   margin: 30px auto;
   /* letter-spacing: 1.5rem; */
   /* text-decoration: underline; */
   /* text-transform: uppercase; */
+}
+#HomeHeader img{
+  width: 55%;
 }
 #SpriteContainer {
   text-transform: capitalize;

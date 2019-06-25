@@ -30,7 +30,10 @@ class Nav extends Component {
             <Link onClick={this.props.handlePage} to="/abilities">Abilities</Link>
           </div>
           <div className="navChoices">
-            -7-
+            Teams
+          </div>
+          <div className="navChoices">
+            About
           </div>
         </div>
         {

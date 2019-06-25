@@ -44,3 +44,6 @@
   border-bottom: 1px solid lightgray;
   text-align: center;
 }
+.clickable{
+  cursor: pointer;
+}

@@ -65,7 +65,7 @@ class App extends Component{
   }
 
   handleChange=(e)=>{
-    console.log(e.target.value);
+    // console.log(e.target.value);
     this.setState({
       value:e.target.value
     })
@@ -95,14 +95,15 @@ class App extends Component{
   }
 
   clickPoke=(e)=>{
-    console.log(e);
-    fetch(`https://pokeapi.co/api/v2/pokemon/${e.id}`)
+    // console.log(e);
+      fetch(`https://pokeapi.co/api/v2/pokemon/${e.id}`)
       .then(reqs =>reqs.json())
       .then(resp => this.setState({
-          clickedPoke: true,
-          currentPoke: resp
-        })
-      )
+        clickedPoke: true,
+        currentPoke: resp
+      })
+    )
+
   }
   closeTemp=()=>{
     this.setState({
@@ -132,7 +133,7 @@ class App extends Component{
       	}
       }
       secondaryDataTypes=Object.keys(secondaryDataTypes)
-      console.log(secondaryDataTypes);
+      // console.log(secondaryDataTypes);
 
       if(this.state.secondaryType !== ""){
         let newPData = []
@@ -159,9 +160,20 @@ class App extends Component{
           <Route exact path='/items' render={() =>{
             return <PokemonItems value={this.state.value} filteredType={this.state.filterType}/>
           }} />
-          <Route exact path='/abilities' render={() =>{
-            return <PokemonAbilities value={this.state.value} filteredType={this.state.filterType}/>
-          }} />
+
+          <Route exact path='/abilities' render={() =>
+            <div>
+            {
+              this.state.clickedPoke
+              ?
+              <TempDisplay filterType={this.filterType} currentPokeDb={this.state.pData[this.state.currentPoke.id - 1]} currentPoke={this.state.currentPoke} closeTemp={this.closeTemp}/>
+              :
+              null
+            }
+            <PokemonAbilities clickPoke={this.clickPoke} value={this.state.value} filteredType={this.state.filterType}/>
+            </div>
+          }/>
+
           <Route path='/' render={() =>
              <div id="main">
              {

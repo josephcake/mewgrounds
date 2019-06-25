@@ -10,7 +10,7 @@ class Home extends Component {
       <div id="Home">
 
       <header id="HomeHeader">
-        Mewgrounds
+        <img src={require("../mewgrounds.png")}/>
       </header>
 
         <div id="SpriteContainer">

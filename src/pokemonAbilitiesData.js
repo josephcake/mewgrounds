@@ -8,6 +8,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "gloom",
+          id:44,
           url: "https://pokeapi.co/api/v2/pokemon/44/"
         }
       },
@@ -15,6 +16,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "grimer",
+          id:88,
           url: "https://pokeapi.co/api/v2/pokemon/88/"
         }
       },
@@ -22,6 +24,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "muk",
+          id: 89,
           url: "https://pokeapi.co/api/v2/pokemon/89/"
         }
       },
@@ -29,6 +32,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "stunky",
+          id: 434,
           url: "https://pokeapi.co/api/v2/pokemon/434/"
         }
       },
@@ -36,6 +40,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "skuntank",
+          id:435,
           url: "https://pokeapi.co/api/v2/pokemon/435/"
         }
       },
@@ -43,6 +48,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "trubbish",
+          id:568,
           url: "https://pokeapi.co/api/v2/pokemon/568/"
         }
       },
@@ -50,6 +56,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "garbodor",
+          id:569,
           url: "https://pokeapi.co/api/v2/pokemon/569/"
         }
       }
@@ -64,6 +71,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "politoed",
+          id:186,
           url: "https://pokeapi.co/api/v2/pokemon/186/"
         }
       },
@@ -71,6 +79,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pelipper",
+          id:279,
           url: "https://pokeapi.co/api/v2/pokemon/279/"
         }
       },
@@ -78,6 +87,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "kyogre",
+          id:382,
           url: "https://pokeapi.co/api/v2/pokemon/382/"
         }
       }
@@ -92,6 +102,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "yanma",
+          id:193,
           url: "https://pokeapi.co/api/v2/pokemon/193/"
         }
       },
@@ -99,6 +110,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "torchic",
+          id:255,
           url: "https://pokeapi.co/api/v2/pokemon/255/"
         }
       },
@@ -106,6 +118,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "combusken",
+          id:256,
           url: "https://pokeapi.co/api/v2/pokemon/256/"
         }
       },
@@ -113,6 +126,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "blaziken",
+          id:257,
           url: "https://pokeapi.co/api/v2/pokemon/257/"
         }
       },
@@ -120,6 +134,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ninjask",
+          id:291,
           url: "https://pokeapi.co/api/v2/pokemon/291/"
         }
       },
@@ -127,6 +142,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "carvanha",
+          id:318,
           url: "https://pokeapi.co/api/v2/pokemon/318/"
         }
       },
@@ -134,6 +150,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "sharpedo",
+          id:319,
           url: "https://pokeapi.co/api/v2/pokemon/319/"
         }
       },
@@ -141,6 +158,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "yanmega",
+          id:469,
           url: "https://pokeapi.co/api/v2/pokemon/469/"
         }
       },
@@ -148,6 +166,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "venipede",
+          id:543,
           url: "https://pokeapi.co/api/v2/pokemon/543/"
         }
       },
@@ -155,6 +174,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "whirlipede",
+          id:544,
           url: "https://pokeapi.co/api/v2/pokemon/544/"
         }
       },
@@ -162,16 +182,11 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "scolipede",
+          id:545,
           url: "https://pokeapi.co/api/v2/pokemon/545/"
         }
       },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "blaziken mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10050/"
-        }
-      }
+
     ]
   },
   {
@@ -183,6 +198,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "cubone",
+          id:104,
           url: "https://pokeapi.co/api/v2/pokemon/104/"
         }
       },
@@ -190,6 +206,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "marowak",
+          id:105,
           url: "https://pokeapi.co/api/v2/pokemon/105/"
         }
       },
@@ -197,6 +214,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "kabuto",
+          id:140,
           url: "https://pokeapi.co/api/v2/pokemon/140/"
         }
       },
@@ -204,6 +222,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "kabutops",
+          id:141,
           url: "https://pokeapi.co/api/v2/pokemon/141/"
         }
       },
@@ -211,6 +230,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "anorith",
+          id:347,
           url: "https://pokeapi.co/api/v2/pokemon/347/"
         }
       },
@@ -218,6 +238,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "armaldo",
+          id:348,
           url: "https://pokeapi.co/api/v2/pokemon/348/"
         }
       },
@@ -225,6 +246,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "skorupi",
+          id:451,
           url: "https://pokeapi.co/api/v2/pokemon/451/"
         }
       },
@@ -232,6 +254,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "drapion",
+          id:452,
           url: "https://pokeapi.co/api/v2/pokemon/452/"
         }
       },
@@ -239,6 +262,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "type null",
+          id:772,
           url: "https://pokeapi.co/api/v2/pokemon/772/"
         }
       }
@@ -253,6 +277,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "geodude",
+          id:74,
           url: "https://pokeapi.co/api/v2/pokemon/74/"
         }
       },
@@ -260,6 +285,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "graveler",
+          id:75,
           url: "https://pokeapi.co/api/v2/pokemon/75/"
         }
       },
@@ -267,6 +293,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "golem",
+          id:76,
           url: "https://pokeapi.co/api/v2/pokemon/76/"
         }
       },
@@ -274,6 +301,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "magnemite",
+          id:81,
           url: "https://pokeapi.co/api/v2/pokemon/81/"
         }
       },
@@ -281,6 +309,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "magneton",
+          id:82,
           url: "https://pokeapi.co/api/v2/pokemon/82/"
         }
       },
@@ -288,6 +317,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "onix",
+          id:95,
           url: "https://pokeapi.co/api/v2/pokemon/95/"
         }
       },
@@ -295,6 +325,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sudowoodo",
+          id:185,
           url: "https://pokeapi.co/api/v2/pokemon/185/"
         }
       },
@@ -302,6 +333,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pineco",
+          id:204,
           url: "https://pokeapi.co/api/v2/pokemon/204/"
         }
       },
@@ -309,6 +341,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "forretress",
+          id:205,
           url: "https://pokeapi.co/api/v2/pokemon/205/"
         }
       },
@@ -316,6 +349,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "steelix",
+          id:208,
           url: "https://pokeapi.co/api/v2/pokemon/208/"
         }
       },
@@ -323,6 +357,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "shuckle",
+          id:213,
           url: "https://pokeapi.co/api/v2/pokemon/213/"
         }
       },
@@ -330,6 +365,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "skarmory",
+          id:227,
           url: "https://pokeapi.co/api/v2/pokemon/227/"
         }
       },
@@ -337,6 +373,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "donphan",
+          id:232,
           url: "https://pokeapi.co/api/v2/pokemon/232/"
         }
       },
@@ -344,6 +381,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "nosepass",
+          id:299,
           url: "https://pokeapi.co/api/v2/pokemon/299/"
         }
       },
@@ -351,6 +389,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "aron",
+          id:304,
           url: "https://pokeapi.co/api/v2/pokemon/304/"
         }
       },
@@ -358,6 +397,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lairon",
+          id:305,
           url: "https://pokeapi.co/api/v2/pokemon/305/"
         }
       },
@@ -365,6 +405,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "aggron",
+          id:306,
           url: "https://pokeapi.co/api/v2/pokemon/306/"
         }
       },
@@ -372,6 +413,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "relicanth",
+          id:369,
           url: "https://pokeapi.co/api/v2/pokemon/369/"
         }
       },
@@ -379,6 +421,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "regirock",
+          id:377,
           url: "https://pokeapi.co/api/v2/pokemon/377/"
         }
       },
@@ -386,6 +429,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "shieldon",
+          id:410,
           url: "https://pokeapi.co/api/v2/pokemon/410/"
         }
       },
@@ -393,6 +437,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bastiodon",
+          id:411,
           url: "https://pokeapi.co/api/v2/pokemon/411/"
         }
       },
@@ -400,6 +445,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bonsly",
+          id:438,
           url: "https://pokeapi.co/api/v2/pokemon/438/"
         }
       },
@@ -407,6 +453,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "magnezone",
+          id:462,
           url: "https://pokeapi.co/api/v2/pokemon/462/"
         }
       },
@@ -414,6 +461,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "probopass",
+          id:476,
           url: "https://pokeapi.co/api/v2/pokemon/476/"
         }
       },
@@ -421,6 +469,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "roggenrola",
+          id:524,
           url: "https://pokeapi.co/api/v2/pokemon/524/"
         }
       },
@@ -428,6 +477,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "boldore",
+          id:525,
           url: "https://pokeapi.co/api/v2/pokemon/525/"
         }
       },
@@ -435,6 +485,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gigalith",
+          id:526,
           url: "https://pokeapi.co/api/v2/pokemon/526/"
         }
       },
@@ -442,6 +493,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sawk",
+          id:539,
           url: "https://pokeapi.co/api/v2/pokemon/539/"
         }
       },
@@ -449,6 +501,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "dwebble",
+          id:557,
           url: "https://pokeapi.co/api/v2/pokemon/557/"
         }
       },
@@ -456,6 +509,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "crustle",
+          id:558,
           url: "https://pokeapi.co/api/v2/pokemon/558/"
         }
       },
@@ -463,6 +517,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tirtouga",
+          id:564,
           url: "https://pokeapi.co/api/v2/pokemon/564/"
         }
       },
@@ -470,6 +525,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "carracosta",
+          id:565,
           url: "https://pokeapi.co/api/v2/pokemon/565/"
         }
       },
@@ -477,6 +533,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "tyrunt",
+          id:696,
           url: "https://pokeapi.co/api/v2/pokemon/696/"
         }
       },
@@ -484,6 +541,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "carbink",
+          id:703,
           url: "https://pokeapi.co/api/v2/pokemon/703/"
         }
       },
@@ -491,6 +549,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "bergmite",
+          id:712,
           url: "https://pokeapi.co/api/v2/pokemon/712/"
         }
       },
@@ -498,6 +557,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "avalugg",
+          id:713,
           url: "https://pokeapi.co/api/v2/pokemon/713/"
         }
       },
@@ -505,6 +565,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "togedemaru",
+          id:777,
           url: "https://pokeapi.co/api/v2/pokemon/777/"
         }
       },
@@ -512,35 +573,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "cosmoem",
+          id:790,
           url: "https://pokeapi.co/api/v2/pokemon/790/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "geodude alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10109/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "graveler alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10110/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "golem alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10111/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "togedemaru totem",
-          url: "https://pokeapi.co/api/v2/pokemon/10154/"
         }
       }
     ]
@@ -554,6 +588,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "paras",
+          id:46,
           url: "https://pokeapi.co/api/v2/pokemon/46/"
         }
       },
@@ -561,6 +596,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "parasect",
+          id:47,
           url: "https://pokeapi.co/api/v2/pokemon/47/"
         }
       },
@@ -568,6 +604,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "psyduck",
+          id:54,
           url: "https://pokeapi.co/api/v2/pokemon/54/"
         }
       },
@@ -575,6 +612,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "golduck",
+          id:55,
           url: "https://pokeapi.co/api/v2/pokemon/55/"
         }
       },
@@ -582,6 +620,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "poliwag",
+          id:60,
           url: "https://pokeapi.co/api/v2/pokemon/60/"
         }
       },
@@ -589,6 +628,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "poliwhirl",
+          id:61,
           url: "https://pokeapi.co/api/v2/pokemon/61/"
         }
       },
@@ -596,6 +636,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "poliwrath",
+          id:62,
           url: "https://pokeapi.co/api/v2/pokemon/62/"
         }
       },
@@ -603,6 +644,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "horsea",
+          id:116,
           url: "https://pokeapi.co/api/v2/pokemon/116/"
         }
       },
@@ -610,6 +652,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "seadra",
+          id:117,
           url: "https://pokeapi.co/api/v2/pokemon/117/"
         }
       },
@@ -617,6 +660,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "politoed",
+          id:186,
           url: "https://pokeapi.co/api/v2/pokemon/186/"
         }
       },
@@ -624,6 +668,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "wooper",
+          id:194,
           url: "https://pokeapi.co/api/v2/pokemon/194/"
         }
       },
@@ -631,6 +676,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "quagsire",
+          id:195,
           url: "https://pokeapi.co/api/v2/pokemon/195/"
         }
       },
@@ -638,6 +684,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "kingdra",
+          id:230,
           url: "https://pokeapi.co/api/v2/pokemon/230/"
         }
       },
@@ -645,6 +692,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "mudkip",
+          id:258,
           url: "https://pokeapi.co/api/v2/pokemon/258/"
         }
       },
@@ -652,6 +700,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "marshtomp",
+          id:259,
           url: "https://pokeapi.co/api/v2/pokemon/259/"
         }
       },
@@ -659,6 +708,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "swampert",
+          id:260,
           url: "https://pokeapi.co/api/v2/pokemon/260/"
         }
       },
@@ -666,6 +716,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "frillish",
+          id:592,
           url: "https://pokeapi.co/api/v2/pokemon/592/"
         }
       },
@@ -673,6 +724,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "jellicent",
+          id:593,
           url: "https://pokeapi.co/api/v2/pokemon/593/"
         }
       }
@@ -687,6 +739,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "persian",
+          id:53,
           url: "https://pokeapi.co/api/v2/pokemon/53/"
         }
       },
@@ -694,6 +747,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "hitmonlee",
+          id:106,
           url: "https://pokeapi.co/api/v2/pokemon/106/"
         }
       },
@@ -701,6 +755,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ditto",
+          id:132,
           url: "https://pokeapi.co/api/v2/pokemon/132/"
         }
       },
@@ -708,6 +763,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "buneary",
+          id:427,
           url: "https://pokeapi.co/api/v2/pokemon/427/"
         }
       },
@@ -715,6 +771,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "lopunny",
+          id:428,
           url: "https://pokeapi.co/api/v2/pokemon/428/"
         }
       },
@@ -722,6 +779,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "glameow",
+          id:431,
           url: "https://pokeapi.co/api/v2/pokemon/431/"
         }
       },
@@ -729,6 +787,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "purrloin",
+          id:509,
           url: "https://pokeapi.co/api/v2/pokemon/509/"
         }
       },
@@ -736,6 +795,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "liepard",
+          id:510,
           url: "https://pokeapi.co/api/v2/pokemon/510/"
         }
       },
@@ -743,6 +803,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "stunfisk",
+          id:618,
           url: "https://pokeapi.co/api/v2/pokemon/618/"
         }
       },
@@ -750,6 +811,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "hawlucha",
+          id:701,
           url: "https://pokeapi.co/api/v2/pokemon/701/"
         }
       },
@@ -757,6 +819,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mareanie",
+          id:747,
           url: "https://pokeapi.co/api/v2/pokemon/747/"
         }
       },
@@ -764,6 +827,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "toxapex",
+          id:748,
           url: "https://pokeapi.co/api/v2/pokemon/748/"
         }
       }
@@ -778,6 +842,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sandshrew",
+          id:27,
           url: "https://pokeapi.co/api/v2/pokemon/27/"
         }
       },
@@ -785,6 +850,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sandslash",
+          id:28,
           url: "https://pokeapi.co/api/v2/pokemon/28/"
         }
       },
@@ -792,6 +858,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "diglett",
+          id:50,
           url: "https://pokeapi.co/api/v2/pokemon/50/"
         }
       },
@@ -799,6 +866,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "dugtrio",
+          id:51,
           url: "https://pokeapi.co/api/v2/pokemon/51/"
         }
       },
@@ -806,6 +874,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "geodude",
+          id:74,
           url: "https://pokeapi.co/api/v2/pokemon/74/"
         }
       },
@@ -813,6 +882,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "graveler",
+          id:75,
           url: "https://pokeapi.co/api/v2/pokemon/75/"
         }
       },
@@ -820,6 +890,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "golem",
+          id:76,
           url: "https://pokeapi.co/api/v2/pokemon/76/"
         }
       },
@@ -827,6 +898,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gligar",
+          id:207,
           url: "https://pokeapi.co/api/v2/pokemon/207/"
         }
       },
@@ -834,6 +906,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "phanpy",
+          id:231,
           url: "https://pokeapi.co/api/v2/pokemon/231/"
         }
       },
@@ -841,6 +914,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "donphan",
+          id:232,
           url: "https://pokeapi.co/api/v2/pokemon/232/"
         }
       },
@@ -848,6 +922,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "larvitar",
+          id:246,
           url: "https://pokeapi.co/api/v2/pokemon/246/"
         }
       },
@@ -855,6 +930,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "cacnea",
+          id:331,
           url: "https://pokeapi.co/api/v2/pokemon/331/"
         }
       },
@@ -862,6 +938,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "cacturne",
+          id:332,
           url: "https://pokeapi.co/api/v2/pokemon/332/"
         }
       },
@@ -869,6 +946,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gible",
+          id:443,
           url: "https://pokeapi.co/api/v2/pokemon/443/"
         }
       },
@@ -876,6 +954,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gabite",
+          id:444,
           url: "https://pokeapi.co/api/v2/pokemon/444/"
         }
       },
@@ -883,6 +962,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "garchomp",
+          id:445,
           url: "https://pokeapi.co/api/v2/pokemon/445/"
         }
       },
@@ -890,6 +970,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gliscor",
+          id:472,
           url: "https://pokeapi.co/api/v2/pokemon/472/"
         }
       },
@@ -897,6 +978,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "stunfisk",
+          id:618,
           url: "https://pokeapi.co/api/v2/pokemon/618/"
         }
       },
@@ -904,6 +986,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "helioptile",
+          id:694,
           url: "https://pokeapi.co/api/v2/pokemon/694/"
         }
       },
@@ -911,6 +994,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "heliolisk",
+          id:695,
           url: "https://pokeapi.co/api/v2/pokemon/695/"
         }
       },
@@ -918,6 +1002,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "sandygast",
+          id:769,
           url: "https://pokeapi.co/api/v2/pokemon/769/"
         }
       },
@@ -925,24 +1010,12 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "palossand",
+          id:770,
           url: "https://pokeapi.co/api/v2/pokemon/770/"
         }
       },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "diglett alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10105/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "dugtrio alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10106/"
-        }
-      }
-    ]
+
+          ]
   },
   {
     name: "static",
@@ -953,6 +1026,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pikachu",
+          id:25,
           url: "https://pokeapi.co/api/v2/pokemon/25/"
         }
       },
@@ -960,6 +1034,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "raichu",
+          id:26,
           url: "https://pokeapi.co/api/v2/pokemon/26/"
         }
       },
@@ -967,6 +1042,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "voltorb",
+          id:100,
           url: "https://pokeapi.co/api/v2/pokemon/100/"
         }
       },
@@ -974,6 +1050,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "electrode",
+          id:101,
           url: "https://pokeapi.co/api/v2/pokemon/101/"
         }
       },
@@ -981,6 +1058,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "electabuzz",
+          id:125,
           url: "https://pokeapi.co/api/v2/pokemon/125/"
         }
       },
@@ -988,6 +1066,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "zapdos",
+          id:145,
           url: "https://pokeapi.co/api/v2/pokemon/145/"
         }
       },
@@ -995,6 +1074,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pichu",
+          id:172,
           url: "https://pokeapi.co/api/v2/pokemon/172/"
         }
       },
@@ -1002,6 +1082,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mareep",
+          id:179,
           url: "https://pokeapi.co/api/v2/pokemon/179/"
         }
       },
@@ -1009,6 +1090,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "flaaffy",
+          id:180,
           url: "https://pokeapi.co/api/v2/pokemon/180/"
         }
       },
@@ -1016,6 +1098,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ampharos",
+          id:181,
           url: "https://pokeapi.co/api/v2/pokemon/181/"
         }
       },
@@ -1023,6 +1106,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "elekid",
+          id:239,
           url: "https://pokeapi.co/api/v2/pokemon/239/"
         }
       },
@@ -1030,6 +1114,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "electrike",
+          id:309,
           url: "https://pokeapi.co/api/v2/pokemon/309/"
         }
       },
@@ -1037,6 +1122,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "manectric",
+          id:310,
           url: "https://pokeapi.co/api/v2/pokemon/310/"
         }
       },
@@ -1044,6 +1130,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "emolga",
+          id:587,
           url: "https://pokeapi.co/api/v2/pokemon/587/"
         }
       },
@@ -1051,98 +1138,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "stunfisk",
+          id:618,
           url: "https://pokeapi.co/api/v2/pokemon/618/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "pikachu rock star",
-          url: "https://pokeapi.co/api/v2/pokemon/10080/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "pikachu belle",
-          url: "https://pokeapi.co/api/v2/pokemon/10081/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "pikachu pop star",
-          url: "https://pokeapi.co/api/v2/pokemon/10082/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "pikachu phd",
-          url: "https://pokeapi.co/api/v2/pokemon/10083/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "pikachu libre",
-          url: "https://pokeapi.co/api/v2/pokemon/10084/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "pikachu cosplay",
-          url: "https://pokeapi.co/api/v2/pokemon/10085/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "pikachu original cap",
-          url: "https://pokeapi.co/api/v2/pokemon/10094/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "pikachu hoenn cap",
-          url: "https://pokeapi.co/api/v2/pokemon/10095/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "pikachu sinnoh cap",
-          url: "https://pokeapi.co/api/v2/pokemon/10096/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "pikachu unova cap",
-          url: "https://pokeapi.co/api/v2/pokemon/10097/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "pikachu kalos cap",
-          url: "https://pokeapi.co/api/v2/pokemon/10098/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "pikachu alola cap",
-          url: "https://pokeapi.co/api/v2/pokemon/10099/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "pikachu partner cap",
-          url: "https://pokeapi.co/api/v2/pokemon/10148/"
         }
       }
     ]
@@ -1156,6 +1153,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "jolteon",
+          id:135,
           url: "https://pokeapi.co/api/v2/pokemon/135/"
         }
       },
@@ -1163,6 +1161,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "chinchou",
+          id:170,
           url: "https://pokeapi.co/api/v2/pokemon/170/"
         }
       },
@@ -1170,6 +1169,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lanturn",
+          id:171,
           url: "https://pokeapi.co/api/v2/pokemon/171/"
         }
       },
@@ -1177,6 +1177,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "minun",
+          id:312,
           url: "https://pokeapi.co/api/v2/pokemon/312/"
         }
       },
@@ -1184,6 +1185,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "pachirisu",
+          id:417,
           url: "https://pokeapi.co/api/v2/pokemon/417/"
         }
       },
@@ -1191,14 +1193,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "zeraora",
+          id:807,
           url: "https://pokeapi.co/api/v2/pokemon/807/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "thundurus therian",
-          url: "https://pokeapi.co/api/v2/pokemon/10020/"
         }
       }
     ]
@@ -1212,6 +1208,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "poliwag",
+          id:60,
           url: "https://pokeapi.co/api/v2/pokemon/60/"
         }
       },
@@ -1219,6 +1216,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "poliwhirl",
+          id:61,
           url: "https://pokeapi.co/api/v2/pokemon/61/"
         }
       },
@@ -1226,6 +1224,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "poliwrath",
+          id:62,
           url: "https://pokeapi.co/api/v2/pokemon/62/"
         }
       },
@@ -1233,6 +1232,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lapras",
+          id:131,
           url: "https://pokeapi.co/api/v2/pokemon/131/"
         }
       },
@@ -1240,6 +1240,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "vaporeon",
+          id:134,
           url: "https://pokeapi.co/api/v2/pokemon/134/"
         }
       },
@@ -1247,6 +1248,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "chinchou",
+          id:170,
           url: "https://pokeapi.co/api/v2/pokemon/170/"
         }
       },
@@ -1254,6 +1256,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "lanturn",
+          id:171,
           url: "https://pokeapi.co/api/v2/pokemon/171/"
         }
       },
@@ -1261,6 +1264,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "politoed",
+          id:186,
           url: "https://pokeapi.co/api/v2/pokemon/186/"
         }
       },
@@ -1268,6 +1272,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "wooper",
+          id:194,
           url: "https://pokeapi.co/api/v2/pokemon/194/"
         }
       },
@@ -1275,6 +1280,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "quagsire",
+          id:195,
           url: "https://pokeapi.co/api/v2/pokemon/195/"
         }
       },
@@ -1282,6 +1288,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mantine",
+          id:226,
           url: "https://pokeapi.co/api/v2/pokemon/226/"
         }
       },
@@ -1289,6 +1296,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "cacnea",
+          id:331,
           url: "https://pokeapi.co/api/v2/pokemon/331/"
         }
       },
@@ -1296,6 +1304,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "cacturne",
+          id:332,
           url: "https://pokeapi.co/api/v2/pokemon/332/"
         }
       },
@@ -1303,6 +1312,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mantyke",
+          id:458,
           url: "https://pokeapi.co/api/v2/pokemon/458/"
         }
       },
@@ -1310,6 +1320,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "tympole",
+          id:535,
           url: "https://pokeapi.co/api/v2/pokemon/535/"
         }
       },
@@ -1317,6 +1328,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "palpitoad",
+          id:536,
           url: "https://pokeapi.co/api/v2/pokemon/536/"
         }
       },
@@ -1324,6 +1336,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "seismitoad",
+          id:537,
           url: "https://pokeapi.co/api/v2/pokemon/537/"
         }
       },
@@ -1331,6 +1344,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "maractus",
+          id:556,
           url: "https://pokeapi.co/api/v2/pokemon/556/"
         }
       },
@@ -1338,6 +1352,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "frillish",
+          id:592,
           url: "https://pokeapi.co/api/v2/pokemon/592/"
         }
       },
@@ -1345,6 +1360,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "jellicent",
+          id:593,
           url: "https://pokeapi.co/api/v2/pokemon/593/"
         }
       },
@@ -1352,6 +1368,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "volcanion",
+          id:721,
           url: "https://pokeapi.co/api/v2/pokemon/721/"
         }
       },
@@ -1359,6 +1376,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "dewpider",
+          id:751,
           url: "https://pokeapi.co/api/v2/pokemon/751/"
         }
       },
@@ -1366,14 +1384,8 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "araquanid",
+          id:752,
           url: "https://pokeapi.co/api/v2/pokemon/752/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "araquanid totem",
-          url: "https://pokeapi.co/api/v2/pokemon/10153/"
         }
       }
     ]
@@ -1387,6 +1399,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "slowpoke",
+          id:79,
           url: "https://pokeapi.co/api/v2/pokemon/79/"
         }
       },
@@ -1394,6 +1407,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "slowbro",
+          id:80,
           url: "https://pokeapi.co/api/v2/pokemon/80/"
         }
       },
@@ -1401,6 +1415,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lickitung",
+          id:108,
           url: "https://pokeapi.co/api/v2/pokemon/108/"
         }
       },
@@ -1408,6 +1423,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "jynx",
+          id:124,
           url: "https://pokeapi.co/api/v2/pokemon/124/"
         }
       },
@@ -1415,6 +1431,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "slowking",
+          id:199,
           url: "https://pokeapi.co/api/v2/pokemon/199/"
         }
       },
@@ -1422,6 +1439,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "swinub",
+          id:220,
           url: "https://pokeapi.co/api/v2/pokemon/220/"
         }
       },
@@ -1429,6 +1447,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "piloswine",
+          id:221,
           url: "https://pokeapi.co/api/v2/pokemon/221/"
         }
       },
@@ -1436,6 +1455,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "smoochum",
+          id:238,
           url: "https://pokeapi.co/api/v2/pokemon/238/"
         }
       },
@@ -1443,6 +1463,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "illumise",
+          id:314,
           url: "https://pokeapi.co/api/v2/pokemon/314/"
         }
       },
@@ -1450,6 +1471,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "wailmer",
+          id:320,
           url: "https://pokeapi.co/api/v2/pokemon/320/"
         }
       },
@@ -1457,6 +1479,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "wailord",
+          id:321,
           url: "https://pokeapi.co/api/v2/pokemon/321/"
         }
       },
@@ -1464,6 +1487,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "numel",
+          id:322,
           url: "https://pokeapi.co/api/v2/pokemon/322/"
         }
       },
@@ -1471,6 +1495,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "barboach",
+          id:339,
           url: "https://pokeapi.co/api/v2/pokemon/339/"
         }
       },
@@ -1478,6 +1503,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "whiscash",
+          id:340,
           url: "https://pokeapi.co/api/v2/pokemon/340/"
         }
       },
@@ -1485,6 +1511,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "feebas",
+          id:349,
           url: "https://pokeapi.co/api/v2/pokemon/349/"
         }
       },
@@ -1492,6 +1519,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "spheal",
+          id:363,
           url: "https://pokeapi.co/api/v2/pokemon/363/"
         }
       },
@@ -1499,6 +1527,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "sealeo",
+          id:364,
           url: "https://pokeapi.co/api/v2/pokemon/364/"
         }
       },
@@ -1506,6 +1535,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "walrein",
+          id:365,
           url: "https://pokeapi.co/api/v2/pokemon/365/"
         }
       },
@@ -1513,6 +1543,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lickilicky",
+          id:463,
           url: "https://pokeapi.co/api/v2/pokemon/463/"
         }
       },
@@ -1520,6 +1551,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mamoswine",
+          id:473,
           url: "https://pokeapi.co/api/v2/pokemon/473/"
         }
       },
@@ -1527,6 +1559,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "salandit",
+          id:757,
           url: "https://pokeapi.co/api/v2/pokemon/757/"
         }
       },
@@ -1534,6 +1567,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "salazzle",
+          id:758,
           url: "https://pokeapi.co/api/v2/pokemon/758/"
         }
       },
@@ -1541,6 +1575,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bounsweet",
+          id:761,
           url: "https://pokeapi.co/api/v2/pokemon/761/"
         }
       },
@@ -1548,14 +1583,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "steenee",
+          id:762,
           url: "https://pokeapi.co/api/v2/pokemon/762/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "salazzle totem",
-          url: "https://pokeapi.co/api/v2/pokemon/10129/"
         }
       }
     ]
@@ -1569,6 +1598,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "psyduck",
+          id:54,
           url: "https://pokeapi.co/api/v2/pokemon/54/"
         }
       },
@@ -1576,6 +1606,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "golduck",
+          id:55,
           url: "https://pokeapi.co/api/v2/pokemon/55/"
         }
       },
@@ -1583,6 +1614,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "lickitung",
+          id:108,
           url: "https://pokeapi.co/api/v2/pokemon/108/"
         }
       },
@@ -1590,6 +1622,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "swablu",
+          id:333,
           url: "https://pokeapi.co/api/v2/pokemon/333/"
         }
       },
@@ -1597,6 +1630,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "altaria",
+          id:334,
           url: "https://pokeapi.co/api/v2/pokemon/334/"
         }
       },
@@ -1604,6 +1638,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "lickilicky",
+          id:463,
           url: "https://pokeapi.co/api/v2/pokemon/463/"
         }
       },
@@ -1611,6 +1646,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "drampa",
+          id:780,
           url: "https://pokeapi.co/api/v2/pokemon/780/"
         }
       }
@@ -1625,6 +1661,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "butterfree",
+          id:12,
           url: "https://pokeapi.co/api/v2/pokemon/12/"
         }
       },
@@ -1632,6 +1669,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "venonat",
+          id:48,
           url: "https://pokeapi.co/api/v2/pokemon/48/"
         }
       },
@@ -1639,6 +1677,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "yanma",
+          id:193,
           url: "https://pokeapi.co/api/v2/pokemon/193/"
         }
       },
@@ -1646,6 +1685,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "dustox",
+          id:269,
           url: "https://pokeapi.co/api/v2/pokemon/269/"
         }
       },
@@ -1653,6 +1693,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "nincada",
+          id:290,
           url: "https://pokeapi.co/api/v2/pokemon/290/"
         }
       },
@@ -1660,6 +1701,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "joltik",
+          id:595,
           url: "https://pokeapi.co/api/v2/pokemon/595/"
         }
       },
@@ -1667,6 +1709,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "galvantula",
+          id:596,
           url: "https://pokeapi.co/api/v2/pokemon/596/"
         }
       },
@@ -1674,6 +1717,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "scatterbug",
+          id:664,
           url: "https://pokeapi.co/api/v2/pokemon/664/"
         }
       },
@@ -1681,6 +1725,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "vivillon",
+          id:666,
           url: "https://pokeapi.co/api/v2/pokemon/666/"
         }
       }
@@ -1695,6 +1740,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "drowzee",
+          id:96,
           url: "https://pokeapi.co/api/v2/pokemon/96/"
         }
       },
@@ -1702,6 +1748,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "hypno",
+          id:97,
           url: "https://pokeapi.co/api/v2/pokemon/97/"
         }
       },
@@ -1709,6 +1756,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "hoothoot",
+          id:163,
           url: "https://pokeapi.co/api/v2/pokemon/163/"
         }
       },
@@ -1716,6 +1764,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "noctowl",
+          id:164,
           url: "https://pokeapi.co/api/v2/pokemon/164/"
         }
       },
@@ -1723,6 +1772,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "spinarak",
+          id:167,
           url: "https://pokeapi.co/api/v2/pokemon/167/"
         }
       },
@@ -1730,6 +1780,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ariados",
+          id:168,
           url: "https://pokeapi.co/api/v2/pokemon/168/"
         }
       },
@@ -1737,6 +1788,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "murkrow",
+          id:198,
           url: "https://pokeapi.co/api/v2/pokemon/198/"
         }
       },
@@ -1744,6 +1796,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "delibird",
+          id:225,
           url: "https://pokeapi.co/api/v2/pokemon/225/"
         }
       },
@@ -1751,6 +1804,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "shuppet",
+          id:353,
           url: "https://pokeapi.co/api/v2/pokemon/353/"
         }
       },
@@ -1758,6 +1812,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "banette",
+          id:354,
           url: "https://pokeapi.co/api/v2/pokemon/354/"
         }
       },
@@ -1765,6 +1820,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "honchkrow",
+          id:430,
           url: "https://pokeapi.co/api/v2/pokemon/430/"
         }
       },
@@ -1772,6 +1828,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "pumpkaboo average",
+          id:710,
           url: "https://pokeapi.co/api/v2/pokemon/710/"
         }
       },
@@ -1779,56 +1836,8 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "gourgeist average",
+          id:711,
           url: "https://pokeapi.co/api/v2/pokemon/711/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "pumpkaboo small",
-          url: "https://pokeapi.co/api/v2/pokemon/10027/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "pumpkaboo large",
-          url: "https://pokeapi.co/api/v2/pokemon/10028/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "pumpkaboo super",
-          url: "https://pokeapi.co/api/v2/pokemon/10029/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "gourgeist small",
-          url: "https://pokeapi.co/api/v2/pokemon/10030/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "gourgeist large",
-          url: "https://pokeapi.co/api/v2/pokemon/10031/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "gourgeist super",
-          url: "https://pokeapi.co/api/v2/pokemon/10032/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "mewtwo mega y",
-          url: "https://pokeapi.co/api/v2/pokemon/10044/"
         }
       }
     ]
@@ -1842,6 +1851,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "kecleon",
+          id:352,
           url: "https://pokeapi.co/api/v2/pokemon/352/"
         }
       }
@@ -1856,6 +1866,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "snorlax",
+          id:143,
           url: "https://pokeapi.co/api/v2/pokemon/143/"
         }
       },
@@ -1863,6 +1874,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "gligar",
+          id:207,
           url: "https://pokeapi.co/api/v2/pokemon/207/"
         }
       },
@@ -1870,6 +1882,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "zangoose",
+          id:335,
           url: "https://pokeapi.co/api/v2/pokemon/335/"
         }
       }
@@ -1884,6 +1897,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "vulpix",
+          id:37,
           url: "https://pokeapi.co/api/v2/pokemon/37/"
         }
       },
@@ -1891,6 +1905,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ninetales",
+          id:38,
           url: "https://pokeapi.co/api/v2/pokemon/38/"
         }
       },
@@ -1898,6 +1913,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "growlithe",
+          id:58,
           url: "https://pokeapi.co/api/v2/pokemon/58/"
         }
       },
@@ -1905,6 +1921,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "arcanine",
+          id:59,
           url: "https://pokeapi.co/api/v2/pokemon/59/"
         }
       },
@@ -1912,6 +1929,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ponyta",
+          id:77,
           url: "https://pokeapi.co/api/v2/pokemon/77/"
         }
       },
@@ -1919,6 +1937,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "rapidash",
+          id:78,
           url: "https://pokeapi.co/api/v2/pokemon/78/"
         }
       },
@@ -1926,6 +1945,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "flareon",
+          id:136,
           url: "https://pokeapi.co/api/v2/pokemon/136/"
         }
       },
@@ -1933,6 +1953,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "cyndaquil",
+          id:155,
           url: "https://pokeapi.co/api/v2/pokemon/155/"
         }
       },
@@ -1940,6 +1961,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "quilava",
+          id:156,
           url: "https://pokeapi.co/api/v2/pokemon/156/"
         }
       },
@@ -1947,6 +1969,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "typhlosion",
+          id:157,
           url: "https://pokeapi.co/api/v2/pokemon/157/"
         }
       },
@@ -1954,6 +1977,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "houndour",
+          id:228,
           url: "https://pokeapi.co/api/v2/pokemon/228/"
         }
       },
@@ -1961,6 +1985,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "houndoom",
+          id:229,
           url: "https://pokeapi.co/api/v2/pokemon/229/"
         }
       },
@@ -1968,6 +1993,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "heatran",
+          id:485,
           url: "https://pokeapi.co/api/v2/pokemon/485/"
         }
       },
@@ -1975,6 +2001,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "litwick",
+          id:607,
           url: "https://pokeapi.co/api/v2/pokemon/607/"
         }
       },
@@ -1982,6 +2009,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lampent",
+          id:608,
           url: "https://pokeapi.co/api/v2/pokemon/608/"
         }
       },
@@ -1989,6 +2017,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "chandelure",
+          id:609,
           url: "https://pokeapi.co/api/v2/pokemon/609/"
         }
       },
@@ -1996,6 +2025,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "heatmor",
+          id:631,
           url: "https://pokeapi.co/api/v2/pokemon/631/"
         }
       }
@@ -2010,6 +2040,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "caterpie",
+          id:10,
           url: "https://pokeapi.co/api/v2/pokemon/10/"
         }
       },
@@ -2017,6 +2048,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "weedle",
+          id:13,
           url: "https://pokeapi.co/api/v2/pokemon/13/"
         }
       },
@@ -2024,6 +2056,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "venomoth",
+          id:49,
           url: "https://pokeapi.co/api/v2/pokemon/49/"
         }
       },
@@ -2031,6 +2064,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "wurmple",
+          id:265,
           url: "https://pokeapi.co/api/v2/pokemon/265/"
         }
       },
@@ -2038,6 +2072,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "dustox",
+          id:269,
           url: "https://pokeapi.co/api/v2/pokemon/269/"
         }
       },
@@ -2045,6 +2080,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "scatterbug",
+          id:664,
           url: "https://pokeapi.co/api/v2/pokemon/664/"
         }
       },
@@ -2052,6 +2088,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "vivillon",
+          id:666,
           url: "https://pokeapi.co/api/v2/pokemon/666/"
         }
       },
@@ -2059,6 +2096,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "cutiefly",
+          id:742,
           url: "https://pokeapi.co/api/v2/pokemon/742/"
         }
       },
@@ -2066,14 +2104,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ribombee",
+          id:743,
           url: "https://pokeapi.co/api/v2/pokemon/743/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "ribombee totem",
-          url: "https://pokeapi.co/api/v2/pokemon/10150/"
         }
       }
     ]
@@ -2087,6 +2119,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "slowpoke",
+          id:79,
           url: "https://pokeapi.co/api/v2/pokemon/79/"
         }
       },
@@ -2094,6 +2127,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "slowbro",
+          id:80,
           url: "https://pokeapi.co/api/v2/pokemon/80/"
         }
       },
@@ -2101,6 +2135,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lickitung",
+          id:108,
           url: "https://pokeapi.co/api/v2/pokemon/108/"
         }
       },
@@ -2108,6 +2143,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "slowking",
+          id:199,
           url: "https://pokeapi.co/api/v2/pokemon/199/"
         }
       },
@@ -2115,6 +2151,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "smeargle",
+          id:235,
           url: "https://pokeapi.co/api/v2/pokemon/235/"
         }
       },
@@ -2122,6 +2159,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "lotad",
+          id:270,
           url: "https://pokeapi.co/api/v2/pokemon/270/"
         }
       },
@@ -2129,6 +2167,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "lombre",
+          id:271,
           url: "https://pokeapi.co/api/v2/pokemon/271/"
         }
       },
@@ -2136,6 +2175,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "ludicolo",
+          id:272,
           url: "https://pokeapi.co/api/v2/pokemon/272/"
         }
       },
@@ -2143,6 +2183,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "numel",
+          id:322,
           url: "https://pokeapi.co/api/v2/pokemon/322/"
         }
       },
@@ -2150,6 +2191,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "spoink",
+          id:325,
           url: "https://pokeapi.co/api/v2/pokemon/325/"
         }
       },
@@ -2157,6 +2199,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "grumpig",
+          id:326,
           url: "https://pokeapi.co/api/v2/pokemon/326/"
         }
       },
@@ -2164,6 +2207,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "spinda",
+          id:327,
           url: "https://pokeapi.co/api/v2/pokemon/327/"
         }
       },
@@ -2171,6 +2215,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "glameow",
+          id:431,
           url: "https://pokeapi.co/api/v2/pokemon/431/"
         }
       },
@@ -2178,6 +2223,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "purugly",
+          id:432,
           url: "https://pokeapi.co/api/v2/pokemon/432/"
         }
       },
@@ -2185,6 +2231,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lickilicky",
+          id:463,
           url: "https://pokeapi.co/api/v2/pokemon/463/"
         }
       },
@@ -2192,6 +2239,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "petilil",
+          id:548,
           url: "https://pokeapi.co/api/v2/pokemon/548/"
         }
       },
@@ -2199,6 +2247,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lilligant",
+          id:549,
           url: "https://pokeapi.co/api/v2/pokemon/549/"
         }
       },
@@ -2206,6 +2255,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "espurr",
+          id:677,
           url: "https://pokeapi.co/api/v2/pokemon/677/"
         }
       },
@@ -2213,6 +2263,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bergmite",
+          id:712,
           url: "https://pokeapi.co/api/v2/pokemon/712/"
         }
       },
@@ -2220,6 +2271,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "avalugg",
+          id:713,
           url: "https://pokeapi.co/api/v2/pokemon/713/"
         }
       },
@@ -2227,6 +2279,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mudbray",
+          id:749,
           url: "https://pokeapi.co/api/v2/pokemon/749/"
         }
       },
@@ -2234,14 +2287,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mudsdale",
+          id:750,
           url: "https://pokeapi.co/api/v2/pokemon/750/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "rockruff own tempo",
-          url: "https://pokeapi.co/api/v2/pokemon/10151/"
         }
       }
     ]
@@ -2255,6 +2302,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "octillery",
+          id:224,
           url: "https://pokeapi.co/api/v2/pokemon/224/"
         }
       },
@@ -2262,6 +2310,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lileep",
+          id:345,
           url: "https://pokeapi.co/api/v2/pokemon/345/"
         }
       },
@@ -2269,6 +2318,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "cradily",
+          id:346,
           url: "https://pokeapi.co/api/v2/pokemon/346/"
         }
       },
@@ -2276,6 +2326,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "inkay",
+          id:686,
           url: "https://pokeapi.co/api/v2/pokemon/686/"
         }
       },
@@ -2283,6 +2334,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "malamar",
+          id:687,
           url: "https://pokeapi.co/api/v2/pokemon/687/"
         }
       }
@@ -2297,6 +2349,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ekans",
+          id:23,
           url: "https://pokeapi.co/api/v2/pokemon/23/"
         }
       },
@@ -2304,6 +2357,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "arbok",
+          id:24,
           url: "https://pokeapi.co/api/v2/pokemon/24/"
         }
       },
@@ -2311,6 +2365,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "growlithe",
+          id:58,
           url: "https://pokeapi.co/api/v2/pokemon/58/"
         }
       },
@@ -2318,6 +2373,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "arcanine",
+          id:59,
           url: "https://pokeapi.co/api/v2/pokemon/59/"
         }
       },
@@ -2325,6 +2381,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tauros",
+          id:128,
           url: "https://pokeapi.co/api/v2/pokemon/128/"
         }
       },
@@ -2332,6 +2389,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gyarados",
+          id:130,
           url: "https://pokeapi.co/api/v2/pokemon/130/"
         }
       },
@@ -2339,6 +2397,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "snubbull",
+          id:209,
           url: "https://pokeapi.co/api/v2/pokemon/209/"
         }
       },
@@ -2346,6 +2405,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "granbull",
+          id:210,
           url: "https://pokeapi.co/api/v2/pokemon/210/"
         }
       },
@@ -2353,6 +2413,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "qwilfish",
+          id:211,
           url: "https://pokeapi.co/api/v2/pokemon/211/"
         }
       },
@@ -2360,6 +2421,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "stantler",
+          id:234,
           url: "https://pokeapi.co/api/v2/pokemon/234/"
         }
       },
@@ -2367,6 +2429,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "hitmontop",
+          id:237,
           url: "https://pokeapi.co/api/v2/pokemon/237/"
         }
       },
@@ -2374,6 +2437,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mightyena",
+          id:262,
           url: "https://pokeapi.co/api/v2/pokemon/262/"
         }
       },
@@ -2381,6 +2445,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "masquerain",
+          id:284,
           url: "https://pokeapi.co/api/v2/pokemon/284/"
         }
       },
@@ -2388,6 +2453,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mawile",
+          id:303,
           url: "https://pokeapi.co/api/v2/pokemon/303/"
         }
       },
@@ -2395,6 +2461,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "salamence",
+          id:373,
           url: "https://pokeapi.co/api/v2/pokemon/373/"
         }
       },
@@ -2402,6 +2469,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "staravia",
+          id:397,
           url: "https://pokeapi.co/api/v2/pokemon/397/"
         }
       },
@@ -2409,6 +2477,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "staraptor",
+          id:398,
           url: "https://pokeapi.co/api/v2/pokemon/398/"
         }
       },
@@ -2416,6 +2485,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "shinx",
+          id:403,
           url: "https://pokeapi.co/api/v2/pokemon/403/"
         }
       },
@@ -2423,6 +2493,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "luxio",
+          id:404,
           url: "https://pokeapi.co/api/v2/pokemon/404/"
         }
       },
@@ -2430,6 +2501,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "luxray",
+          id:405,
           url: "https://pokeapi.co/api/v2/pokemon/405/"
         }
       },
@@ -2437,6 +2509,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "herdier",
+          id:507,
           url: "https://pokeapi.co/api/v2/pokemon/507/"
         }
       },
@@ -2444,6 +2517,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "stoutland",
+          id:508,
           url: "https://pokeapi.co/api/v2/pokemon/508/"
         }
       },
@@ -2451,6 +2525,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sandile",
+          id:551,
           url: "https://pokeapi.co/api/v2/pokemon/551/"
         }
       },
@@ -2458,6 +2533,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "krokorok",
+          id:552,
           url: "https://pokeapi.co/api/v2/pokemon/552/"
         }
       },
@@ -2465,6 +2541,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "krookodile",
+          id:553,
           url: "https://pokeapi.co/api/v2/pokemon/553/"
         }
       },
@@ -2472,6 +2549,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "scraggy",
+          id:559,
           url: "https://pokeapi.co/api/v2/pokemon/559/"
         }
       },
@@ -2479,6 +2557,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "scrafty",
+          id:560,
           url: "https://pokeapi.co/api/v2/pokemon/560/"
         }
       },
@@ -2486,6 +2565,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "litten",
+          id:725,
           url: "https://pokeapi.co/api/v2/pokemon/725/"
         }
       },
@@ -2493,6 +2573,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "torracat",
+          id:726,
           url: "https://pokeapi.co/api/v2/pokemon/726/"
         }
       },
@@ -2500,21 +2581,8 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "incineroar",
+          id:727,
           url: "https://pokeapi.co/api/v2/pokemon/727/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "landorus therian",
-          url: "https://pokeapi.co/api/v2/pokemon/10021/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "manectric mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10055/"
         }
       }
     ]
@@ -2528,6 +2596,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "wobbuffet",
+          id:202,
           url: "https://pokeapi.co/api/v2/pokemon/202/"
         }
       },
@@ -2535,6 +2604,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "wynaut",
+          id:360,
           url: "https://pokeapi.co/api/v2/pokemon/360/"
         }
       },
@@ -2542,6 +2612,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "gothita",
+          id:574,
           url: "https://pokeapi.co/api/v2/pokemon/574/"
         }
       },
@@ -2549,6 +2620,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "gothorita",
+          id:575,
           url: "https://pokeapi.co/api/v2/pokemon/575/"
         }
       },
@@ -2556,14 +2628,8 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "gothitelle",
+          id:576,
           url: "https://pokeapi.co/api/v2/pokemon/576/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "gengar mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10038/"
         }
       }
     ]
@@ -2577,6 +2643,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "carvanha",
+          id:318,
           url: "https://pokeapi.co/api/v2/pokemon/318/"
         }
       },
@@ -2584,6 +2651,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sharpedo",
+          id:319,
           url: "https://pokeapi.co/api/v2/pokemon/319/"
         }
       },
@@ -2591,6 +2659,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "gible",
+          id:443,
           url: "https://pokeapi.co/api/v2/pokemon/443/"
         }
       },
@@ -2598,6 +2667,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "gabite",
+          id:444,
           url: "https://pokeapi.co/api/v2/pokemon/444/"
         }
       },
@@ -2605,6 +2675,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "garchomp",
+          id:445,
           url: "https://pokeapi.co/api/v2/pokemon/445/"
         }
       },
@@ -2612,6 +2683,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "druddigon",
+          id:621,
           url: "https://pokeapi.co/api/v2/pokemon/621/"
         }
       }
@@ -2626,6 +2698,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "shedinja",
+          id:292,
           url: "https://pokeapi.co/api/v2/pokemon/292/"
         }
       }
@@ -2640,6 +2713,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gastly",
+          id:92,
           url: "https://pokeapi.co/api/v2/pokemon/92/"
         }
       },
@@ -2647,6 +2721,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "haunter",
+          id:93,
           url: "https://pokeapi.co/api/v2/pokemon/93/"
         }
       },
@@ -2654,6 +2729,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "koffing",
+          id:109,
           url: "https://pokeapi.co/api/v2/pokemon/109/"
         }
       },
@@ -2661,6 +2737,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "weezing",
+          id:110,
           url: "https://pokeapi.co/api/v2/pokemon/110/"
         }
       },
@@ -2668,6 +2745,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "misdreavus",
+          id:200,
           url: "https://pokeapi.co/api/v2/pokemon/200/"
         }
       },
@@ -2675,6 +2753,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "unown",
+          id:201,
           url: "https://pokeapi.co/api/v2/pokemon/201/"
         }
       },
@@ -2682,6 +2761,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "vibrava",
+          id:329,
           url: "https://pokeapi.co/api/v2/pokemon/329/"
         }
       },
@@ -2689,6 +2769,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "flygon",
+          id:330,
           url: "https://pokeapi.co/api/v2/pokemon/330/"
         }
       },
@@ -2696,6 +2777,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lunatone",
+          id:337,
           url: "https://pokeapi.co/api/v2/pokemon/337/"
         }
       },
@@ -2703,6 +2785,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "solrock",
+          id:338,
           url: "https://pokeapi.co/api/v2/pokemon/338/"
         }
       },
@@ -2710,6 +2793,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "baltoy",
+          id:343,
           url: "https://pokeapi.co/api/v2/pokemon/343/"
         }
       },
@@ -2717,6 +2801,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "claydol",
+          id:344,
           url: "https://pokeapi.co/api/v2/pokemon/344/"
         }
       },
@@ -2724,6 +2809,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "duskull",
+          id:355,
           url: "https://pokeapi.co/api/v2/pokemon/355/"
         }
       },
@@ -2731,6 +2817,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "chimecho",
+          id:358,
           url: "https://pokeapi.co/api/v2/pokemon/358/"
         }
       },
@@ -2738,6 +2825,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "latias",
+          id:380,
           url: "https://pokeapi.co/api/v2/pokemon/380/"
         }
       },
@@ -2745,6 +2833,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "latios",
+          id:381,
           url: "https://pokeapi.co/api/v2/pokemon/381/"
         }
       },
@@ -2752,6 +2841,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mismagius",
+          id:429,
           url: "https://pokeapi.co/api/v2/pokemon/429/"
         }
       },
@@ -2759,6 +2849,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "chingling",
+          id:433,
           url: "https://pokeapi.co/api/v2/pokemon/433/"
         }
       },
@@ -2766,6 +2857,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bronzor",
+          id:436,
           url: "https://pokeapi.co/api/v2/pokemon/436/"
         }
       },
@@ -2773,6 +2865,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bronzong",
+          id:437,
           url: "https://pokeapi.co/api/v2/pokemon/437/"
         }
       },
@@ -2780,6 +2873,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "carnivine",
+          id:455,
           url: "https://pokeapi.co/api/v2/pokemon/455/"
         }
       },
@@ -2787,6 +2881,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "rotom",
+          id:479,
           url: "https://pokeapi.co/api/v2/pokemon/479/"
         }
       },
@@ -2794,6 +2889,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "uxie",
+          id:480,
           url: "https://pokeapi.co/api/v2/pokemon/480/"
         }
       },
@@ -2801,6 +2897,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mesprit",
+          id:481,
           url: "https://pokeapi.co/api/v2/pokemon/481/"
         }
       },
@@ -2808,6 +2905,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "azelf",
+          id:482,
           url: "https://pokeapi.co/api/v2/pokemon/482/"
         }
       },
@@ -2815,6 +2913,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "cresselia",
+          id:488,
           url: "https://pokeapi.co/api/v2/pokemon/488/"
         }
       },
@@ -2822,6 +2921,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tynamo",
+          id:602,
           url: "https://pokeapi.co/api/v2/pokemon/602/"
         }
       },
@@ -2829,6 +2929,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "eelektrik",
+          id:603,
           url: "https://pokeapi.co/api/v2/pokemon/603/"
         }
       },
@@ -2836,6 +2937,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "eelektross",
+          id:604,
           url: "https://pokeapi.co/api/v2/pokemon/604/"
         }
       },
@@ -2843,6 +2945,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "cryogonal",
+          id:615,
           url: "https://pokeapi.co/api/v2/pokemon/615/"
         }
       },
@@ -2850,6 +2953,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "hydreigon",
+          id:635,
           url: "https://pokeapi.co/api/v2/pokemon/635/"
         }
       },
@@ -2857,70 +2961,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "vikavolt",
+          id:738,
           url: "https://pokeapi.co/api/v2/pokemon/738/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "giratina origin",
-          url: "https://pokeapi.co/api/v2/pokemon/10007/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "rotom heat",
-          url: "https://pokeapi.co/api/v2/pokemon/10008/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "rotom wash",
-          url: "https://pokeapi.co/api/v2/pokemon/10009/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "rotom frost",
-          url: "https://pokeapi.co/api/v2/pokemon/10010/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "rotom fan",
-          url: "https://pokeapi.co/api/v2/pokemon/10011/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "rotom mow",
-          url: "https://pokeapi.co/api/v2/pokemon/10012/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "latias mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10062/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "latios mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10063/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "vikavolt totem",
-          url: "https://pokeapi.co/api/v2/pokemon/10122/"
         }
       }
     ]
@@ -2934,6 +2976,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "vileplume",
+          id:45,
           url: "https://pokeapi.co/api/v2/pokemon/45/"
         }
       },
@@ -2941,6 +2984,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "paras",
+          id:46,
           url: "https://pokeapi.co/api/v2/pokemon/46/"
         }
       },
@@ -2948,6 +2992,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "parasect",
+          id:47,
           url: "https://pokeapi.co/api/v2/pokemon/47/"
         }
       },
@@ -2955,6 +3000,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "shroomish",
+          id:285,
           url: "https://pokeapi.co/api/v2/pokemon/285/"
         }
       },
@@ -2962,6 +3008,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "breloom",
+          id:286,
           url: "https://pokeapi.co/api/v2/pokemon/286/"
         }
       },
@@ -2969,6 +3016,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "foongus",
+          id:590,
           url: "https://pokeapi.co/api/v2/pokemon/590/"
         }
       },
@@ -2976,6 +3024,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "amoonguss",
+          id:591,
           url: "https://pokeapi.co/api/v2/pokemon/591/"
         }
       },
@@ -2983,6 +3032,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "morelull",
+          id:755,
           url: "https://pokeapi.co/api/v2/pokemon/755/"
         }
       },
@@ -2990,6 +3040,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "shiinotic",
+          id:756,
           url: "https://pokeapi.co/api/v2/pokemon/756/"
         }
       }
@@ -3004,6 +3055,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "abra",
+          id:63,
           url: "https://pokeapi.co/api/v2/pokemon/63/"
         }
       },
@@ -3011,6 +3063,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "kadabra",
+          id:64,
           url: "https://pokeapi.co/api/v2/pokemon/64/"
         }
       },
@@ -3018,6 +3071,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "alakazam",
+          id:65,
           url: "https://pokeapi.co/api/v2/pokemon/65/"
         }
       },
@@ -3025,6 +3079,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mew",
+          id:151,
           url: "https://pokeapi.co/api/v2/pokemon/151/"
         }
       },
@@ -3032,6 +3087,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "natu",
+          id:177,
           url: "https://pokeapi.co/api/v2/pokemon/177/"
         }
       },
@@ -3039,6 +3095,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "xatu",
+          id:178,
           url: "https://pokeapi.co/api/v2/pokemon/178/"
         }
       },
@@ -3046,6 +3103,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "espeon",
+          id:196,
           url: "https://pokeapi.co/api/v2/pokemon/196/"
         }
       },
@@ -3053,6 +3111,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "umbreon",
+          id:197,
           url: "https://pokeapi.co/api/v2/pokemon/197/"
         }
       },
@@ -3060,6 +3119,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ralts",
+          id:280,
           url: "https://pokeapi.co/api/v2/pokemon/280/"
         }
       },
@@ -3067,6 +3127,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "kirlia",
+          id:281,
           url: "https://pokeapi.co/api/v2/pokemon/281/"
         }
       },
@@ -3074,6 +3135,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gardevoir",
+          id:282,
           url: "https://pokeapi.co/api/v2/pokemon/282/"
         }
       },
@@ -3081,6 +3143,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "munna",
+          id:517,
           url: "https://pokeapi.co/api/v2/pokemon/517/"
         }
       },
@@ -3088,6 +3151,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "musharna",
+          id:518,
           url: "https://pokeapi.co/api/v2/pokemon/518/"
         }
       },
@@ -3095,6 +3159,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "elgyem",
+          id:605,
           url: "https://pokeapi.co/api/v2/pokemon/605/"
         }
       },
@@ -3102,6 +3167,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "beheeyem",
+          id:606,
           url: "https://pokeapi.co/api/v2/pokemon/606/"
         }
       }
@@ -3116,6 +3182,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tentacool",
+          id:72,
           url: "https://pokeapi.co/api/v2/pokemon/72/"
         }
       },
@@ -3123,6 +3190,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tentacruel",
+          id:73,
           url: "https://pokeapi.co/api/v2/pokemon/73/"
         }
       },
@@ -3130,6 +3198,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "beldum",
+          id:374,
           url: "https://pokeapi.co/api/v2/pokemon/374/"
         }
       },
@@ -3137,6 +3206,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "metang",
+          id:375,
           url: "https://pokeapi.co/api/v2/pokemon/375/"
         }
       },
@@ -3144,6 +3214,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "metagross",
+          id:376,
           url: "https://pokeapi.co/api/v2/pokemon/376/"
         }
       },
@@ -3151,6 +3222,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "regirock",
+          id:377,
           url: "https://pokeapi.co/api/v2/pokemon/377/"
         }
       },
@@ -3158,6 +3230,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "regice",
+          id:378,
           url: "https://pokeapi.co/api/v2/pokemon/378/"
         }
       },
@@ -3165,6 +3238,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "registeel",
+          id:379,
           url: "https://pokeapi.co/api/v2/pokemon/379/"
         }
       },
@@ -3172,6 +3246,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "klink",
+          id:599,
           url: "https://pokeapi.co/api/v2/pokemon/599/"
         }
       },
@@ -3179,6 +3254,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "klang",
+          id:600,
           url: "https://pokeapi.co/api/v2/pokemon/600/"
         }
       },
@@ -3186,6 +3262,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "klinklang",
+          id:601,
           url: "https://pokeapi.co/api/v2/pokemon/601/"
         }
       },
@@ -3193,6 +3270,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "carbink",
+          id:703,
           url: "https://pokeapi.co/api/v2/pokemon/703/"
         }
       },
@@ -3200,6 +3278,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "diancie",
+          id:719,
           url: "https://pokeapi.co/api/v2/pokemon/719/"
         }
       }
@@ -3214,6 +3293,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "chansey",
+          id:113,
           url: "https://pokeapi.co/api/v2/pokemon/113/"
         }
       },
@@ -3221,6 +3301,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "staryu",
+          id:120,
           url: "https://pokeapi.co/api/v2/pokemon/120/"
         }
       },
@@ -3228,6 +3309,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "starmie",
+          id:121,
           url: "https://pokeapi.co/api/v2/pokemon/121/"
         }
       },
@@ -3235,6 +3317,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "corsola",
+          id:222,
           url: "https://pokeapi.co/api/v2/pokemon/222/"
         }
       },
@@ -3242,6 +3325,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "blissey",
+          id:242,
           url: "https://pokeapi.co/api/v2/pokemon/242/"
         }
       },
@@ -3249,6 +3333,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "celebi",
+          id:251,
           url: "https://pokeapi.co/api/v2/pokemon/251/"
         }
       },
@@ -3256,6 +3341,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "roselia",
+          id:315,
           url: "https://pokeapi.co/api/v2/pokemon/315/"
         }
       },
@@ -3263,6 +3349,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "swablu",
+          id:333,
           url: "https://pokeapi.co/api/v2/pokemon/333/"
         }
       },
@@ -3270,6 +3357,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "altaria",
+          id:334,
           url: "https://pokeapi.co/api/v2/pokemon/334/"
         }
       },
@@ -3277,6 +3365,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "budew",
+          id:406,
           url: "https://pokeapi.co/api/v2/pokemon/406/"
         }
       },
@@ -3284,6 +3373,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "roserade",
+          id:407,
           url: "https://pokeapi.co/api/v2/pokemon/407/"
         }
       },
@@ -3291,6 +3381,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "happiny",
+          id:440,
           url: "https://pokeapi.co/api/v2/pokemon/440/"
         }
       },
@@ -3298,6 +3389,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "shaymin land",
+          id:492,
           url: "https://pokeapi.co/api/v2/pokemon/492/"
         }
       },
@@ -3305,6 +3397,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "phantump",
+          id:708,
           url: "https://pokeapi.co/api/v2/pokemon/708/"
         }
       },
@@ -3312,6 +3405,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "trevenant",
+          id:709,
           url: "https://pokeapi.co/api/v2/pokemon/709/"
         }
       },
@@ -3319,6 +3413,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "comfey",
+          id:764,
           url: "https://pokeapi.co/api/v2/pokemon/764/"
         }
       }
@@ -3333,6 +3428,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "pikachu",
+          id:25,
           url: "https://pokeapi.co/api/v2/pokemon/25/"
         }
       },
@@ -3340,6 +3436,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "raichu",
+          id:26,
           url: "https://pokeapi.co/api/v2/pokemon/26/"
         }
       },
@@ -3347,6 +3444,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "cubone",
+          id:104,
           url: "https://pokeapi.co/api/v2/pokemon/104/"
         }
       },
@@ -3354,6 +3452,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "marowak",
+          id:105,
           url: "https://pokeapi.co/api/v2/pokemon/105/"
         }
       },
@@ -3361,6 +3460,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "rhyhorn",
+          id:111,
           url: "https://pokeapi.co/api/v2/pokemon/111/"
         }
       },
@@ -3368,6 +3468,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "rhydon",
+          id:112,
           url: "https://pokeapi.co/api/v2/pokemon/112/"
         }
       },
@@ -3375,6 +3476,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "goldeen",
+          id:118,
           url: "https://pokeapi.co/api/v2/pokemon/118/"
         }
       },
@@ -3382,6 +3484,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "seaking",
+          id:119,
           url: "https://pokeapi.co/api/v2/pokemon/119/"
         }
       },
@@ -3389,6 +3492,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "pichu",
+          id:172,
           url: "https://pokeapi.co/api/v2/pokemon/172/"
         }
       },
@@ -3396,6 +3500,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "electrike",
+          id:309,
           url: "https://pokeapi.co/api/v2/pokemon/309/"
         }
       },
@@ -3403,6 +3508,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "manectric",
+          id:310,
           url: "https://pokeapi.co/api/v2/pokemon/310/"
         }
       },
@@ -3410,6 +3516,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "plusle",
+          id:311,
           url: "https://pokeapi.co/api/v2/pokemon/311/"
         }
       },
@@ -3417,6 +3524,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "rhyperior",
+          id:464,
           url: "https://pokeapi.co/api/v2/pokemon/464/"
         }
       },
@@ -3424,6 +3532,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "blitzle",
+          id:522,
           url: "https://pokeapi.co/api/v2/pokemon/522/"
         }
       },
@@ -3431,6 +3540,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "zebstrika",
+          id:523,
           url: "https://pokeapi.co/api/v2/pokemon/523/"
         }
       },
@@ -3438,126 +3548,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "togedemaru",
+          id:777,
           url: "https://pokeapi.co/api/v2/pokemon/777/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "sceptile mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10065/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "pikachu rock star",
-          url: "https://pokeapi.co/api/v2/pokemon/10080/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "pikachu belle",
-          url: "https://pokeapi.co/api/v2/pokemon/10081/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "pikachu pop star",
-          url: "https://pokeapi.co/api/v2/pokemon/10082/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "pikachu phd",
-          url: "https://pokeapi.co/api/v2/pokemon/10083/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "pikachu libre",
-          url: "https://pokeapi.co/api/v2/pokemon/10084/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "pikachu cosplay",
-          url: "https://pokeapi.co/api/v2/pokemon/10085/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "pikachu original cap",
-          url: "https://pokeapi.co/api/v2/pokemon/10094/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "pikachu hoenn cap",
-          url: "https://pokeapi.co/api/v2/pokemon/10095/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "pikachu sinnoh cap",
-          url: "https://pokeapi.co/api/v2/pokemon/10096/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "pikachu unova cap",
-          url: "https://pokeapi.co/api/v2/pokemon/10097/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "pikachu kalos cap",
-          url: "https://pokeapi.co/api/v2/pokemon/10098/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "pikachu alola cap",
-          url: "https://pokeapi.co/api/v2/pokemon/10099/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "marowak alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10115/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "pikachu partner cap",
-          url: "https://pokeapi.co/api/v2/pokemon/10148/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "marowak totem",
-          url: "https://pokeapi.co/api/v2/pokemon/10149/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "togedemaru totem",
-          url: "https://pokeapi.co/api/v2/pokemon/10154/"
         }
       }
     ]
@@ -3571,6 +3563,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "chansey",
+          id:113,
           url: "https://pokeapi.co/api/v2/pokemon/113/"
         }
       },
@@ -3578,6 +3571,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "togepi",
+          id:175,
           url: "https://pokeapi.co/api/v2/pokemon/175/"
         }
       },
@@ -3585,6 +3579,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "togetic",
+          id:176,
           url: "https://pokeapi.co/api/v2/pokemon/176/"
         }
       },
@@ -3592,6 +3587,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "dunsparce",
+          id:206,
           url: "https://pokeapi.co/api/v2/pokemon/206/"
         }
       },
@@ -3599,6 +3595,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "blissey",
+          id:242,
           url: "https://pokeapi.co/api/v2/pokemon/242/"
         }
       },
@@ -3606,6 +3603,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "jirachi",
+          id:385,
           url: "https://pokeapi.co/api/v2/pokemon/385/"
         }
       },
@@ -3613,6 +3611,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "happiny",
+          id:440,
           url: "https://pokeapi.co/api/v2/pokemon/440/"
         }
       },
@@ -3620,6 +3619,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "togekiss",
+          id:468,
           url: "https://pokeapi.co/api/v2/pokemon/468/"
         }
       },
@@ -3627,6 +3627,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "deerling",
+          id:585,
           url: "https://pokeapi.co/api/v2/pokemon/585/"
         }
       },
@@ -3634,6 +3635,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "sawsbuck",
+          id:586,
           url: "https://pokeapi.co/api/v2/pokemon/586/"
         }
       },
@@ -3641,21 +3643,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "meloetta aria",
+          id:648,
           url: "https://pokeapi.co/api/v2/pokemon/648/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "shaymin sky",
-          url: "https://pokeapi.co/api/v2/pokemon/10006/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "meloetta pirouette",
-          url: "https://pokeapi.co/api/v2/pokemon/10018/"
         }
       }
     ]
@@ -3669,6 +3658,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "psyduck",
+          id:54,
           url: "https://pokeapi.co/api/v2/pokemon/54/"
         }
       },
@@ -3676,6 +3666,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "golduck",
+          id:55,
           url: "https://pokeapi.co/api/v2/pokemon/55/"
         }
       },
@@ -3683,6 +3674,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "poliwag",
+          id:60,
           url: "https://pokeapi.co/api/v2/pokemon/60/"
         }
       },
@@ -3690,6 +3682,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "poliwhirl",
+          id:61,
           url: "https://pokeapi.co/api/v2/pokemon/61/"
         }
       },
@@ -3697,6 +3690,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "poliwrath",
+          id:62,
           url: "https://pokeapi.co/api/v2/pokemon/62/"
         }
       },
@@ -3704,6 +3698,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "horsea",
+          id:116,
           url: "https://pokeapi.co/api/v2/pokemon/116/"
         }
       },
@@ -3711,6 +3706,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "goldeen",
+          id:118,
           url: "https://pokeapi.co/api/v2/pokemon/118/"
         }
       },
@@ -3718,6 +3714,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "seaking",
+          id:119,
           url: "https://pokeapi.co/api/v2/pokemon/119/"
         }
       },
@@ -3725,6 +3722,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "magikarp",
+          id:129,
           url: "https://pokeapi.co/api/v2/pokemon/129/"
         }
       },
@@ -3732,6 +3730,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "omanyte",
+          id:138,
           url: "https://pokeapi.co/api/v2/pokemon/138/"
         }
       },
@@ -3739,6 +3738,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "omastar",
+          id:139,
           url: "https://pokeapi.co/api/v2/pokemon/139/"
         }
       },
@@ -3746,6 +3746,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "kabuto",
+          id:140,
           url: "https://pokeapi.co/api/v2/pokemon/140/"
         }
       },
@@ -3753,6 +3754,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "kabutops",
+          id:141,
           url: "https://pokeapi.co/api/v2/pokemon/141/"
         }
       },
@@ -3760,6 +3762,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "qwilfish",
+          id:211,
           url: "https://pokeapi.co/api/v2/pokemon/211/"
         }
       },
@@ -3767,6 +3770,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mantine",
+          id:226,
           url: "https://pokeapi.co/api/v2/pokemon/226/"
         }
       },
@@ -3774,6 +3778,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "kingdra",
+          id:230,
           url: "https://pokeapi.co/api/v2/pokemon/230/"
         }
       },
@@ -3781,6 +3786,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lotad",
+          id:270,
           url: "https://pokeapi.co/api/v2/pokemon/270/"
         }
       },
@@ -3788,6 +3794,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lombre",
+          id:271,
           url: "https://pokeapi.co/api/v2/pokemon/271/"
         }
       },
@@ -3795,6 +3802,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ludicolo",
+          id:272,
           url: "https://pokeapi.co/api/v2/pokemon/272/"
         }
       },
@@ -3802,6 +3810,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "surskit",
+          id:283,
           url: "https://pokeapi.co/api/v2/pokemon/283/"
         }
       },
@@ -3809,6 +3818,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "anorith",
+          id:347,
           url: "https://pokeapi.co/api/v2/pokemon/347/"
         }
       },
@@ -3816,6 +3826,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "armaldo",
+          id:348,
           url: "https://pokeapi.co/api/v2/pokemon/348/"
         }
       },
@@ -3823,6 +3834,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "feebas",
+          id:349,
           url: "https://pokeapi.co/api/v2/pokemon/349/"
         }
       },
@@ -3830,6 +3842,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "huntail",
+          id:367,
           url: "https://pokeapi.co/api/v2/pokemon/367/"
         }
       },
@@ -3837,6 +3850,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gorebyss",
+          id:368,
           url: "https://pokeapi.co/api/v2/pokemon/368/"
         }
       },
@@ -3844,6 +3858,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "relicanth",
+          id:369,
           url: "https://pokeapi.co/api/v2/pokemon/369/"
         }
       },
@@ -3851,6 +3866,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "luvdisc",
+          id:370,
           url: "https://pokeapi.co/api/v2/pokemon/370/"
         }
       },
@@ -3858,6 +3874,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "buizel",
+          id:418,
           url: "https://pokeapi.co/api/v2/pokemon/418/"
         }
       },
@@ -3865,6 +3882,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "floatzel",
+          id:419,
           url: "https://pokeapi.co/api/v2/pokemon/419/"
         }
       },
@@ -3872,6 +3890,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "finneon",
+          id:456,
           url: "https://pokeapi.co/api/v2/pokemon/456/"
         }
       },
@@ -3879,6 +3898,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lumineon",
+          id:457,
           url: "https://pokeapi.co/api/v2/pokemon/457/"
         }
       },
@@ -3886,6 +3906,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mantyke",
+          id:458,
           url: "https://pokeapi.co/api/v2/pokemon/458/"
         }
       },
@@ -3893,6 +3914,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tympole",
+          id:535,
           url: "https://pokeapi.co/api/v2/pokemon/535/"
         }
       },
@@ -3900,6 +3922,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "palpitoad",
+          id:536,
           url: "https://pokeapi.co/api/v2/pokemon/536/"
         }
       },
@@ -3907,6 +3930,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "seismitoad",
+          id:537,
           url: "https://pokeapi.co/api/v2/pokemon/537/"
         }
       },
@@ -3914,6 +3938,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "tirtouga",
+          id:564,
           url: "https://pokeapi.co/api/v2/pokemon/564/"
         }
       },
@@ -3921,6 +3946,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "carracosta",
+          id:565,
           url: "https://pokeapi.co/api/v2/pokemon/565/"
         }
       },
@@ -3928,14 +3954,8 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "beartic",
+          id:614,
           url: "https://pokeapi.co/api/v2/pokemon/614/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "swampert mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10064/"
         }
       }
     ]
@@ -3949,6 +3969,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "bulbasaur",
+          id:1,
           url: "https://pokeapi.co/api/v2/pokemon/1/"
         }
       },
@@ -3956,6 +3977,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "ivysaur",
+          id:2,
           url: "https://pokeapi.co/api/v2/pokemon/2/"
         }
       },
@@ -3963,6 +3985,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "venusaur",
+          id:3,
           url: "https://pokeapi.co/api/v2/pokemon/3/"
         }
       },
@@ -3970,6 +3993,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "oddish",
+          id:43,
           url: "https://pokeapi.co/api/v2/pokemon/43/"
         }
       },
@@ -3977,6 +4001,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gloom",
+          id:44,
           url: "https://pokeapi.co/api/v2/pokemon/44/"
         }
       },
@@ -3984,6 +4009,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "vileplume",
+          id:45,
           url: "https://pokeapi.co/api/v2/pokemon/45/"
         }
       },
@@ -3991,6 +4017,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bellsprout",
+          id:69,
           url: "https://pokeapi.co/api/v2/pokemon/69/"
         }
       },
@@ -3998,6 +4025,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "weepinbell",
+          id:70,
           url: "https://pokeapi.co/api/v2/pokemon/70/"
         }
       },
@@ -4005,6 +4033,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "victreebel",
+          id:71,
           url: "https://pokeapi.co/api/v2/pokemon/71/"
         }
       },
@@ -4012,6 +4041,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "exeggcute",
+          id:102,
           url: "https://pokeapi.co/api/v2/pokemon/102/"
         }
       },
@@ -4019,6 +4049,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "exeggutor",
+          id:103,
           url: "https://pokeapi.co/api/v2/pokemon/103/"
         }
       },
@@ -4026,6 +4057,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tangela",
+          id:114,
           url: "https://pokeapi.co/api/v2/pokemon/114/"
         }
       },
@@ -4033,6 +4065,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bellossom",
+          id:182,
           url: "https://pokeapi.co/api/v2/pokemon/182/"
         }
       },
@@ -4040,6 +4073,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "hoppip",
+          id:187,
           url: "https://pokeapi.co/api/v2/pokemon/187/"
         }
       },
@@ -4047,6 +4081,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "skiploom",
+          id:188,
           url: "https://pokeapi.co/api/v2/pokemon/188/"
         }
       },
@@ -4054,6 +4089,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "jumpluff",
+          id:189,
           url: "https://pokeapi.co/api/v2/pokemon/189/"
         }
       },
@@ -4061,6 +4097,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sunkern",
+          id:191,
           url: "https://pokeapi.co/api/v2/pokemon/191/"
         }
       },
@@ -4068,6 +4105,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sunflora",
+          id:192,
           url: "https://pokeapi.co/api/v2/pokemon/192/"
         }
       },
@@ -4075,6 +4113,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "seedot",
+          id:273,
           url: "https://pokeapi.co/api/v2/pokemon/273/"
         }
       },
@@ -4082,6 +4121,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "nuzleaf",
+          id:274,
           url: "https://pokeapi.co/api/v2/pokemon/274/"
         }
       },
@@ -4089,6 +4129,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "shiftry",
+          id:275,
           url: "https://pokeapi.co/api/v2/pokemon/275/"
         }
       },
@@ -4096,6 +4137,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tropius",
+          id:357,
           url: "https://pokeapi.co/api/v2/pokemon/357/"
         }
       },
@@ -4103,6 +4145,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "cherubi",
+          id:420,
           url: "https://pokeapi.co/api/v2/pokemon/420/"
         }
       },
@@ -4110,6 +4153,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tangrowth",
+          id:465,
           url: "https://pokeapi.co/api/v2/pokemon/465/"
         }
       },
@@ -4117,6 +4161,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "leafeon",
+          id:470,
           url: "https://pokeapi.co/api/v2/pokemon/470/"
         }
       },
@@ -4124,6 +4169,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sewaddle",
+          id:540,
           url: "https://pokeapi.co/api/v2/pokemon/540/"
         }
       },
@@ -4131,6 +4177,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "swadloon",
+          id:541,
           url: "https://pokeapi.co/api/v2/pokemon/541/"
         }
       },
@@ -4138,6 +4185,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "leavanny",
+          id:542,
           url: "https://pokeapi.co/api/v2/pokemon/542/"
         }
       },
@@ -4145,6 +4193,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "cottonee",
+          id:546,
           url: "https://pokeapi.co/api/v2/pokemon/546/"
         }
       },
@@ -4152,6 +4201,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "whimsicott",
+          id:547,
           url: "https://pokeapi.co/api/v2/pokemon/547/"
         }
       },
@@ -4159,6 +4209,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "petilil",
+          id:548,
           url: "https://pokeapi.co/api/v2/pokemon/548/"
         }
       },
@@ -4166,6 +4217,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lilligant",
+          id:549,
           url: "https://pokeapi.co/api/v2/pokemon/549/"
         }
       },
@@ -4173,6 +4225,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "maractus",
+          id:556,
           url: "https://pokeapi.co/api/v2/pokemon/556/"
         }
       },
@@ -4180,6 +4233,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "deerling",
+          id:585,
           url: "https://pokeapi.co/api/v2/pokemon/585/"
         }
       },
@@ -4187,6 +4241,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sawsbuck",
+          id:586,
           url: "https://pokeapi.co/api/v2/pokemon/586/"
         }
       }
@@ -4201,6 +4256,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "staryu",
+          id:120,
           url: "https://pokeapi.co/api/v2/pokemon/120/"
         }
       },
@@ -4208,6 +4264,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "starmie",
+          id:121,
           url: "https://pokeapi.co/api/v2/pokemon/121/"
         }
       },
@@ -4215,6 +4272,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "chinchou",
+          id:170,
           url: "https://pokeapi.co/api/v2/pokemon/170/"
         }
       },
@@ -4222,6 +4280,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lanturn",
+          id:171,
           url: "https://pokeapi.co/api/v2/pokemon/171/"
         }
       },
@@ -4229,6 +4288,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "volbeat",
+          id:313,
           url: "https://pokeapi.co/api/v2/pokemon/313/"
         }
       },
@@ -4236,6 +4296,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "watchog",
+          id:505,
           url: "https://pokeapi.co/api/v2/pokemon/505/"
         }
       },
@@ -4243,6 +4304,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "morelull",
+          id:755,
           url: "https://pokeapi.co/api/v2/pokemon/755/"
         }
       },
@@ -4250,6 +4312,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "shiinotic",
+          id:756,
           url: "https://pokeapi.co/api/v2/pokemon/756/"
         }
       }
@@ -4264,6 +4327,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "porygon",
+          id:137,
           url: "https://pokeapi.co/api/v2/pokemon/137/"
         }
       },
@@ -4271,6 +4335,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "porygon2",
+          id:233,
           url: "https://pokeapi.co/api/v2/pokemon/233/"
         }
       },
@@ -4278,6 +4343,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ralts",
+          id:280,
           url: "https://pokeapi.co/api/v2/pokemon/280/"
         }
       },
@@ -4285,6 +4351,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "kirlia",
+          id:281,
           url: "https://pokeapi.co/api/v2/pokemon/281/"
         }
       },
@@ -4292,14 +4359,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gardevoir",
+          id:282,
           url: "https://pokeapi.co/api/v2/pokemon/282/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "alakazam mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10037/"
         }
       }
     ]
@@ -4313,6 +4374,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "marill",
+          id:183,
           url: "https://pokeapi.co/api/v2/pokemon/183/"
         }
       },
@@ -4320,6 +4382,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "azumarill",
+          id:184,
           url: "https://pokeapi.co/api/v2/pokemon/184/"
         }
       },
@@ -4327,6 +4390,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "azurill",
+          id:298,
           url: "https://pokeapi.co/api/v2/pokemon/298/"
         }
       },
@@ -4334,6 +4398,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "bunnelby",
+          id:659,
           url: "https://pokeapi.co/api/v2/pokemon/659/"
         }
       },
@@ -4341,14 +4406,8 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "diggersby",
+          id:660,
           url: "https://pokeapi.co/api/v2/pokemon/660/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "mawile mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10052/"
         }
       }
     ]
@@ -4362,6 +4421,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "nidoran f",
+          id:29,
           url: "https://pokeapi.co/api/v2/pokemon/29/"
         }
       },
@@ -4369,6 +4429,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "nidorina",
+          id:30,
           url: "https://pokeapi.co/api/v2/pokemon/30/"
         }
       },
@@ -4376,6 +4437,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "nidoqueen",
+          id:31,
           url: "https://pokeapi.co/api/v2/pokemon/31/"
         }
       },
@@ -4383,6 +4445,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "nidoran m",
+          id:32,
           url: "https://pokeapi.co/api/v2/pokemon/32/"
         }
       },
@@ -4390,6 +4453,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "nidorino",
+          id:33,
           url: "https://pokeapi.co/api/v2/pokemon/33/"
         }
       },
@@ -4397,6 +4461,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "nidoking",
+          id:34,
           url: "https://pokeapi.co/api/v2/pokemon/34/"
         }
       },
@@ -4404,6 +4469,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "seadra",
+          id:117,
           url: "https://pokeapi.co/api/v2/pokemon/117/"
         }
       },
@@ -4411,6 +4477,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "qwilfish",
+          id:211,
           url: "https://pokeapi.co/api/v2/pokemon/211/"
         }
       },
@@ -4418,6 +4485,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "roselia",
+          id:315,
           url: "https://pokeapi.co/api/v2/pokemon/315/"
         }
       },
@@ -4425,6 +4493,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "budew",
+          id:406,
           url: "https://pokeapi.co/api/v2/pokemon/406/"
         }
       },
@@ -4432,6 +4501,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "roserade",
+          id:407,
           url: "https://pokeapi.co/api/v2/pokemon/407/"
         }
       },
@@ -4439,6 +4509,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "venipede",
+          id:543,
           url: "https://pokeapi.co/api/v2/pokemon/543/"
         }
       },
@@ -4446,6 +4517,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "whirlipede",
+          id:544,
           url: "https://pokeapi.co/api/v2/pokemon/544/"
         }
       },
@@ -4453,6 +4525,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "scolipede",
+          id:545,
           url: "https://pokeapi.co/api/v2/pokemon/545/"
         }
       },
@@ -4460,6 +4533,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "skrelp",
+          id:690,
           url: "https://pokeapi.co/api/v2/pokemon/690/"
         }
       },
@@ -4467,6 +4541,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "dragalge",
+          id:691,
           url: "https://pokeapi.co/api/v2/pokemon/691/"
         }
       }
@@ -4481,6 +4556,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "zubat",
+          id:41,
           url: "https://pokeapi.co/api/v2/pokemon/41/"
         }
       },
@@ -4488,6 +4564,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "golbat",
+          id:42,
           url: "https://pokeapi.co/api/v2/pokemon/42/"
         }
       },
@@ -4495,6 +4572,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "abra",
+          id:63,
           url: "https://pokeapi.co/api/v2/pokemon/63/"
         }
       },
@@ -4502,6 +4580,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "kadabra",
+          id:64,
           url: "https://pokeapi.co/api/v2/pokemon/64/"
         }
       },
@@ -4509,6 +4588,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "alakazam",
+          id:65,
           url: "https://pokeapi.co/api/v2/pokemon/65/"
         }
       },
@@ -4516,6 +4596,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "farfetchd",
+          id:83,
           url: "https://pokeapi.co/api/v2/pokemon/83/"
         }
       },
@@ -4523,6 +4604,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "drowzee",
+          id:96,
           url: "https://pokeapi.co/api/v2/pokemon/96/"
         }
       },
@@ -4530,6 +4612,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "hypno",
+          id:97,
           url: "https://pokeapi.co/api/v2/pokemon/97/"
         }
       },
@@ -4537,6 +4620,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "hitmonchan",
+          id:107,
           url: "https://pokeapi.co/api/v2/pokemon/107/"
         }
       },
@@ -4544,6 +4628,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "kangaskhan",
+          id:115,
           url: "https://pokeapi.co/api/v2/pokemon/115/"
         }
       },
@@ -4551,6 +4636,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "dragonite",
+          id:149,
           url: "https://pokeapi.co/api/v2/pokemon/149/"
         }
       },
@@ -4558,6 +4644,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "crobat",
+          id:169,
           url: "https://pokeapi.co/api/v2/pokemon/169/"
         }
       },
@@ -4565,6 +4652,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "umbreon",
+          id:197,
           url: "https://pokeapi.co/api/v2/pokemon/197/"
         }
       },
@@ -4572,6 +4660,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "girafarig",
+          id:203,
           url: "https://pokeapi.co/api/v2/pokemon/203/"
         }
       },
@@ -4579,6 +4668,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sneasel",
+          id:215,
           url: "https://pokeapi.co/api/v2/pokemon/215/"
         }
       },
@@ -4586,6 +4676,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "raikou",
+          id:243,
           url: "https://pokeapi.co/api/v2/pokemon/243/"
         }
       },
@@ -4593,6 +4684,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "entei",
+          id:244,
           url: "https://pokeapi.co/api/v2/pokemon/244/"
         }
       },
@@ -4600,6 +4692,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "suicune",
+          id:245,
           url: "https://pokeapi.co/api/v2/pokemon/245/"
         }
       },
@@ -4607,6 +4700,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "snorunt",
+          id:361,
           url: "https://pokeapi.co/api/v2/pokemon/361/"
         }
       },
@@ -4614,6 +4708,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "glalie",
+          id:362,
           url: "https://pokeapi.co/api/v2/pokemon/362/"
         }
       },
@@ -4621,6 +4716,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "riolu",
+          id:447,
           url: "https://pokeapi.co/api/v2/pokemon/447/"
         }
       },
@@ -4628,6 +4724,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lucario",
+          id:448,
           url: "https://pokeapi.co/api/v2/pokemon/448/"
         }
       },
@@ -4635,6 +4732,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "throh",
+          id:538,
           url: "https://pokeapi.co/api/v2/pokemon/538/"
         }
       },
@@ -4642,6 +4740,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sawk",
+          id:539,
           url: "https://pokeapi.co/api/v2/pokemon/539/"
         }
       },
@@ -4649,6 +4748,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "darumaka",
+          id:554,
           url: "https://pokeapi.co/api/v2/pokemon/554/"
         }
       },
@@ -4656,6 +4756,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mienfoo",
+          id:619,
           url: "https://pokeapi.co/api/v2/pokemon/619/"
         }
       },
@@ -4663,6 +4764,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mienshao",
+          id:620,
           url: "https://pokeapi.co/api/v2/pokemon/620/"
         }
       },
@@ -4670,6 +4772,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pawniard",
+          id:624,
           url: "https://pokeapi.co/api/v2/pokemon/624/"
         }
       },
@@ -4677,6 +4780,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bisharp",
+          id:625,
           url: "https://pokeapi.co/api/v2/pokemon/625/"
         }
       },
@@ -4684,6 +4788,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "mudbray",
+          id:749,
           url: "https://pokeapi.co/api/v2/pokemon/749/"
         }
       },
@@ -4691,6 +4796,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "mudsdale",
+          id:750,
           url: "https://pokeapi.co/api/v2/pokemon/750/"
         }
       },
@@ -4698,16 +4804,11 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "oranguru",
+          id:765,
           url: "https://pokeapi.co/api/v2/pokemon/765/"
         }
       },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "gallade mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10068/"
-        }
-      }
+
     ]
   },
   {
@@ -4719,6 +4820,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "slugma",
+          id:218,
           url: "https://pokeapi.co/api/v2/pokemon/218/"
         }
       },
@@ -4726,6 +4828,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "magcargo",
+          id:219,
           url: "https://pokeapi.co/api/v2/pokemon/219/"
         }
       },
@@ -4733,6 +4836,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "camerupt",
+          id:323,
           url: "https://pokeapi.co/api/v2/pokemon/323/"
         }
       }
@@ -4747,6 +4851,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "goldeen",
+          id:118,
           url: "https://pokeapi.co/api/v2/pokemon/118/"
         }
       },
@@ -4754,6 +4859,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "seaking",
+          id:119,
           url: "https://pokeapi.co/api/v2/pokemon/119/"
         }
       },
@@ -4761,6 +4867,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "mantine",
+          id:226,
           url: "https://pokeapi.co/api/v2/pokemon/226/"
         }
       },
@@ -4768,6 +4875,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "wailmer",
+          id:320,
           url: "https://pokeapi.co/api/v2/pokemon/320/"
         }
       },
@@ -4775,6 +4883,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "wailord",
+          id:321,
           url: "https://pokeapi.co/api/v2/pokemon/321/"
         }
       },
@@ -4782,6 +4891,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "huntail",
+          id:367,
           url: "https://pokeapi.co/api/v2/pokemon/367/"
         }
       },
@@ -4789,6 +4899,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "buizel",
+          id:418,
           url: "https://pokeapi.co/api/v2/pokemon/418/"
         }
       },
@@ -4796,6 +4907,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "floatzel",
+          id:419,
           url: "https://pokeapi.co/api/v2/pokemon/419/"
         }
       },
@@ -4803,6 +4915,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "finneon",
+          id:456,
           url: "https://pokeapi.co/api/v2/pokemon/456/"
         }
       },
@@ -4810,6 +4923,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "lumineon",
+          id:457,
           url: "https://pokeapi.co/api/v2/pokemon/457/"
         }
       },
@@ -4817,6 +4931,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "mantyke",
+          id:458,
           url: "https://pokeapi.co/api/v2/pokemon/458/"
         }
       }
@@ -4831,6 +4946,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "magnemite",
+          id:81,
           url: "https://pokeapi.co/api/v2/pokemon/81/"
         }
       },
@@ -4838,6 +4954,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "magneton",
+          id:82,
           url: "https://pokeapi.co/api/v2/pokemon/82/"
         }
       },
@@ -4845,6 +4962,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "nosepass",
+          id:299,
           url: "https://pokeapi.co/api/v2/pokemon/299/"
         }
       },
@@ -4852,6 +4970,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "magnezone",
+          id:462,
           url: "https://pokeapi.co/api/v2/pokemon/462/"
         }
       },
@@ -4859,31 +4978,13 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "probopass",
+          id:476,
           url: "https://pokeapi.co/api/v2/pokemon/476/"
         }
       },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "geodude alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10109/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "graveler alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10110/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "golem alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10111/"
-        }
-      }
-    ]
+
+
+          ]
   },
   {
     name: "soundproof",
@@ -4894,6 +4995,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "voltorb",
+          id:100,
           url: "https://pokeapi.co/api/v2/pokemon/100/"
         }
       },
@@ -4901,6 +5003,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "electrode",
+          id:101,
           url: "https://pokeapi.co/api/v2/pokemon/101/"
         }
       },
@@ -4908,6 +5011,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mr mime",
+          id:122,
           url: "https://pokeapi.co/api/v2/pokemon/122/"
         }
       },
@@ -4915,6 +5019,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "whismur",
+          id:293,
           url: "https://pokeapi.co/api/v2/pokemon/293/"
         }
       },
@@ -4922,6 +5027,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "loudred",
+          id:294,
           url: "https://pokeapi.co/api/v2/pokemon/294/"
         }
       },
@@ -4929,6 +5035,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "exploud",
+          id:295,
           url: "https://pokeapi.co/api/v2/pokemon/295/"
         }
       },
@@ -4936,6 +5043,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "shieldon",
+          id:410,
           url: "https://pokeapi.co/api/v2/pokemon/410/"
         }
       },
@@ -4943,6 +5051,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "bastiodon",
+          id:411,
           url: "https://pokeapi.co/api/v2/pokemon/411/"
         }
       },
@@ -4950,6 +5059,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mime jr",
+          id:439,
           url: "https://pokeapi.co/api/v2/pokemon/439/"
         }
       },
@@ -4957,6 +5067,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "snover",
+          id:459,
           url: "https://pokeapi.co/api/v2/pokemon/459/"
         }
       },
@@ -4964,6 +5075,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "abomasnow",
+          id:460,
           url: "https://pokeapi.co/api/v2/pokemon/460/"
         }
       },
@@ -4971,6 +5083,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "bouffalant",
+          id:626,
           url: "https://pokeapi.co/api/v2/pokemon/626/"
         }
       },
@@ -4978,6 +5091,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "jangmo o",
+          id:782,
           url: "https://pokeapi.co/api/v2/pokemon/782/"
         }
       },
@@ -4985,6 +5099,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "hakamo o",
+          id:783,
           url: "https://pokeapi.co/api/v2/pokemon/783/"
         }
       },
@@ -4992,14 +5107,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "kommo o",
+          id:784,
           url: "https://pokeapi.co/api/v2/pokemon/784/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "kommo o totem",
-          url: "https://pokeapi.co/api/v2/pokemon/10146/"
         }
       }
     ]
@@ -5013,6 +5122,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "squirtle",
+          id:7,
           url: "https://pokeapi.co/api/v2/pokemon/7/"
         }
       },
@@ -5020,6 +5130,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "wartortle",
+          id:8,
           url: "https://pokeapi.co/api/v2/pokemon/8/"
         }
       },
@@ -5027,6 +5138,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "blastoise",
+          id:9,
           url: "https://pokeapi.co/api/v2/pokemon/9/"
         }
       },
@@ -5034,6 +5146,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "tentacool",
+          id:72,
           url: "https://pokeapi.co/api/v2/pokemon/72/"
         }
       },
@@ -5041,6 +5154,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "tentacruel",
+          id:73,
           url: "https://pokeapi.co/api/v2/pokemon/73/"
         }
       },
@@ -5048,6 +5162,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lotad",
+          id:270,
           url: "https://pokeapi.co/api/v2/pokemon/270/"
         }
       },
@@ -5055,6 +5170,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lombre",
+          id:271,
           url: "https://pokeapi.co/api/v2/pokemon/271/"
         }
       },
@@ -5062,6 +5178,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ludicolo",
+          id:272,
           url: "https://pokeapi.co/api/v2/pokemon/272/"
         }
       },
@@ -5069,6 +5186,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "wingull",
+          id:278,
           url: "https://pokeapi.co/api/v2/pokemon/278/"
         }
       },
@@ -5076,6 +5194,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "pelipper",
+          id:279,
           url: "https://pokeapi.co/api/v2/pokemon/279/"
         }
       },
@@ -5083,6 +5202,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "surskit",
+          id:283,
           url: "https://pokeapi.co/api/v2/pokemon/283/"
         }
       },
@@ -5090,6 +5210,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "morelull",
+          id:755,
           url: "https://pokeapi.co/api/v2/pokemon/755/"
         }
       },
@@ -5097,6 +5218,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "shiinotic",
+          id:756,
           url: "https://pokeapi.co/api/v2/pokemon/756/"
         }
       }
@@ -5111,6 +5233,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tyranitar",
+          id:248,
           url: "https://pokeapi.co/api/v2/pokemon/248/"
         }
       },
@@ -5118,6 +5241,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "hippopotas",
+          id:449,
           url: "https://pokeapi.co/api/v2/pokemon/449/"
         }
       },
@@ -5125,6 +5249,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "hippowdon",
+          id:450,
           url: "https://pokeapi.co/api/v2/pokemon/450/"
         }
       },
@@ -5132,16 +5257,11 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gigalith",
+          id:526,
           url: "https://pokeapi.co/api/v2/pokemon/526/"
         }
       },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "tyranitar mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10049/"
-        }
-      }
+
     ]
   },
   {
@@ -5153,6 +5273,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "aerodactyl",
+          id:142,
           url: "https://pokeapi.co/api/v2/pokemon/142/"
         }
       },
@@ -5160,6 +5281,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "articuno",
+          id:144,
           url: "https://pokeapi.co/api/v2/pokemon/144/"
         }
       },
@@ -5167,6 +5289,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "zapdos",
+          id:145,
           url: "https://pokeapi.co/api/v2/pokemon/145/"
         }
       },
@@ -5174,6 +5297,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "moltres",
+          id:146,
           url: "https://pokeapi.co/api/v2/pokemon/146/"
         }
       },
@@ -5181,6 +5305,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mewtwo",
+          id:150,
           url: "https://pokeapi.co/api/v2/pokemon/150/"
         }
       },
@@ -5188,6 +5313,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "raikou",
+          id:243,
           url: "https://pokeapi.co/api/v2/pokemon/243/"
         }
       },
@@ -5195,6 +5321,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "entei",
+          id:244,
           url: "https://pokeapi.co/api/v2/pokemon/244/"
         }
       },
@@ -5202,6 +5329,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "suicune",
+          id:245,
           url: "https://pokeapi.co/api/v2/pokemon/245/"
         }
       },
@@ -5209,6 +5337,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lugia",
+          id:249,
           url: "https://pokeapi.co/api/v2/pokemon/249/"
         }
       },
@@ -5216,6 +5345,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ho oh",
+          id:250,
           url: "https://pokeapi.co/api/v2/pokemon/250/"
         }
       },
@@ -5223,6 +5353,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "wailmer",
+          id:320,
           url: "https://pokeapi.co/api/v2/pokemon/320/"
         }
       },
@@ -5230,6 +5361,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "wailord",
+          id:321,
           url: "https://pokeapi.co/api/v2/pokemon/321/"
         }
       },
@@ -5237,6 +5369,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "dusclops",
+          id:356,
           url: "https://pokeapi.co/api/v2/pokemon/356/"
         }
       },
@@ -5244,6 +5377,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "absol",
+          id:359,
           url: "https://pokeapi.co/api/v2/pokemon/359/"
         }
       },
@@ -5251,6 +5385,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "deoxys normal",
+          id:386,
           url: "https://pokeapi.co/api/v2/pokemon/386/"
         }
       },
@@ -5258,6 +5393,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "vespiquen",
+          id:416,
           url: "https://pokeapi.co/api/v2/pokemon/416/"
         }
       },
@@ -5265,6 +5401,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "spiritomb",
+          id:442,
           url: "https://pokeapi.co/api/v2/pokemon/442/"
         }
       },
@@ -5272,6 +5409,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "weavile",
+          id:461,
           url: "https://pokeapi.co/api/v2/pokemon/461/"
         }
       },
@@ -5279,6 +5417,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "dusknoir",
+          id:477,
           url: "https://pokeapi.co/api/v2/pokemon/477/"
         }
       },
@@ -5286,6 +5425,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "dialga",
+          id:483,
           url: "https://pokeapi.co/api/v2/pokemon/483/"
         }
       },
@@ -5293,6 +5433,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "palkia",
+          id:484,
           url: "https://pokeapi.co/api/v2/pokemon/484/"
         }
       },
@@ -5300,6 +5441,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "giratina altered",
+          id:487,
           url: "https://pokeapi.co/api/v2/pokemon/487/"
         }
       },
@@ -5307,6 +5449,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "pawniard",
+          id:624,
           url: "https://pokeapi.co/api/v2/pokemon/624/"
         }
       },
@@ -5314,6 +5457,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "bisharp",
+          id:625,
           url: "https://pokeapi.co/api/v2/pokemon/625/"
         }
       },
@@ -5321,28 +5465,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "kyurem",
+          id:646,
           url: "https://pokeapi.co/api/v2/pokemon/646/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "deoxys attack",
-          url: "https://pokeapi.co/api/v2/pokemon/10001/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "deoxys defense",
-          url: "https://pokeapi.co/api/v2/pokemon/10002/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "deoxys speed",
-          url: "https://pokeapi.co/api/v2/pokemon/10003/"
         }
       }
     ]
@@ -5356,6 +5480,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "seel",
+          id:86,
           url: "https://pokeapi.co/api/v2/pokemon/86/"
         }
       },
@@ -5363,6 +5488,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "dewgong",
+          id:87,
           url: "https://pokeapi.co/api/v2/pokemon/87/"
         }
       },
@@ -5370,6 +5496,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "snorlax",
+          id:143,
           url: "https://pokeapi.co/api/v2/pokemon/143/"
         }
       },
@@ -5377,6 +5504,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "marill",
+          id:183,
           url: "https://pokeapi.co/api/v2/pokemon/183/"
         }
       },
@@ -5384,6 +5512,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "azumarill",
+          id:184,
           url: "https://pokeapi.co/api/v2/pokemon/184/"
         }
       },
@@ -5391,6 +5520,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "swinub",
+          id:220,
           url: "https://pokeapi.co/api/v2/pokemon/220/"
         }
       },
@@ -5398,6 +5528,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "piloswine",
+          id:221,
           url: "https://pokeapi.co/api/v2/pokemon/221/"
         }
       },
@@ -5405,6 +5536,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "miltank",
+          id:241,
           url: "https://pokeapi.co/api/v2/pokemon/241/"
         }
       },
@@ -5412,6 +5544,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "makuhita",
+          id:296,
           url: "https://pokeapi.co/api/v2/pokemon/296/"
         }
       },
@@ -5419,6 +5552,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "hariyama",
+          id:297,
           url: "https://pokeapi.co/api/v2/pokemon/297/"
         }
       },
@@ -5426,6 +5560,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "azurill",
+          id:298,
           url: "https://pokeapi.co/api/v2/pokemon/298/"
         }
       },
@@ -5433,6 +5568,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "spoink",
+          id:325,
           url: "https://pokeapi.co/api/v2/pokemon/325/"
         }
       },
@@ -5440,6 +5576,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "grumpig",
+          id:326,
           url: "https://pokeapi.co/api/v2/pokemon/326/"
         }
       },
@@ -5447,6 +5584,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "spheal",
+          id:363,
           url: "https://pokeapi.co/api/v2/pokemon/363/"
         }
       },
@@ -5454,6 +5592,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sealeo",
+          id:364,
           url: "https://pokeapi.co/api/v2/pokemon/364/"
         }
       },
@@ -5461,6 +5600,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "walrein",
+          id:365,
           url: "https://pokeapi.co/api/v2/pokemon/365/"
         }
       },
@@ -5468,6 +5608,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "purugly",
+          id:432,
           url: "https://pokeapi.co/api/v2/pokemon/432/"
         }
       },
@@ -5475,6 +5616,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "munchlax",
+          id:446,
           url: "https://pokeapi.co/api/v2/pokemon/446/"
         }
       },
@@ -5482,6 +5624,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "mamoswine",
+          id:473,
           url: "https://pokeapi.co/api/v2/pokemon/473/"
         }
       },
@@ -5489,6 +5632,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "tepig",
+          id:498,
           url: "https://pokeapi.co/api/v2/pokemon/498/"
         }
       },
@@ -5496,35 +5640,8 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "pignite",
+          id:499,
           url: "https://pokeapi.co/api/v2/pokemon/499/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "venusaur mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10033/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "rattata alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10091/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "raticate alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10092/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "raticate totem alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10093/"
         }
       }
     ]
@@ -5538,6 +5655,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "doduo",
+          id:84,
           url: "https://pokeapi.co/api/v2/pokemon/84/"
         }
       },
@@ -5545,6 +5663,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "dodrio",
+          id:85,
           url: "https://pokeapi.co/api/v2/pokemon/85/"
         }
       },
@@ -5552,6 +5671,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "kangaskhan",
+          id:115,
           url: "https://pokeapi.co/api/v2/pokemon/115/"
         }
       },
@@ -5559,6 +5679,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ledyba",
+          id:165,
           url: "https://pokeapi.co/api/v2/pokemon/165/"
         }
       },
@@ -5566,6 +5687,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ledian",
+          id:166,
           url: "https://pokeapi.co/api/v2/pokemon/166/"
         }
       },
@@ -5573,6 +5695,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "natu",
+          id:177,
           url: "https://pokeapi.co/api/v2/pokemon/177/"
         }
       },
@@ -5580,6 +5703,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "xatu",
+          id:178,
           url: "https://pokeapi.co/api/v2/pokemon/178/"
         }
       },
@@ -5587,6 +5711,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "sunkern",
+          id:191,
           url: "https://pokeapi.co/api/v2/pokemon/191/"
         }
       },
@@ -5594,6 +5719,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "sunflora",
+          id:192,
           url: "https://pokeapi.co/api/v2/pokemon/192/"
         }
       },
@@ -5601,6 +5727,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "girafarig",
+          id:203,
           url: "https://pokeapi.co/api/v2/pokemon/203/"
         }
       },
@@ -5608,6 +5735,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "houndour",
+          id:228,
           url: "https://pokeapi.co/api/v2/pokemon/228/"
         }
       },
@@ -5615,6 +5743,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "houndoom",
+          id:229,
           url: "https://pokeapi.co/api/v2/pokemon/229/"
         }
       },
@@ -5622,6 +5751,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "seedot",
+          id:273,
           url: "https://pokeapi.co/api/v2/pokemon/273/"
         }
       },
@@ -5629,6 +5759,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "nuzleaf",
+          id:274,
           url: "https://pokeapi.co/api/v2/pokemon/274/"
         }
       },
@@ -5636,6 +5767,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "shiftry",
+          id:275,
           url: "https://pokeapi.co/api/v2/pokemon/275/"
         }
       }
@@ -5650,6 +5782,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "ponyta",
+          id:77,
           url: "https://pokeapi.co/api/v2/pokemon/77/"
         }
       },
@@ -5657,6 +5790,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "rapidash",
+          id:78,
           url: "https://pokeapi.co/api/v2/pokemon/78/"
         }
       },
@@ -5664,6 +5798,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "magmar",
+          id:126,
           url: "https://pokeapi.co/api/v2/pokemon/126/"
         }
       },
@@ -5671,6 +5806,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "moltres",
+          id:146,
           url: "https://pokeapi.co/api/v2/pokemon/146/"
         }
       },
@@ -5678,6 +5814,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "slugma",
+          id:218,
           url: "https://pokeapi.co/api/v2/pokemon/218/"
         }
       },
@@ -5685,6 +5822,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "magcargo",
+          id:219,
           url: "https://pokeapi.co/api/v2/pokemon/219/"
         }
       },
@@ -5692,6 +5830,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "magby",
+          id:240,
           url: "https://pokeapi.co/api/v2/pokemon/240/"
         }
       },
@@ -5699,6 +5838,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "magmortar",
+          id:467,
           url: "https://pokeapi.co/api/v2/pokemon/467/"
         }
       },
@@ -5706,6 +5846,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "heatran",
+          id:485,
           url: "https://pokeapi.co/api/v2/pokemon/485/"
         }
       },
@@ -5713,6 +5854,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "litwick",
+          id:607,
           url: "https://pokeapi.co/api/v2/pokemon/607/"
         }
       },
@@ -5720,6 +5862,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lampent",
+          id:608,
           url: "https://pokeapi.co/api/v2/pokemon/608/"
         }
       },
@@ -5727,6 +5870,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "chandelure",
+          id:609,
           url: "https://pokeapi.co/api/v2/pokemon/609/"
         }
       },
@@ -5734,6 +5878,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "larvesta",
+          id:636,
           url: "https://pokeapi.co/api/v2/pokemon/636/"
         }
       },
@@ -5741,6 +5886,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "volcarona",
+          id:637,
           url: "https://pokeapi.co/api/v2/pokemon/637/"
         }
       },
@@ -5748,6 +5894,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "fletchinder",
+          id:662,
           url: "https://pokeapi.co/api/v2/pokemon/662/"
         }
       },
@@ -5755,6 +5902,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "talonflame",
+          id:663,
           url: "https://pokeapi.co/api/v2/pokemon/663/"
         }
       }
@@ -5769,6 +5917,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "caterpie",
+          id:10,
           url: "https://pokeapi.co/api/v2/pokemon/10/"
         }
       },
@@ -5776,6 +5925,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "weedle",
+          id:13,
           url: "https://pokeapi.co/api/v2/pokemon/13/"
         }
       },
@@ -5783,6 +5933,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "rattata",
+          id:19,
           url: "https://pokeapi.co/api/v2/pokemon/19/"
         }
       },
@@ -5790,6 +5941,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "raticate",
+          id:20,
           url: "https://pokeapi.co/api/v2/pokemon/20/"
         }
       },
@@ -5797,6 +5949,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "oddish",
+          id:43,
           url: "https://pokeapi.co/api/v2/pokemon/43/"
         }
       },
@@ -5804,6 +5957,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "venonat",
+          id:48,
           url: "https://pokeapi.co/api/v2/pokemon/48/"
         }
       },
@@ -5811,6 +5965,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ponyta",
+          id:77,
           url: "https://pokeapi.co/api/v2/pokemon/77/"
         }
       },
@@ -5818,6 +5973,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "rapidash",
+          id:78,
           url: "https://pokeapi.co/api/v2/pokemon/78/"
         }
       },
@@ -5825,6 +5981,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "doduo",
+          id:84,
           url: "https://pokeapi.co/api/v2/pokemon/84/"
         }
       },
@@ -5832,6 +5989,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "dodrio",
+          id:85,
           url: "https://pokeapi.co/api/v2/pokemon/85/"
         }
       },
@@ -5839,6 +5997,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "eevee",
+          id:133,
           url: "https://pokeapi.co/api/v2/pokemon/133/"
         }
       },
@@ -5846,6 +6005,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sentret",
+          id:161,
           url: "https://pokeapi.co/api/v2/pokemon/161/"
         }
       },
@@ -5853,6 +6013,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "furret",
+          id:162,
           url: "https://pokeapi.co/api/v2/pokemon/162/"
         }
       },
@@ -5860,6 +6021,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "aipom",
+          id:190,
           url: "https://pokeapi.co/api/v2/pokemon/190/"
         }
       },
@@ -5867,6 +6029,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "dunsparce",
+          id:206,
           url: "https://pokeapi.co/api/v2/pokemon/206/"
         }
       },
@@ -5874,6 +6037,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "snubbull",
+          id:209,
           url: "https://pokeapi.co/api/v2/pokemon/209/"
         }
       },
@@ -5881,6 +6045,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "poochyena",
+          id:261,
           url: "https://pokeapi.co/api/v2/pokemon/261/"
         }
       },
@@ -5888,6 +6053,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "wurmple",
+          id:265,
           url: "https://pokeapi.co/api/v2/pokemon/265/"
         }
       },
@@ -5895,6 +6061,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "nincada",
+          id:290,
           url: "https://pokeapi.co/api/v2/pokemon/290/"
         }
       },
@@ -5902,6 +6069,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "kricketot",
+          id:401,
           url: "https://pokeapi.co/api/v2/pokemon/401/"
         }
       },
@@ -5909,6 +6077,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pachirisu",
+          id:417,
           url: "https://pokeapi.co/api/v2/pokemon/417/"
         }
       },
@@ -5916,6 +6085,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "buneary",
+          id:427,
           url: "https://pokeapi.co/api/v2/pokemon/427/"
         }
       },
@@ -5923,6 +6093,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "patrat",
+          id:504,
           url: "https://pokeapi.co/api/v2/pokemon/504/"
         }
       },
@@ -5930,6 +6101,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "lillipup",
+          id:506,
           url: "https://pokeapi.co/api/v2/pokemon/506/"
         }
       }
@@ -5944,6 +6116,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pidgey",
+          id:16,
           url: "https://pokeapi.co/api/v2/pokemon/16/"
         }
       },
@@ -5951,6 +6124,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pidgeotto",
+          id:17,
           url: "https://pokeapi.co/api/v2/pokemon/17/"
         }
       },
@@ -5958,6 +6132,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pidgeot",
+          id:18,
           url: "https://pokeapi.co/api/v2/pokemon/18/"
         }
       },
@@ -5965,6 +6140,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "spearow",
+          id:21,
           url: "https://pokeapi.co/api/v2/pokemon/21/"
         }
       },
@@ -5972,6 +6148,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "fearow",
+          id:22,
           url: "https://pokeapi.co/api/v2/pokemon/22/"
         }
       },
@@ -5979,6 +6156,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "farfetchd",
+          id:83,
           url: "https://pokeapi.co/api/v2/pokemon/83/"
         }
       },
@@ -5986,6 +6164,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "hitmonchan",
+          id:107,
           url: "https://pokeapi.co/api/v2/pokemon/107/"
         }
       },
@@ -5993,6 +6172,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sentret",
+          id:161,
           url: "https://pokeapi.co/api/v2/pokemon/161/"
         }
       },
@@ -6000,6 +6180,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "furret",
+          id:162,
           url: "https://pokeapi.co/api/v2/pokemon/162/"
         }
       },
@@ -6007,6 +6188,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "hoothoot",
+          id:163,
           url: "https://pokeapi.co/api/v2/pokemon/163/"
         }
       },
@@ -6014,6 +6196,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "noctowl",
+          id:164,
           url: "https://pokeapi.co/api/v2/pokemon/164/"
         }
       },
@@ -6021,6 +6204,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sneasel",
+          id:215,
           url: "https://pokeapi.co/api/v2/pokemon/215/"
         }
       },
@@ -6028,6 +6212,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "skarmory",
+          id:227,
           url: "https://pokeapi.co/api/v2/pokemon/227/"
         }
       },
@@ -6035,6 +6220,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "wingull",
+          id:278,
           url: "https://pokeapi.co/api/v2/pokemon/278/"
         }
       },
@@ -6042,6 +6228,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pelipper",
+          id:279,
           url: "https://pokeapi.co/api/v2/pokemon/279/"
         }
       },
@@ -6049,6 +6236,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sableye",
+          id:302,
           url: "https://pokeapi.co/api/v2/pokemon/302/"
         }
       },
@@ -6056,6 +6244,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "starly",
+          id:396,
           url: "https://pokeapi.co/api/v2/pokemon/396/"
         }
       },
@@ -6063,6 +6252,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "glameow",
+          id:431,
           url: "https://pokeapi.co/api/v2/pokemon/431/"
         }
       },
@@ -6070,6 +6260,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "stunky",
+          id:434,
           url: "https://pokeapi.co/api/v2/pokemon/434/"
         }
       },
@@ -6077,6 +6268,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "skuntank",
+          id:435,
           url: "https://pokeapi.co/api/v2/pokemon/435/"
         }
       },
@@ -6084,6 +6276,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "chatot",
+          id:441,
           url: "https://pokeapi.co/api/v2/pokemon/441/"
         }
       },
@@ -6091,6 +6284,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "skorupi",
+          id:451,
           url: "https://pokeapi.co/api/v2/pokemon/451/"
         }
       },
@@ -6098,6 +6292,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "drapion",
+          id:452,
           url: "https://pokeapi.co/api/v2/pokemon/452/"
         }
       },
@@ -6105,6 +6300,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "patrat",
+          id:504,
           url: "https://pokeapi.co/api/v2/pokemon/504/"
         }
       },
@@ -6112,6 +6308,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "watchog",
+          id:505,
           url: "https://pokeapi.co/api/v2/pokemon/505/"
         }
       },
@@ -6119,6 +6316,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ducklett",
+          id:580,
           url: "https://pokeapi.co/api/v2/pokemon/580/"
         }
       },
@@ -6126,6 +6324,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "swanna",
+          id:581,
           url: "https://pokeapi.co/api/v2/pokemon/581/"
         }
       },
@@ -6133,6 +6332,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "rufflet",
+          id:627,
           url: "https://pokeapi.co/api/v2/pokemon/627/"
         }
       },
@@ -6140,6 +6340,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "braviary",
+          id:628,
           url: "https://pokeapi.co/api/v2/pokemon/628/"
         }
       },
@@ -6147,6 +6348,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "espurr",
+          id:677,
           url: "https://pokeapi.co/api/v2/pokemon/677/"
         }
       },
@@ -6154,6 +6356,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "meowstic male",
+          id:678,
           url: "https://pokeapi.co/api/v2/pokemon/678/"
         }
       },
@@ -6161,6 +6364,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pikipek",
+          id:731,
           url: "https://pokeapi.co/api/v2/pokemon/731/"
         }
       },
@@ -6168,6 +6372,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "trumbeak",
+          id:732,
           url: "https://pokeapi.co/api/v2/pokemon/732/"
         }
       },
@@ -6175,6 +6380,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "toucannon",
+          id:733,
           url: "https://pokeapi.co/api/v2/pokemon/733/"
         }
       },
@@ -6182,6 +6388,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "rockruff",
+          id:744,
           url: "https://pokeapi.co/api/v2/pokemon/744/"
         }
       },
@@ -6189,21 +6396,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lycanroc midday",
+          id:745,
           url: "https://pokeapi.co/api/v2/pokemon/745/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "meowstic female",
-          url: "https://pokeapi.co/api/v2/pokemon/10025/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "lycanroc midnight",
-          url: "https://pokeapi.co/api/v2/pokemon/10126/"
         }
       }
     ]
@@ -6217,6 +6411,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "krabby",
+          id:98,
           url: "https://pokeapi.co/api/v2/pokemon/98/"
         }
       },
@@ -6224,6 +6419,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "kingler",
+          id:99,
           url: "https://pokeapi.co/api/v2/pokemon/99/"
         }
       },
@@ -6231,6 +6427,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pinsir",
+          id:127,
           url: "https://pokeapi.co/api/v2/pokemon/127/"
         }
       },
@@ -6238,6 +6435,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gligar",
+          id:207,
           url: "https://pokeapi.co/api/v2/pokemon/207/"
         }
       },
@@ -6245,6 +6443,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mawile",
+          id:303,
           url: "https://pokeapi.co/api/v2/pokemon/303/"
         }
       },
@@ -6252,6 +6451,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "trapinch",
+          id:328,
           url: "https://pokeapi.co/api/v2/pokemon/328/"
         }
       },
@@ -6259,6 +6459,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "corphish",
+          id:341,
           url: "https://pokeapi.co/api/v2/pokemon/341/"
         }
       },
@@ -6266,6 +6467,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "crawdaunt",
+          id:342,
           url: "https://pokeapi.co/api/v2/pokemon/342/"
         }
       },
@@ -6273,6 +6475,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gliscor",
+          id:472,
           url: "https://pokeapi.co/api/v2/pokemon/472/"
         }
       },
@@ -6280,6 +6483,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "crabrawler",
+          id:739,
           url: "https://pokeapi.co/api/v2/pokemon/739/"
         }
       },
@@ -6287,6 +6491,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "crabominable",
+          id:740,
           url: "https://pokeapi.co/api/v2/pokemon/740/"
         }
       }
@@ -6301,6 +6506,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "meowth",
+          id:52,
           url: "https://pokeapi.co/api/v2/pokemon/52/"
         }
       },
@@ -6308,6 +6514,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "aipom",
+          id:190,
           url: "https://pokeapi.co/api/v2/pokemon/190/"
         }
       },
@@ -6315,6 +6522,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "teddiursa",
+          id:216,
           url: "https://pokeapi.co/api/v2/pokemon/216/"
         }
       },
@@ -6322,6 +6530,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "phanpy",
+          id:231,
           url: "https://pokeapi.co/api/v2/pokemon/231/"
         }
       },
@@ -6329,6 +6538,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "zigzagoon",
+          id:263,
           url: "https://pokeapi.co/api/v2/pokemon/263/"
         }
       },
@@ -6336,6 +6546,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "linoone",
+          id:264,
           url: "https://pokeapi.co/api/v2/pokemon/264/"
         }
       },
@@ -6343,6 +6554,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pachirisu",
+          id:417,
           url: "https://pokeapi.co/api/v2/pokemon/417/"
         }
       },
@@ -6350,6 +6562,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ambipom",
+          id:424,
           url: "https://pokeapi.co/api/v2/pokemon/424/"
         }
       },
@@ -6357,6 +6570,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "munchlax",
+          id:446,
           url: "https://pokeapi.co/api/v2/pokemon/446/"
         }
       },
@@ -6364,6 +6578,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lillipup",
+          id:506,
           url: "https://pokeapi.co/api/v2/pokemon/506/"
         }
       },
@@ -6371,6 +6586,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bunnelby",
+          id:659,
           url: "https://pokeapi.co/api/v2/pokemon/659/"
         }
       },
@@ -6378,6 +6594,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "diggersby",
+          id:660,
           url: "https://pokeapi.co/api/v2/pokemon/660/"
         }
       },
@@ -6385,6 +6602,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "dedenne",
+          id:702,
           url: "https://pokeapi.co/api/v2/pokemon/702/"
         }
       },
@@ -6392,6 +6610,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pumpkaboo average",
+          id:710,
           url: "https://pokeapi.co/api/v2/pokemon/710/"
         }
       },
@@ -6399,6 +6618,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gourgeist average",
+          id:711,
           url: "https://pokeapi.co/api/v2/pokemon/711/"
         }
       },
@@ -6406,6 +6626,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "pikipek",
+          id:731,
           url: "https://pokeapi.co/api/v2/pokemon/731/"
         }
       },
@@ -6413,56 +6634,8 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "trumbeak",
+          id:732,
           url: "https://pokeapi.co/api/v2/pokemon/732/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "pumpkaboo small",
-          url: "https://pokeapi.co/api/v2/pokemon/10027/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "pumpkaboo large",
-          url: "https://pokeapi.co/api/v2/pokemon/10028/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "pumpkaboo super",
-          url: "https://pokeapi.co/api/v2/pokemon/10029/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "gourgeist small",
-          url: "https://pokeapi.co/api/v2/pokemon/10030/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "gourgeist large",
-          url: "https://pokeapi.co/api/v2/pokemon/10031/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "gourgeist super",
-          url: "https://pokeapi.co/api/v2/pokemon/10032/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "meowth alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10107/"
         }
       }
     ]
@@ -6476,6 +6649,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "slakoth",
+          id:287,
           url: "https://pokeapi.co/api/v2/pokemon/287/"
         }
       },
@@ -6483,6 +6657,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "slaking",
+          id:289,
           url: "https://pokeapi.co/api/v2/pokemon/289/"
         }
       },
@@ -6490,6 +6665,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "durant",
+          id:632,
           url: "https://pokeapi.co/api/v2/pokemon/632/"
         }
       }
@@ -6504,6 +6680,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "rattata",
+          id:19,
           url: "https://pokeapi.co/api/v2/pokemon/19/"
         }
       },
@@ -6511,6 +6688,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "raticate",
+          id:20,
           url: "https://pokeapi.co/api/v2/pokemon/20/"
         }
       },
@@ -6518,6 +6696,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "nidoran f",
+          id:29,
           url: "https://pokeapi.co/api/v2/pokemon/29/"
         }
       },
@@ -6525,6 +6704,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "nidorina",
+          id:30,
           url: "https://pokeapi.co/api/v2/pokemon/30/"
         }
       },
@@ -6532,6 +6712,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "nidoran m",
+          id:32,
           url: "https://pokeapi.co/api/v2/pokemon/32/"
         }
       },
@@ -6539,6 +6720,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "nidorino",
+          id:33,
           url: "https://pokeapi.co/api/v2/pokemon/33/"
         }
       },
@@ -6546,6 +6728,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "togepi",
+          id:175,
           url: "https://pokeapi.co/api/v2/pokemon/175/"
         }
       },
@@ -6553,6 +6736,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "togetic",
+          id:176,
           url: "https://pokeapi.co/api/v2/pokemon/176/"
         }
       },
@@ -6560,6 +6744,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "corsola",
+          id:222,
           url: "https://pokeapi.co/api/v2/pokemon/222/"
         }
       },
@@ -6567,6 +6752,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "remoraid",
+          id:223,
           url: "https://pokeapi.co/api/v2/pokemon/223/"
         }
       },
@@ -6574,6 +6760,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "delibird",
+          id:225,
           url: "https://pokeapi.co/api/v2/pokemon/225/"
         }
       },
@@ -6581,6 +6768,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "combee",
+          id:415,
           url: "https://pokeapi.co/api/v2/pokemon/415/"
         }
       },
@@ -6588,6 +6776,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "togekiss",
+          id:468,
           url: "https://pokeapi.co/api/v2/pokemon/468/"
         }
       },
@@ -6595,6 +6784,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "darumaka",
+          id:554,
           url: "https://pokeapi.co/api/v2/pokemon/554/"
         }
       },
@@ -6602,6 +6792,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "rufflet",
+          id:627,
           url: "https://pokeapi.co/api/v2/pokemon/627/"
         }
       },
@@ -6609,6 +6800,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "durant",
+          id:632,
           url: "https://pokeapi.co/api/v2/pokemon/632/"
         }
       },
@@ -6616,6 +6808,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "deino",
+          id:633,
           url: "https://pokeapi.co/api/v2/pokemon/633/"
         }
       },
@@ -6623,31 +6816,13 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "zweilous",
+          id:634,
           url: "https://pokeapi.co/api/v2/pokemon/634/"
         }
       },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "rattata alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10091/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "raticate alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10092/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "raticate totem alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10093/"
-        }
-      }
-    ]
+
+
+          ]
   },
   {
     name: "cute charm",
@@ -6658,6 +6833,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "clefairy",
+          id:35,
           url: "https://pokeapi.co/api/v2/pokemon/35/"
         }
       },
@@ -6665,6 +6841,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "clefable",
+          id:36,
           url: "https://pokeapi.co/api/v2/pokemon/36/"
         }
       },
@@ -6672,6 +6849,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "jigglypuff",
+          id:39,
           url: "https://pokeapi.co/api/v2/pokemon/39/"
         }
       },
@@ -6679,6 +6857,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "wigglytuff",
+          id:40,
           url: "https://pokeapi.co/api/v2/pokemon/40/"
         }
       },
@@ -6686,6 +6865,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "cleffa",
+          id:173,
           url: "https://pokeapi.co/api/v2/pokemon/173/"
         }
       },
@@ -6693,6 +6873,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "igglybuff",
+          id:174,
           url: "https://pokeapi.co/api/v2/pokemon/174/"
         }
       },
@@ -6700,6 +6881,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "skitty",
+          id:300,
           url: "https://pokeapi.co/api/v2/pokemon/300/"
         }
       },
@@ -6707,6 +6889,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "delcatty",
+          id:301,
           url: "https://pokeapi.co/api/v2/pokemon/301/"
         }
       },
@@ -6714,6 +6897,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "milotic",
+          id:350,
           url: "https://pokeapi.co/api/v2/pokemon/350/"
         }
       },
@@ -6721,6 +6905,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lopunny",
+          id:428,
           url: "https://pokeapi.co/api/v2/pokemon/428/"
         }
       },
@@ -6728,6 +6913,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "minccino",
+          id:572,
           url: "https://pokeapi.co/api/v2/pokemon/572/"
         }
       },
@@ -6735,6 +6921,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "cinccino",
+          id:573,
           url: "https://pokeapi.co/api/v2/pokemon/573/"
         }
       },
@@ -6742,6 +6929,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sylveon",
+          id:700,
           url: "https://pokeapi.co/api/v2/pokemon/700/"
         }
       },
@@ -6749,6 +6937,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "stufful",
+          id:759,
           url: "https://pokeapi.co/api/v2/pokemon/759/"
         }
       }
@@ -6763,6 +6952,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "mareep",
+          id:179,
           url: "https://pokeapi.co/api/v2/pokemon/179/"
         }
       },
@@ -6770,6 +6960,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "flaaffy",
+          id:180,
           url: "https://pokeapi.co/api/v2/pokemon/180/"
         }
       },
@@ -6777,6 +6968,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "ampharos",
+          id:181,
           url: "https://pokeapi.co/api/v2/pokemon/181/"
         }
       },
@@ -6784,6 +6976,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "plusle",
+          id:311,
           url: "https://pokeapi.co/api/v2/pokemon/311/"
         }
       },
@@ -6791,6 +6984,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "klink",
+          id:599,
           url: "https://pokeapi.co/api/v2/pokemon/599/"
         }
       },
@@ -6798,6 +6992,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "klang",
+          id:600,
           url: "https://pokeapi.co/api/v2/pokemon/600/"
         }
       },
@@ -6805,6 +7000,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "klinklang",
+          id:601,
           url: "https://pokeapi.co/api/v2/pokemon/601/"
         }
       },
@@ -6812,6 +7008,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "dedenne",
+          id:702,
           url: "https://pokeapi.co/api/v2/pokemon/702/"
         }
       }
@@ -6826,6 +7023,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "electrike",
+          id:309,
           url: "https://pokeapi.co/api/v2/pokemon/309/"
         }
       },
@@ -6833,6 +7031,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "manectric",
+          id:310,
           url: "https://pokeapi.co/api/v2/pokemon/310/"
         }
       },
@@ -6840,6 +7039,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "minun",
+          id:312,
           url: "https://pokeapi.co/api/v2/pokemon/312/"
         }
       },
@@ -6847,6 +7047,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "klink",
+          id:599,
           url: "https://pokeapi.co/api/v2/pokemon/599/"
         }
       },
@@ -6854,6 +7055,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "klang",
+          id:600,
           url: "https://pokeapi.co/api/v2/pokemon/600/"
         }
       },
@@ -6861,6 +7063,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "klinklang",
+          id:601,
           url: "https://pokeapi.co/api/v2/pokemon/601/"
         }
       }
@@ -6875,28 +7078,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "castform",
+          id:351,
           url: "https://pokeapi.co/api/v2/pokemon/351/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "castform sunny",
-          url: "https://pokeapi.co/api/v2/pokemon/10013/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "castform rainy",
-          url: "https://pokeapi.co/api/v2/pokemon/10014/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "castform snowy",
-          url: "https://pokeapi.co/api/v2/pokemon/10015/"
         }
       }
     ]
@@ -6910,6 +7093,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "grimer",
+          id:88,
           url: "https://pokeapi.co/api/v2/pokemon/88/"
         }
       },
@@ -6917,6 +7101,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "muk",
+          id:89,
           url: "https://pokeapi.co/api/v2/pokemon/89/"
         }
       },
@@ -6924,6 +7109,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gulpin",
+          id:316,
           url: "https://pokeapi.co/api/v2/pokemon/316/"
         }
       },
@@ -6931,6 +7117,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "swalot",
+          id:317,
           url: "https://pokeapi.co/api/v2/pokemon/317/"
         }
       },
@@ -6938,6 +7125,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "shellos",
+          id:422,
           url: "https://pokeapi.co/api/v2/pokemon/422/"
         }
       },
@@ -6945,6 +7133,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gastrodon",
+          id:423,
           url: "https://pokeapi.co/api/v2/pokemon/423/"
         }
       },
@@ -6952,6 +7141,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "trubbish",
+          id:568,
           url: "https://pokeapi.co/api/v2/pokemon/568/"
         }
       },
@@ -6959,6 +7149,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "accelgor",
+          id:617,
           url: "https://pokeapi.co/api/v2/pokemon/617/"
         }
       }
@@ -6973,6 +7164,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "metapod",
+          id:11,
           url: "https://pokeapi.co/api/v2/pokemon/11/"
         }
       },
@@ -6980,6 +7172,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "kakuna",
+          id:14,
           url: "https://pokeapi.co/api/v2/pokemon/14/"
         }
       },
@@ -6987,6 +7180,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ekans",
+          id:23,
           url: "https://pokeapi.co/api/v2/pokemon/23/"
         }
       },
@@ -6994,6 +7188,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "arbok",
+          id:24,
           url: "https://pokeapi.co/api/v2/pokemon/24/"
         }
       },
@@ -7001,6 +7196,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "dratini",
+          id:147,
           url: "https://pokeapi.co/api/v2/pokemon/147/"
         }
       },
@@ -7008,6 +7204,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "dragonair",
+          id:148,
           url: "https://pokeapi.co/api/v2/pokemon/148/"
         }
       },
@@ -7015,6 +7212,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pupitar",
+          id:247,
           url: "https://pokeapi.co/api/v2/pokemon/247/"
         }
       },
@@ -7022,6 +7220,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "silcoon",
+          id:266,
           url: "https://pokeapi.co/api/v2/pokemon/266/"
         }
       },
@@ -7029,6 +7228,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "cascoon",
+          id:268,
           url: "https://pokeapi.co/api/v2/pokemon/268/"
         }
       },
@@ -7036,6 +7236,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "seviper",
+          id:336,
           url: "https://pokeapi.co/api/v2/pokemon/336/"
         }
       },
@@ -7043,6 +7244,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "kricketot",
+          id:401,
           url: "https://pokeapi.co/api/v2/pokemon/401/"
         }
       },
@@ -7050,6 +7252,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "burmy",
+          id:412,
           url: "https://pokeapi.co/api/v2/pokemon/412/"
         }
       },
@@ -7057,6 +7260,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "scraggy",
+          id:559,
           url: "https://pokeapi.co/api/v2/pokemon/559/"
         }
       },
@@ -7064,6 +7268,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "scrafty",
+          id:560,
           url: "https://pokeapi.co/api/v2/pokemon/560/"
         }
       },
@@ -7071,6 +7276,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "karrablast",
+          id:588,
           url: "https://pokeapi.co/api/v2/pokemon/588/"
         }
       },
@@ -7078,6 +7284,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "spewpa",
+          id:665,
           url: "https://pokeapi.co/api/v2/pokemon/665/"
         }
       }
@@ -7092,6 +7299,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "rattata",
+          id:19,
           url: "https://pokeapi.co/api/v2/pokemon/19/"
         }
       },
@@ -7099,6 +7307,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "raticate",
+          id:20,
           url: "https://pokeapi.co/api/v2/pokemon/20/"
         }
       },
@@ -7106,6 +7315,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "machop",
+          id:66,
           url: "https://pokeapi.co/api/v2/pokemon/66/"
         }
       },
@@ -7113,6 +7323,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "machoke",
+          id:67,
           url: "https://pokeapi.co/api/v2/pokemon/67/"
         }
       },
@@ -7120,6 +7331,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "machamp",
+          id:68,
           url: "https://pokeapi.co/api/v2/pokemon/68/"
         }
       },
@@ -7127,6 +7339,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "flareon",
+          id:136,
           url: "https://pokeapi.co/api/v2/pokemon/136/"
         }
       },
@@ -7134,6 +7347,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "heracross",
+          id:214,
           url: "https://pokeapi.co/api/v2/pokemon/214/"
         }
       },
@@ -7141,6 +7355,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ursaring",
+          id:217,
           url: "https://pokeapi.co/api/v2/pokemon/217/"
         }
       },
@@ -7148,6 +7363,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tyrogue",
+          id:236,
           url: "https://pokeapi.co/api/v2/pokemon/236/"
         }
       },
@@ -7155,6 +7371,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "larvitar",
+          id:246,
           url: "https://pokeapi.co/api/v2/pokemon/246/"
         }
       },
@@ -7162,6 +7379,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "taillow",
+          id:276,
           url: "https://pokeapi.co/api/v2/pokemon/276/"
         }
       },
@@ -7169,6 +7387,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "swellow",
+          id:277,
           url: "https://pokeapi.co/api/v2/pokemon/277/"
         }
       },
@@ -7176,6 +7395,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "makuhita",
+          id:296,
           url: "https://pokeapi.co/api/v2/pokemon/296/"
         }
       },
@@ -7183,6 +7403,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "hariyama",
+          id:297,
           url: "https://pokeapi.co/api/v2/pokemon/297/"
         }
       },
@@ -7190,6 +7411,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "shinx",
+          id:403,
           url: "https://pokeapi.co/api/v2/pokemon/403/"
         }
       },
@@ -7197,6 +7419,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "luxio",
+          id:404,
           url: "https://pokeapi.co/api/v2/pokemon/404/"
         }
       },
@@ -7204,6 +7427,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "luxray",
+          id:405,
           url: "https://pokeapi.co/api/v2/pokemon/405/"
         }
       },
@@ -7211,6 +7435,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "timburr",
+          id:532,
           url: "https://pokeapi.co/api/v2/pokemon/532/"
         }
       },
@@ -7218,6 +7443,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gurdurr",
+          id:533,
           url: "https://pokeapi.co/api/v2/pokemon/533/"
         }
       },
@@ -7225,6 +7451,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "conkeldurr",
+          id:534,
           url: "https://pokeapi.co/api/v2/pokemon/534/"
         }
       },
@@ -7232,6 +7459,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "throh",
+          id:538,
           url: "https://pokeapi.co/api/v2/pokemon/538/"
         }
       }
@@ -7246,6 +7474,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "dratini",
+          id:147,
           url: "https://pokeapi.co/api/v2/pokemon/147/"
         }
       },
@@ -7253,6 +7482,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "dragonair",
+          id:148,
           url: "https://pokeapi.co/api/v2/pokemon/148/"
         }
       },
@@ -7260,6 +7490,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "milotic",
+          id:350,
           url: "https://pokeapi.co/api/v2/pokemon/350/"
         }
       }
@@ -7274,6 +7505,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tentacool",
+          id:72,
           url: "https://pokeapi.co/api/v2/pokemon/72/"
         }
       },
@@ -7281,6 +7513,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tentacruel",
+          id:73,
           url: "https://pokeapi.co/api/v2/pokemon/73/"
         }
       },
@@ -7288,6 +7521,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gulpin",
+          id:316,
           url: "https://pokeapi.co/api/v2/pokemon/316/"
         }
       },
@@ -7295,6 +7529,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "swalot",
+          id:317,
           url: "https://pokeapi.co/api/v2/pokemon/317/"
         }
       }
@@ -7309,6 +7544,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bulbasaur",
+          id:1,
           url: "https://pokeapi.co/api/v2/pokemon/1/"
         }
       },
@@ -7316,6 +7552,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ivysaur",
+          id:2,
           url: "https://pokeapi.co/api/v2/pokemon/2/"
         }
       },
@@ -7323,6 +7560,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "venusaur",
+          id:3,
           url: "https://pokeapi.co/api/v2/pokemon/3/"
         }
       },
@@ -7330,6 +7568,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "chikorita",
+          id:152,
           url: "https://pokeapi.co/api/v2/pokemon/152/"
         }
       },
@@ -7337,6 +7576,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bayleef",
+          id:153,
           url: "https://pokeapi.co/api/v2/pokemon/153/"
         }
       },
@@ -7344,6 +7584,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "meganium",
+          id:154,
           url: "https://pokeapi.co/api/v2/pokemon/154/"
         }
       },
@@ -7351,6 +7592,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "treecko",
+          id:252,
           url: "https://pokeapi.co/api/v2/pokemon/252/"
         }
       },
@@ -7358,6 +7600,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "grovyle",
+          id:253,
           url: "https://pokeapi.co/api/v2/pokemon/253/"
         }
       },
@@ -7365,6 +7608,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sceptile",
+          id:254,
           url: "https://pokeapi.co/api/v2/pokemon/254/"
         }
       },
@@ -7372,6 +7616,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "turtwig",
+          id:387,
           url: "https://pokeapi.co/api/v2/pokemon/387/"
         }
       },
@@ -7379,6 +7624,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "grotle",
+          id:388,
           url: "https://pokeapi.co/api/v2/pokemon/388/"
         }
       },
@@ -7386,6 +7632,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "torterra",
+          id:389,
           url: "https://pokeapi.co/api/v2/pokemon/389/"
         }
       },
@@ -7393,6 +7640,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "snivy",
+          id:495,
           url: "https://pokeapi.co/api/v2/pokemon/495/"
         }
       },
@@ -7400,6 +7648,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "servine",
+          id:496,
           url: "https://pokeapi.co/api/v2/pokemon/496/"
         }
       },
@@ -7407,6 +7656,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "serperior",
+          id:497,
           url: "https://pokeapi.co/api/v2/pokemon/497/"
         }
       },
@@ -7414,6 +7664,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "pansage",
+          id:511,
           url: "https://pokeapi.co/api/v2/pokemon/511/"
         }
       },
@@ -7421,6 +7672,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "simisage",
+          id:512,
           url: "https://pokeapi.co/api/v2/pokemon/512/"
         }
       },
@@ -7428,6 +7680,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "chespin",
+          id:650,
           url: "https://pokeapi.co/api/v2/pokemon/650/"
         }
       },
@@ -7435,6 +7688,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "quilladin",
+          id:651,
           url: "https://pokeapi.co/api/v2/pokemon/651/"
         }
       },
@@ -7442,6 +7696,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "chesnaught",
+          id:652,
           url: "https://pokeapi.co/api/v2/pokemon/652/"
         }
       },
@@ -7449,6 +7704,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "rowlet",
+          id:722,
           url: "https://pokeapi.co/api/v2/pokemon/722/"
         }
       },
@@ -7456,6 +7712,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "dartrix",
+          id:723,
           url: "https://pokeapi.co/api/v2/pokemon/723/"
         }
       },
@@ -7463,6 +7720,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "decidueye",
+          id:724,
           url: "https://pokeapi.co/api/v2/pokemon/724/"
         }
       }
@@ -7477,6 +7735,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "charmander",
+          id:4,
           url: "https://pokeapi.co/api/v2/pokemon/4/"
         }
       },
@@ -7484,6 +7743,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "charmeleon",
+          id:5,
           url: "https://pokeapi.co/api/v2/pokemon/5/"
         }
       },
@@ -7491,6 +7751,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "charizard",
+          id:6,
           url: "https://pokeapi.co/api/v2/pokemon/6/"
         }
       },
@@ -7498,6 +7759,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "cyndaquil",
+          id:155,
           url: "https://pokeapi.co/api/v2/pokemon/155/"
         }
       },
@@ -7505,6 +7767,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "quilava",
+          id:156,
           url: "https://pokeapi.co/api/v2/pokemon/156/"
         }
       },
@@ -7512,6 +7775,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "typhlosion",
+          id:157,
           url: "https://pokeapi.co/api/v2/pokemon/157/"
         }
       },
@@ -7519,6 +7783,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "torchic",
+          id:255,
           url: "https://pokeapi.co/api/v2/pokemon/255/"
         }
       },
@@ -7526,6 +7791,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "combusken",
+          id:256,
           url: "https://pokeapi.co/api/v2/pokemon/256/"
         }
       },
@@ -7533,6 +7799,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "blaziken",
+          id:257,
           url: "https://pokeapi.co/api/v2/pokemon/257/"
         }
       },
@@ -7540,6 +7807,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "chimchar",
+          id:390,
           url: "https://pokeapi.co/api/v2/pokemon/390/"
         }
       },
@@ -7547,6 +7815,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "monferno",
+          id:391,
           url: "https://pokeapi.co/api/v2/pokemon/391/"
         }
       },
@@ -7554,6 +7823,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "infernape",
+          id:392,
           url: "https://pokeapi.co/api/v2/pokemon/392/"
         }
       },
@@ -7561,6 +7831,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tepig",
+          id:498,
           url: "https://pokeapi.co/api/v2/pokemon/498/"
         }
       },
@@ -7568,6 +7839,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pignite",
+          id:499,
           url: "https://pokeapi.co/api/v2/pokemon/499/"
         }
       },
@@ -7575,6 +7847,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "emboar",
+          id:500,
           url: "https://pokeapi.co/api/v2/pokemon/500/"
         }
       },
@@ -7582,6 +7855,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "pansear",
+          id:513,
           url: "https://pokeapi.co/api/v2/pokemon/513/"
         }
       },
@@ -7589,6 +7863,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "simisear",
+          id:514,
           url: "https://pokeapi.co/api/v2/pokemon/514/"
         }
       },
@@ -7596,6 +7871,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "fennekin",
+          id:653,
           url: "https://pokeapi.co/api/v2/pokemon/653/"
         }
       },
@@ -7603,6 +7879,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "braixen",
+          id:654,
           url: "https://pokeapi.co/api/v2/pokemon/654/"
         }
       },
@@ -7610,6 +7887,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "delphox",
+          id:655,
           url: "https://pokeapi.co/api/v2/pokemon/655/"
         }
       },
@@ -7617,6 +7895,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "litten",
+          id:725,
           url: "https://pokeapi.co/api/v2/pokemon/725/"
         }
       },
@@ -7624,6 +7903,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "torracat",
+          id:726,
           url: "https://pokeapi.co/api/v2/pokemon/726/"
         }
       },
@@ -7631,6 +7911,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "incineroar",
+          id:727,
           url: "https://pokeapi.co/api/v2/pokemon/727/"
         }
       }
@@ -7645,6 +7926,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "squirtle",
+          id:7,
           url: "https://pokeapi.co/api/v2/pokemon/7/"
         }
       },
@@ -7652,6 +7934,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "wartortle",
+          id:8,
           url: "https://pokeapi.co/api/v2/pokemon/8/"
         }
       },
@@ -7659,6 +7942,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "blastoise",
+          id:9,
           url: "https://pokeapi.co/api/v2/pokemon/9/"
         }
       },
@@ -7666,6 +7950,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "totodile",
+          id:158,
           url: "https://pokeapi.co/api/v2/pokemon/158/"
         }
       },
@@ -7673,6 +7958,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "croconaw",
+          id:159,
           url: "https://pokeapi.co/api/v2/pokemon/159/"
         }
       },
@@ -7680,6 +7966,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "feraligatr",
+          id:160,
           url: "https://pokeapi.co/api/v2/pokemon/160/"
         }
       },
@@ -7687,6 +7974,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mudkip",
+          id:258,
           url: "https://pokeapi.co/api/v2/pokemon/258/"
         }
       },
@@ -7694,6 +7982,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "marshtomp",
+          id:259,
           url: "https://pokeapi.co/api/v2/pokemon/259/"
         }
       },
@@ -7701,6 +7990,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "swampert",
+          id:260,
           url: "https://pokeapi.co/api/v2/pokemon/260/"
         }
       },
@@ -7708,6 +7998,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "piplup",
+          id:393,
           url: "https://pokeapi.co/api/v2/pokemon/393/"
         }
       },
@@ -7715,6 +8006,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "prinplup",
+          id:394,
           url: "https://pokeapi.co/api/v2/pokemon/394/"
         }
       },
@@ -7722,6 +8014,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "empoleon",
+          id:395,
           url: "https://pokeapi.co/api/v2/pokemon/395/"
         }
       },
@@ -7729,6 +8022,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "oshawott",
+          id:501,
           url: "https://pokeapi.co/api/v2/pokemon/501/"
         }
       },
@@ -7736,6 +8030,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "dewott",
+          id:502,
           url: "https://pokeapi.co/api/v2/pokemon/502/"
         }
       },
@@ -7743,6 +8038,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "samurott",
+          id:503,
           url: "https://pokeapi.co/api/v2/pokemon/503/"
         }
       },
@@ -7750,6 +8046,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "panpour",
+          id:515,
           url: "https://pokeapi.co/api/v2/pokemon/515/"
         }
       },
@@ -7757,6 +8054,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "simipour",
+          id:516,
           url: "https://pokeapi.co/api/v2/pokemon/516/"
         }
       },
@@ -7764,6 +8062,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "froakie",
+          id:656,
           url: "https://pokeapi.co/api/v2/pokemon/656/"
         }
       },
@@ -7771,6 +8070,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "frogadier",
+          id:657,
           url: "https://pokeapi.co/api/v2/pokemon/657/"
         }
       },
@@ -7778,6 +8078,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "greninja",
+          id:658,
           url: "https://pokeapi.co/api/v2/pokemon/658/"
         }
       },
@@ -7785,6 +8086,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "popplio",
+          id:728,
           url: "https://pokeapi.co/api/v2/pokemon/728/"
         }
       },
@@ -7792,6 +8094,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "brionne",
+          id:729,
           url: "https://pokeapi.co/api/v2/pokemon/729/"
         }
       },
@@ -7799,6 +8102,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "primarina",
+          id:730,
           url: "https://pokeapi.co/api/v2/pokemon/730/"
         }
       }
@@ -7813,6 +8117,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "beedrill",
+          id:15,
           url: "https://pokeapi.co/api/v2/pokemon/15/"
         }
       },
@@ -7820,6 +8125,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "scyther",
+          id:123,
           url: "https://pokeapi.co/api/v2/pokemon/123/"
         }
       },
@@ -7827,6 +8133,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ledyba",
+          id:165,
           url: "https://pokeapi.co/api/v2/pokemon/165/"
         }
       },
@@ -7834,6 +8141,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ledian",
+          id:166,
           url: "https://pokeapi.co/api/v2/pokemon/166/"
         }
       },
@@ -7841,6 +8149,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "spinarak",
+          id:167,
           url: "https://pokeapi.co/api/v2/pokemon/167/"
         }
       },
@@ -7848,6 +8157,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ariados",
+          id:168,
           url: "https://pokeapi.co/api/v2/pokemon/168/"
         }
       },
@@ -7855,6 +8165,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "scizor",
+          id:212,
           url: "https://pokeapi.co/api/v2/pokemon/212/"
         }
       },
@@ -7862,6 +8173,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "heracross",
+          id:214,
           url: "https://pokeapi.co/api/v2/pokemon/214/"
         }
       },
@@ -7869,6 +8181,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "beautifly",
+          id:267,
           url: "https://pokeapi.co/api/v2/pokemon/267/"
         }
       },
@@ -7876,6 +8189,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "volbeat",
+          id:313,
           url: "https://pokeapi.co/api/v2/pokemon/313/"
         }
       },
@@ -7883,6 +8197,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "kricketune",
+          id:402,
           url: "https://pokeapi.co/api/v2/pokemon/402/"
         }
       },
@@ -7890,6 +8205,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mothim",
+          id:414,
           url: "https://pokeapi.co/api/v2/pokemon/414/"
         }
       },
@@ -7897,6 +8213,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sewaddle",
+          id:540,
           url: "https://pokeapi.co/api/v2/pokemon/540/"
         }
       },
@@ -7904,6 +8221,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "leavanny",
+          id:542,
           url: "https://pokeapi.co/api/v2/pokemon/542/"
         }
       },
@@ -7911,6 +8229,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "venipede",
+          id:543,
           url: "https://pokeapi.co/api/v2/pokemon/543/"
         }
       },
@@ -7918,6 +8237,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "whirlipede",
+          id:544,
           url: "https://pokeapi.co/api/v2/pokemon/544/"
         }
       },
@@ -7925,6 +8245,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "scolipede",
+          id:545,
           url: "https://pokeapi.co/api/v2/pokemon/545/"
         }
       },
@@ -7932,6 +8253,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "karrablast",
+          id:588,
           url: "https://pokeapi.co/api/v2/pokemon/588/"
         }
       },
@@ -7939,6 +8261,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "escavalier",
+          id:589,
           url: "https://pokeapi.co/api/v2/pokemon/589/"
         }
       },
@@ -7946,6 +8269,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "joltik",
+          id:595,
           url: "https://pokeapi.co/api/v2/pokemon/595/"
         }
       },
@@ -7953,6 +8277,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "galvantula",
+          id:596,
           url: "https://pokeapi.co/api/v2/pokemon/596/"
         }
       },
@@ -7960,6 +8285,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "durant",
+          id:632,
           url: "https://pokeapi.co/api/v2/pokemon/632/"
         }
       },
@@ -7967,6 +8293,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "larvesta",
+          id:636,
           url: "https://pokeapi.co/api/v2/pokemon/636/"
         }
       },
@@ -7974,6 +8301,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "volcarona",
+          id:637,
           url: "https://pokeapi.co/api/v2/pokemon/637/"
         }
       },
@@ -7981,6 +8309,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "grubbin",
+          id:736,
           url: "https://pokeapi.co/api/v2/pokemon/736/"
         }
       }
@@ -7995,6 +8324,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "geodude",
+          id:74,
           url: "https://pokeapi.co/api/v2/pokemon/74/"
         }
       },
@@ -8002,6 +8332,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "graveler",
+          id:75,
           url: "https://pokeapi.co/api/v2/pokemon/75/"
         }
       },
@@ -8009,6 +8340,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "golem",
+          id:76,
           url: "https://pokeapi.co/api/v2/pokemon/76/"
         }
       },
@@ -8016,6 +8348,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "onix",
+          id:95,
           url: "https://pokeapi.co/api/v2/pokemon/95/"
         }
       },
@@ -8023,6 +8356,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "cubone",
+          id:104,
           url: "https://pokeapi.co/api/v2/pokemon/104/"
         }
       },
@@ -8030,6 +8364,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "marowak",
+          id:105,
           url: "https://pokeapi.co/api/v2/pokemon/105/"
         }
       },
@@ -8037,6 +8372,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "rhyhorn",
+          id:111,
           url: "https://pokeapi.co/api/v2/pokemon/111/"
         }
       },
@@ -8044,6 +8380,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "rhydon",
+          id:112,
           url: "https://pokeapi.co/api/v2/pokemon/112/"
         }
       },
@@ -8051,6 +8388,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "aerodactyl",
+          id:142,
           url: "https://pokeapi.co/api/v2/pokemon/142/"
         }
       },
@@ -8058,6 +8396,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sudowoodo",
+          id:185,
           url: "https://pokeapi.co/api/v2/pokemon/185/"
         }
       },
@@ -8065,6 +8404,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "steelix",
+          id:208,
           url: "https://pokeapi.co/api/v2/pokemon/208/"
         }
       },
@@ -8072,6 +8412,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "aron",
+          id:304,
           url: "https://pokeapi.co/api/v2/pokemon/304/"
         }
       },
@@ -8079,6 +8420,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lairon",
+          id:305,
           url: "https://pokeapi.co/api/v2/pokemon/305/"
         }
       },
@@ -8086,6 +8428,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "aggron",
+          id:306,
           url: "https://pokeapi.co/api/v2/pokemon/306/"
         }
       },
@@ -8093,6 +8436,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "relicanth",
+          id:369,
           url: "https://pokeapi.co/api/v2/pokemon/369/"
         }
       },
@@ -8100,6 +8444,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bagon",
+          id:371,
           url: "https://pokeapi.co/api/v2/pokemon/371/"
         }
       },
@@ -8107,6 +8452,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "shelgon",
+          id:372,
           url: "https://pokeapi.co/api/v2/pokemon/372/"
         }
       },
@@ -8114,6 +8460,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bonsly",
+          id:438,
           url: "https://pokeapi.co/api/v2/pokemon/438/"
         }
       },
@@ -8121,28 +8468,8 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "tyrantrum",
+          id:697,
           url: "https://pokeapi.co/api/v2/pokemon/697/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "basculin blue striped",
-          url: "https://pokeapi.co/api/v2/pokemon/10016/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "marowak alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10115/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "marowak totem",
-          url: "https://pokeapi.co/api/v2/pokemon/10149/"
         }
       }
     ]
@@ -8156,6 +8483,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "vulpix",
+          id:37,
           url: "https://pokeapi.co/api/v2/pokemon/37/"
         }
       },
@@ -8163,6 +8491,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "ninetales",
+          id:38,
           url: "https://pokeapi.co/api/v2/pokemon/38/"
         }
       },
@@ -8170,6 +8499,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "torkoal",
+          id:324,
           url: "https://pokeapi.co/api/v2/pokemon/324/"
         }
       },
@@ -8177,14 +8507,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "groudon",
+          id:383,
           url: "https://pokeapi.co/api/v2/pokemon/383/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "charizard mega y",
-          url: "https://pokeapi.co/api/v2/pokemon/10035/"
         }
       }
     ]
@@ -8198,6 +8522,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "diglett",
+          id:50,
           url: "https://pokeapi.co/api/v2/pokemon/50/"
         }
       },
@@ -8205,6 +8530,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "dugtrio",
+          id:51,
           url: "https://pokeapi.co/api/v2/pokemon/51/"
         }
       },
@@ -8212,6 +8538,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "trapinch",
+          id:328,
           url: "https://pokeapi.co/api/v2/pokemon/328/"
         }
       }
@@ -8226,6 +8553,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mankey",
+          id:56,
           url: "https://pokeapi.co/api/v2/pokemon/56/"
         }
       },
@@ -8233,6 +8561,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "primeape",
+          id:57,
           url: "https://pokeapi.co/api/v2/pokemon/57/"
         }
       },
@@ -8240,6 +8569,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "electabuzz",
+          id:125,
           url: "https://pokeapi.co/api/v2/pokemon/125/"
         }
       },
@@ -8247,6 +8577,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "magmar",
+          id:126,
           url: "https://pokeapi.co/api/v2/pokemon/126/"
         }
       },
@@ -8254,6 +8585,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "delibird",
+          id:225,
           url: "https://pokeapi.co/api/v2/pokemon/225/"
         }
       },
@@ -8261,6 +8593,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "tyrogue",
+          id:236,
           url: "https://pokeapi.co/api/v2/pokemon/236/"
         }
       },
@@ -8268,6 +8601,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "elekid",
+          id:239,
           url: "https://pokeapi.co/api/v2/pokemon/239/"
         }
       },
@@ -8275,6 +8609,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "magby",
+          id:240,
           url: "https://pokeapi.co/api/v2/pokemon/240/"
         }
       },
@@ -8282,6 +8617,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "vigoroth",
+          id:288,
           url: "https://pokeapi.co/api/v2/pokemon/288/"
         }
       },
@@ -8289,6 +8625,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "electivire",
+          id:466,
           url: "https://pokeapi.co/api/v2/pokemon/466/"
         }
       },
@@ -8296,6 +8633,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "magmortar",
+          id:467,
           url: "https://pokeapi.co/api/v2/pokemon/467/"
         }
       },
@@ -8303,6 +8641,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lillipup",
+          id:506,
           url: "https://pokeapi.co/api/v2/pokemon/506/"
         }
       },
@@ -8310,35 +8649,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "rockruff",
+          id:744,
           url: "https://pokeapi.co/api/v2/pokemon/744/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "lycanroc midnight",
-          url: "https://pokeapi.co/api/v2/pokemon/10126/"
-        }
-      }
-    ]
-  },
-  {
-    name: "power of alchemy",
-    text: "The Pokémon copies the Ability of a defeated ally.",
-    gen: "generation-7",
-    pokemon: [
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "grimer alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10112/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "muk alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10113/"
         }
       }
     ]
@@ -8352,6 +8664,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "nihilego",
+          id:793,
           url: "https://pokeapi.co/api/v2/pokemon/793/"
         }
       },
@@ -8359,6 +8672,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "buzzwole",
+          id:794,
           url: "https://pokeapi.co/api/v2/pokemon/794/"
         }
       },
@@ -8366,6 +8680,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pheromosa",
+          id:795,
           url: "https://pokeapi.co/api/v2/pokemon/795/"
         }
       },
@@ -8373,6 +8688,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "xurkitree",
+          id:796,
           url: "https://pokeapi.co/api/v2/pokemon/796/"
         }
       },
@@ -8380,6 +8696,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "celesteela",
+          id:797,
           url: "https://pokeapi.co/api/v2/pokemon/797/"
         }
       },
@@ -8387,6 +8704,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "kartana",
+          id:798,
           url: "https://pokeapi.co/api/v2/pokemon/798/"
         }
       },
@@ -8394,6 +8712,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "guzzlord",
+          id:799,
           url: "https://pokeapi.co/api/v2/pokemon/799/"
         }
       },
@@ -8401,6 +8720,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "poipole",
+          id:803,
           url: "https://pokeapi.co/api/v2/pokemon/803/"
         }
       },
@@ -8408,6 +8728,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "naganadel",
+          id:804,
           url: "https://pokeapi.co/api/v2/pokemon/804/"
         }
       },
@@ -8415,6 +8736,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "stakataka",
+          id:805,
           url: "https://pokeapi.co/api/v2/pokemon/805/"
         }
       },
@@ -8422,6 +8744,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "blacephalon",
+          id:806,
           url: "https://pokeapi.co/api/v2/pokemon/806/"
         }
       }
@@ -8436,6 +8759,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "silvally",
+          id:773,
           url: "https://pokeapi.co/api/v2/pokemon/773/"
         }
       }
@@ -8450,6 +8774,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tapu koko",
+          id:785,
           url: "https://pokeapi.co/api/v2/pokemon/785/"
         }
       }
@@ -8464,6 +8789,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tapu lele",
+          id:786,
           url: "https://pokeapi.co/api/v2/pokemon/786/"
         }
       }
@@ -8478,6 +8804,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tapu fini",
+          id:788,
           url: "https://pokeapi.co/api/v2/pokemon/788/"
         }
       }
@@ -8492,6 +8819,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tapu bulu",
+          id:787,
           url: "https://pokeapi.co/api/v2/pokemon/787/"
         }
       }
@@ -8506,6 +8834,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "solgaleo",
+          id:791,
           url: "https://pokeapi.co/api/v2/pokemon/791/"
         }
       }
@@ -8520,6 +8849,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lunala",
+          id:792,
           url: "https://pokeapi.co/api/v2/pokemon/792/"
         }
       }
@@ -8534,35 +8864,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "necrozma",
+          id:800,
           url: "https://pokeapi.co/api/v2/pokemon/800/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "necrozma dusk",
-          url: "https://pokeapi.co/api/v2/pokemon/10155/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "necrozma dawn",
-          url: "https://pokeapi.co/api/v2/pokemon/10156/"
-        }
-      }
-    ]
-  },
-  {
-    name: "neuroforce",
-    text: "Powers up moves that are super effective.",
-    gen: "generation-7",
-    pokemon: [
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "necrozma ultra",
-          url: "https://pokeapi.co/api/v2/pokemon/10157/"
         }
       }
     ]
@@ -8576,6 +8879,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "torkoal",
+          id:324,
           url: "https://pokeapi.co/api/v2/pokemon/324/"
         }
       },
@@ -8583,6 +8887,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "heatmor",
+          id:631,
           url: "https://pokeapi.co/api/v2/pokemon/631/"
         }
       }
@@ -8597,6 +8902,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "meditite",
+          id:307,
           url: "https://pokeapi.co/api/v2/pokemon/307/"
         }
       },
@@ -8604,16 +8910,11 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "medicham",
+          id:308,
           url: "https://pokeapi.co/api/v2/pokemon/308/"
         }
       },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "medicham mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10054/"
-        }
-      }
+
     ]
   },
   {
@@ -8625,6 +8926,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "shellder",
+          id:90,
           url: "https://pokeapi.co/api/v2/pokemon/90/"
         }
       },
@@ -8632,6 +8934,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "cloyster",
+          id:91,
           url: "https://pokeapi.co/api/v2/pokemon/91/"
         }
       },
@@ -8639,6 +8942,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "krabby",
+          id:98,
           url: "https://pokeapi.co/api/v2/pokemon/98/"
         }
       },
@@ -8646,6 +8950,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "kingler",
+          id:99,
           url: "https://pokeapi.co/api/v2/pokemon/99/"
         }
       },
@@ -8653,6 +8958,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lapras",
+          id:131,
           url: "https://pokeapi.co/api/v2/pokemon/131/"
         }
       },
@@ -8660,6 +8966,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "omanyte",
+          id:138,
           url: "https://pokeapi.co/api/v2/pokemon/138/"
         }
       },
@@ -8667,6 +8974,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "omastar",
+          id:139,
           url: "https://pokeapi.co/api/v2/pokemon/139/"
         }
       },
@@ -8674,6 +8982,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "torkoal",
+          id:324,
           url: "https://pokeapi.co/api/v2/pokemon/324/"
         }
       },
@@ -8681,6 +8990,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "corphish",
+          id:341,
           url: "https://pokeapi.co/api/v2/pokemon/341/"
         }
       },
@@ -8688,6 +8998,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "crawdaunt",
+          id:342,
           url: "https://pokeapi.co/api/v2/pokemon/342/"
         }
       },
@@ -8695,6 +9006,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "clamperl",
+          id:366,
           url: "https://pokeapi.co/api/v2/pokemon/366/"
         }
       },
@@ -8702,6 +9014,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "turtwig",
+          id:387,
           url: "https://pokeapi.co/api/v2/pokemon/387/"
         }
       },
@@ -8709,6 +9022,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "grotle",
+          id:388,
           url: "https://pokeapi.co/api/v2/pokemon/388/"
         }
       },
@@ -8716,6 +9030,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "torterra",
+          id:389,
           url: "https://pokeapi.co/api/v2/pokemon/389/"
         }
       },
@@ -8723,6 +9038,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "oshawott",
+          id:501,
           url: "https://pokeapi.co/api/v2/pokemon/501/"
         }
       },
@@ -8730,6 +9046,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "dewott",
+          id:502,
           url: "https://pokeapi.co/api/v2/pokemon/502/"
         }
       },
@@ -8737,6 +9054,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "samurott",
+          id:503,
           url: "https://pokeapi.co/api/v2/pokemon/503/"
         }
       },
@@ -8744,6 +9062,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "dwebble",
+          id:557,
           url: "https://pokeapi.co/api/v2/pokemon/557/"
         }
       },
@@ -8751,6 +9070,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "crustle",
+          id:558,
           url: "https://pokeapi.co/api/v2/pokemon/558/"
         }
       },
@@ -8758,6 +9078,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "escavalier",
+          id:589,
           url: "https://pokeapi.co/api/v2/pokemon/589/"
         }
       },
@@ -8765,6 +9086,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "shelmet",
+          id:616,
           url: "https://pokeapi.co/api/v2/pokemon/616/"
         }
       },
@@ -8772,16 +9094,11 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "turtonator",
+          id:776,
           url: "https://pokeapi.co/api/v2/pokemon/776/"
         }
       },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "slowbro mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10071/"
-        }
-      }
+
     ]
   },
   {
@@ -8793,6 +9110,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "rayquaza",
+          id:384,
           url: "https://pokeapi.co/api/v2/pokemon/384/"
         }
       }
@@ -8807,6 +9125,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pidgey",
+          id:16,
           url: "https://pokeapi.co/api/v2/pokemon/16/"
         }
       },
@@ -8814,6 +9133,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pidgeotto",
+          id:17,
           url: "https://pokeapi.co/api/v2/pokemon/17/"
         }
       },
@@ -8821,6 +9141,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pidgeot",
+          id:18,
           url: "https://pokeapi.co/api/v2/pokemon/18/"
         }
       },
@@ -8828,6 +9149,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "doduo",
+          id:84,
           url: "https://pokeapi.co/api/v2/pokemon/84/"
         }
       },
@@ -8835,6 +9157,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "dodrio",
+          id:85,
           url: "https://pokeapi.co/api/v2/pokemon/85/"
         }
       },
@@ -8842,6 +9165,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "spinda",
+          id:327,
           url: "https://pokeapi.co/api/v2/pokemon/327/"
         }
       },
@@ -8849,6 +9173,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "chatot",
+          id:441,
           url: "https://pokeapi.co/api/v2/pokemon/441/"
         }
       }
@@ -8863,6 +9188,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "electivire",
+          id:466,
           url: "https://pokeapi.co/api/v2/pokemon/466/"
         }
       },
@@ -8870,6 +9196,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "blitzle",
+          id:522,
           url: "https://pokeapi.co/api/v2/pokemon/522/"
         }
       },
@@ -8877,6 +9204,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "zebstrika",
+          id:523,
           url: "https://pokeapi.co/api/v2/pokemon/523/"
         }
       },
@@ -8884,6 +9212,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "emolga",
+          id:587,
           url: "https://pokeapi.co/api/v2/pokemon/587/"
         }
       }
@@ -8898,6 +9227,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "nidoran f",
+          id:29,
           url: "https://pokeapi.co/api/v2/pokemon/29/"
         }
       },
@@ -8905,6 +9235,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "nidorina",
+          id:30,
           url: "https://pokeapi.co/api/v2/pokemon/30/"
         }
       },
@@ -8912,6 +9243,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "nidoqueen",
+          id:31,
           url: "https://pokeapi.co/api/v2/pokemon/31/"
         }
       },
@@ -8919,6 +9251,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "nidoran m",
+          id:32,
           url: "https://pokeapi.co/api/v2/pokemon/32/"
         }
       },
@@ -8926,6 +9259,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "nidorino",
+          id:33,
           url: "https://pokeapi.co/api/v2/pokemon/33/"
         }
       },
@@ -8933,6 +9267,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "nidoking",
+          id:34,
           url: "https://pokeapi.co/api/v2/pokemon/34/"
         }
       },
@@ -8940,6 +9275,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "beautifly",
+          id:267,
           url: "https://pokeapi.co/api/v2/pokemon/267/"
         }
       },
@@ -8947,6 +9283,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "shinx",
+          id:403,
           url: "https://pokeapi.co/api/v2/pokemon/403/"
         }
       },
@@ -8954,6 +9291,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "luxio",
+          id:404,
           url: "https://pokeapi.co/api/v2/pokemon/404/"
         }
       },
@@ -8961,6 +9299,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "luxray",
+          id:405,
           url: "https://pokeapi.co/api/v2/pokemon/405/"
         }
       },
@@ -8968,6 +9307,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "pidove",
+          id:519,
           url: "https://pokeapi.co/api/v2/pokemon/519/"
         }
       },
@@ -8975,6 +9315,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "tranquill",
+          id:520,
           url: "https://pokeapi.co/api/v2/pokemon/520/"
         }
       },
@@ -8982,6 +9323,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "unfezant",
+          id:521,
           url: "https://pokeapi.co/api/v2/pokemon/521/"
         }
       },
@@ -8989,6 +9331,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "axew",
+          id:610,
           url: "https://pokeapi.co/api/v2/pokemon/610/"
         }
       },
@@ -8996,6 +9339,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "fraxure",
+          id:611,
           url: "https://pokeapi.co/api/v2/pokemon/611/"
         }
       },
@@ -9003,6 +9347,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "haxorus",
+          id:612,
           url: "https://pokeapi.co/api/v2/pokemon/612/"
         }
       },
@@ -9010,6 +9355,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "litleo",
+          id:667,
           url: "https://pokeapi.co/api/v2/pokemon/667/"
         }
       },
@@ -9017,6 +9363,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pyroar",
+          id:668,
           url: "https://pokeapi.co/api/v2/pokemon/668/"
         }
       }
@@ -9031,6 +9378,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "machop",
+          id:66,
           url: "https://pokeapi.co/api/v2/pokemon/66/"
         }
       },
@@ -9038,6 +9386,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "machoke",
+          id:67,
           url: "https://pokeapi.co/api/v2/pokemon/67/"
         }
       },
@@ -9045,6 +9394,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "machamp",
+          id:68,
           url: "https://pokeapi.co/api/v2/pokemon/68/"
         }
       },
@@ -9052,6 +9402,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "scyther",
+          id:123,
           url: "https://pokeapi.co/api/v2/pokemon/123/"
         }
       },
@@ -9059,6 +9410,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tyrogue",
+          id:236,
           url: "https://pokeapi.co/api/v2/pokemon/236/"
         }
       },
@@ -9066,6 +9418,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "hitmontop",
+          id:237,
           url: "https://pokeapi.co/api/v2/pokemon/237/"
         }
       },
@@ -9073,6 +9426,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "riolu",
+          id:447,
           url: "https://pokeapi.co/api/v2/pokemon/447/"
         }
       },
@@ -9080,6 +9434,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lucario",
+          id:448,
           url: "https://pokeapi.co/api/v2/pokemon/448/"
         }
       },
@@ -9087,6 +9442,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gallade",
+          id:475,
           url: "https://pokeapi.co/api/v2/pokemon/475/"
         }
       },
@@ -9094,6 +9450,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "rockruff",
+          id:744,
           url: "https://pokeapi.co/api/v2/pokemon/744/"
         }
       },
@@ -9101,14 +9458,8 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "lycanroc midday",
+          id:745,
           url: "https://pokeapi.co/api/v2/pokemon/745/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "mewtwo mega x",
-          url: "https://pokeapi.co/api/v2/pokemon/10043/"
         }
       }
     ]
@@ -9122,6 +9473,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "articuno",
+          id:144,
           url: "https://pokeapi.co/api/v2/pokemon/144/"
         }
       },
@@ -9129,6 +9481,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "swinub",
+          id:220,
           url: "https://pokeapi.co/api/v2/pokemon/220/"
         }
       },
@@ -9136,6 +9489,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "piloswine",
+          id:221,
           url: "https://pokeapi.co/api/v2/pokemon/221/"
         }
       },
@@ -9143,6 +9497,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "glaceon",
+          id:471,
           url: "https://pokeapi.co/api/v2/pokemon/471/"
         }
       },
@@ -9150,6 +9505,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mamoswine",
+          id:473,
           url: "https://pokeapi.co/api/v2/pokemon/473/"
         }
       },
@@ -9157,6 +9513,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "froslass",
+          id:478,
           url: "https://pokeapi.co/api/v2/pokemon/478/"
         }
       },
@@ -9164,6 +9521,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "vanillite",
+          id:582,
           url: "https://pokeapi.co/api/v2/pokemon/582/"
         }
       },
@@ -9171,6 +9529,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "vanillish",
+          id:583,
           url: "https://pokeapi.co/api/v2/pokemon/583/"
         }
       },
@@ -9178,6 +9537,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "cubchoo",
+          id:613,
           url: "https://pokeapi.co/api/v2/pokemon/613/"
         }
       },
@@ -9185,38 +9545,14 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "beartic",
+          id:614,
           url: "https://pokeapi.co/api/v2/pokemon/614/"
         }
       },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "sandshrew alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10101/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "sandslash alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10102/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "vulpix alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10103/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "ninetales alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10104/"
-        }
-      }
-    ]
+
+
+
+          ]
   },
   {
     name: "gluttony",
@@ -9227,6 +9563,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "bellsprout",
+          id:69,
           url: "https://pokeapi.co/api/v2/pokemon/69/"
         }
       },
@@ -9234,6 +9571,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "weepinbell",
+          id:70,
           url: "https://pokeapi.co/api/v2/pokemon/70/"
         }
       },
@@ -9241,6 +9579,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "victreebel",
+          id:71,
           url: "https://pokeapi.co/api/v2/pokemon/71/"
         }
       },
@@ -9248,6 +9587,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "snorlax",
+          id:143,
           url: "https://pokeapi.co/api/v2/pokemon/143/"
         }
       },
@@ -9255,6 +9595,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "shuckle",
+          id:213,
           url: "https://pokeapi.co/api/v2/pokemon/213/"
         }
       },
@@ -9262,6 +9603,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "zigzagoon",
+          id:263,
           url: "https://pokeapi.co/api/v2/pokemon/263/"
         }
       },
@@ -9269,6 +9611,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "linoone",
+          id:264,
           url: "https://pokeapi.co/api/v2/pokemon/264/"
         }
       },
@@ -9276,6 +9619,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "gulpin",
+          id:316,
           url: "https://pokeapi.co/api/v2/pokemon/316/"
         }
       },
@@ -9283,6 +9627,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "swalot",
+          id:317,
           url: "https://pokeapi.co/api/v2/pokemon/317/"
         }
       },
@@ -9290,6 +9635,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "spoink",
+          id:325,
           url: "https://pokeapi.co/api/v2/pokemon/325/"
         }
       },
@@ -9297,6 +9643,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "grumpig",
+          id:326,
           url: "https://pokeapi.co/api/v2/pokemon/326/"
         }
       },
@@ -9304,6 +9651,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "munchlax",
+          id:446,
           url: "https://pokeapi.co/api/v2/pokemon/446/"
         }
       },
@@ -9311,6 +9659,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pansage",
+          id:511,
           url: "https://pokeapi.co/api/v2/pokemon/511/"
         }
       },
@@ -9318,6 +9667,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "simisage",
+          id:512,
           url: "https://pokeapi.co/api/v2/pokemon/512/"
         }
       },
@@ -9325,6 +9675,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pansear",
+          id:513,
           url: "https://pokeapi.co/api/v2/pokemon/513/"
         }
       },
@@ -9332,6 +9683,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "simisear",
+          id:514,
           url: "https://pokeapi.co/api/v2/pokemon/514/"
         }
       },
@@ -9339,6 +9691,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "panpour",
+          id:515,
           url: "https://pokeapi.co/api/v2/pokemon/515/"
         }
       },
@@ -9346,6 +9699,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "simipour",
+          id:516,
           url: "https://pokeapi.co/api/v2/pokemon/516/"
         }
       },
@@ -9353,45 +9707,15 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "heatmor",
+          id:631,
           url: "https://pokeapi.co/api/v2/pokemon/631/"
         }
       },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "rattata alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10091/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "raticate alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10092/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "raticate totem alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10093/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "grimer alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10112/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "muk alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10113/"
-        }
-      }
-    ]
+
+
+
+
+          ]
   },
   {
     name: "anger point",
@@ -9402,6 +9726,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mankey",
+          id:56,
           url: "https://pokeapi.co/api/v2/pokemon/56/"
         }
       },
@@ -9409,6 +9734,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "primeape",
+          id:57,
           url: "https://pokeapi.co/api/v2/pokemon/57/"
         }
       },
@@ -9416,6 +9742,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tauros",
+          id:128,
           url: "https://pokeapi.co/api/v2/pokemon/128/"
         }
       },
@@ -9423,6 +9750,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "camerupt",
+          id:323,
           url: "https://pokeapi.co/api/v2/pokemon/323/"
         }
       },
@@ -9430,6 +9758,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "sandile",
+          id:551,
           url: "https://pokeapi.co/api/v2/pokemon/551/"
         }
       },
@@ -9437,6 +9766,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "krokorok",
+          id:552,
           url: "https://pokeapi.co/api/v2/pokemon/552/"
         }
       },
@@ -9444,6 +9774,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "krookodile",
+          id:553,
           url: "https://pokeapi.co/api/v2/pokemon/553/"
         }
       },
@@ -9451,6 +9782,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "crabrawler",
+          id:739,
           url: "https://pokeapi.co/api/v2/pokemon/739/"
         }
       },
@@ -9458,6 +9790,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "crabominable",
+          id:740,
           url: "https://pokeapi.co/api/v2/pokemon/740/"
         }
       }
@@ -9472,6 +9805,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "hitmonlee",
+          id:106,
           url: "https://pokeapi.co/api/v2/pokemon/106/"
         }
       },
@@ -9479,6 +9813,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "treecko",
+          id:252,
           url: "https://pokeapi.co/api/v2/pokemon/252/"
         }
       },
@@ -9486,6 +9821,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "grovyle",
+          id:253,
           url: "https://pokeapi.co/api/v2/pokemon/253/"
         }
       },
@@ -9493,6 +9829,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "sceptile",
+          id:254,
           url: "https://pokeapi.co/api/v2/pokemon/254/"
         }
       },
@@ -9500,6 +9837,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "drifloon",
+          id:425,
           url: "https://pokeapi.co/api/v2/pokemon/425/"
         }
       },
@@ -9507,6 +9845,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "drifblim",
+          id:426,
           url: "https://pokeapi.co/api/v2/pokemon/426/"
         }
       },
@@ -9514,6 +9853,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "purrloin",
+          id:509,
           url: "https://pokeapi.co/api/v2/pokemon/509/"
         }
       },
@@ -9521,6 +9861,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "liepard",
+          id:510,
           url: "https://pokeapi.co/api/v2/pokemon/510/"
         }
       },
@@ -9528,6 +9869,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "accelgor",
+          id:617,
           url: "https://pokeapi.co/api/v2/pokemon/617/"
         }
       },
@@ -9535,6 +9877,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "swirlix",
+          id:684,
           url: "https://pokeapi.co/api/v2/pokemon/684/"
         }
       },
@@ -9542,6 +9885,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "slurpuff",
+          id:685,
           url: "https://pokeapi.co/api/v2/pokemon/685/"
         }
       },
@@ -9549,6 +9893,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "hawlucha",
+          id:701,
           url: "https://pokeapi.co/api/v2/pokemon/701/"
         }
       }
@@ -9563,6 +9908,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bronzor",
+          id:436,
           url: "https://pokeapi.co/api/v2/pokemon/436/"
         }
       },
@@ -9570,6 +9916,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bronzong",
+          id:437,
           url: "https://pokeapi.co/api/v2/pokemon/437/"
         }
       }
@@ -9584,6 +9931,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "numel",
+          id:322,
           url: "https://pokeapi.co/api/v2/pokemon/322/"
         }
       },
@@ -9591,6 +9939,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bidoof",
+          id:399,
           url: "https://pokeapi.co/api/v2/pokemon/399/"
         }
       },
@@ -9598,6 +9947,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bibarel",
+          id:400,
           url: "https://pokeapi.co/api/v2/pokemon/400/"
         }
       },
@@ -9605,6 +9955,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "woobat",
+          id:527,
           url: "https://pokeapi.co/api/v2/pokemon/527/"
         }
       },
@@ -9612,6 +9963,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "swoobat",
+          id:528,
           url: "https://pokeapi.co/api/v2/pokemon/528/"
         }
       }
@@ -9626,6 +9978,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "paras",
+          id:46,
           url: "https://pokeapi.co/api/v2/pokemon/46/"
         }
       },
@@ -9633,6 +9986,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "parasect",
+          id:47,
           url: "https://pokeapi.co/api/v2/pokemon/47/"
         }
       },
@@ -9640,6 +9994,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "jynx",
+          id:124,
           url: "https://pokeapi.co/api/v2/pokemon/124/"
         }
       },
@@ -9647,6 +10002,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "croagunk",
+          id:453,
           url: "https://pokeapi.co/api/v2/pokemon/453/"
         }
       },
@@ -9654,6 +10010,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "toxicroak",
+          id:454,
           url: "https://pokeapi.co/api/v2/pokemon/454/"
         }
       },
@@ -9661,6 +10018,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "helioptile",
+          id:694,
           url: "https://pokeapi.co/api/v2/pokemon/694/"
         }
       },
@@ -9668,6 +10026,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "heliolisk",
+          id:695,
           url: "https://pokeapi.co/api/v2/pokemon/695/"
         }
       }
@@ -9682,6 +10041,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "porygon",
+          id:137,
           url: "https://pokeapi.co/api/v2/pokemon/137/"
         }
       },
@@ -9689,6 +10049,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "porygon2",
+          id:233,
           url: "https://pokeapi.co/api/v2/pokemon/233/"
         }
       },
@@ -9696,6 +10057,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "porygon z",
+          id:474,
           url: "https://pokeapi.co/api/v2/pokemon/474/"
         }
       },
@@ -9703,6 +10065,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "genesect",
+          id:649,
           url: "https://pokeapi.co/api/v2/pokemon/649/"
         }
       }
@@ -9717,6 +10080,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "hitmonchan",
+          id:107,
           url: "https://pokeapi.co/api/v2/pokemon/107/"
         }
       },
@@ -9724,6 +10088,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "ledian",
+          id:166,
           url: "https://pokeapi.co/api/v2/pokemon/166/"
         }
       },
@@ -9731,6 +10096,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "chimchar",
+          id:390,
           url: "https://pokeapi.co/api/v2/pokemon/390/"
         }
       },
@@ -9738,6 +10104,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "monferno",
+          id:391,
           url: "https://pokeapi.co/api/v2/pokemon/391/"
         }
       },
@@ -9745,6 +10112,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "infernape",
+          id:392,
           url: "https://pokeapi.co/api/v2/pokemon/392/"
         }
       },
@@ -9752,6 +10120,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "timburr",
+          id:532,
           url: "https://pokeapi.co/api/v2/pokemon/532/"
         }
       },
@@ -9759,6 +10128,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "gurdurr",
+          id:533,
           url: "https://pokeapi.co/api/v2/pokemon/533/"
         }
       },
@@ -9766,6 +10136,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "conkeldurr",
+          id:534,
           url: "https://pokeapi.co/api/v2/pokemon/534/"
         }
       },
@@ -9773,6 +10144,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "golett",
+          id:622,
           url: "https://pokeapi.co/api/v2/pokemon/622/"
         }
       },
@@ -9780,6 +10152,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "golurk",
+          id:623,
           url: "https://pokeapi.co/api/v2/pokemon/623/"
         }
       },
@@ -9787,6 +10160,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pancham",
+          id:674,
           url: "https://pokeapi.co/api/v2/pokemon/674/"
         }
       },
@@ -9794,6 +10168,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pangoro",
+          id:675,
           url: "https://pokeapi.co/api/v2/pokemon/675/"
         }
       },
@@ -9801,6 +10176,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "crabrawler",
+          id:739,
           url: "https://pokeapi.co/api/v2/pokemon/739/"
         }
       },
@@ -9808,6 +10184,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "crabominable",
+          id:740,
           url: "https://pokeapi.co/api/v2/pokemon/740/"
         }
       }
@@ -9822,6 +10199,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "shroomish",
+          id:285,
           url: "https://pokeapi.co/api/v2/pokemon/285/"
         }
       },
@@ -9829,6 +10207,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "breloom",
+          id:286,
           url: "https://pokeapi.co/api/v2/pokemon/286/"
         }
       },
@@ -9836,6 +10215,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "gliscor",
+          id:472,
           url: "https://pokeapi.co/api/v2/pokemon/472/"
         }
       }
@@ -9850,6 +10230,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "eevee",
+          id:133,
           url: "https://pokeapi.co/api/v2/pokemon/133/"
         }
       },
@@ -9857,6 +10238,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "corphish",
+          id:341,
           url: "https://pokeapi.co/api/v2/pokemon/341/"
         }
       },
@@ -9864,6 +10246,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "crawdaunt",
+          id:342,
           url: "https://pokeapi.co/api/v2/pokemon/342/"
         }
       },
@@ -9871,6 +10254,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "feebas",
+          id:349,
           url: "https://pokeapi.co/api/v2/pokemon/349/"
         }
       },
@@ -9878,6 +10262,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "porygon z",
+          id:474,
           url: "https://pokeapi.co/api/v2/pokemon/474/"
         }
       },
@@ -9885,6 +10270,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "basculin red striped",
+          id:550,
           url: "https://pokeapi.co/api/v2/pokemon/550/"
         }
       },
@@ -9892,6 +10278,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "skrelp",
+          id:690,
           url: "https://pokeapi.co/api/v2/pokemon/690/"
         }
       },
@@ -9899,6 +10286,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "dragalge",
+          id:691,
           url: "https://pokeapi.co/api/v2/pokemon/691/"
         }
       },
@@ -9906,6 +10294,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "yungoos",
+          id:734,
           url: "https://pokeapi.co/api/v2/pokemon/734/"
         }
       },
@@ -9913,35 +10302,8 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "gumshoos",
+          id:735,
           url: "https://pokeapi.co/api/v2/pokemon/735/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "basculin blue striped",
-          url: "https://pokeapi.co/api/v2/pokemon/10016/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "lucario mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10059/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "beedrill mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10090/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "gumshoos totem",
-          url: "https://pokeapi.co/api/v2/pokemon/10121/"
         }
       }
     ]
@@ -9955,6 +10317,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "shellder",
+          id:90,
           url: "https://pokeapi.co/api/v2/pokemon/90/"
         }
       },
@@ -9962,6 +10325,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "cloyster",
+          id:91,
           url: "https://pokeapi.co/api/v2/pokemon/91/"
         }
       },
@@ -9969,6 +10333,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "aipom",
+          id:190,
           url: "https://pokeapi.co/api/v2/pokemon/190/"
         }
       },
@@ -9976,6 +10341,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "ambipom",
+          id:424,
           url: "https://pokeapi.co/api/v2/pokemon/424/"
         }
       },
@@ -9983,6 +10349,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "minccino",
+          id:572,
           url: "https://pokeapi.co/api/v2/pokemon/572/"
         }
       },
@@ -9990,6 +10357,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "cinccino",
+          id:573,
           url: "https://pokeapi.co/api/v2/pokemon/573/"
         }
       },
@@ -9997,6 +10365,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pikipek",
+          id:731,
           url: "https://pokeapi.co/api/v2/pokemon/731/"
         }
       },
@@ -10004,6 +10373,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "trumbeak",
+          id:732,
           url: "https://pokeapi.co/api/v2/pokemon/732/"
         }
       },
@@ -10011,16 +10381,11 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "toucannon",
+          id:733,
           url: "https://pokeapi.co/api/v2/pokemon/733/"
         }
       },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "heracross mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10047/"
-        }
-      }
+
     ]
   },
   {
@@ -10032,6 +10397,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "seel",
+          id:86,
           url: "https://pokeapi.co/api/v2/pokemon/86/"
         }
       },
@@ -10039,6 +10405,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "dewgong",
+          id:87,
           url: "https://pokeapi.co/api/v2/pokemon/87/"
         }
       },
@@ -10046,6 +10413,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "lapras",
+          id:131,
           url: "https://pokeapi.co/api/v2/pokemon/131/"
         }
       },
@@ -10053,6 +10421,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "vaporeon",
+          id:134,
           url: "https://pokeapi.co/api/v2/pokemon/134/"
         }
       },
@@ -10060,6 +10429,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "smoochum",
+          id:238,
           url: "https://pokeapi.co/api/v2/pokemon/238/"
         }
       },
@@ -10067,6 +10437,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "wingull",
+          id:278,
           url: "https://pokeapi.co/api/v2/pokemon/278/"
         }
       },
@@ -10074,6 +10445,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "barboach",
+          id:339,
           url: "https://pokeapi.co/api/v2/pokemon/339/"
         }
       },
@@ -10081,6 +10453,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "whiscash",
+          id:340,
           url: "https://pokeapi.co/api/v2/pokemon/340/"
         }
       },
@@ -10088,6 +10461,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "gorebyss",
+          id:368,
           url: "https://pokeapi.co/api/v2/pokemon/368/"
         }
       },
@@ -10095,6 +10469,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "luvdisc",
+          id:370,
           url: "https://pokeapi.co/api/v2/pokemon/370/"
         }
       },
@@ -10102,6 +10477,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "phione",
+          id:489,
           url: "https://pokeapi.co/api/v2/pokemon/489/"
         }
       },
@@ -10109,6 +10485,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "manaphy",
+          id:490,
           url: "https://pokeapi.co/api/v2/pokemon/490/"
         }
       },
@@ -10116,6 +10493,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tympole",
+          id:535,
           url: "https://pokeapi.co/api/v2/pokemon/535/"
         }
       },
@@ -10123,6 +10501,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "palpitoad",
+          id:536,
           url: "https://pokeapi.co/api/v2/pokemon/536/"
         }
       },
@@ -10130,6 +10509,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "ducklett",
+          id:580,
           url: "https://pokeapi.co/api/v2/pokemon/580/"
         }
       },
@@ -10137,6 +10517,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "swanna",
+          id:581,
           url: "https://pokeapi.co/api/v2/pokemon/581/"
         }
       },
@@ -10144,6 +10525,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "alomomola",
+          id:594,
           url: "https://pokeapi.co/api/v2/pokemon/594/"
         }
       },
@@ -10151,6 +10533,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "shelmet",
+          id:616,
           url: "https://pokeapi.co/api/v2/pokemon/616/"
         }
       },
@@ -10158,6 +10541,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "accelgor",
+          id:617,
           url: "https://pokeapi.co/api/v2/pokemon/617/"
         }
       },
@@ -10165,6 +10549,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "goomy",
+          id:704,
           url: "https://pokeapi.co/api/v2/pokemon/704/"
         }
       },
@@ -10172,6 +10557,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sliggoo",
+          id:705,
           url: "https://pokeapi.co/api/v2/pokemon/705/"
         }
       },
@@ -10179,6 +10565,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "goodra",
+          id:706,
           url: "https://pokeapi.co/api/v2/pokemon/706/"
         }
       }
@@ -10193,6 +10580,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "charmander",
+          id:4,
           url: "https://pokeapi.co/api/v2/pokemon/4/"
         }
       },
@@ -10200,6 +10588,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "charmeleon",
+          id:5,
           url: "https://pokeapi.co/api/v2/pokemon/5/"
         }
       },
@@ -10207,6 +10596,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "charizard",
+          id:6,
           url: "https://pokeapi.co/api/v2/pokemon/6/"
         }
       },
@@ -10214,6 +10604,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sunkern",
+          id:191,
           url: "https://pokeapi.co/api/v2/pokemon/191/"
         }
       },
@@ -10221,6 +10612,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sunflora",
+          id:192,
           url: "https://pokeapi.co/api/v2/pokemon/192/"
         }
       },
@@ -10228,6 +10620,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tropius",
+          id:357,
           url: "https://pokeapi.co/api/v2/pokemon/357/"
         }
       },
@@ -10235,6 +10628,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "helioptile",
+          id:694,
           url: "https://pokeapi.co/api/v2/pokemon/694/"
         }
       },
@@ -10242,16 +10636,11 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "heliolisk",
+          id:695,
           url: "https://pokeapi.co/api/v2/pokemon/695/"
         }
       },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "houndoom mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10048/"
-        }
-      }
+
     ]
   },
   {
@@ -10263,6 +10652,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "jolteon",
+          id:135,
           url: "https://pokeapi.co/api/v2/pokemon/135/"
         }
       },
@@ -10270,6 +10660,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "granbull",
+          id:210,
           url: "https://pokeapi.co/api/v2/pokemon/210/"
         }
       },
@@ -10277,6 +10668,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "teddiursa",
+          id:216,
           url: "https://pokeapi.co/api/v2/pokemon/216/"
         }
       },
@@ -10284,6 +10676,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ursaring",
+          id:217,
           url: "https://pokeapi.co/api/v2/pokemon/217/"
         }
       },
@@ -10291,6 +10684,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "poochyena",
+          id:261,
           url: "https://pokeapi.co/api/v2/pokemon/261/"
         }
       },
@@ -10298,6 +10692,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mightyena",
+          id:262,
           url: "https://pokeapi.co/api/v2/pokemon/262/"
         }
       },
@@ -10305,6 +10700,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "zigzagoon",
+          id:263,
           url: "https://pokeapi.co/api/v2/pokemon/263/"
         }
       },
@@ -10312,6 +10708,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "linoone",
+          id:264,
           url: "https://pokeapi.co/api/v2/pokemon/264/"
         }
       },
@@ -10319,6 +10716,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "shroomish",
+          id:285,
           url: "https://pokeapi.co/api/v2/pokemon/285/"
         }
       }
@@ -10333,6 +10731,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "skitty",
+          id:300,
           url: "https://pokeapi.co/api/v2/pokemon/300/"
         }
       },
@@ -10340,6 +10739,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "delcatty",
+          id:301,
           url: "https://pokeapi.co/api/v2/pokemon/301/"
         }
       }
@@ -10354,6 +10754,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "beedrill",
+          id:15,
           url: "https://pokeapi.co/api/v2/pokemon/15/"
         }
       },
@@ -10361,6 +10762,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "spearow",
+          id:21,
           url: "https://pokeapi.co/api/v2/pokemon/21/"
         }
       },
@@ -10368,6 +10770,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "fearow",
+          id:22,
           url: "https://pokeapi.co/api/v2/pokemon/22/"
         }
       },
@@ -10375,6 +10778,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "horsea",
+          id:116,
           url: "https://pokeapi.co/api/v2/pokemon/116/"
         }
       },
@@ -10382,6 +10786,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "seadra",
+          id:117,
           url: "https://pokeapi.co/api/v2/pokemon/117/"
         }
       },
@@ -10389,6 +10794,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "spinarak",
+          id:167,
           url: "https://pokeapi.co/api/v2/pokemon/167/"
         }
       },
@@ -10396,6 +10802,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "ariados",
+          id:168,
           url: "https://pokeapi.co/api/v2/pokemon/168/"
         }
       },
@@ -10403,6 +10810,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "remoraid",
+          id:223,
           url: "https://pokeapi.co/api/v2/pokemon/223/"
         }
       },
@@ -10410,6 +10818,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "octillery",
+          id:224,
           url: "https://pokeapi.co/api/v2/pokemon/224/"
         }
       },
@@ -10417,6 +10826,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "kingdra",
+          id:230,
           url: "https://pokeapi.co/api/v2/pokemon/230/"
         }
       },
@@ -10424,6 +10834,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "skorupi",
+          id:451,
           url: "https://pokeapi.co/api/v2/pokemon/451/"
         }
       },
@@ -10431,6 +10842,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "drapion",
+          id:452,
           url: "https://pokeapi.co/api/v2/pokemon/452/"
         }
       },
@@ -10438,6 +10850,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "binacle",
+          id:688,
           url: "https://pokeapi.co/api/v2/pokemon/688/"
         }
       },
@@ -10445,6 +10858,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "barbaracle",
+          id:689,
           url: "https://pokeapi.co/api/v2/pokemon/689/"
         }
       }
@@ -10459,6 +10873,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "clefairy",
+          id:35,
           url: "https://pokeapi.co/api/v2/pokemon/35/"
         }
       },
@@ -10466,6 +10881,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "clefable",
+          id:36,
           url: "https://pokeapi.co/api/v2/pokemon/36/"
         }
       },
@@ -10473,6 +10889,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "abra",
+          id:63,
           url: "https://pokeapi.co/api/v2/pokemon/63/"
         }
       },
@@ -10480,6 +10897,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "kadabra",
+          id:64,
           url: "https://pokeapi.co/api/v2/pokemon/64/"
         }
       },
@@ -10487,6 +10905,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "alakazam",
+          id:65,
           url: "https://pokeapi.co/api/v2/pokemon/65/"
         }
       },
@@ -10494,6 +10913,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "cleffa",
+          id:173,
           url: "https://pokeapi.co/api/v2/pokemon/173/"
         }
       },
@@ -10501,6 +10921,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sigilyph",
+          id:561,
           url: "https://pokeapi.co/api/v2/pokemon/561/"
         }
       },
@@ -10508,6 +10929,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "solosis",
+          id:577,
           url: "https://pokeapi.co/api/v2/pokemon/577/"
         }
       },
@@ -10515,6 +10937,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "duosion",
+          id:578,
           url: "https://pokeapi.co/api/v2/pokemon/578/"
         }
       },
@@ -10522,6 +10945,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "reuniclus",
+          id:579,
           url: "https://pokeapi.co/api/v2/pokemon/579/"
         }
       }
@@ -10536,6 +10960,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "machop",
+          id:66,
           url: "https://pokeapi.co/api/v2/pokemon/66/"
         }
       },
@@ -10543,6 +10968,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "machoke",
+          id:67,
           url: "https://pokeapi.co/api/v2/pokemon/67/"
         }
       },
@@ -10550,6 +10976,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "machamp",
+          id:68,
           url: "https://pokeapi.co/api/v2/pokemon/68/"
         }
       },
@@ -10557,6 +10984,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "karrablast",
+          id:588,
           url: "https://pokeapi.co/api/v2/pokemon/588/"
         }
       },
@@ -10564,6 +10992,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "golett",
+          id:622,
           url: "https://pokeapi.co/api/v2/pokemon/622/"
         }
       },
@@ -10571,6 +11000,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "golurk",
+          id:623,
           url: "https://pokeapi.co/api/v2/pokemon/623/"
         }
       },
@@ -10578,6 +11008,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "honedge",
+          id:679,
           url: "https://pokeapi.co/api/v2/pokemon/679/"
         }
       },
@@ -10585,21 +11016,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "doublade",
+          id:680,
           url: "https://pokeapi.co/api/v2/pokemon/680/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "pidgeot mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10073/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "lycanroc midnight",
-          url: "https://pokeapi.co/api/v2/pokemon/10126/"
         }
       }
     ]
@@ -10613,6 +11031,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sableye",
+          id:302,
           url: "https://pokeapi.co/api/v2/pokemon/302/"
         }
       }
@@ -10627,6 +11046,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "meowth",
+          id:52,
           url: "https://pokeapi.co/api/v2/pokemon/52/"
         }
       },
@@ -10634,6 +11054,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "persian",
+          id:53,
           url: "https://pokeapi.co/api/v2/pokemon/53/"
         }
       },
@@ -10641,6 +11062,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "mr mime",
+          id:122,
           url: "https://pokeapi.co/api/v2/pokemon/122/"
         }
       },
@@ -10648,6 +11070,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "scyther",
+          id:123,
           url: "https://pokeapi.co/api/v2/pokemon/123/"
         }
       },
@@ -10655,6 +11078,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "scizor",
+          id:212,
           url: "https://pokeapi.co/api/v2/pokemon/212/"
         }
       },
@@ -10662,6 +11086,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "smeargle",
+          id:235,
           url: "https://pokeapi.co/api/v2/pokemon/235/"
         }
       },
@@ -10669,6 +11094,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "hitmontop",
+          id:237,
           url: "https://pokeapi.co/api/v2/pokemon/237/"
         }
       },
@@ -10676,6 +11102,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "breloom",
+          id:286,
           url: "https://pokeapi.co/api/v2/pokemon/286/"
         }
       },
@@ -10683,6 +11110,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "kricketune",
+          id:402,
           url: "https://pokeapi.co/api/v2/pokemon/402/"
         }
       },
@@ -10690,6 +11118,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "roserade",
+          id:407,
           url: "https://pokeapi.co/api/v2/pokemon/407/"
         }
       },
@@ -10697,6 +11126,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ambipom",
+          id:424,
           url: "https://pokeapi.co/api/v2/pokemon/424/"
         }
       },
@@ -10704,6 +11134,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "mime jr",
+          id:439,
           url: "https://pokeapi.co/api/v2/pokemon/439/"
         }
       },
@@ -10711,6 +11142,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "minccino",
+          id:572,
           url: "https://pokeapi.co/api/v2/pokemon/572/"
         }
       },
@@ -10718,6 +11150,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "cinccino",
+          id:573,
           url: "https://pokeapi.co/api/v2/pokemon/573/"
         }
       },
@@ -10725,28 +11158,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "marshadow",
+          id:802,
           url: "https://pokeapi.co/api/v2/pokemon/802/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "scizor mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10046/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "meowth alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10107/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "persian alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10108/"
         }
       }
     ]
@@ -10760,6 +11173,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tangela",
+          id:114,
           url: "https://pokeapi.co/api/v2/pokemon/114/"
         }
       },
@@ -10767,6 +11181,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "chikorita",
+          id:152,
           url: "https://pokeapi.co/api/v2/pokemon/152/"
         }
       },
@@ -10774,6 +11189,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "bayleef",
+          id:153,
           url: "https://pokeapi.co/api/v2/pokemon/153/"
         }
       },
@@ -10781,6 +11197,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "meganium",
+          id:154,
           url: "https://pokeapi.co/api/v2/pokemon/154/"
         }
       },
@@ -10788,6 +11205,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "hoppip",
+          id:187,
           url: "https://pokeapi.co/api/v2/pokemon/187/"
         }
       },
@@ -10795,6 +11213,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "skiploom",
+          id:188,
           url: "https://pokeapi.co/api/v2/pokemon/188/"
         }
       },
@@ -10802,6 +11221,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "jumpluff",
+          id:189,
           url: "https://pokeapi.co/api/v2/pokemon/189/"
         }
       },
@@ -10809,6 +11229,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "roselia",
+          id:315,
           url: "https://pokeapi.co/api/v2/pokemon/315/"
         }
       },
@@ -10816,6 +11237,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "budew",
+          id:406,
           url: "https://pokeapi.co/api/v2/pokemon/406/"
         }
       },
@@ -10823,6 +11245,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tangrowth",
+          id:465,
           url: "https://pokeapi.co/api/v2/pokemon/465/"
         }
       },
@@ -10830,6 +11253,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "leafeon",
+          id:470,
           url: "https://pokeapi.co/api/v2/pokemon/470/"
         }
       },
@@ -10837,6 +11261,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "swadloon",
+          id:541,
           url: "https://pokeapi.co/api/v2/pokemon/541/"
         }
       },
@@ -10844,6 +11269,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "petilil",
+          id:548,
           url: "https://pokeapi.co/api/v2/pokemon/548/"
         }
       },
@@ -10851,6 +11277,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "lilligant",
+          id:549,
           url: "https://pokeapi.co/api/v2/pokemon/549/"
         }
       },
@@ -10858,6 +11285,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "fomantis",
+          id:753,
           url: "https://pokeapi.co/api/v2/pokemon/753/"
         }
       },
@@ -10865,6 +11293,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lurantis",
+          id:754,
           url: "https://pokeapi.co/api/v2/pokemon/754/"
         }
       },
@@ -10872,6 +11301,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bounsweet",
+          id:761,
           url: "https://pokeapi.co/api/v2/pokemon/761/"
         }
       },
@@ -10879,6 +11309,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "steenee",
+          id:762,
           url: "https://pokeapi.co/api/v2/pokemon/762/"
         }
       },
@@ -10886,14 +11317,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tsareena",
+          id:763,
           url: "https://pokeapi.co/api/v2/pokemon/763/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "lurantis totem",
-          url: "https://pokeapi.co/api/v2/pokemon/10128/"
         }
       }
     ]
@@ -10907,6 +11332,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "buneary",
+          id:427,
           url: "https://pokeapi.co/api/v2/pokemon/427/"
         }
       },
@@ -10914,6 +11340,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lopunny",
+          id:428,
           url: "https://pokeapi.co/api/v2/pokemon/428/"
         }
       },
@@ -10921,6 +11348,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "woobat",
+          id:527,
           url: "https://pokeapi.co/api/v2/pokemon/527/"
         }
       },
@@ -10928,6 +11356,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "swoobat",
+          id:528,
           url: "https://pokeapi.co/api/v2/pokemon/528/"
         }
       },
@@ -10935,6 +11364,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "audino",
+          id:531,
           url: "https://pokeapi.co/api/v2/pokemon/531/"
         }
       },
@@ -10942,6 +11372,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "golett",
+          id:622,
           url: "https://pokeapi.co/api/v2/pokemon/622/"
         }
       },
@@ -10949,6 +11380,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "golurk",
+          id:623,
           url: "https://pokeapi.co/api/v2/pokemon/623/"
         }
       },
@@ -10956,6 +11388,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "stufful",
+          id:759,
           url: "https://pokeapi.co/api/v2/pokemon/759/"
         }
       },
@@ -10963,6 +11396,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bewear",
+          id:760,
           url: "https://pokeapi.co/api/v2/pokemon/760/"
         }
       }
@@ -10977,6 +11411,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pinsir",
+          id:127,
           url: "https://pokeapi.co/api/v2/pokemon/127/"
         }
       },
@@ -10984,6 +11419,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "cranidos",
+          id:408,
           url: "https://pokeapi.co/api/v2/pokemon/408/"
         }
       },
@@ -10991,6 +11427,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "rampardos",
+          id:409,
           url: "https://pokeapi.co/api/v2/pokemon/409/"
         }
       },
@@ -10998,6 +11435,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "drilbur",
+          id:529,
           url: "https://pokeapi.co/api/v2/pokemon/529/"
         }
       },
@@ -11005,6 +11443,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "excadrill",
+          id:530,
           url: "https://pokeapi.co/api/v2/pokemon/530/"
         }
       },
@@ -11012,6 +11451,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "throh",
+          id:538,
           url: "https://pokeapi.co/api/v2/pokemon/538/"
         }
       },
@@ -11019,6 +11459,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "sawk",
+          id:539,
           url: "https://pokeapi.co/api/v2/pokemon/539/"
         }
       },
@@ -11026,6 +11467,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "basculin red striped",
+          id:550,
           url: "https://pokeapi.co/api/v2/pokemon/550/"
         }
       },
@@ -11033,6 +11475,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "axew",
+          id:610,
           url: "https://pokeapi.co/api/v2/pokemon/610/"
         }
       },
@@ -11040,6 +11483,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "fraxure",
+          id:611,
           url: "https://pokeapi.co/api/v2/pokemon/611/"
         }
       },
@@ -11047,6 +11491,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "haxorus",
+          id:612,
           url: "https://pokeapi.co/api/v2/pokemon/612/"
         }
       },
@@ -11054,6 +11499,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "druddigon",
+          id:621,
           url: "https://pokeapi.co/api/v2/pokemon/621/"
         }
       },
@@ -11061,6 +11507,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pancham",
+          id:674,
           url: "https://pokeapi.co/api/v2/pokemon/674/"
         }
       },
@@ -11068,6 +11515,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pangoro",
+          id:675,
           url: "https://pokeapi.co/api/v2/pokemon/675/"
         }
       },
@@ -11075,28 +11523,8 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "hawlucha",
+          id:701,
           url: "https://pokeapi.co/api/v2/pokemon/701/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "basculin blue striped",
-          url: "https://pokeapi.co/api/v2/pokemon/10016/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "gyarados mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10041/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "ampharos mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10045/"
         }
       }
     ]
@@ -11110,6 +11538,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "togepi",
+          id:175,
           url: "https://pokeapi.co/api/v2/pokemon/175/"
         }
       },
@@ -11117,6 +11546,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "togetic",
+          id:176,
           url: "https://pokeapi.co/api/v2/pokemon/176/"
         }
       },
@@ -11124,6 +11554,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "murkrow",
+          id:198,
           url: "https://pokeapi.co/api/v2/pokemon/198/"
         }
       },
@@ -11131,6 +11562,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "absol",
+          id:359,
           url: "https://pokeapi.co/api/v2/pokemon/359/"
         }
       },
@@ -11138,6 +11570,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "honchkrow",
+          id:430,
           url: "https://pokeapi.co/api/v2/pokemon/430/"
         }
       },
@@ -11145,6 +11578,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "togekiss",
+          id:468,
           url: "https://pokeapi.co/api/v2/pokemon/468/"
         }
       },
@@ -11152,6 +11586,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pidove",
+          id:519,
           url: "https://pokeapi.co/api/v2/pokemon/519/"
         }
       },
@@ -11159,6 +11594,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tranquill",
+          id:520,
           url: "https://pokeapi.co/api/v2/pokemon/520/"
         }
       },
@@ -11166,6 +11602,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "unfezant",
+          id:521,
           url: "https://pokeapi.co/api/v2/pokemon/521/"
         }
       }
@@ -11180,6 +11617,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "voltorb",
+          id:100,
           url: "https://pokeapi.co/api/v2/pokemon/100/"
         }
       },
@@ -11187,6 +11625,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "electrode",
+          id:101,
           url: "https://pokeapi.co/api/v2/pokemon/101/"
         }
       },
@@ -11194,6 +11633,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "drifloon",
+          id:425,
           url: "https://pokeapi.co/api/v2/pokemon/425/"
         }
       },
@@ -11201,6 +11641,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "drifblim",
+          id:426,
           url: "https://pokeapi.co/api/v2/pokemon/426/"
         }
       },
@@ -11208,6 +11649,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "stunky",
+          id:434,
           url: "https://pokeapi.co/api/v2/pokemon/434/"
         }
       },
@@ -11215,6 +11657,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "skuntank",
+          id:435,
           url: "https://pokeapi.co/api/v2/pokemon/435/"
         }
       },
@@ -11222,6 +11665,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "trubbish",
+          id:568,
           url: "https://pokeapi.co/api/v2/pokemon/568/"
         }
       },
@@ -11229,6 +11673,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "garbodor",
+          id:569,
           url: "https://pokeapi.co/api/v2/pokemon/569/"
         }
       }
@@ -11243,6 +11688,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "eevee",
+          id:133,
           url: "https://pokeapi.co/api/v2/pokemon/133/"
         }
       },
@@ -11250,6 +11696,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "barboach",
+          id:339,
           url: "https://pokeapi.co/api/v2/pokemon/339/"
         }
       },
@@ -11257,6 +11704,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "whiscash",
+          id:340,
           url: "https://pokeapi.co/api/v2/pokemon/340/"
         }
       },
@@ -11264,6 +11712,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "wormadam plant",
+          id:413,
           url: "https://pokeapi.co/api/v2/pokemon/413/"
         }
       },
@@ -11271,6 +11720,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "croagunk",
+          id:453,
           url: "https://pokeapi.co/api/v2/pokemon/453/"
         }
       },
@@ -11278,6 +11728,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "toxicroak",
+          id:454,
           url: "https://pokeapi.co/api/v2/pokemon/454/"
         }
       },
@@ -11285,21 +11736,8 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "ferrothorn",
+          id:598,
           url: "https://pokeapi.co/api/v2/pokemon/598/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "wormadam sandy",
-          url: "https://pokeapi.co/api/v2/pokemon/10004/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "wormadam trash",
-          url: "https://pokeapi.co/api/v2/pokemon/10005/"
         }
       }
     ]
@@ -11313,6 +11751,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "drowzee",
+          id:96,
           url: "https://pokeapi.co/api/v2/pokemon/96/"
         }
       },
@@ -11320,6 +11759,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "hypno",
+          id:97,
           url: "https://pokeapi.co/api/v2/pokemon/97/"
         }
       },
@@ -11327,6 +11767,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "jynx",
+          id:124,
           url: "https://pokeapi.co/api/v2/pokemon/124/"
         }
       },
@@ -11334,6 +11775,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "smoochum",
+          id:238,
           url: "https://pokeapi.co/api/v2/pokemon/238/"
         }
       },
@@ -11341,6 +11783,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "munna",
+          id:517,
           url: "https://pokeapi.co/api/v2/pokemon/517/"
         }
       },
@@ -11348,6 +11791,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "musharna",
+          id:518,
           url: "https://pokeapi.co/api/v2/pokemon/518/"
         }
       }
@@ -11362,6 +11806,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "clefable",
+          id:36,
           url: "https://pokeapi.co/api/v2/pokemon/36/"
         }
       },
@@ -11369,6 +11814,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "wooper",
+          id:194,
           url: "https://pokeapi.co/api/v2/pokemon/194/"
         }
       },
@@ -11376,6 +11822,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "quagsire",
+          id:195,
           url: "https://pokeapi.co/api/v2/pokemon/195/"
         }
       },
@@ -11383,6 +11830,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bidoof",
+          id:399,
           url: "https://pokeapi.co/api/v2/pokemon/399/"
         }
       },
@@ -11390,6 +11838,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bibarel",
+          id:400,
           url: "https://pokeapi.co/api/v2/pokemon/400/"
         }
       },
@@ -11397,6 +11846,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "woobat",
+          id:527,
           url: "https://pokeapi.co/api/v2/pokemon/527/"
         }
       },
@@ -11404,6 +11854,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "swoobat",
+          id:528,
           url: "https://pokeapi.co/api/v2/pokemon/528/"
         }
       },
@@ -11411,6 +11862,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "pyukumuku",
+          id:771,
           url: "https://pokeapi.co/api/v2/pokemon/771/"
         }
       },
@@ -11418,6 +11870,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "cosmog",
+          id:789,
           url: "https://pokeapi.co/api/v2/pokemon/789/"
         }
       }
@@ -11432,6 +11885,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "butterfree",
+          id:12,
           url: "https://pokeapi.co/api/v2/pokemon/12/"
         }
       },
@@ -11439,6 +11893,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "venonat",
+          id:48,
           url: "https://pokeapi.co/api/v2/pokemon/48/"
         }
       },
@@ -11446,6 +11901,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "venomoth",
+          id:49,
           url: "https://pokeapi.co/api/v2/pokemon/49/"
         }
       },
@@ -11453,6 +11909,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "hoothoot",
+          id:163,
           url: "https://pokeapi.co/api/v2/pokemon/163/"
         }
       },
@@ -11460,6 +11917,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "noctowl",
+          id:164,
           url: "https://pokeapi.co/api/v2/pokemon/164/"
         }
       },
@@ -11467,6 +11925,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "illumise",
+          id:314,
           url: "https://pokeapi.co/api/v2/pokemon/314/"
         }
       },
@@ -11474,6 +11933,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "mothim",
+          id:414,
           url: "https://pokeapi.co/api/v2/pokemon/414/"
         }
       },
@@ -11481,6 +11941,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "yanmega",
+          id:469,
           url: "https://pokeapi.co/api/v2/pokemon/469/"
         }
       },
@@ -11488,6 +11949,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "sigilyph",
+          id:561,
           url: "https://pokeapi.co/api/v2/pokemon/561/"
         }
       }
@@ -11502,6 +11964,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mr mime",
+          id:122,
           url: "https://pokeapi.co/api/v2/pokemon/122/"
         }
       },
@@ -11509,16 +11972,11 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mime jr",
+          id:439,
           url: "https://pokeapi.co/api/v2/pokemon/439/"
         }
       },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "aggron mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10053/"
-        }
-      }
+
     ]
   },
   {
@@ -11530,6 +11988,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "regigigas",
+          id:486,
           url: "https://pokeapi.co/api/v2/pokemon/486/"
         }
       }
@@ -11544,6 +12003,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "kangaskhan",
+          id:115,
           url: "https://pokeapi.co/api/v2/pokemon/115/"
         }
       },
@@ -11551,6 +12011,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "miltank",
+          id:241,
           url: "https://pokeapi.co/api/v2/pokemon/241/"
         }
       },
@@ -11558,6 +12019,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "taillow",
+          id:276,
           url: "https://pokeapi.co/api/v2/pokemon/276/"
         }
       },
@@ -11565,6 +12027,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "swellow",
+          id:277,
           url: "https://pokeapi.co/api/v2/pokemon/277/"
         }
       },
@@ -11572,6 +12035,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "loudred",
+          id:294,
           url: "https://pokeapi.co/api/v2/pokemon/294/"
         }
       },
@@ -11579,6 +12043,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "exploud",
+          id:295,
           url: "https://pokeapi.co/api/v2/pokemon/295/"
         }
       },
@@ -11586,6 +12051,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "herdier",
+          id:507,
           url: "https://pokeapi.co/api/v2/pokemon/507/"
         }
       },
@@ -11593,6 +12059,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "stoutland",
+          id:508,
           url: "https://pokeapi.co/api/v2/pokemon/508/"
         }
       },
@@ -11600,6 +12067,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "pancham",
+          id:674,
           url: "https://pokeapi.co/api/v2/pokemon/674/"
         }
       },
@@ -11607,16 +12075,11 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "pangoro",
+          id:675,
           url: "https://pokeapi.co/api/v2/pokemon/675/"
         }
       },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "lopunny mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10088/"
-        }
-      }
+
     ]
   },
   {
@@ -11628,6 +12091,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "lileep",
+          id:345,
           url: "https://pokeapi.co/api/v2/pokemon/345/"
         }
       },
@@ -11635,6 +12099,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "cradily",
+          id:346,
           url: "https://pokeapi.co/api/v2/pokemon/346/"
         }
       },
@@ -11642,6 +12107,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "shellos",
+          id:422,
           url: "https://pokeapi.co/api/v2/pokemon/422/"
         }
       },
@@ -11649,6 +12115,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gastrodon",
+          id:423,
           url: "https://pokeapi.co/api/v2/pokemon/423/"
         }
       },
@@ -11656,6 +12123,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "finneon",
+          id:456,
           url: "https://pokeapi.co/api/v2/pokemon/456/"
         }
       },
@@ -11663,6 +12131,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lumineon",
+          id:457,
           url: "https://pokeapi.co/api/v2/pokemon/457/"
         }
       },
@@ -11670,6 +12139,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "maractus",
+          id:556,
           url: "https://pokeapi.co/api/v2/pokemon/556/"
         }
       }
@@ -11684,6 +12154,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "seel",
+          id:86,
           url: "https://pokeapi.co/api/v2/pokemon/86/"
         }
       },
@@ -11691,6 +12162,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "dewgong",
+          id:87,
           url: "https://pokeapi.co/api/v2/pokemon/87/"
         }
       },
@@ -11698,6 +12170,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "snorunt",
+          id:361,
           url: "https://pokeapi.co/api/v2/pokemon/361/"
         }
       },
@@ -11705,6 +12178,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "glalie",
+          id:362,
           url: "https://pokeapi.co/api/v2/pokemon/362/"
         }
       },
@@ -11712,6 +12186,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "spheal",
+          id:363,
           url: "https://pokeapi.co/api/v2/pokemon/363/"
         }
       },
@@ -11719,6 +12194,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sealeo",
+          id:364,
           url: "https://pokeapi.co/api/v2/pokemon/364/"
         }
       },
@@ -11726,6 +12202,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "walrein",
+          id:365,
           url: "https://pokeapi.co/api/v2/pokemon/365/"
         }
       },
@@ -11733,6 +12210,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "regice",
+          id:378,
           url: "https://pokeapi.co/api/v2/pokemon/378/"
         }
       },
@@ -11740,6 +12218,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "glaceon",
+          id:471,
           url: "https://pokeapi.co/api/v2/pokemon/471/"
         }
       },
@@ -11747,6 +12226,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "vanillite",
+          id:582,
           url: "https://pokeapi.co/api/v2/pokemon/582/"
         }
       },
@@ -11754,6 +12234,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "vanillish",
+          id:583,
           url: "https://pokeapi.co/api/v2/pokemon/583/"
         }
       },
@@ -11761,6 +12242,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "vanilluxe",
+          id:584,
           url: "https://pokeapi.co/api/v2/pokemon/584/"
         }
       },
@@ -11768,6 +12250,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bergmite",
+          id:712,
           url: "https://pokeapi.co/api/v2/pokemon/712/"
         }
       },
@@ -11775,6 +12258,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "avalugg",
+          id:713,
           url: "https://pokeapi.co/api/v2/pokemon/713/"
         }
       }
@@ -11789,6 +12273,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "camerupt",
+          id:323,
           url: "https://pokeapi.co/api/v2/pokemon/323/"
         }
       },
@@ -11796,6 +12281,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "rhyperior",
+          id:464,
           url: "https://pokeapi.co/api/v2/pokemon/464/"
         }
       },
@@ -11803,6 +12289,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tirtouga",
+          id:564,
           url: "https://pokeapi.co/api/v2/pokemon/564/"
         }
       },
@@ -11810,6 +12297,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "carracosta",
+          id:565,
           url: "https://pokeapi.co/api/v2/pokemon/565/"
         }
       }
@@ -11824,6 +12312,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "snover",
+          id:459,
           url: "https://pokeapi.co/api/v2/pokemon/459/"
         }
       },
@@ -11831,6 +12320,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "abomasnow",
+          id:460,
           url: "https://pokeapi.co/api/v2/pokemon/460/"
         }
       },
@@ -11838,6 +12328,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "vanilluxe",
+          id:584,
           url: "https://pokeapi.co/api/v2/pokemon/584/"
         }
       },
@@ -11845,6 +12336,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "amaura",
+          id:698,
           url: "https://pokeapi.co/api/v2/pokemon/698/"
         }
       },
@@ -11852,28 +12344,8 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "aurorus",
+          id:699,
           url: "https://pokeapi.co/api/v2/pokemon/699/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "abomasnow mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10060/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "vulpix alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10103/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "ninetales alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10104/"
         }
       }
     ]
@@ -11887,6 +12359,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "teddiursa",
+          id:216,
           url: "https://pokeapi.co/api/v2/pokemon/216/"
         }
       },
@@ -11894,6 +12367,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "combee",
+          id:415,
           url: "https://pokeapi.co/api/v2/pokemon/415/"
         }
       },
@@ -11901,6 +12375,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "cutiefly",
+          id:742,
           url: "https://pokeapi.co/api/v2/pokemon/742/"
         }
       },
@@ -11908,14 +12383,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ribombee",
+          id:743,
           url: "https://pokeapi.co/api/v2/pokemon/743/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "ribombee totem",
-          url: "https://pokeapi.co/api/v2/pokemon/10150/"
         }
       }
     ]
@@ -11929,6 +12398,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "wigglytuff",
+          id:40,
           url: "https://pokeapi.co/api/v2/pokemon/40/"
         }
       },
@@ -11936,6 +12406,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "sentret",
+          id:161,
           url: "https://pokeapi.co/api/v2/pokemon/161/"
         }
       },
@@ -11943,6 +12414,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "furret",
+          id:162,
           url: "https://pokeapi.co/api/v2/pokemon/162/"
         }
       },
@@ -11950,6 +12422,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "yanma",
+          id:193,
           url: "https://pokeapi.co/api/v2/pokemon/193/"
         }
       },
@@ -11957,6 +12430,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "stantler",
+          id:234,
           url: "https://pokeapi.co/api/v2/pokemon/234/"
         }
       },
@@ -11964,6 +12438,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "shuppet",
+          id:353,
           url: "https://pokeapi.co/api/v2/pokemon/353/"
         }
       },
@@ -11971,6 +12446,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "banette",
+          id:354,
           url: "https://pokeapi.co/api/v2/pokemon/354/"
         }
       },
@@ -11978,6 +12454,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "duskull",
+          id:355,
           url: "https://pokeapi.co/api/v2/pokemon/355/"
         }
       },
@@ -11985,6 +12462,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "dusclops",
+          id:356,
           url: "https://pokeapi.co/api/v2/pokemon/356/"
         }
       },
@@ -11992,6 +12470,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "yanmega",
+          id:469,
           url: "https://pokeapi.co/api/v2/pokemon/469/"
         }
       },
@@ -11999,6 +12478,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "dusknoir",
+          id:477,
           url: "https://pokeapi.co/api/v2/pokemon/477/"
         }
       },
@@ -12006,6 +12486,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gothita",
+          id:574,
           url: "https://pokeapi.co/api/v2/pokemon/574/"
         }
       },
@@ -12013,6 +12494,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gothorita",
+          id:575,
           url: "https://pokeapi.co/api/v2/pokemon/575/"
         }
       },
@@ -12020,6 +12502,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gothitelle",
+          id:576,
           url: "https://pokeapi.co/api/v2/pokemon/576/"
         }
       },
@@ -12027,6 +12510,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "phantump",
+          id:708,
           url: "https://pokeapi.co/api/v2/pokemon/708/"
         }
       },
@@ -12034,6 +12518,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "trevenant",
+          id:709,
           url: "https://pokeapi.co/api/v2/pokemon/709/"
         }
       },
@@ -12041,6 +12526,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pumpkaboo average",
+          id:710,
           url: "https://pokeapi.co/api/v2/pokemon/710/"
         }
       },
@@ -12048,6 +12534,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gourgeist average",
+          id:711,
           url: "https://pokeapi.co/api/v2/pokemon/711/"
         }
       },
@@ -12055,6 +12542,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "noibat",
+          id:714,
           url: "https://pokeapi.co/api/v2/pokemon/714/"
         }
       },
@@ -12062,56 +12550,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "noivern",
+          id:715,
           url: "https://pokeapi.co/api/v2/pokemon/715/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "pumpkaboo small",
-          url: "https://pokeapi.co/api/v2/pokemon/10027/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "pumpkaboo large",
-          url: "https://pokeapi.co/api/v2/pokemon/10028/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "pumpkaboo super",
-          url: "https://pokeapi.co/api/v2/pokemon/10029/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "gourgeist small",
-          url: "https://pokeapi.co/api/v2/pokemon/10030/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "gourgeist large",
-          url: "https://pokeapi.co/api/v2/pokemon/10031/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "gourgeist super",
-          url: "https://pokeapi.co/api/v2/pokemon/10032/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "exeggutor alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10114/"
         }
       }
     ]
@@ -12125,6 +12565,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "hitmonlee",
+          id:106,
           url: "https://pokeapi.co/api/v2/pokemon/106/"
         }
       },
@@ -12132,6 +12573,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "rhyhorn",
+          id:111,
           url: "https://pokeapi.co/api/v2/pokemon/111/"
         }
       },
@@ -12139,6 +12581,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "rhydon",
+          id:112,
           url: "https://pokeapi.co/api/v2/pokemon/112/"
         }
       },
@@ -12146,6 +12589,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "starly",
+          id:396,
           url: "https://pokeapi.co/api/v2/pokemon/396/"
         }
       },
@@ -12153,6 +12597,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "staravia",
+          id:397,
           url: "https://pokeapi.co/api/v2/pokemon/397/"
         }
       },
@@ -12160,6 +12605,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "staraptor",
+          id:398,
           url: "https://pokeapi.co/api/v2/pokemon/398/"
         }
       },
@@ -12167,6 +12613,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "rhyperior",
+          id:464,
           url: "https://pokeapi.co/api/v2/pokemon/464/"
         }
       },
@@ -12174,6 +12621,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "emboar",
+          id:500,
           url: "https://pokeapi.co/api/v2/pokemon/500/"
         }
       },
@@ -12181,6 +12629,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "basculin red striped",
+          id:550,
           url: "https://pokeapi.co/api/v2/pokemon/550/"
         }
       },
@@ -12188,6 +12637,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "mienfoo",
+          id:619,
           url: "https://pokeapi.co/api/v2/pokemon/619/"
         }
       },
@@ -12195,6 +12645,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "mienshao",
+          id:620,
           url: "https://pokeapi.co/api/v2/pokemon/620/"
         }
       },
@@ -12202,6 +12653,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bouffalant",
+          id:626,
           url: "https://pokeapi.co/api/v2/pokemon/626/"
         }
       }
@@ -12216,6 +12668,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "arceus",
+          id:493,
           url: "https://pokeapi.co/api/v2/pokemon/493/"
         }
       }
@@ -12230,6 +12683,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "cherrim",
+          id:421,
           url: "https://pokeapi.co/api/v2/pokemon/421/"
         }
       }
@@ -12244,6 +12698,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "darkrai",
+          id:491,
           url: "https://pokeapi.co/api/v2/pokemon/491/"
         }
       }
@@ -12258,6 +12713,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "sneasel",
+          id:215,
           url: "https://pokeapi.co/api/v2/pokemon/215/"
         }
       },
@@ -12265,6 +12721,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "seedot",
+          id:273,
           url: "https://pokeapi.co/api/v2/pokemon/273/"
         }
       },
@@ -12272,6 +12729,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "nuzleaf",
+          id:274,
           url: "https://pokeapi.co/api/v2/pokemon/274/"
         }
       },
@@ -12279,6 +12737,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "shiftry",
+          id:275,
           url: "https://pokeapi.co/api/v2/pokemon/275/"
         }
       },
@@ -12286,6 +12745,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "weavile",
+          id:461,
           url: "https://pokeapi.co/api/v2/pokemon/461/"
         }
       },
@@ -12293,6 +12753,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "binacle",
+          id:688,
           url: "https://pokeapi.co/api/v2/pokemon/688/"
         }
       },
@@ -12300,6 +12761,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "barbaracle",
+          id:689,
           url: "https://pokeapi.co/api/v2/pokemon/689/"
         }
       }
@@ -12314,6 +12776,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "nidoqueen",
+          id:31,
           url: "https://pokeapi.co/api/v2/pokemon/31/"
         }
       },
@@ -12321,6 +12784,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "nidoking",
+          id:34,
           url: "https://pokeapi.co/api/v2/pokemon/34/"
         }
       },
@@ -12328,6 +12792,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "krabby",
+          id:98,
           url: "https://pokeapi.co/api/v2/pokemon/98/"
         }
       },
@@ -12335,6 +12800,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "kingler",
+          id:99,
           url: "https://pokeapi.co/api/v2/pokemon/99/"
         }
       },
@@ -12342,6 +12808,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "tauros",
+          id:128,
           url: "https://pokeapi.co/api/v2/pokemon/128/"
         }
       },
@@ -12349,6 +12816,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "totodile",
+          id:158,
           url: "https://pokeapi.co/api/v2/pokemon/158/"
         }
       },
@@ -12356,6 +12824,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "croconaw",
+          id:159,
           url: "https://pokeapi.co/api/v2/pokemon/159/"
         }
       },
@@ -12363,6 +12832,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "feraligatr",
+          id:160,
           url: "https://pokeapi.co/api/v2/pokemon/160/"
         }
       },
@@ -12370,6 +12840,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "steelix",
+          id:208,
           url: "https://pokeapi.co/api/v2/pokemon/208/"
         }
       },
@@ -12377,6 +12848,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "makuhita",
+          id:296,
           url: "https://pokeapi.co/api/v2/pokemon/296/"
         }
       },
@@ -12384,6 +12856,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "hariyama",
+          id:297,
           url: "https://pokeapi.co/api/v2/pokemon/297/"
         }
       },
@@ -12391,6 +12864,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "mawile",
+          id:303,
           url: "https://pokeapi.co/api/v2/pokemon/303/"
         }
       },
@@ -12398,6 +12872,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "trapinch",
+          id:328,
           url: "https://pokeapi.co/api/v2/pokemon/328/"
         }
       },
@@ -12405,6 +12880,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "bagon",
+          id:371,
           url: "https://pokeapi.co/api/v2/pokemon/371/"
         }
       },
@@ -12412,6 +12888,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "cranidos",
+          id:408,
           url: "https://pokeapi.co/api/v2/pokemon/408/"
         }
       },
@@ -12419,6 +12896,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "rampardos",
+          id:409,
           url: "https://pokeapi.co/api/v2/pokemon/409/"
         }
       },
@@ -12426,6 +12904,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "timburr",
+          id:532,
           url: "https://pokeapi.co/api/v2/pokemon/532/"
         }
       },
@@ -12433,6 +12912,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gurdurr",
+          id:533,
           url: "https://pokeapi.co/api/v2/pokemon/533/"
         }
       },
@@ -12440,6 +12920,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "conkeldurr",
+          id:534,
           url: "https://pokeapi.co/api/v2/pokemon/534/"
         }
       },
@@ -12447,6 +12928,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "darmanitan standard",
+          id:555,
           url: "https://pokeapi.co/api/v2/pokemon/555/"
         }
       },
@@ -12454,6 +12936,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "druddigon",
+          id:621,
           url: "https://pokeapi.co/api/v2/pokemon/621/"
         }
       },
@@ -12461,6 +12944,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "rufflet",
+          id:627,
           url: "https://pokeapi.co/api/v2/pokemon/627/"
         }
       },
@@ -12468,6 +12952,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "braviary",
+          id:628,
           url: "https://pokeapi.co/api/v2/pokemon/628/"
         }
       },
@@ -12475,6 +12960,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "landorus incarnate",
+          id:645,
           url: "https://pokeapi.co/api/v2/pokemon/645/"
         }
       },
@@ -12482,21 +12968,8 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "toucannon",
+          id:733,
           url: "https://pokeapi.co/api/v2/pokemon/733/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "darmanitan zen",
-          url: "https://pokeapi.co/api/v2/pokemon/10017/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "camerupt mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10087/"
         }
       }
     ]
@@ -12510,6 +12983,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "shuckle",
+          id:213,
           url: "https://pokeapi.co/api/v2/pokemon/213/"
         }
       },
@@ -12517,6 +12991,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "spinda",
+          id:327,
           url: "https://pokeapi.co/api/v2/pokemon/327/"
         }
       },
@@ -12524,6 +12999,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "snivy",
+          id:495,
           url: "https://pokeapi.co/api/v2/pokemon/495/"
         }
       },
@@ -12531,6 +13007,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "servine",
+          id:496,
           url: "https://pokeapi.co/api/v2/pokemon/496/"
         }
       },
@@ -12538,6 +13015,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "serperior",
+          id:497,
           url: "https://pokeapi.co/api/v2/pokemon/497/"
         }
       },
@@ -12545,6 +13023,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "inkay",
+          id:686,
           url: "https://pokeapi.co/api/v2/pokemon/686/"
         }
       },
@@ -12552,6 +13031,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "malamar",
+          id:687,
           url: "https://pokeapi.co/api/v2/pokemon/687/"
         }
       },
@@ -12559,6 +13039,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "fomantis",
+          id:753,
           url: "https://pokeapi.co/api/v2/pokemon/753/"
         }
       },
@@ -12566,14 +13047,8 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "lurantis",
+          id:754,
           url: "https://pokeapi.co/api/v2/pokemon/754/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "lurantis totem",
-          url: "https://pokeapi.co/api/v2/pokemon/10128/"
         }
       }
     ]
@@ -12587,6 +13062,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "ekans",
+          id:23,
           url: "https://pokeapi.co/api/v2/pokemon/23/"
         }
       },
@@ -12594,6 +13070,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "arbok",
+          id:24,
           url: "https://pokeapi.co/api/v2/pokemon/24/"
         }
       },
@@ -12601,6 +13078,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "meowth",
+          id:52,
           url: "https://pokeapi.co/api/v2/pokemon/52/"
         }
       },
@@ -12608,6 +13086,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "persian",
+          id:53,
           url: "https://pokeapi.co/api/v2/pokemon/53/"
         }
       },
@@ -12615,6 +13094,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "aerodactyl",
+          id:142,
           url: "https://pokeapi.co/api/v2/pokemon/142/"
         }
       },
@@ -12622,6 +13102,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "mewtwo",
+          id:150,
           url: "https://pokeapi.co/api/v2/pokemon/150/"
         }
       },
@@ -12629,6 +13110,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "ursaring",
+          id:217,
           url: "https://pokeapi.co/api/v2/pokemon/217/"
         }
       },
@@ -12636,6 +13118,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "houndour",
+          id:228,
           url: "https://pokeapi.co/api/v2/pokemon/228/"
         }
       },
@@ -12643,6 +13126,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "houndoom",
+          id:229,
           url: "https://pokeapi.co/api/v2/pokemon/229/"
         }
       },
@@ -12650,6 +13134,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "tyranitar",
+          id:248,
           url: "https://pokeapi.co/api/v2/pokemon/248/"
         }
       },
@@ -12657,6 +13142,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "masquerain",
+          id:284,
           url: "https://pokeapi.co/api/v2/pokemon/284/"
         }
       },
@@ -12664,6 +13150,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "vespiquen",
+          id:416,
           url: "https://pokeapi.co/api/v2/pokemon/416/"
         }
       },
@@ -12671,6 +13158,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "joltik",
+          id:595,
           url: "https://pokeapi.co/api/v2/pokemon/595/"
         }
       },
@@ -12678,6 +13166,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "galvantula",
+          id:596,
           url: "https://pokeapi.co/api/v2/pokemon/596/"
         }
       },
@@ -12685,6 +13174,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "axew",
+          id:610,
           url: "https://pokeapi.co/api/v2/pokemon/610/"
         }
       },
@@ -12692,6 +13182,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "fraxure",
+          id:611,
           url: "https://pokeapi.co/api/v2/pokemon/611/"
         }
       },
@@ -12699,6 +13190,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "haxorus",
+          id:612,
           url: "https://pokeapi.co/api/v2/pokemon/612/"
         }
       },
@@ -12706,6 +13198,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "litleo",
+          id:667,
           url: "https://pokeapi.co/api/v2/pokemon/667/"
         }
       },
@@ -12713,6 +13206,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pyroar",
+          id:668,
           url: "https://pokeapi.co/api/v2/pokemon/668/"
         }
       },
@@ -12720,6 +13214,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "bewear",
+          id:760,
           url: "https://pokeapi.co/api/v2/pokemon/760/"
         }
       }
@@ -12734,6 +13229,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "mankey",
+          id:56,
           url: "https://pokeapi.co/api/v2/pokemon/56/"
         }
       },
@@ -12741,6 +13237,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "primeape",
+          id:57,
           url: "https://pokeapi.co/api/v2/pokemon/57/"
         }
       },
@@ -12748,6 +13245,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "farfetchd",
+          id:83,
           url: "https://pokeapi.co/api/v2/pokemon/83/"
         }
       },
@@ -12755,6 +13253,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "piplup",
+          id:393,
           url: "https://pokeapi.co/api/v2/pokemon/393/"
         }
       },
@@ -12762,6 +13261,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "prinplup",
+          id:394,
           url: "https://pokeapi.co/api/v2/pokemon/394/"
         }
       },
@@ -12769,6 +13269,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "empoleon",
+          id:395,
           url: "https://pokeapi.co/api/v2/pokemon/395/"
         }
       },
@@ -12776,6 +13277,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "purugly",
+          id:432,
           url: "https://pokeapi.co/api/v2/pokemon/432/"
         }
       },
@@ -12783,6 +13285,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pawniard",
+          id:624,
           url: "https://pokeapi.co/api/v2/pokemon/624/"
         }
       },
@@ -12790,6 +13293,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bisharp",
+          id:625,
           url: "https://pokeapi.co/api/v2/pokemon/625/"
         }
       },
@@ -12797,6 +13301,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "braviary",
+          id:628,
           url: "https://pokeapi.co/api/v2/pokemon/628/"
         }
       },
@@ -12804,6 +13309,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "tornadus incarnate",
+          id:641,
           url: "https://pokeapi.co/api/v2/pokemon/641/"
         }
       },
@@ -12811,6 +13317,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "thundurus incarnate",
+          id:642,
           url: "https://pokeapi.co/api/v2/pokemon/642/"
         }
       },
@@ -12818,6 +13325,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "passimian",
+          id:766,
           url: "https://pokeapi.co/api/v2/pokemon/766/"
         }
       }
@@ -12832,6 +13340,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "archen",
+          id:566,
           url: "https://pokeapi.co/api/v2/pokemon/566/"
         }
       },
@@ -12839,6 +13348,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "archeops",
+          id:567,
           url: "https://pokeapi.co/api/v2/pokemon/567/"
         }
       }
@@ -12853,6 +13363,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gengar",
+          id:94,
           url: "https://pokeapi.co/api/v2/pokemon/94/"
         }
       },
@@ -12860,6 +13371,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "shuppet",
+          id:353,
           url: "https://pokeapi.co/api/v2/pokemon/353/"
         }
       },
@@ -12867,6 +13379,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "banette",
+          id:354,
           url: "https://pokeapi.co/api/v2/pokemon/354/"
         }
       },
@@ -12874,6 +13387,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "froslass",
+          id:478,
           url: "https://pokeapi.co/api/v2/pokemon/478/"
         }
       },
@@ -12881,6 +13395,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "frillish",
+          id:592,
           url: "https://pokeapi.co/api/v2/pokemon/592/"
         }
       },
@@ -12888,21 +13403,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "jellicent",
+          id:593,
           url: "https://pokeapi.co/api/v2/pokemon/593/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "marowak alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10115/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "marowak totem",
-          url: "https://pokeapi.co/api/v2/pokemon/10149/"
         }
       }
     ]
@@ -12916,6 +13418,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "chansey",
+          id:113,
           url: "https://pokeapi.co/api/v2/pokemon/113/"
         }
       },
@@ -12923,6 +13426,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "bellossom",
+          id:182,
           url: "https://pokeapi.co/api/v2/pokemon/182/"
         }
       },
@@ -12930,6 +13434,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "blissey",
+          id:242,
           url: "https://pokeapi.co/api/v2/pokemon/242/"
         }
       },
@@ -12937,6 +13442,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "audino",
+          id:531,
           url: "https://pokeapi.co/api/v2/pokemon/531/"
         }
       },
@@ -12944,6 +13450,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "alomomola",
+          id:594,
           url: "https://pokeapi.co/api/v2/pokemon/594/"
         }
       },
@@ -12951,6 +13458,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "spritzee",
+          id:682,
           url: "https://pokeapi.co/api/v2/pokemon/682/"
         }
       },
@@ -12958,16 +13466,11 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "aromatisse",
+          id:683,
           url: "https://pokeapi.co/api/v2/pokemon/683/"
         }
       },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "audino mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10069/"
-        }
-      }
+
     ]
   },
   {
@@ -12979,6 +13482,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "clefairy",
+          id:35,
           url: "https://pokeapi.co/api/v2/pokemon/35/"
         }
       },
@@ -12986,6 +13490,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "jigglypuff",
+          id:39,
           url: "https://pokeapi.co/api/v2/pokemon/39/"
         }
       },
@@ -12993,6 +13498,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "cleffa",
+          id:173,
           url: "https://pokeapi.co/api/v2/pokemon/173/"
         }
       },
@@ -13000,6 +13506,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "igglybuff",
+          id:174,
           url: "https://pokeapi.co/api/v2/pokemon/174/"
         }
       },
@@ -13007,6 +13514,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "happiny",
+          id:440,
           url: "https://pokeapi.co/api/v2/pokemon/440/"
         }
       },
@@ -13014,6 +13522,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "scatterbug",
+          id:664,
           url: "https://pokeapi.co/api/v2/pokemon/664/"
         }
       },
@@ -13021,6 +13530,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "spewpa",
+          id:665,
           url: "https://pokeapi.co/api/v2/pokemon/665/"
         }
       },
@@ -13028,6 +13538,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "vivillon",
+          id:666,
           url: "https://pokeapi.co/api/v2/pokemon/666/"
         }
       }
@@ -13042,6 +13553,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "onix",
+          id:95,
           url: "https://pokeapi.co/api/v2/pokemon/95/"
         }
       },
@@ -13049,6 +13561,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "omanyte",
+          id:138,
           url: "https://pokeapi.co/api/v2/pokemon/138/"
         }
       },
@@ -13056,6 +13569,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "omastar",
+          id:139,
           url: "https://pokeapi.co/api/v2/pokemon/139/"
         }
       },
@@ -13063,6 +13577,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "kabuto",
+          id:140,
           url: "https://pokeapi.co/api/v2/pokemon/140/"
         }
       },
@@ -13070,6 +13585,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "kabutops",
+          id:141,
           url: "https://pokeapi.co/api/v2/pokemon/141/"
         }
       },
@@ -13077,6 +13593,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "slugma",
+          id:218,
           url: "https://pokeapi.co/api/v2/pokemon/218/"
         }
       },
@@ -13084,6 +13601,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "magcargo",
+          id:219,
           url: "https://pokeapi.co/api/v2/pokemon/219/"
         }
       },
@@ -13091,6 +13609,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "skarmory",
+          id:227,
           url: "https://pokeapi.co/api/v2/pokemon/227/"
         }
       },
@@ -13098,6 +13617,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "roggenrola",
+          id:524,
           url: "https://pokeapi.co/api/v2/pokemon/524/"
         }
       },
@@ -13105,6 +13625,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "boldore",
+          id:525,
           url: "https://pokeapi.co/api/v2/pokemon/525/"
         }
       },
@@ -13112,6 +13633,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "dwebble",
+          id:557,
           url: "https://pokeapi.co/api/v2/pokemon/557/"
         }
       },
@@ -13119,6 +13641,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "crustle",
+          id:558,
           url: "https://pokeapi.co/api/v2/pokemon/558/"
         }
       },
@@ -13126,6 +13649,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "garbodor",
+          id:569,
           url: "https://pokeapi.co/api/v2/pokemon/569/"
         }
       },
@@ -13133,6 +13657,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "vanillite",
+          id:582,
           url: "https://pokeapi.co/api/v2/pokemon/582/"
         }
       },
@@ -13140,6 +13665,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "vanillish",
+          id:583,
           url: "https://pokeapi.co/api/v2/pokemon/583/"
         }
       },
@@ -13147,6 +13673,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "vanilluxe",
+          id:584,
           url: "https://pokeapi.co/api/v2/pokemon/584/"
         }
       },
@@ -13154,6 +13681,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "vullaby",
+          id:629,
           url: "https://pokeapi.co/api/v2/pokemon/629/"
         }
       },
@@ -13161,6 +13689,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "mandibuzz",
+          id:630,
           url: "https://pokeapi.co/api/v2/pokemon/630/"
         }
       }
@@ -13175,6 +13704,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "aron",
+          id:304,
           url: "https://pokeapi.co/api/v2/pokemon/304/"
         }
       },
@@ -13182,6 +13712,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "lairon",
+          id:305,
           url: "https://pokeapi.co/api/v2/pokemon/305/"
         }
       },
@@ -13189,6 +13720,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "aggron",
+          id:306,
           url: "https://pokeapi.co/api/v2/pokemon/306/"
         }
       },
@@ -13196,6 +13728,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "bronzor",
+          id:436,
           url: "https://pokeapi.co/api/v2/pokemon/436/"
         }
       },
@@ -13203,6 +13736,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "bronzong",
+          id:437,
           url: "https://pokeapi.co/api/v2/pokemon/437/"
         }
       }
@@ -13217,6 +13751,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "scizor",
+          id:212,
           url: "https://pokeapi.co/api/v2/pokemon/212/"
         }
       },
@@ -13224,6 +13759,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "beldum",
+          id:374,
           url: "https://pokeapi.co/api/v2/pokemon/374/"
         }
       },
@@ -13231,6 +13767,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "metang",
+          id:375,
           url: "https://pokeapi.co/api/v2/pokemon/375/"
         }
       },
@@ -13238,6 +13775,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "metagross",
+          id:376,
           url: "https://pokeapi.co/api/v2/pokemon/376/"
         }
       },
@@ -13245,6 +13783,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "registeel",
+          id:379,
           url: "https://pokeapi.co/api/v2/pokemon/379/"
         }
       }
@@ -13259,6 +13798,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "dragonite",
+          id:149,
           url: "https://pokeapi.co/api/v2/pokemon/149/"
         }
       },
@@ -13266,6 +13806,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "lugia",
+          id:249,
           url: "https://pokeapi.co/api/v2/pokemon/249/"
         }
       }
@@ -13280,6 +13821,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "zangoose",
+          id:335,
           url: "https://pokeapi.co/api/v2/pokemon/335/"
         }
       }
@@ -13294,6 +13836,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "drifloon",
+          id:425,
           url: "https://pokeapi.co/api/v2/pokemon/425/"
         }
       },
@@ -13301,6 +13844,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "drifblim",
+          id:426,
           url: "https://pokeapi.co/api/v2/pokemon/426/"
         }
       }
@@ -13315,6 +13859,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "exeggcute",
+          id:102,
           url: "https://pokeapi.co/api/v2/pokemon/102/"
         }
       },
@@ -13322,6 +13867,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "exeggutor",
+          id:103,
           url: "https://pokeapi.co/api/v2/pokemon/103/"
         }
       },
@@ -13329,6 +13875,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "tropius",
+          id:357,
           url: "https://pokeapi.co/api/v2/pokemon/357/"
         }
       },
@@ -13336,6 +13883,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "phantump",
+          id:708,
           url: "https://pokeapi.co/api/v2/pokemon/708/"
         }
       },
@@ -13343,16 +13891,11 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "trevenant",
+          id:709,
           url: "https://pokeapi.co/api/v2/pokemon/709/"
         }
       },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "exeggutor alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10114/"
-        }
-      }
+
     ]
   },
   {
@@ -13364,6 +13907,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "wobbuffet",
+          id:202,
           url: "https://pokeapi.co/api/v2/pokemon/202/"
         }
       },
@@ -13371,6 +13915,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "ralts",
+          id:280,
           url: "https://pokeapi.co/api/v2/pokemon/280/"
         }
       },
@@ -13378,6 +13923,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "kirlia",
+          id:281,
           url: "https://pokeapi.co/api/v2/pokemon/281/"
         }
       },
@@ -13385,6 +13931,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "gardevoir",
+          id:282,
           url: "https://pokeapi.co/api/v2/pokemon/282/"
         }
       },
@@ -13392,6 +13939,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "meditite",
+          id:307,
           url: "https://pokeapi.co/api/v2/pokemon/307/"
         }
       },
@@ -13399,6 +13947,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "medicham",
+          id:308,
           url: "https://pokeapi.co/api/v2/pokemon/308/"
         }
       },
@@ -13406,6 +13955,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "wynaut",
+          id:360,
           url: "https://pokeapi.co/api/v2/pokemon/360/"
         }
       },
@@ -13413,6 +13963,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "dialga",
+          id:483,
           url: "https://pokeapi.co/api/v2/pokemon/483/"
         }
       },
@@ -13420,6 +13971,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "palkia",
+          id:484,
           url: "https://pokeapi.co/api/v2/pokemon/484/"
         }
       },
@@ -13427,6 +13979,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "giratina altered",
+          id:487,
           url: "https://pokeapi.co/api/v2/pokemon/487/"
         }
       },
@@ -13434,6 +13987,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "munna",
+          id:517,
           url: "https://pokeapi.co/api/v2/pokemon/517/"
         }
       },
@@ -13441,6 +13995,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "musharna",
+          id:518,
           url: "https://pokeapi.co/api/v2/pokemon/518/"
         }
       },
@@ -13448,6 +14003,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "elgyem",
+          id:605,
           url: "https://pokeapi.co/api/v2/pokemon/605/"
         }
       },
@@ -13455,6 +14011,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "beheeyem",
+          id:606,
           url: "https://pokeapi.co/api/v2/pokemon/606/"
         }
       },
@@ -13462,6 +14019,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "noibat",
+          id:714,
           url: "https://pokeapi.co/api/v2/pokemon/714/"
         }
       },
@@ -13469,6 +14027,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "noivern",
+          id:715,
           url: "https://pokeapi.co/api/v2/pokemon/715/"
         }
       },
@@ -13476,6 +14035,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "oranguru",
+          id:765,
           url: "https://pokeapi.co/api/v2/pokemon/765/"
         }
       },
@@ -13483,6 +14043,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "tapu koko",
+          id:785,
           url: "https://pokeapi.co/api/v2/pokemon/785/"
         }
       },
@@ -13490,6 +14051,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "tapu lele",
+          id:786,
           url: "https://pokeapi.co/api/v2/pokemon/786/"
         }
       },
@@ -13497,6 +14059,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "tapu bulu",
+          id:787,
           url: "https://pokeapi.co/api/v2/pokemon/787/"
         }
       },
@@ -13504,6 +14067,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "tapu fini",
+          id:788,
           url: "https://pokeapi.co/api/v2/pokemon/788/"
         }
       }
@@ -13518,6 +14082,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "remoraid",
+          id:223,
           url: "https://pokeapi.co/api/v2/pokemon/223/"
         }
       },
@@ -13525,6 +14090,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "octillery",
+          id:224,
           url: "https://pokeapi.co/api/v2/pokemon/224/"
         }
       },
@@ -13532,6 +14098,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "smeargle",
+          id:235,
           url: "https://pokeapi.co/api/v2/pokemon/235/"
         }
       },
@@ -13539,6 +14106,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "snorunt",
+          id:361,
           url: "https://pokeapi.co/api/v2/pokemon/361/"
         }
       },
@@ -13546,6 +14114,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "glalie",
+          id:362,
           url: "https://pokeapi.co/api/v2/pokemon/362/"
         }
       },
@@ -13553,6 +14122,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "bidoof",
+          id:399,
           url: "https://pokeapi.co/api/v2/pokemon/399/"
         }
       },
@@ -13560,6 +14130,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "bibarel",
+          id:400,
           url: "https://pokeapi.co/api/v2/pokemon/400/"
         }
       }
@@ -13574,6 +14145,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "shellder",
+          id:90,
           url: "https://pokeapi.co/api/v2/pokemon/90/"
         }
       },
@@ -13581,6 +14153,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "cloyster",
+          id:91,
           url: "https://pokeapi.co/api/v2/pokemon/91/"
         }
       },
@@ -13588,6 +14161,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "pineco",
+          id:204,
           url: "https://pokeapi.co/api/v2/pokemon/204/"
         }
       },
@@ -13595,6 +14169,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "forretress",
+          id:205,
           url: "https://pokeapi.co/api/v2/pokemon/205/"
         }
       },
@@ -13602,6 +14177,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "shelgon",
+          id:372,
           url: "https://pokeapi.co/api/v2/pokemon/372/"
         }
       },
@@ -13609,6 +14185,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "burmy",
+          id:412,
           url: "https://pokeapi.co/api/v2/pokemon/412/"
         }
       },
@@ -13616,6 +14193,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "wormadam plant",
+          id:413,
           url: "https://pokeapi.co/api/v2/pokemon/413/"
         }
       },
@@ -13623,6 +14201,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "sewaddle",
+          id:540,
           url: "https://pokeapi.co/api/v2/pokemon/540/"
         }
       },
@@ -13630,6 +14209,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "swadloon",
+          id:541,
           url: "https://pokeapi.co/api/v2/pokemon/541/"
         }
       },
@@ -13637,6 +14217,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "leavanny",
+          id:542,
           url: "https://pokeapi.co/api/v2/pokemon/542/"
         }
       },
@@ -13644,6 +14225,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "solosis",
+          id:577,
           url: "https://pokeapi.co/api/v2/pokemon/577/"
         }
       },
@@ -13651,6 +14233,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "duosion",
+          id:578,
           url: "https://pokeapi.co/api/v2/pokemon/578/"
         }
       },
@@ -13658,6 +14241,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "reuniclus",
+          id:579,
           url: "https://pokeapi.co/api/v2/pokemon/579/"
         }
       },
@@ -13665,6 +14249,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "escavalier",
+          id:589,
           url: "https://pokeapi.co/api/v2/pokemon/589/"
         }
       },
@@ -13672,6 +14257,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "shelmet",
+          id:616,
           url: "https://pokeapi.co/api/v2/pokemon/616/"
         }
       },
@@ -13679,6 +14265,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "vullaby",
+          id:629,
           url: "https://pokeapi.co/api/v2/pokemon/629/"
         }
       },
@@ -13686,6 +14273,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mandibuzz",
+          id:630,
           url: "https://pokeapi.co/api/v2/pokemon/630/"
         }
       },
@@ -13693,6 +14281,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "jangmo o",
+          id:782,
           url: "https://pokeapi.co/api/v2/pokemon/782/"
         }
       },
@@ -13700,6 +14289,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "hakamo o",
+          id:783,
           url: "https://pokeapi.co/api/v2/pokemon/783/"
         }
       },
@@ -13707,28 +14297,8 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "kommo o",
+          id:784,
           url: "https://pokeapi.co/api/v2/pokemon/784/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "wormadam sandy",
-          url: "https://pokeapi.co/api/v2/pokemon/10004/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "wormadam trash",
-          url: "https://pokeapi.co/api/v2/pokemon/10005/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "kommo o totem",
-          url: "https://pokeapi.co/api/v2/pokemon/10146/"
         }
       }
     ]
@@ -13742,6 +14312,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "grimer",
+          id:88,
           url: "https://pokeapi.co/api/v2/pokemon/88/"
         }
       },
@@ -13749,6 +14320,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "muk",
+          id:89,
           url: "https://pokeapi.co/api/v2/pokemon/89/"
         }
       },
@@ -13756,6 +14328,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "croagunk",
+          id:453,
           url: "https://pokeapi.co/api/v2/pokemon/453/"
         }
       },
@@ -13763,6 +14336,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "toxicroak",
+          id:454,
           url: "https://pokeapi.co/api/v2/pokemon/454/"
         }
       },
@@ -13770,6 +14344,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "seismitoad",
+          id:537,
           url: "https://pokeapi.co/api/v2/pokemon/537/"
         }
       },
@@ -13777,6 +14352,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "skrelp",
+          id:690,
           url: "https://pokeapi.co/api/v2/pokemon/690/"
         }
       },
@@ -13784,24 +14360,12 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "dragalge",
+          id:691,
           url: "https://pokeapi.co/api/v2/pokemon/691/"
         }
       },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "grimer alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10112/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "muk alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10113/"
-        }
-      }
-    ]
+
+          ]
   },
   {
     name: "regenerator",
@@ -13812,6 +14376,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "slowpoke",
+          id:79,
           url: "https://pokeapi.co/api/v2/pokemon/79/"
         }
       },
@@ -13819,6 +14384,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "slowbro",
+          id:80,
           url: "https://pokeapi.co/api/v2/pokemon/80/"
         }
       },
@@ -13826,6 +14392,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "tangela",
+          id:114,
           url: "https://pokeapi.co/api/v2/pokemon/114/"
         }
       },
@@ -13833,6 +14400,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "slowking",
+          id:199,
           url: "https://pokeapi.co/api/v2/pokemon/199/"
         }
       },
@@ -13840,6 +14408,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "corsola",
+          id:222,
           url: "https://pokeapi.co/api/v2/pokemon/222/"
         }
       },
@@ -13847,6 +14416,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "ho oh",
+          id:250,
           url: "https://pokeapi.co/api/v2/pokemon/250/"
         }
       },
@@ -13854,6 +14424,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "tangrowth",
+          id:465,
           url: "https://pokeapi.co/api/v2/pokemon/465/"
         }
       },
@@ -13861,6 +14432,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "audino",
+          id:531,
           url: "https://pokeapi.co/api/v2/pokemon/531/"
         }
       },
@@ -13868,6 +14440,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "solosis",
+          id:577,
           url: "https://pokeapi.co/api/v2/pokemon/577/"
         }
       },
@@ -13875,6 +14448,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "duosion",
+          id:578,
           url: "https://pokeapi.co/api/v2/pokemon/578/"
         }
       },
@@ -13882,6 +14456,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "reuniclus",
+          id:579,
           url: "https://pokeapi.co/api/v2/pokemon/579/"
         }
       },
@@ -13889,6 +14464,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "foongus",
+          id:590,
           url: "https://pokeapi.co/api/v2/pokemon/590/"
         }
       },
@@ -13896,6 +14472,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "amoonguss",
+          id:591,
           url: "https://pokeapi.co/api/v2/pokemon/591/"
         }
       },
@@ -13903,6 +14480,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "alomomola",
+          id:594,
           url: "https://pokeapi.co/api/v2/pokemon/594/"
         }
       },
@@ -13910,6 +14488,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mienfoo",
+          id:619,
           url: "https://pokeapi.co/api/v2/pokemon/619/"
         }
       },
@@ -13917,6 +14496,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mienshao",
+          id:620,
           url: "https://pokeapi.co/api/v2/pokemon/620/"
         }
       },
@@ -13924,6 +14504,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "mareanie",
+          id:747,
           url: "https://pokeapi.co/api/v2/pokemon/747/"
         }
       },
@@ -13931,14 +14512,8 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "toxapex",
+          id:748,
           url: "https://pokeapi.co/api/v2/pokemon/748/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "tornadus therian",
-          url: "https://pokeapi.co/api/v2/pokemon/10019/"
         }
       }
     ]
@@ -13952,6 +14527,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "pidgey",
+          id:16,
           url: "https://pokeapi.co/api/v2/pokemon/16/"
         }
       },
@@ -13959,6 +14535,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "pidgeotto",
+          id:17,
           url: "https://pokeapi.co/api/v2/pokemon/17/"
         }
       },
@@ -13966,6 +14543,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "pidgeot",
+          id:18,
           url: "https://pokeapi.co/api/v2/pokemon/18/"
         }
       },
@@ -13973,6 +14551,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "chatot",
+          id:441,
           url: "https://pokeapi.co/api/v2/pokemon/441/"
         }
       },
@@ -13980,6 +14559,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pidove",
+          id:519,
           url: "https://pokeapi.co/api/v2/pokemon/519/"
         }
       },
@@ -13987,6 +14567,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tranquill",
+          id:520,
           url: "https://pokeapi.co/api/v2/pokemon/520/"
         }
       },
@@ -13994,6 +14575,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "unfezant",
+          id:521,
           url: "https://pokeapi.co/api/v2/pokemon/521/"
         }
       },
@@ -14001,6 +14583,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ducklett",
+          id:580,
           url: "https://pokeapi.co/api/v2/pokemon/580/"
         }
       },
@@ -14008,6 +14591,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "swanna",
+          id:581,
           url: "https://pokeapi.co/api/v2/pokemon/581/"
         }
       },
@@ -14015,6 +14599,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "vullaby",
+          id:629,
           url: "https://pokeapi.co/api/v2/pokemon/629/"
         }
       },
@@ -14022,6 +14607,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mandibuzz",
+          id:630,
           url: "https://pokeapi.co/api/v2/pokemon/630/"
         }
       },
@@ -14029,6 +14615,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "fletchling",
+          id:661,
           url: "https://pokeapi.co/api/v2/pokemon/661/"
         }
       }
@@ -14043,6 +14630,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "sandshrew",
+          id:27,
           url: "https://pokeapi.co/api/v2/pokemon/27/"
         }
       },
@@ -14050,6 +14638,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "sandslash",
+          id:28,
           url: "https://pokeapi.co/api/v2/pokemon/28/"
         }
       },
@@ -14057,6 +14646,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "herdier",
+          id:507,
           url: "https://pokeapi.co/api/v2/pokemon/507/"
         }
       },
@@ -14064,6 +14654,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "stoutland",
+          id:508,
           url: "https://pokeapi.co/api/v2/pokemon/508/"
         }
       },
@@ -14071,6 +14662,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "drilbur",
+          id:529,
           url: "https://pokeapi.co/api/v2/pokemon/529/"
         }
       },
@@ -14078,6 +14670,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "excadrill",
+          id:530,
           url: "https://pokeapi.co/api/v2/pokemon/530/"
         }
       },
@@ -14085,6 +14678,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "lycanroc midday",
+          id:745,
           url: "https://pokeapi.co/api/v2/pokemon/745/"
         }
       }
@@ -14099,6 +14693,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "venomoth",
+          id:49,
           url: "https://pokeapi.co/api/v2/pokemon/49/"
         }
       },
@@ -14106,6 +14701,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "skitty",
+          id:300,
           url: "https://pokeapi.co/api/v2/pokemon/300/"
         }
       },
@@ -14113,6 +14709,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "delcatty",
+          id:301,
           url: "https://pokeapi.co/api/v2/pokemon/301/"
         }
       },
@@ -14120,6 +14717,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sigilyph",
+          id:561,
           url: "https://pokeapi.co/api/v2/pokemon/561/"
         }
       },
@@ -14127,6 +14725,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "bruxish",
+          id:779,
           url: "https://pokeapi.co/api/v2/pokemon/779/"
         }
       }
@@ -14141,6 +14740,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "magnemite",
+          id:81,
           url: "https://pokeapi.co/api/v2/pokemon/81/"
         }
       },
@@ -14148,6 +14748,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "magneton",
+          id:82,
           url: "https://pokeapi.co/api/v2/pokemon/82/"
         }
       },
@@ -14155,6 +14756,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "staryu",
+          id:120,
           url: "https://pokeapi.co/api/v2/pokemon/120/"
         }
       },
@@ -14162,6 +14764,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "starmie",
+          id:121,
           url: "https://pokeapi.co/api/v2/pokemon/121/"
         }
       },
@@ -14169,6 +14772,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "porygon",
+          id:137,
           url: "https://pokeapi.co/api/v2/pokemon/137/"
         }
       },
@@ -14176,6 +14780,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "porygon2",
+          id:233,
           url: "https://pokeapi.co/api/v2/pokemon/233/"
         }
       },
@@ -14183,6 +14788,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "magnezone",
+          id:462,
           url: "https://pokeapi.co/api/v2/pokemon/462/"
         }
       },
@@ -14190,6 +14796,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "porygon z",
+          id:474,
           url: "https://pokeapi.co/api/v2/pokemon/474/"
         }
       },
@@ -14197,6 +14804,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "patrat",
+          id:504,
           url: "https://pokeapi.co/api/v2/pokemon/504/"
         }
       },
@@ -14204,6 +14812,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "watchog",
+          id:505,
           url: "https://pokeapi.co/api/v2/pokemon/505/"
         }
       },
@@ -14211,6 +14820,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "elgyem",
+          id:605,
           url: "https://pokeapi.co/api/v2/pokemon/605/"
         }
       },
@@ -14218,6 +14828,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "beheeyem",
+          id:606,
           url: "https://pokeapi.co/api/v2/pokemon/606/"
         }
       }
@@ -14232,6 +14843,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "zorua",
+          id:570,
           url: "https://pokeapi.co/api/v2/pokemon/570/"
         }
       },
@@ -14239,6 +14851,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "zoroark",
+          id:571,
           url: "https://pokeapi.co/api/v2/pokemon/571/"
         }
       }
@@ -14253,6 +14866,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "ditto",
+          id:132,
           url: "https://pokeapi.co/api/v2/pokemon/132/"
         }
       }
@@ -14267,6 +14881,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "zubat",
+          id:41,
           url: "https://pokeapi.co/api/v2/pokemon/41/"
         }
       },
@@ -14274,6 +14889,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "golbat",
+          id:42,
           url: "https://pokeapi.co/api/v2/pokemon/42/"
         }
       },
@@ -14281,6 +14897,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "crobat",
+          id:169,
           url: "https://pokeapi.co/api/v2/pokemon/169/"
         }
       },
@@ -14288,6 +14905,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "hoppip",
+          id:187,
           url: "https://pokeapi.co/api/v2/pokemon/187/"
         }
       },
@@ -14295,6 +14913,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "skiploom",
+          id:188,
           url: "https://pokeapi.co/api/v2/pokemon/188/"
         }
       },
@@ -14302,6 +14921,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "jumpluff",
+          id:189,
           url: "https://pokeapi.co/api/v2/pokemon/189/"
         }
       },
@@ -14309,6 +14929,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "ninjask",
+          id:291,
           url: "https://pokeapi.co/api/v2/pokemon/291/"
         }
       },
@@ -14316,6 +14937,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "seviper",
+          id:336,
           url: "https://pokeapi.co/api/v2/pokemon/336/"
         }
       },
@@ -14323,6 +14945,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "spiritomb",
+          id:442,
           url: "https://pokeapi.co/api/v2/pokemon/442/"
         }
       },
@@ -14330,6 +14953,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "cottonee",
+          id:546,
           url: "https://pokeapi.co/api/v2/pokemon/546/"
         }
       },
@@ -14337,6 +14961,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "whimsicott",
+          id:547,
           url: "https://pokeapi.co/api/v2/pokemon/547/"
         }
       },
@@ -14344,6 +14969,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "litwick",
+          id:607,
           url: "https://pokeapi.co/api/v2/pokemon/607/"
         }
       },
@@ -14351,6 +14977,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "lampent",
+          id:608,
           url: "https://pokeapi.co/api/v2/pokemon/608/"
         }
       },
@@ -14358,6 +14985,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "chandelure",
+          id:609,
           url: "https://pokeapi.co/api/v2/pokemon/609/"
         }
       },
@@ -14365,6 +14993,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "espurr",
+          id:677,
           url: "https://pokeapi.co/api/v2/pokemon/677/"
         }
       },
@@ -14372,6 +15001,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "meowstic male",
+          id:678,
           url: "https://pokeapi.co/api/v2/pokemon/678/"
         }
       },
@@ -14379,6 +15009,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "inkay",
+          id:686,
           url: "https://pokeapi.co/api/v2/pokemon/686/"
         }
       },
@@ -14386,6 +15017,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "malamar",
+          id:687,
           url: "https://pokeapi.co/api/v2/pokemon/687/"
         }
       },
@@ -14393,6 +15025,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "noibat",
+          id:714,
           url: "https://pokeapi.co/api/v2/pokemon/714/"
         }
       },
@@ -14400,14 +15033,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "noivern",
+          id:715,
           url: "https://pokeapi.co/api/v2/pokemon/715/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "meowstic female",
-          url: "https://pokeapi.co/api/v2/pokemon/10025/"
         }
       }
     ]
@@ -14421,6 +15048,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "yamask",
+          id:562,
           url: "https://pokeapi.co/api/v2/pokemon/562/"
         }
       },
@@ -14428,6 +15056,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "cofagrigus",
+          id:563,
           url: "https://pokeapi.co/api/v2/pokemon/563/"
         }
       }
@@ -14442,6 +15071,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "pinsir",
+          id:127,
           url: "https://pokeapi.co/api/v2/pokemon/127/"
         }
       },
@@ -14449,6 +15079,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "gyarados",
+          id:130,
           url: "https://pokeapi.co/api/v2/pokemon/130/"
         }
       },
@@ -14456,6 +15087,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "heracross",
+          id:214,
           url: "https://pokeapi.co/api/v2/pokemon/214/"
         }
       },
@@ -14463,6 +15095,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "mightyena",
+          id:262,
           url: "https://pokeapi.co/api/v2/pokemon/262/"
         }
       },
@@ -14470,6 +15103,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "salamence",
+          id:373,
           url: "https://pokeapi.co/api/v2/pokemon/373/"
         }
       },
@@ -14477,6 +15111,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "honchkrow",
+          id:430,
           url: "https://pokeapi.co/api/v2/pokemon/430/"
         }
       },
@@ -14484,6 +15119,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sandile",
+          id:551,
           url: "https://pokeapi.co/api/v2/pokemon/551/"
         }
       },
@@ -14491,6 +15127,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "krokorok",
+          id:552,
           url: "https://pokeapi.co/api/v2/pokemon/552/"
         }
       },
@@ -14498,6 +15135,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "krookodile",
+          id:553,
           url: "https://pokeapi.co/api/v2/pokemon/553/"
         }
       },
@@ -14505,6 +15143,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "scraggy",
+          id:559,
           url: "https://pokeapi.co/api/v2/pokemon/559/"
         }
       },
@@ -14512,6 +15151,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "scrafty",
+          id:560,
           url: "https://pokeapi.co/api/v2/pokemon/560/"
         }
       },
@@ -14519,6 +15159,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "litleo",
+          id:667,
           url: "https://pokeapi.co/api/v2/pokemon/667/"
         }
       },
@@ -14526,6 +15167,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "pyroar",
+          id:668,
           url: "https://pokeapi.co/api/v2/pokemon/668/"
         }
       }
@@ -14540,6 +15182,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "growlithe",
+          id:58,
           url: "https://pokeapi.co/api/v2/pokemon/58/"
         }
       },
@@ -14547,6 +15190,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "arcanine",
+          id:59,
           url: "https://pokeapi.co/api/v2/pokemon/59/"
         }
       },
@@ -14554,6 +15198,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "absol",
+          id:359,
           url: "https://pokeapi.co/api/v2/pokemon/359/"
         }
       },
@@ -14561,6 +15206,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "lucario",
+          id:448,
           url: "https://pokeapi.co/api/v2/pokemon/448/"
         }
       },
@@ -14568,6 +15214,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "gallade",
+          id:475,
           url: "https://pokeapi.co/api/v2/pokemon/475/"
         }
       },
@@ -14575,6 +15222,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "cobalion",
+          id:638,
           url: "https://pokeapi.co/api/v2/pokemon/638/"
         }
       },
@@ -14582,6 +15230,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "terrakion",
+          id:639,
           url: "https://pokeapi.co/api/v2/pokemon/639/"
         }
       },
@@ -14589,6 +15238,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "virizion",
+          id:640,
           url: "https://pokeapi.co/api/v2/pokemon/640/"
         }
       },
@@ -14596,14 +15246,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "keldeo ordinary",
+          id:647,
           url: "https://pokeapi.co/api/v2/pokemon/647/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "keldeo resolute",
-          url: "https://pokeapi.co/api/v2/pokemon/10024/"
         }
       }
     ]
@@ -14617,6 +15261,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "magikarp",
+          id:129,
           url: "https://pokeapi.co/api/v2/pokemon/129/"
         }
       },
@@ -14624,6 +15269,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "ledyba",
+          id:165,
           url: "https://pokeapi.co/api/v2/pokemon/165/"
         }
       },
@@ -14631,6 +15277,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "sudowoodo",
+          id:185,
           url: "https://pokeapi.co/api/v2/pokemon/185/"
         }
       },
@@ -14638,6 +15285,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "dunsparce",
+          id:206,
           url: "https://pokeapi.co/api/v2/pokemon/206/"
         }
       },
@@ -14645,6 +15293,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "snubbull",
+          id:209,
           url: "https://pokeapi.co/api/v2/pokemon/209/"
         }
       },
@@ -14652,6 +15301,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "granbull",
+          id:210,
           url: "https://pokeapi.co/api/v2/pokemon/210/"
         }
       },
@@ -14659,6 +15309,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "poochyena",
+          id:261,
           url: "https://pokeapi.co/api/v2/pokemon/261/"
         }
       },
@@ -14666,6 +15317,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "whismur",
+          id:293,
           url: "https://pokeapi.co/api/v2/pokemon/293/"
         }
       },
@@ -14673,6 +15325,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "clamperl",
+          id:366,
           url: "https://pokeapi.co/api/v2/pokemon/366/"
         }
       },
@@ -14680,6 +15333,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "bonsly",
+          id:438,
           url: "https://pokeapi.co/api/v2/pokemon/438/"
         }
       },
@@ -14687,21 +15341,8 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "cubchoo",
+          id:613,
           url: "https://pokeapi.co/api/v2/pokemon/613/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "meowth alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10107/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "persian alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10108/"
         }
       }
     ]
@@ -14715,6 +15356,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "natu",
+          id:177,
           url: "https://pokeapi.co/api/v2/pokemon/177/"
         }
       },
@@ -14722,6 +15364,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "xatu",
+          id:178,
           url: "https://pokeapi.co/api/v2/pokemon/178/"
         }
       },
@@ -14729,28 +15372,8 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "espeon",
+          id:196,
           url: "https://pokeapi.co/api/v2/pokemon/196/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "absol mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10057/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "sableye mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10066/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "diancie mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10075/"
         }
       }
     ]
@@ -14764,6 +15387,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "marill",
+          id:183,
           url: "https://pokeapi.co/api/v2/pokemon/183/"
         }
       },
@@ -14771,6 +15395,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "azumarill",
+          id:184,
           url: "https://pokeapi.co/api/v2/pokemon/184/"
         }
       },
@@ -14778,6 +15403,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "girafarig",
+          id:203,
           url: "https://pokeapi.co/api/v2/pokemon/203/"
         }
       },
@@ -14785,6 +15411,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "stantler",
+          id:234,
           url: "https://pokeapi.co/api/v2/pokemon/234/"
         }
       },
@@ -14792,6 +15419,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "miltank",
+          id:241,
           url: "https://pokeapi.co/api/v2/pokemon/241/"
         }
       },
@@ -14799,6 +15427,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "azurill",
+          id:298,
           url: "https://pokeapi.co/api/v2/pokemon/298/"
         }
       },
@@ -14806,6 +15435,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "blitzle",
+          id:522,
           url: "https://pokeapi.co/api/v2/pokemon/522/"
         }
       },
@@ -14813,6 +15443,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "zebstrika",
+          id:523,
           url: "https://pokeapi.co/api/v2/pokemon/523/"
         }
       },
@@ -14820,6 +15451,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "deerling",
+          id:585,
           url: "https://pokeapi.co/api/v2/pokemon/585/"
         }
       },
@@ -14827,6 +15459,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sawsbuck",
+          id:586,
           url: "https://pokeapi.co/api/v2/pokemon/586/"
         }
       },
@@ -14834,6 +15467,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bouffalant",
+          id:626,
           url: "https://pokeapi.co/api/v2/pokemon/626/"
         }
       },
@@ -14841,6 +15475,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "skiddo",
+          id:672,
           url: "https://pokeapi.co/api/v2/pokemon/672/"
         }
       },
@@ -14848,6 +15483,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gogoat",
+          id:673,
           url: "https://pokeapi.co/api/v2/pokemon/673/"
         }
       },
@@ -14855,6 +15491,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "goomy",
+          id:704,
           url: "https://pokeapi.co/api/v2/pokemon/704/"
         }
       },
@@ -14862,6 +15499,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sliggoo",
+          id:705,
           url: "https://pokeapi.co/api/v2/pokemon/705/"
         }
       },
@@ -14869,6 +15507,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "goodra",
+          id:706,
           url: "https://pokeapi.co/api/v2/pokemon/706/"
         }
       },
@@ -14876,6 +15515,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "drampa",
+          id:780,
           url: "https://pokeapi.co/api/v2/pokemon/780/"
         }
       }
@@ -14890,6 +15530,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "murkrow",
+          id:198,
           url: "https://pokeapi.co/api/v2/pokemon/198/"
         }
       },
@@ -14897,6 +15538,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "sableye",
+          id:302,
           url: "https://pokeapi.co/api/v2/pokemon/302/"
         }
       },
@@ -14904,6 +15546,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "volbeat",
+          id:313,
           url: "https://pokeapi.co/api/v2/pokemon/313/"
         }
       },
@@ -14911,6 +15554,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "illumise",
+          id:314,
           url: "https://pokeapi.co/api/v2/pokemon/314/"
         }
       },
@@ -14918,6 +15562,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "riolu",
+          id:447,
           url: "https://pokeapi.co/api/v2/pokemon/447/"
         }
       },
@@ -14925,6 +15570,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "purrloin",
+          id:509,
           url: "https://pokeapi.co/api/v2/pokemon/509/"
         }
       },
@@ -14932,6 +15578,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "liepard",
+          id:510,
           url: "https://pokeapi.co/api/v2/pokemon/510/"
         }
       },
@@ -14939,6 +15586,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "cottonee",
+          id:546,
           url: "https://pokeapi.co/api/v2/pokemon/546/"
         }
       },
@@ -14946,6 +15594,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "whimsicott",
+          id:547,
           url: "https://pokeapi.co/api/v2/pokemon/547/"
         }
       },
@@ -14953,6 +15602,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tornadus incarnate",
+          id:641,
           url: "https://pokeapi.co/api/v2/pokemon/641/"
         }
       },
@@ -14960,6 +15610,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "thundurus incarnate",
+          id:642,
           url: "https://pokeapi.co/api/v2/pokemon/642/"
         }
       },
@@ -14967,6 +15618,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "meowstic male",
+          id:678,
           url: "https://pokeapi.co/api/v2/pokemon/678/"
         }
       },
@@ -14974,16 +15626,11 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "klefki",
+          id:707,
           url: "https://pokeapi.co/api/v2/pokemon/707/"
         }
       },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "banette mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10056/"
-        }
-      }
+
     ]
   },
   {
@@ -14995,6 +15642,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "diglett",
+          id:50,
           url: "https://pokeapi.co/api/v2/pokemon/50/"
         }
       },
@@ -15002,6 +15650,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "dugtrio",
+          id:51,
           url: "https://pokeapi.co/api/v2/pokemon/51/"
         }
       },
@@ -15009,6 +15658,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "nosepass",
+          id:299,
           url: "https://pokeapi.co/api/v2/pokemon/299/"
         }
       },
@@ -15016,6 +15666,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "shellos",
+          id:422,
           url: "https://pokeapi.co/api/v2/pokemon/422/"
         }
       },
@@ -15023,6 +15674,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "gastrodon",
+          id:423,
           url: "https://pokeapi.co/api/v2/pokemon/423/"
         }
       },
@@ -15030,6 +15682,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "hippopotas",
+          id:449,
           url: "https://pokeapi.co/api/v2/pokemon/449/"
         }
       },
@@ -15037,6 +15690,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "hippowdon",
+          id:450,
           url: "https://pokeapi.co/api/v2/pokemon/450/"
         }
       },
@@ -15044,6 +15698,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "probopass",
+          id:476,
           url: "https://pokeapi.co/api/v2/pokemon/476/"
         }
       },
@@ -15051,6 +15706,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "roggenrola",
+          id:524,
           url: "https://pokeapi.co/api/v2/pokemon/524/"
         }
       },
@@ -15058,6 +15714,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "boldore",
+          id:525,
           url: "https://pokeapi.co/api/v2/pokemon/525/"
         }
       },
@@ -15065,6 +15722,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "gigalith",
+          id:526,
           url: "https://pokeapi.co/api/v2/pokemon/526/"
         }
       },
@@ -15072,6 +15730,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "drilbur",
+          id:529,
           url: "https://pokeapi.co/api/v2/pokemon/529/"
         }
       },
@@ -15079,6 +15738,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "excadrill",
+          id:530,
           url: "https://pokeapi.co/api/v2/pokemon/530/"
         }
       },
@@ -15086,35 +15746,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "landorus incarnate",
+          id:645,
           url: "https://pokeapi.co/api/v2/pokemon/645/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "garchomp mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10058/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "steelix mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10072/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "diglett alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10105/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "dugtrio alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10106/"
         }
       }
     ]
@@ -15128,6 +15761,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ferroseed",
+          id:597,
           url: "https://pokeapi.co/api/v2/pokemon/597/"
         }
       },
@@ -15135,6 +15769,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "ferrothorn",
+          id:598,
           url: "https://pokeapi.co/api/v2/pokemon/598/"
         }
       },
@@ -15142,14 +15777,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "togedemaru",
+          id:777,
           url: "https://pokeapi.co/api/v2/pokemon/777/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "togedemaru totem",
-          url: "https://pokeapi.co/api/v2/pokemon/10154/"
         }
       }
     ]
@@ -15163,14 +15792,8 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "darmanitan standard",
+          id:555,
           url: "https://pokeapi.co/api/v2/pokemon/555/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "darmanitan zen",
-          url: "https://pokeapi.co/api/v2/pokemon/10017/"
         }
       }
     ]
@@ -15184,6 +15807,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "victini",
+          id:494,
           url: "https://pokeapi.co/api/v2/pokemon/494/"
         }
       }
@@ -15198,14 +15822,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "reshiram",
+          id:643,
           url: "https://pokeapi.co/api/v2/pokemon/643/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "kyurem white",
-          url: "https://pokeapi.co/api/v2/pokemon/10023/"
         }
       }
     ]
@@ -15219,14 +15837,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "zekrom",
+          id:644,
           url: "https://pokeapi.co/api/v2/pokemon/644/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "kyurem black",
-          url: "https://pokeapi.co/api/v2/pokemon/10022/"
         }
       }
     ]
@@ -15240,6 +15852,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "spritzee",
+          id:682,
           url: "https://pokeapi.co/api/v2/pokemon/682/"
         }
       },
@@ -15247,6 +15860,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "aromatisse",
+          id:683,
           url: "https://pokeapi.co/api/v2/pokemon/683/"
         }
       }
@@ -15261,6 +15875,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "flabebe",
+          id:669,
           url: "https://pokeapi.co/api/v2/pokemon/669/"
         }
       },
@@ -15268,6 +15883,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "floette",
+          id:670,
           url: "https://pokeapi.co/api/v2/pokemon/670/"
         }
       },
@@ -15275,6 +15891,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "florges",
+          id:671,
           url: "https://pokeapi.co/api/v2/pokemon/671/"
         }
       },
@@ -15282,14 +15899,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "comfey",
+          id:764,
           url: "https://pokeapi.co/api/v2/pokemon/764/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "floette eternal",
-          url: "https://pokeapi.co/api/v2/pokemon/10061/"
         }
       }
     ]
@@ -15303,6 +15914,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bunnelby",
+          id:659,
           url: "https://pokeapi.co/api/v2/pokemon/659/"
         }
       },
@@ -15310,6 +15922,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "diggersby",
+          id:660,
           url: "https://pokeapi.co/api/v2/pokemon/660/"
         }
       },
@@ -15317,6 +15930,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "dedenne",
+          id:702,
           url: "https://pokeapi.co/api/v2/pokemon/702/"
         }
       }
@@ -15331,6 +15945,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "kecleon",
+          id:352,
           url: "https://pokeapi.co/api/v2/pokemon/352/"
         }
       },
@@ -15338,6 +15953,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "froakie",
+          id:656,
           url: "https://pokeapi.co/api/v2/pokemon/656/"
         }
       },
@@ -15345,6 +15961,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "frogadier",
+          id:657,
           url: "https://pokeapi.co/api/v2/pokemon/657/"
         }
       },
@@ -15352,6 +15969,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "greninja",
+          id:658,
           url: "https://pokeapi.co/api/v2/pokemon/658/"
         }
       }
@@ -15366,17 +15984,11 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "furfrou",
+          id:676,
           url: "https://pokeapi.co/api/v2/pokemon/676/"
         }
       },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "persian alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10108/"
-        }
-      }
-    ]
+          ]
   },
   {
     name: "magician",
@@ -15387,6 +15999,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "fennekin",
+          id:653,
           url: "https://pokeapi.co/api/v2/pokemon/653/"
         }
       },
@@ -15394,6 +16007,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "braixen",
+          id:654,
           url: "https://pokeapi.co/api/v2/pokemon/654/"
         }
       },
@@ -15401,6 +16015,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "delphox",
+          id:655,
           url: "https://pokeapi.co/api/v2/pokemon/655/"
         }
       },
@@ -15408,6 +16023,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "klefki",
+          id:707,
           url: "https://pokeapi.co/api/v2/pokemon/707/"
         }
       },
@@ -15415,14 +16031,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "hoopa",
+          id:720,
           url: "https://pokeapi.co/api/v2/pokemon/720/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "hoopa unbound",
-          url: "https://pokeapi.co/api/v2/pokemon/10086/"
         }
       }
     ]
@@ -15436,6 +16046,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "chespin",
+          id:650,
           url: "https://pokeapi.co/api/v2/pokemon/650/"
         }
       },
@@ -15443,6 +16054,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "quilladin",
+          id:651,
           url: "https://pokeapi.co/api/v2/pokemon/651/"
         }
       },
@@ -15450,6 +16062,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "chesnaught",
+          id:652,
           url: "https://pokeapi.co/api/v2/pokemon/652/"
         }
       },
@@ -15457,6 +16070,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "jangmo o",
+          id:782,
           url: "https://pokeapi.co/api/v2/pokemon/782/"
         }
       },
@@ -15464,6 +16078,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "hakamo o",
+          id:783,
           url: "https://pokeapi.co/api/v2/pokemon/783/"
         }
       },
@@ -15471,14 +16086,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "kommo o",
+          id:784,
           url: "https://pokeapi.co/api/v2/pokemon/784/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "kommo o totem",
-          url: "https://pokeapi.co/api/v2/pokemon/10146/"
         }
       }
     ]
@@ -15492,6 +16101,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "jigglypuff",
+          id:39,
           url: "https://pokeapi.co/api/v2/pokemon/39/"
         }
       },
@@ -15499,6 +16109,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "wigglytuff",
+          id:40,
           url: "https://pokeapi.co/api/v2/pokemon/40/"
         }
       },
@@ -15506,6 +16117,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "igglybuff",
+          id:174,
           url: "https://pokeapi.co/api/v2/pokemon/174/"
         }
       },
@@ -15513,6 +16125,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "milotic",
+          id:350,
           url: "https://pokeapi.co/api/v2/pokemon/350/"
         }
       },
@@ -15520,6 +16133,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gothita",
+          id:574,
           url: "https://pokeapi.co/api/v2/pokemon/574/"
         }
       },
@@ -15527,6 +16141,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gothorita",
+          id:575,
           url: "https://pokeapi.co/api/v2/pokemon/575/"
         }
       },
@@ -15534,14 +16149,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gothitelle",
+          id:576,
           url: "https://pokeapi.co/api/v2/pokemon/576/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "meowstic female",
-          url: "https://pokeapi.co/api/v2/pokemon/10025/"
         }
       }
     ]
@@ -15555,6 +16164,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tyrunt",
+          id:696,
           url: "https://pokeapi.co/api/v2/pokemon/696/"
         }
       },
@@ -15562,6 +16172,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tyrantrum",
+          id:697,
           url: "https://pokeapi.co/api/v2/pokemon/697/"
         }
       },
@@ -15569,6 +16180,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "yungoos",
+          id:734,
           url: "https://pokeapi.co/api/v2/pokemon/734/"
         }
       },
@@ -15576,6 +16188,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gumshoos",
+          id:735,
           url: "https://pokeapi.co/api/v2/pokemon/735/"
         }
       },
@@ -15583,21 +16196,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bruxish",
+          id:779,
           url: "https://pokeapi.co/api/v2/pokemon/779/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "sharpedo mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10070/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "gumshoos totem",
-          url: "https://pokeapi.co/api/v2/pokemon/10121/"
         }
       }
     ]
@@ -15611,6 +16211,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "amaura",
+          id:698,
           url: "https://pokeapi.co/api/v2/pokemon/698/"
         }
       },
@@ -15618,16 +16219,11 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "aurorus",
+          id:699,
           url: "https://pokeapi.co/api/v2/pokemon/699/"
         }
       },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "glalie mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10074/"
-        }
-      }
+
     ]
   },
   {
@@ -15639,6 +16235,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "swirlix",
+          id:684,
           url: "https://pokeapi.co/api/v2/pokemon/684/"
         }
       },
@@ -15646,6 +16243,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "slurpuff",
+          id:685,
           url: "https://pokeapi.co/api/v2/pokemon/685/"
         }
       },
@@ -15653,6 +16251,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "cutiefly",
+          id:742,
           url: "https://pokeapi.co/api/v2/pokemon/742/"
         }
       },
@@ -15660,6 +16259,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "ribombee",
+          id:743,
           url: "https://pokeapi.co/api/v2/pokemon/743/"
         }
       },
@@ -15667,6 +16267,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "bounsweet",
+          id:761,
           url: "https://pokeapi.co/api/v2/pokemon/761/"
         }
       },
@@ -15674,6 +16275,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "steenee",
+          id:762,
           url: "https://pokeapi.co/api/v2/pokemon/762/"
         }
       },
@@ -15681,14 +16283,8 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "tsareena",
+          id:763,
           url: "https://pokeapi.co/api/v2/pokemon/763/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "ribombee totem",
-          url: "https://pokeapi.co/api/v2/pokemon/10150/"
         }
       }
     ]
@@ -15702,14 +16298,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "aegislash shield",
+          id:681,
           url: "https://pokeapi.co/api/v2/pokemon/681/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "aegislash blade",
-          url: "https://pokeapi.co/api/v2/pokemon/10026/"
         }
       }
     ]
@@ -15723,6 +16313,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "fletchling",
+          id:661,
           url: "https://pokeapi.co/api/v2/pokemon/661/"
         }
       },
@@ -15730,6 +16321,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "fletchinder",
+          id:662,
           url: "https://pokeapi.co/api/v2/pokemon/662/"
         }
       },
@@ -15737,6 +16329,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "talonflame",
+          id:663,
           url: "https://pokeapi.co/api/v2/pokemon/663/"
         }
       }
@@ -15751,6 +16344,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "clauncher",
+          id:692,
           url: "https://pokeapi.co/api/v2/pokemon/692/"
         }
       },
@@ -15758,16 +16352,11 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "clawitzer",
+          id:693,
           url: "https://pokeapi.co/api/v2/pokemon/693/"
         }
       },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "blastoise mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10036/"
-        }
-      }
+
     ]
   },
   {
@@ -15779,6 +16368,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "skiddo",
+          id:672,
           url: "https://pokeapi.co/api/v2/pokemon/672/"
         }
       },
@@ -15786,6 +16376,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "gogoat",
+          id:673,
           url: "https://pokeapi.co/api/v2/pokemon/673/"
         }
       }
@@ -15800,6 +16391,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "flabebe",
+          id:669,
           url: "https://pokeapi.co/api/v2/pokemon/669/"
         }
       },
@@ -15807,6 +16399,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "floette",
+          id:670,
           url: "https://pokeapi.co/api/v2/pokemon/670/"
         }
       },
@@ -15814,6 +16407,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "florges",
+          id:671,
           url: "https://pokeapi.co/api/v2/pokemon/671/"
         }
       },
@@ -15821,14 +16415,8 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "oranguru",
+          id:765,
           url: "https://pokeapi.co/api/v2/pokemon/765/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "floette eternal",
-          url: "https://pokeapi.co/api/v2/pokemon/10061/"
         }
       }
     ]
@@ -15842,6 +16430,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "binacle",
+          id:688,
           url: "https://pokeapi.co/api/v2/pokemon/688/"
         }
       },
@@ -15849,35 +16438,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "barbaracle",
+          id:689,
           url: "https://pokeapi.co/api/v2/pokemon/689/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "charizard mega x",
-          url: "https://pokeapi.co/api/v2/pokemon/10034/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "aerodactyl mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10042/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "metagross mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10076/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "lycanroc dusk",
-          url: "https://pokeapi.co/api/v2/pokemon/10152/"
         }
       }
     ]
@@ -15891,21 +16453,8 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "sylveon",
+          id:700,
           url: "https://pokeapi.co/api/v2/pokemon/700/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "gardevoir mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10051/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "altaria mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10067/"
         }
       }
     ]
@@ -15919,6 +16468,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "goomy",
+          id:704,
           url: "https://pokeapi.co/api/v2/pokemon/704/"
         }
       },
@@ -15926,6 +16476,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "sliggoo",
+          id:705,
           url: "https://pokeapi.co/api/v2/pokemon/705/"
         }
       },
@@ -15933,42 +16484,8 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "goodra",
+          id:706,
           url: "https://pokeapi.co/api/v2/pokemon/706/"
-        }
-      }
-    ]
-  },
-  {
-    name: "aerilate",
-    text: "Normal type moves become Flying type moves. The power of those moves is boosted a little.",
-    gen: "generation-6",
-    pokemon: [
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "pinsir mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10040/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "salamence mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10089/"
-        }
-      }
-    ]
-  },
-  {
-    name: "parental bond",
-    text: "Parent and child each attacks.",
-    gen: "generation-6",
-    pokemon: [
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "kangaskhan mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10039/"
         }
       }
     ]
@@ -15982,6 +16499,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "yveltal",
+          id:717,
           url: "https://pokeapi.co/api/v2/pokemon/717/"
         }
       }
@@ -15996,6 +16514,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "xerneas",
+          id:716,
           url: "https://pokeapi.co/api/v2/pokemon/716/"
         }
       }
@@ -16010,49 +16529,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "zygarde",
+          id:718,
           url: "https://pokeapi.co/api/v2/pokemon/718/"
-        }
-      }
-    ]
-  },
-  {
-    name: "primordial sea",
-    text: "The Pokémon changes the weather to nullify Fire type attacks.",
-    gen: "generation-6",
-    pokemon: [
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "kyogre primal",
-          url: "https://pokeapi.co/api/v2/pokemon/10077/"
-        }
-      }
-    ]
-  },
-  {
-    name: "desolate land",
-    text: "The Pokémon changes the weather to nullify Water type attacks.",
-    gen: "generation-6",
-    pokemon: [
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "groudon primal",
-          url: "https://pokeapi.co/api/v2/pokemon/10078/"
-        }
-      }
-    ]
-  },
-  {
-    name: "delta stream",
-    text: "The Pokémon changes the weather to eliminate all of the Flying type’s weaknesses.",
-    gen: "generation-6",
-    pokemon: [
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "rayquaza mega",
-          url: "https://pokeapi.co/api/v2/pokemon/10079/"
         }
       }
     ]
@@ -16066,6 +16544,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mudbray",
+          id:749,
           url: "https://pokeapi.co/api/v2/pokemon/749/"
         }
       },
@@ -16073,6 +16552,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mudsdale",
+          id:750,
           url: "https://pokeapi.co/api/v2/pokemon/750/"
         }
       }
@@ -16087,6 +16567,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "wimpod",
+          id:767,
           url: "https://pokeapi.co/api/v2/pokemon/767/"
         }
       }
@@ -16101,6 +16582,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "golisopod",
+          id:768,
           url: "https://pokeapi.co/api/v2/pokemon/768/"
         }
       }
@@ -16115,6 +16597,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "sandygast",
+          id:769,
           url: "https://pokeapi.co/api/v2/pokemon/769/"
         }
       },
@@ -16122,6 +16605,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "palossand",
+          id:770,
           url: "https://pokeapi.co/api/v2/pokemon/770/"
         }
       }
@@ -16136,6 +16620,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mareanie",
+          id:747,
           url: "https://pokeapi.co/api/v2/pokemon/747/"
         }
       },
@@ -16143,6 +16628,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "toxapex",
+          id:748,
           url: "https://pokeapi.co/api/v2/pokemon/748/"
         }
       }
@@ -16157,98 +16643,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "minior red meteor",
+          id:774,
           url: "https://pokeapi.co/api/v2/pokemon/774/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "minior orange meteor",
-          url: "https://pokeapi.co/api/v2/pokemon/10130/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "minior yellow meteor",
-          url: "https://pokeapi.co/api/v2/pokemon/10131/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "minior green meteor",
-          url: "https://pokeapi.co/api/v2/pokemon/10132/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "minior blue meteor",
-          url: "https://pokeapi.co/api/v2/pokemon/10133/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "minior indigo meteor",
-          url: "https://pokeapi.co/api/v2/pokemon/10134/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "minior violet meteor",
-          url: "https://pokeapi.co/api/v2/pokemon/10135/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "minior red",
-          url: "https://pokeapi.co/api/v2/pokemon/10136/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "minior orange",
-          url: "https://pokeapi.co/api/v2/pokemon/10137/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "minior yellow",
-          url: "https://pokeapi.co/api/v2/pokemon/10138/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "minior green",
-          url: "https://pokeapi.co/api/v2/pokemon/10139/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "minior blue",
-          url: "https://pokeapi.co/api/v2/pokemon/10140/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "minior indigo",
-          url: "https://pokeapi.co/api/v2/pokemon/10141/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "minior violet",
-          url: "https://pokeapi.co/api/v2/pokemon/10142/"
         }
       }
     ]
@@ -16262,6 +16658,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "yungoos",
+          id:734,
           url: "https://pokeapi.co/api/v2/pokemon/734/"
         }
       },
@@ -16269,14 +16666,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "gumshoos",
+          id:735,
           url: "https://pokeapi.co/api/v2/pokemon/735/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "gumshoos totem",
-          url: "https://pokeapi.co/api/v2/pokemon/10121/"
         }
       }
     ]
@@ -16290,6 +16681,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "dewpider",
+          id:751,
           url: "https://pokeapi.co/api/v2/pokemon/751/"
         }
       },
@@ -16297,14 +16689,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "araquanid",
+          id:752,
           url: "https://pokeapi.co/api/v2/pokemon/752/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "araquanid totem",
-          url: "https://pokeapi.co/api/v2/pokemon/10153/"
         }
       }
     ]
@@ -16318,6 +16704,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "dhelmise",
+          id:781,
           url: "https://pokeapi.co/api/v2/pokemon/781/"
         }
       }
@@ -16332,6 +16719,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "drampa",
+          id:780,
           url: "https://pokeapi.co/api/v2/pokemon/780/"
         }
       }
@@ -16346,6 +16734,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "cubchoo",
+          id:613,
           url: "https://pokeapi.co/api/v2/pokemon/613/"
         }
       },
@@ -16353,21 +16742,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "beartic",
+          id:614,
           url: "https://pokeapi.co/api/v2/pokemon/614/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "sandshrew alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10101/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "sandslash alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10102/"
         }
       }
     ]
@@ -16381,6 +16757,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "rowlet",
+          id:722,
           url: "https://pokeapi.co/api/v2/pokemon/722/"
         }
       },
@@ -16388,6 +16765,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "dartrix",
+          id:723,
           url: "https://pokeapi.co/api/v2/pokemon/723/"
         }
       },
@@ -16395,6 +16773,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "decidueye",
+          id:724,
           url: "https://pokeapi.co/api/v2/pokemon/724/"
         }
       }
@@ -16409,6 +16788,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "popplio",
+          id:728,
           url: "https://pokeapi.co/api/v2/pokemon/728/"
         }
       },
@@ -16416,6 +16796,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "brionne",
+          id:729,
           url: "https://pokeapi.co/api/v2/pokemon/729/"
         }
       },
@@ -16423,6 +16804,7 @@ export const abilities = [
         is_hidden: true,
         pokemon: {
           name: "primarina",
+          id:730,
           url: "https://pokeapi.co/api/v2/pokemon/730/"
         }
       }
@@ -16437,49 +16819,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "comfey",
+          id:764,
           url: "https://pokeapi.co/api/v2/pokemon/764/"
-        }
-      }
-    ]
-  },
-  {
-    name: "galvanize",
-    text: "Normal type moves become Electric type moves. The power of those moves is boosted a little.",
-    gen: "generation-7",
-    pokemon: [
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "geodude alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10109/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "graveler alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10110/"
-        }
-      },
-      {
-        is_hidden: true,
-        pokemon: {
-          name: "golem alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10111/"
-        }
-      }
-    ]
-  },
-  {
-    name: "surge surfer",
-    text: "Doubles the Pokémon’s Speed stat on Electric Terrain.",
-    gen: "generation-7",
-    pokemon: [
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "raichu alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10100/"
         }
       }
     ]
@@ -16493,14 +16834,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "wishiwashi solo",
+          id:746,
           url: "https://pokeapi.co/api/v2/pokemon/746/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "wishiwashi school",
-          url: "https://pokeapi.co/api/v2/pokemon/10127/"
         }
       }
     ]
@@ -16514,77 +16849,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "mimikyu disguised",
+          id:778,
           url: "https://pokeapi.co/api/v2/pokemon/778/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "mimikyu busted",
-          url: "https://pokeapi.co/api/v2/pokemon/10143/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "mimikyu totem disguised",
-          url: "https://pokeapi.co/api/v2/pokemon/10144/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "mimikyu totem busted",
-          url: "https://pokeapi.co/api/v2/pokemon/10145/"
-        }
-      }
-    ]
-  },
-  {
-    name: "battle bond",
-    text: "Defeating an opposing Pokémon strengthens the Pokémon’s bond with its Trainer, and it becomes Ash Greninja. Water Shuriken gets more powerful.",
-    gen: "generation-7",
-    pokemon: [
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "greninja battle bond",
-          url: "https://pokeapi.co/api/v2/pokemon/10116/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "greninja ash",
-          url: "https://pokeapi.co/api/v2/pokemon/10117/"
-        }
-      }
-    ]
-  },
-  {
-    name: "power construct",
-    text: "Other Cells gather to aid when its HP becomes half or less. Then the Pokémon changes its form to Complete Forme.",
-    gen: "generation-7",
-    pokemon: [
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "zygarde 10",
-          url: "https://pokeapi.co/api/v2/pokemon/10118/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "zygarde 50",
-          url: "https://pokeapi.co/api/v2/pokemon/10119/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "zygarde complete",
-          url: "https://pokeapi.co/api/v2/pokemon/10120/"
         }
       }
     ]
@@ -16598,6 +16864,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "salandit",
+          id:757,
           url: "https://pokeapi.co/api/v2/pokemon/757/"
         }
       },
@@ -16605,14 +16872,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "salazzle",
+          id:758,
           url: "https://pokeapi.co/api/v2/pokemon/758/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "salazzle totem",
-          url: "https://pokeapi.co/api/v2/pokemon/10129/"
         }
       }
     ]
@@ -16626,6 +16887,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "komala",
+          id:775,
           url: "https://pokeapi.co/api/v2/pokemon/775/"
         }
       }
@@ -16640,6 +16902,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "tsareena",
+          id:763,
           url: "https://pokeapi.co/api/v2/pokemon/763/"
         }
       }
@@ -16654,6 +16917,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "pyukumuku",
+          id:771,
           url: "https://pokeapi.co/api/v2/pokemon/771/"
         }
       }
@@ -16668,28 +16932,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "oricorio baile",
+          id:741,
           url: "https://pokeapi.co/api/v2/pokemon/741/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "oricorio pom pom",
-          url: "https://pokeapi.co/api/v2/pokemon/10123/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "oricorio pau",
-          url: "https://pokeapi.co/api/v2/pokemon/10124/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "oricorio sensu",
-          url: "https://pokeapi.co/api/v2/pokemon/10125/"
         }
       }
     ]
@@ -16703,6 +16947,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "charjabug",
+          id:737,
           url: "https://pokeapi.co/api/v2/pokemon/737/"
         }
       }
@@ -16717,6 +16962,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "stufful",
+          id:759,
           url: "https://pokeapi.co/api/v2/pokemon/759/"
         }
       },
@@ -16724,6 +16970,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bewear",
+          id:760,
           url: "https://pokeapi.co/api/v2/pokemon/760/"
         }
       }
@@ -16738,6 +16985,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "bruxish",
+          id:779,
           url: "https://pokeapi.co/api/v2/pokemon/779/"
         }
       }
@@ -16752,35 +17000,8 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "magearna",
+          id:801,
           url: "https://pokeapi.co/api/v2/pokemon/801/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "magearna original",
-          url: "https://pokeapi.co/api/v2/pokemon/10147/"
-        }
-      }
-    ]
-  },
-  {
-    name: "tangling hair",
-    text: "Contact with the Pokémon lowers the attacker’s Speed stat.",
-    gen: "generation-7",
-    pokemon: [
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "diglett alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10105/"
-        }
-      },
-      {
-        is_hidden: false,
-        pokemon: {
-          name: "dugtrio alola",
-          url: "https://pokeapi.co/api/v2/pokemon/10106/"
         }
       }
     ]
@@ -16794,6 +17015,7 @@ export const abilities = [
         is_hidden: false,
         pokemon: {
           name: "passimian",
+          id:766,
           url: "https://pokeapi.co/api/v2/pokemon/766/"
         }
       }
