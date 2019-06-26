@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {items} from '../pokemonItemsData.js'
+import items from '../data/pokemonItemsData.json'
 import Item from '../components/Item.js'
 
 class PokemonItems extends Component {
@@ -77,38 +77,20 @@ class PokemonItems extends Component {
     }else{
       pItemsData = this.state.currentSort
     }
-
-
-    // let itemsRows = [
-    //   <tr className="pokemonTableTR">
-    //     <th className="pokemonTableHeaders"></th>
-    //     <th onClick={this.sort} className="pokemonTableHeaders">Name</th>
-    //     <th onClick={this.sort} className="pokemonTableHeaders">Cat</th>
-    //     <th className="pokemonTableHeaders-effect">Effect</th>
-    //   </tr>
-    // ]
-    // for (let i=0; i<pItemsData.length; i++){
-    //     itemsRows.push(
-    //     <tr className={pItemsData[i].name.toLowerCase().includes(this.props.value.toLowerCase()) ? "pokemonStatsTR" : "hideSprite"}>
-    //       <td className="pokemonTableDatas"><img src={pItemsData[i].icon}/></td>
-    //       <td className="pokemonTableDatas">{pItemsData[i].name}</td>
-    //       <td className="pokemonTableDatas-cat">{pItemsData[i].cat}</td>
-    //       <td className="pokemonTableDatas">{pItemsData[i].effect}</td>
-    //     </tr>)
-    //  }
     let itemsRows = pItemsData.map(p=><Item p={p} value={this.props.value}/>)
-
+    // debugger
     return(
       <div className="pokemonTableDiv">
         <table className="pokemonTable">
-        <tr className="pokemonTableTR">
-          <th className="pokemonTableHeaders"></th>
-          <th onClick={this.sort} className="pokemonTableHeaders">Name</th>
-          <th onClick={this.sort} className="pokemonTableHeaders">Cat</th>
-          <th className="pokemonTableHeaders-effect">Effect</th>
-        </tr>
-
+          <tbody>
+            <tr className="pokemonTableTR">
+              <th className="pokemonTableHeaders"></th>
+              <th onClick={this.sort} className="pokemonTableHeaders">Name</th>
+              <th onClick={this.sort} className="pokemonTableHeaders">Cat</th>
+              <th className="pokemonTableHeaders-effect">Effect</th>
+            </tr>
             {itemsRows}
+          </tbody>
         </table>
       </div>
     )

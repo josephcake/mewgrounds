@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import Stat from '../components/Stat.js'
-// import StatRow from '../components/StatRow.js'
-// import {pokemonMiniSprite} from '../pokemonMiniSprite.js'
+
 
 class PokemonStats extends Component {
   state = {
@@ -242,58 +241,12 @@ class PokemonStats extends Component {
     }
 
   }
-
-
   render(){
-
-    // let statRows = [
-    //   <tr className="pokemonTableTR">
-    //     <th onClick={this.sort} className="pokemonTableHeaders">img</th>
-    //     <th onClick={this.sort} className="pokemonTableHeaders">#</th>
-    //     <th onClick={this.sort} className="pokemonTableHeaders">Name</th>
-    //     <th className="pokemonTableHeaders">Type</th>
-    //     <th onClick={this.sort} className="pokemonTableHeaders">Total</th>
-    //     <th onClick={this.sort} className="pokemonTableHeaders">HP</th>
-    //     <th onClick={this.sort} className="pokemonTableHeaders">Attack</th>
-    //     <th onClick={this.sort} className="pokemonTableHeaders">Defense</th>
-    //     <th onClick={this.sort} className="pokemonTableHeaders">Sp.Atk</th>
-    //     <th onClick={this.sort} className="pokemonTableHeaders">Sp.Def</th>
-    //     <th onClick={this.sort} className="pokemonTableHeaders">Speed</th>
-    //   </tr>
-    // ]
-    // for (let i=0; i<this.props.pData.length; i++){
-    //     statRows.push(
-    //     <tr className={this.props.pData[i].name.toLowerCase().includes(this.props.value.toLowerCase()) ? "pokemonStatsTR" : "hideSprite"}>
-    //       <td className="pokemonTableDatas"><img src={this.props.pData[i].sprite}/></td>
-    //       <td className="pokemonTableDatas">{this.props.pData[i].poke_id}</td>
-    //       <td className="pokemonTableDatas">{this.props.pData[i].name}</td>
-    //
-    //       <td className="pokemonTableDatas"><p className={`${Object.keys(this.props.pData[i].type)[0]}Type nav-tag`}>{Object.keys(this.props.pData[i].type)[0]}</p>
-    //       {
-    //         Object.keys(this.props.pData[i].type)[1]
-    //         ?
-    //         <p className={`${Object.keys(this.props.pData[i].type)[1]}Type nav-tag`}>{Object.keys(this.props.pData[i].type)[1]}</p>
-    //         :
-    //         null
-    //       }
-    //       </td>
-    //
-    //       <td className="pokemonTableDatas">{this.props.pData[i].stat.hp.base+this.props.pData[i].stat.attack.base+this.props.pData[i].stat.defense.base+this.props.pData[i].stat.spAtk.base+this.props.pData[i].stat.spDef.base+this.props.pData[i].stat.speed.base}</td>
-    //       <td className="pokemonTableDatas">{this.props.pData[i].stat.hp.base}</td>
-    //       <td className="pokemonTableDatas">{this.props.pData[i].stat.attack.base}</td>
-    //       <td className="pokemonTableDatas">{this.props.pData[i].stat.defense.base}</td>
-    //       <td className="pokemonTableDatas">{this.props.pData[i].stat.spAtk.base}</td>
-    //       <td className="pokemonTableDatas">{this.props.pData[i].stat.spDef.base}</td>
-    //       <td className="pokemonTableDatas">{this.props.pData[i].stat.speed.base}</td>
-    //     </tr>
-    //   )
-    // }
     let statRows = this.props.pData.map(p=><Stat p={p} value={this.props.value}/>)
-    // console.log(this.state.currentSort);
-    // console.log(this.props.pData);
     return (
       <div className="pokemonTableDiv">
         <table className="pokemonTable">
+          <tbody>
           <tr className="pokemonTableTR">
             <th onClick={this.sort} className="pokemonTableHeaders">img</th>
             <th onClick={this.sort} className="pokemonTableHeaders">#</th>
@@ -308,6 +261,7 @@ class PokemonStats extends Component {
             <th onClick={this.sort} className="pokemonTableHeaders">Speed</th>
           </tr>
             {statRows}
+          </tbody>
         </table>
       </div>
     )

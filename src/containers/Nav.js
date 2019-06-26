@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-// import { withRouter } from 'react-router-dom'
 import Search from '../components/Search.js'
 import { Link } from 'react-router-dom'
 import NavAttributes from '../components/NavAttributes.js'
@@ -30,10 +29,10 @@ class Nav extends Component {
             <Link onClick={this.props.handlePage} to="/abilities">Abilities</Link>
           </div>
           <div className="navChoices">
-            Teams
+            idk?
           </div>
           <div className="navChoices">
-            About
+            <Link onClick={this.props.handlePage} to="/about">About</Link>
           </div>
         </div>
         {
@@ -50,6 +49,10 @@ class Nav extends Component {
           <NavItems filterType={this.props.filterType}/>
           :
           this.props.currentPage === "Items"
+          ?
+          null
+          :
+          this.props.currentPage === "About"
           ?
           null
           :

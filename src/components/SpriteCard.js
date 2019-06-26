@@ -53,8 +53,183 @@ class Sprite extends Component {
         }
       })
     }
+    let style = {}
+    let color1=''
+    let color2=''
+    if(keys.length === 1){
+      if (keys[0] === 'normal'){
+           color1 = '#A8A77A'
+         }else if
+          (keys[0] === 'flying'){
+           color1 = '#A98FF3'
+         }else if
+          (keys[0] === 'fire'){
+           color1 = '#EE8130'
+         }else if
+          (keys[0] === 'water'){
+           color1 = '#6390F0'
+         }else if
+          (keys[0] === 'electric'){
+           color1 = '#F7D02C'
+         }else if
+          (keys[0] === 'grass'){
+           color1 = '#7AC74C'
+         }else if
+          (keys[0] === 'ice'){
+           color1 = '#96D9D6'
+         }else if
+          (keys[0] === 'fighting'){
+           color1 = '#C22E28'
+         }else if
+          (keys[0] === 'poison'){
+           color1 = '#A33EA1'
+         }else if
+          (keys[0] === 'ground'){
+           color1 = '#E2BF65'
+         }else if
+          (keys[0] === 'psychic'){
+           color1 = '#F95587'
+         }else if
+          (keys[0] === 'bug'){
+           color1 = '#A6B91A'
+         }else if
+          (keys[0] === 'rock'){
+           color1 = '#B6A136'
+         }else if
+          (keys[0] === 'ghost'){
+           color1 = '#735797'
+         }else if
+          (keys[0] === 'dragon'){
+           color1 = '#6F35FC'
+         }else if
+          (keys[0] === 'dark'){
+           color1 = '#705746'
+         }else if
+          (keys[0] === 'steel'){
+           color1 = '#B7B7CE'
+         }else if
+          (keys[0] === 'fairy'){
+           color1 = '#D685AD'
+         }
+    } else {
+      if (keys[0] === 'normal'){
+           color1 = '#A8A77A'
+         }else if
+          (keys[0] === 'flying'){
+           color1 = '#A98FF3'
+         }else if
+          (keys[0] === 'fire'){
+           color1 = '#EE8130'
+         }else if
+          (keys[0] === 'water'){
+           color1 = '#6390F0'
+         }else if
+          (keys[0] === 'electric'){
+           color1 = '#F7D02C'
+         }else if
+          (keys[0] === 'grass'){
+           color1 = '#7AC74C'
+         }else if
+          (keys[0] === 'ice'){
+           color1 = '#96D9D6'
+         }else if
+          (keys[0] === 'fighting'){
+           color1 = '#C22E28'
+         }else if
+          (keys[0] === 'poison'){
+           color1 = '#A33EA1'
+         }else if
+          (keys[0] === 'ground'){
+           color1 = '#E2BF65'
+         }else if
+          (keys[0] === 'psychic'){
+           color1 = '#F95587'
+         }else if
+          (keys[0] === 'bug'){
+           color1 = '#A6B91A'
+         }else if
+          (keys[0] === 'rock'){
+           color1 = '#B6A136'
+         }else if
+          (keys[0] === 'ghost'){
+           color1 = '#735797'
+         }else if
+          (keys[0] === 'dragon'){
+           color1 = '#6F35FC'
+         }else if
+          (keys[0] === 'dark'){
+           color1 = '#705746'
+         }else if
+          (keys[0] === 'steel'){
+           color1 = '#B7B7CE'
+         }else if
+          (keys[0] === 'fairy'){
+           color1 = '#D685AD'
+         }
+     if (keys[1] === 'normal'){
+           color2 = '#A8A77A'
+         }
+          else if(keys[1] === 'flying'){
+           color2 = '#A98FF3'
+         }
+          else if(keys[1] === 'fire'){
+           color2 = '#EE8130'
+         }
+          else if(keys[1] === 'water'){
+           color2 = '#6390F0'
+         }
+          else if(keys[1] === 'electric'){
+           color2 = '#F7D02C'
+         }
+          else if(keys[1] === 'grass'){
+           color2 = '#7AC74C'
+         }
+          else if(keys[1] === 'ice'){
+           color2 = '#96D9D6'
+         }
+          else if(keys[1] === 'fighting'){
+           color2 = '#C22E28'
+         }
+          else if(keys[1] === 'poison'){
+           color2 = '#A33EA1'
+         }
+          else if(keys[1] === 'ground'){
+           color2 = '#E2BF65'
+         }
+          else if(keys[1] === 'psychic'){
+           color2 = '#F95587'
+         }
+          else if(keys[1] === 'bug'){
+           color2 = '#A6B91A'
+         }
+          else if(keys[1] === 'rock'){
+           color2 = '#B6A136'
+         }
+          else if(keys[1] === 'ghost'){
+           color2 = '#735797'
+         }
+          else if(keys[1] === 'dragon'){
+           color2 = '#6F35FC'
+         }
+          else if(keys[1] === 'dark'){
+           color2 = '#705746'
+         }
+          else if(keys[1] === 'steel'){
+           color2 = '#B7B7CE'
+         }
+          else if(keys[1] === 'fairy'){
+           color2 = '#D685AD'
+         }
+    }
+
+    if(keys.length === 1){
+      style={border: `${color1} solid 15px`}
+    } else {
+      style={borderTop:`${color1} solid 15px`, borderLeft:`${color1} solid 15px`, borderRight:`${color2} solid 15px`, borderBottom:`${color2} solid 15px`}
+    }
+    // debugger
     return(
-      <div id={this.props.id} className={this.props.pokeData.name.toLowerCase().includes(this.props.value.toLowerCase()) ? "Sprite" : "hideSprite"}>
+      <div id={this.props.id} style={style} className={this.props.pokeData.name.toLowerCase().includes(this.props.value.toLowerCase()) ? `Sprite` : "hideSprite"}>
         <header className="SpriteName">
           {this.props.pokeData.name}
         </header>

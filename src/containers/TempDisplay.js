@@ -1,6 +1,17 @@
 import React, {Component} from 'react'
+import TempDisplayMoves from '../components/TempDisplayMoves'
 
 class TempDisplay extends Component {
+
+  compare=( a, b )=>{
+      if ( a.lvl < b.lvl ){
+        return -1;
+      }else if ( a.lvl > b.lvl ){
+        return 1;
+      }else{
+        return 0;
+      }
+  }
 
   render(){
     const {
@@ -59,11 +70,25 @@ class TempDisplay extends Component {
     let abilites = []
     currentPoke.abilities.forEach(a=>{
       if(a.is_hidden === false){
-        abilites.push(<a className="ability" href={a.ability.url}>{a.ability.name}</a>)
+        abilites.push(<span className="ability" >{a.ability.name}</span>)
       }else if(a.is_hidden === true){
-        abilites.push(<a className="hidden-ability" href={a.ability.url}>{a.ability.name} (hidden)</a>)
+        abilites.push(<span className="hidden-ability" >{a.ability.name} (hidden)</span>)
       }
     })
+    let moves = []
+    let obj = {}
+    for(let i=0;i<currentPoke.moves.length; i++){
+    	if(currentPoke.moves[i].version_group_details[0].move_learn_method.name === 'level-up'){
+    		obj["name"] = currentPoke.moves[i].move.name
+        obj["lvl"] = currentPoke.moves[i].version_group_details[0].level_learned_at
+        obj["url"] = currentPoke.moves[i].move.url
+    		moves.push(obj)
+    	}
+		  obj = {}
+    }
+    moves.sort(this.compare)
+    let tempDisplayMoves = moves.map(obj=><TempDisplayMoves m={obj}/>)
+    // debugger
 
     return(
       <div id="TempDisplayDiv">
@@ -89,7 +114,7 @@ class TempDisplay extends Component {
         </div>
         <div className="mainDisplayDiv">
           <div className="mainSprite">
-            <img src={`https://img.pokemondb.net/artwork/${currentPoke.species.name}.jpg`}/>
+            <img alt={`${currentPoke.name} sprite`} src={`https://img.pokemondb.net/artwork/${currentPoke.species.name}.jpg`}/>
           </div>
           <table  className="mainInfo">
             <h1 className="pokedexHeader">Pokedex Data</h1>
@@ -111,6 +136,22 @@ class TempDisplay extends Component {
             <tr className="statTr"><th className="statHeaders info-right">Sp.Def</th><td className="info-right stat-data">{currentPokeDb.stat.spDef.base}</td><td className="bar"><div style={{width:`${currentPokeDb.stat.spDef.base/2.3}%`, borderRadius: `10px`, backgroundColor: 'coral', height: `15px`}}></div></td><td className="info-right stat-data">{currentPokeDb.stat.spDef.min}</td><td className="info-right stat-data">{currentPokeDb.stat.spDef.max}</td></tr>
             <tr className="statTr"><th className="statHeaders info-right">Speed</th><td className="info-right stat-data">{currentPokeDb.stat.speed.base}</td><td className="bar"><div style={{width:`${currentPokeDb.stat.speed.base/1.8}%`, borderRadius: `10px`, backgroundColor: 'coral', height: `15px`}}></div></td><td className="info-right stat-data">{currentPokeDb.stat.speed.min}</td><td className="info-right stat-data">{currentPokeDb.stat.speed.max}</td></tr>
           </table>
+        </div>
+        <div className="movesDiv">
+          <div  className="movesLvlDiv">
+            <table className="movesTable">
+              <tr className="pokemonTableTR-move">
+                <th className="pokemonTableHeaders-move">Level</th>
+                <th className="pokemonTableHeaders-move">Move</th>
+                <th className="pokemonTableHeaders-move">Type</th>
+                <th className="pokemonTableHeaders-move">Cat</th>
+                <th className="pokemonTableHeaders-move">Power</th>
+                <th className="pokemonTableHeaders-move">PP</th>
+                <th className="pokemonTableHeaders-move">Acc</th>
+              </tr>
+              {tempDisplayMoves}
+            </table>
+          </div>
         </div>
       </div>
     )

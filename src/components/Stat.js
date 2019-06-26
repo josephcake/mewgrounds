@@ -4,7 +4,7 @@ class Stat extends Component {
   render(){
     return(
       <tr className={this.props.p.name.toLowerCase().includes(this.props.value.toLowerCase()) ? "pokemonStatsTR" : "hideSprite"}>
-        <td className="pokemonTableDatas"><img src={this.props.p.sprite}/></td>
+        <td className="pokemonTableDatas"><img alt={`${this.props.p.name} icon`} src={this.props.p.sprite}/></td>
         <td className="pokemonTableDatas">{this.props.p.poke_id}</td>
         <td className="pokemonTableDatas">{this.props.p.name}</td>
 

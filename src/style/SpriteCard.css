@@ -1,13 +1,14 @@
 .Sprite{
   /* background-color: #f1f1f1; */
-  border: 1px solid gray;
-  background-color: white;
+  /* border: 1px solid gray; */
+  /* background-color: white; */
   width: 300px;
-  padding: 20px;
+  padding: 10px;
   margin: 10px auto;
   text-align: center;
   line-height: 75px;
   font-size: 30px;
+  /* box-shadow: 8px 8px 2px 2px lightgray; */
 }
 
 .hideSprite{

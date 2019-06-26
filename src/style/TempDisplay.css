@@ -1,26 +1,23 @@
 #TempDisplayDiv{
   width: 100%;
-  height: 90%;
+  height: 95%;
   overflow-y: auto;
   background-color: rgb(255,255,255);
   position: fixed;
   margin: auto;
-  top: 5%;
-
-  /* left: 5; */
+  top: 2.5%;
 }
 #closeTemp-btn{
   width: 100%;
   outline: none;
   border: none;
   height: 30px;
-  background-color: aquamarine;
+  background-color: rgba(0, 255, 221, 0.8);
 }
 .tempName{
-  margin: 20px auto;
+  margin: 10px auto;
   text-align: center;
   text-transform: capitalize;
-  /* color: floralwhite; */
 }
 
 .gray_italic_text{
@@ -36,12 +33,10 @@
   margin: auto;
 }
 .temp-sprites{
-  /* width: 25%; */
-  margin: auto;
+  margin: 0 auto;
 }
 .temp-sprites img{
-  margin: auto;
-  /* width: 300px; */
+  margin: 0 auto;
 }
 .mainDisplayDiv{
   display: flex;
@@ -72,27 +67,22 @@
 }
 .info-left{
   border-bottom: 1px lightgray solid;
-  margin: auto;
+  margin: 0 auto;
   text-align: right;
-  /* font-family: 'Roboto Mono', monospace; */
   font-weight: 100;
 }
 .info-right{
-  /* display: flex; */
   text-transform: capitalize;
   border-bottom: 1px lightgray solid;
   text-align: left;
-  /* text-transform: none; */
 }
 
 .temp-type{
   text-transform: capitalize;
   cursor: pointer;
   text-align: center;
-  /* display: flex; */
   width: 80px;
   flex-wrap: wrap;
-  /* margin: auto; */
   padding: 4px;
   border-radius: 8px;
 }
@@ -108,22 +98,42 @@
 }
 .statsDiv{
   width: 100%;
+  margin: 0 auto;
+}
+.tempName-stat{
+  /* margin: auto; */
 }
 #statTable{
-  /* display: flex; */
-  width: 100%;
+  margin: 0 auto;
+  width: 98%;
 }
 .stat-data{
-  /* width: 200px; */
-  margin: auto;
-  /* flex-wrap: wrap; */
-  width: 5%;
+  margin: 0 auto;
+  width: 3%;
 }
 .statHeaders{
   width: 5%;
-
 }
 .bar{
-  width: 80%;
+  width: 95%;
   border-bottom: 1px solid lightgray;
+}
+.movesDiv{
+  width: 90%;
+  margin: auto;
+}
+.movesLvlDiv{
+  width: 100%;
+  margin: auto;
+}
+.pokemonTableHeaders-move{
+  cursor: default;
+  font-size: 1.2rem;
+  font-weight: 900;
+  width: 300px;
+  margin: auto;
+  border-bottom: 1px solid black;
+}
+.pokemonTableTR:hover{
+  background-color: beige;
 }

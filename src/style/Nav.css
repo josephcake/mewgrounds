@@ -37,6 +37,11 @@
   margin: auto;
   padding: 4px;
   border-radius: 8px;
+  opacity: 0.9;
+}
+.nav-tag:hover{
+  opacity: 1;
+  filter: brightness(1.5);
 }
 .nav-tag:visited{
   outline-style: solid;

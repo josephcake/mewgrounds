@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import {pokemonData} from './pokemonBasicData'
+import { Switch, Route, withRouter } from "react-router-dom";
 // import axios from 'axios'
-// import logo from './logo.svg';
-import { Switch, Route, Link, Redirect, withRouter } from "react-router-dom";
-// import { withRouter } from 'react-router-dom'
+
+import pokemonData from './data/pokemonBasicData.json'
+
 import './App.css';
 import './style/Home.css'
 import './style/SpriteCard.css'
@@ -20,8 +20,7 @@ import PokemonStats from './containers/PokemonStats.js'
 import PokemonMoves from './containers/PokemonMoves.js'
 import PokemonItems from './containers/PokemonItems.js'
 import PokemonAbilities from './containers/PokemonAbilities.js'
-
-
+import About from './containers/About.js'
 
 
 class App extends Component{
@@ -37,11 +36,11 @@ class App extends Component{
   }
 
   componentDidMount(){
-    // if(window.location.href.includes("home")){
-    //   this.setState({
-    //     currentPage:"Home"
-    //   })
-    // }
+    if(window.location.href.includes("about")){
+      this.setState({
+        currentPage:"About"
+      })
+    }
     if(window.location.href.includes("items")){
       this.setState({
         currentPage:"Items"
@@ -159,6 +158,9 @@ class App extends Component{
           }} />
           <Route exact path='/items' render={() =>{
             return <PokemonItems value={this.state.value} filteredType={this.state.filterType}/>
+          }} />
+          <Route exact path='/about' render={() =>{
+            return <About/>
           }} />
 
           <Route exact path='/abilities' render={() =>

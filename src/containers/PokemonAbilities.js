@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
-import {abilities} from "../pokemonAbilitiesData.js"
+import abilities from "../data/pokemonAbilitiesData.json"
 import Ability from '../components/Ability.js'
+
 class PokemonAbilities extends Component {
   state = {
     currentSort:abilities,
@@ -101,38 +102,20 @@ class PokemonAbilities extends Component {
     }else{
       pAbilitiesData = this.state.currentSort
     }
-
-
-    // let abilitiesRows = [
-    //   <tr className="pokemonTableTR">
-    //     <th onClick={this.sort} className="pokemonTableHeaders">Name</th>
-    //     <th onClick={this.sort} className="pokemonTableHeaders">Gen</th>
-    //     <th onClick={this.sort} className="pokemonTableHeaders">Pokemon</th>
-    //     <th className="pokemonTableHeaders-effect">Text</th>
-    //   </tr>
-    // ]
-    // for (let i=0; i<pAbilitiesData.length; i++){
-    //     abilitiesRows.push(
-    //     <tr className={pAbilitiesData[i].name.toLowerCase().includes(this.props.value.toLowerCase()) ? "pokemonStatsTR" : "hideSprite"}>
-    //       <td className="pokemonTableDatas">{pAbilitiesData[i].name}</td>
-    //       <td className="pokemonTableDatas">{pAbilitiesData[i].gen}</td>
-    //       <td className="pokemonTableDatas">{pAbilitiesData[i].pokemon.length}</td>
-    //       <td className="pokemonTableDatas">{pAbilitiesData[i].text}</td>
-    //     </tr>)
-    // }
-
     let abilitiesRows = pAbilitiesData.map(p=><Ability clickPoke={this.props.clickPoke} p={p} value={this.props.value}/>)
-    
+    // debugger
     return(
       <div className="pokemonTableDiv">
         <table className="pokemonTable">
-        <tr className="pokemonTableTR">
-          <th onClick={this.sort} className="pokemonTableHeaders">Name</th>
-          <th onClick={this.sort} className="pokemonTableHeaders">Gen</th>
-          <th onClick={this.sort} className="pokemonTableHeaders">Pokemon</th>
-          <th className="pokemonTableHeaders-effect">Text</th>
-        </tr>
+          <tbody>
+            <tr className="pokemonTableTR">
+              <th onClick={this.sort} className="pokemonTableHeaders">Name</th>
+              <th onClick={this.sort} className="pokemonTableHeaders">Gen</th>
+              <th onClick={this.sort} className="pokemonTableHeaders">Pokemon</th>
+              <th className="pokemonTableHeaders-effect">Text</th>
+            </tr>
             {abilitiesRows}
+          </tbody>
         </table>
       </div>
     )
