@@ -5,6 +5,9 @@ class Sprite extends Component {
   clickPoke=()=>{
     this.props.clickPoke(this.props.pokeData)
   }
+  addPoke=()=>{
+    this.props.addPoke(this.props.pokeData)
+  }
 
   render(){
     // let type = this.props.pokeData.type.map(a=><p>{a}</p>)
@@ -231,7 +234,8 @@ class Sprite extends Component {
     return(
       <div id={this.props.id} style={style} className={this.props.pokeData.name.toLowerCase().includes(this.props.value.toLowerCase()) ? `Sprite` : "hideSprite"}>
         <header className="SpriteName">
-          {this.props.pokeData.name}
+          <text onClick={this.addPoke}><i class="fas fa-plus-circle"></i></text>
+          <text>{this.props.pokeData.name}</text>
         </header>
 
         <div className="SpriteImg">

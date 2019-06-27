@@ -5,6 +5,7 @@ import { Switch, Route, withRouter } from "react-router-dom";
 import pokemonData from './data/pokemonBasicData.json'
 
 import './App.css';
+import './style/QuickDisplay.css'
 import './style/Home.css'
 import './style/Footer.css'
 import './style/SpriteCard.css'
@@ -15,13 +16,15 @@ import './style/pokemonStats.css'
 import './style/pokemonMoves.css'
 import './style/About.css'
 
+import TempDisplay from './containers/TempDisplay.js'
+import QuickDisplay from './containers/QuickDisplay.js'
 import Nav from './containers/Nav.js'
 import Home from './containers/Home.js'
-import TempDisplay from './containers/TempDisplay.js'
 import PokemonStats from './containers/PokemonStats.js'
 import PokemonMoves from './containers/PokemonMoves.js'
 import PokemonItems from './containers/PokemonItems.js'
 import PokemonAbilities from './containers/PokemonAbilities.js'
+import TeamCompare from './containers/TeamCompare.js'
 import About from './containers/About.js'
 
 
@@ -33,7 +36,9 @@ class App extends Component{
     secondaryType:"",
     clickedPoke: false,
     currentPoke:{},
-    currentPage:"Home"
+    team:[],
+    currentPage:"Home",
+    quickDisplay:false
 
   }
 
@@ -41,6 +46,11 @@ class App extends Component{
     if(window.location.href.includes("about")){
       this.setState({
         currentPage:"About"
+      })
+    }
+    if(window.location.href.includes("teams")){
+      this.setState({
+        currentPage:"Teams"
       })
     }
     if(window.location.href.includes("items")){
@@ -108,10 +118,29 @@ class App extends Component{
   }
   closeTemp=()=>{
     this.setState({
-      clickedPoke: false
+      clickedPoke: false,
+      quickDisplay: false
     })
   }
+  addPoke=(e)=>{
+    let copyTeam = [...this.state.team]
+    let foundId = copyTeam.find(copy=>copy.id === e.id)
+      if(foundId){
+      }else{
+      this.setState({
+        team: [...this.state.team, e]
+      })
+    }
+  }
+  scrollTop=()=>{
+    window.scroll({top: 0, left: 0, behavior: 'smooth' })
+  }
 
+  quickDisplay=()=>{
+    this.setState({
+      quickDisplay: true
+    })
+  }
     render(){
 
       let pData = []
@@ -151,6 +180,15 @@ class App extends Component{
     return (
       <div id="App">
         <Nav currentPage={this.state.currentPage} handlePage={this.handlePage} filterType={this.filterType} filterSecondType={this.filterSecondType} filteredType={this.state.filterType} secondaryDataTypes={secondaryDataTypes} handleSubmit={this.handleSubmit} handleChange={this.handleChange} value={this.state.value}/>
+        <div id="quickDisplay">
+        {
+          this.state.quickDisplay
+          ?
+          <QuickDisplay closeTemp={this.closeTemp} pData={this.state.team}/>
+          :
+          <img onClick={this.quickDisplay} id="pokeParty" src={require("./pokeparty.png")}/>
+        }
+        </div>
         <Switch>
           <Route exact path='/stats' render={() =>{
             return <PokemonStats value={this.state.value} pData={pData}/>
@@ -163,6 +201,9 @@ class App extends Component{
           }} />
           <Route exact path='/about' render={() =>{
             return <About/>
+          }} />
+          <Route exact path='/teams' render={() =>{
+            return <TeamCompare team={this.state.team}/>
           }} />
 
           <Route exact path='/abilities' render={() =>
@@ -187,10 +228,17 @@ class App extends Component{
                :
                null
              }
-             <Home basicData={pData} value={this.state.value} filterType={this.filterType} clickPoke={this.clickPoke} />
+             <Home addPoke={this.addPoke} basicData={pData} value={this.state.value} filterType={this.filterType} clickPoke={this.clickPoke} />
              </div>
           }/>
-        </Switch>        
+        </Switch>
+        {
+          this.state.currentPage === "About" || this.state.currentPage === "Teams"
+          ?
+          null
+          :
+          <i onClick={this.scrollTop} class="fas fa-reply"></i>
+        }
       </div>
     );
   }

@@ -10,8 +10,11 @@
   width: 100%;
 }
 #badgeContainer{
+  /* border: solid 2px olive; */
   width: 80%;
-  margin: 50px auto;
+  margin: 10px auto 150px auto;
+  /* display: inline-block; */
+  /* text-align: justify; */
 }
 
 .aboutP-One{
@@ -27,6 +30,7 @@
 }
 
 .badgeImg{
+  /* display: flex; */
   margin: auto;
   padding: 5px;
   width: 60px;

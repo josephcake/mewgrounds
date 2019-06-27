@@ -14,6 +14,26 @@
   cursor: pointer;
 }
 
+.SpriteName{
+  display: block;
+  align-items: center;
+  margin: auto;
+}
+.Sprite:hover .fa-plus-circle{
+  color: rgba(80, 235, 221, 0.8);
+}
+.fa-plus-circle{
+  cursor: pointer;
+  width: 30px;
+  text-align: left;
+  color:white;
+  display: flex;
+}
+.fa-plus-circle:active{
+  transform: translateX(1px) translateY(3px);
+  box-shadow: 2px 2px 2px 0px gray;
+  border-radius: 50%;
+}
 .hideSprite{
   display: none;
 }

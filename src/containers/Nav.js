@@ -13,25 +13,25 @@ class Nav extends Component {
     return(
       <div id="Nav">
         <div id="navSites" className="navDiv">
-          <div className="navChoices">
+          <div className="navChoices" className={this.props.currentPage === "Home" ? `navChoices highlightNav` : "navChoices"}>
             <Link onClick={this.props.handlePage} to="/">Home</Link>
           </div>
-          <div className="navChoices">
+          <div className="navChoices" className={this.props.currentPage === "Stats" ? `navChoices highlightNav` : "navChoices"}>
             <Link onClick={this.props.handlePage} to="/stats">Stats</Link>
           </div>
-          <div className="navChoices">
+          <div className="navChoices" className={this.props.currentPage === "Moves" ? `navChoices highlightNav` : "navChoices"}>
             <Link onClick={this.props.handlePage} to="/moves">Moves</Link>
           </div>
-          <div className="navChoices">
+          <div className="navChoices" className={this.props.currentPage === "Items" ? `navChoices highlightNav` : "navChoices"}>
             <Link onClick={this.props.handlePage} to="/items">Items</Link>
           </div>
-          <div className="navChoices">
+          <div className="navChoices" className={this.props.currentPage === "Abilities" ? `navChoices highlightNav` : "navChoices"}>
             <Link onClick={this.props.handlePage} to="/abilities">Abilities</Link>
           </div>
-          <div className="navChoices">
-            idk?
+          <div className="navChoices" className={this.props.currentPage === "Teams" ? `navChoices highlightNav` : "navChoices"}>
+            <Link onClick={this.props.handlePage} to="/teams">Teams</Link>
           </div>
-          <div className="navChoices">
+          <div className="navChoices" className={this.props.currentPage === "About" ? `navChoices highlightNav` : "navChoices"}>
             <Link onClick={this.props.handlePage} to="/about">About</Link>
           </div>
         </div>

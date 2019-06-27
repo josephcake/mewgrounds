@@ -6,3 +6,25 @@ body{
   font-weight: 700;
   /* background-color: rgb(240, 240, 240); */
 }
+.fa-reply{
+  transform: rotate(45deg);
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  padding: 10px;
+  border: solid rgba(0, 255, 221, 0.8) 2px;
+  border-radius: 50%;
+  font-size: 30px;
+  color: rgba(0, 255, 221, 0.8);
+  background-color: white;
+}
+
+#quickDisplay{
+  /* display: flex; */
+  position: fixed;
+}
+#pokeParty{
+  width: 40px;
+  transform: rotate(90deg);
+  cursor: pointer;
+}
