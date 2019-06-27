@@ -1,0 +1,30 @@
+#footerDiv{
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  margin: 150px auto auto auto;
+  clear: both;
+  padding-top: 20px;
+  text-align: center;
+  display: inline-block;
+  background-color: rgb(222, 69, 84);
+}
+.footerNotes{
+  letter-spacing: 1px;
+  height: 30px;
+  font-size: 0.8rem;
+}
+.siteTags-github{
+  text-decoration: none;
+  color: #A33EA1;
+}
+.siteTags-github:hover{
+  border-bottom: 2px solid teal;
+}
+.siteTags{
+  text-decoration: none;
+  color: #F7D02C;
+}
+.siteTags:hover{
+  border-bottom: 2px solid teal;
+}

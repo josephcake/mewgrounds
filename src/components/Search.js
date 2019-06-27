@@ -4,13 +4,6 @@ class Search extends Component {
   render(){
     return(
       <div id="SearchDiv">
-        {
-          this.props.currentPage === "About"
-          ?
-          <div id="about-name">
-            Joseph Cake
-          </div>
-          :
           <form id="SearchForm" onSubmit={this.props.handleSubmit}>
             <input id="SearchInput"type="text" value={this.props.value} placeholder={
               this.props.currentPage === "Home" || this.props.currentPage === "Stats"
@@ -29,10 +22,9 @@ class Search extends Component {
               ?
               "Search for an item..."
               :
-              "Search me?"
+              null
             } onChange={this.props.handleChange}/>
           </form>
-        }
       </div>
     )
   }

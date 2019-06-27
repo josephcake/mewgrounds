@@ -7,21 +7,31 @@
   min-height: 30px;
   text-align: center;
 }
+#navSites{
+  background-color: rgb(222, 69, 84);
+  padding: 20px;
+  margin: 0;
+}
 .navDiv:nth-of-type(1){
   border-bottom: solid lightgray 2px;
   padding-bottom: 6px;
 }
 .navChoices{
   margin: auto;
+  padding: 2px 12px;
 }
 .navChoices:hover{
-  border-top: gray solid 2px;
-  border-bottom: gray solid 2px;
+  border-top: white solid 1px;
+  border-bottom: white solid 1px;
 }
 .navChoices a{
+  padding: 3px 12px;
+  text-align: center;
+  margin: auto;
   text-decoration: none;
-  color: black;
-  letter-spacing: 0.3rem;
+  color: white;
+  letter-spacing: 0.4rem;
+  font-weight: 100;
 }
 #Nav{
   max-width: 100%;

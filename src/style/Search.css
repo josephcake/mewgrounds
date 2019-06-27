@@ -1,12 +1,13 @@
 #SearchDiv{
   width: 100%;
-  margin: auto;
+  margin: 15px auto;
 }
 #SearchForm{
   width: 100%;
   margin: auto;
 }
 #SearchInput{
+  color: rgb(222, 69, 84);
   display: block;
   width: 80%;
   height: 30px;
@@ -19,8 +20,4 @@
   border-left: none;
   border-right: none;
   outline: none;
-}
-#about-name{
-  font-size: 6rem;
-  width: 100%;
 }

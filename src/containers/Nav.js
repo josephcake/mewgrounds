@@ -12,7 +12,7 @@ class Nav extends Component {
 
     return(
       <div id="Nav">
-        <div className="navDiv">
+        <div id="navSites" className="navDiv">
           <div className="navChoices">
             <Link onClick={this.props.handlePage} to="/">Home</Link>
           </div>

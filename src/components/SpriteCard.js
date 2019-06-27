@@ -223,9 +223,9 @@ class Sprite extends Component {
     }
 
     if(keys.length === 1){
-      style={border: `${color1} solid 15px`}
+      style={border: `${color1} solid 7px`}
     } else {
-      style={borderTop:`${color1} solid 15px`, borderLeft:`${color1} solid 15px`, borderRight:`${color2} solid 15px`, borderBottom:`${color2} solid 15px`}
+      style={borderTop:`${color1} solid 7px`, borderLeft:`${color1} solid 7px`, borderRight:`${color2} solid 7px`, borderBottom:`${color2} solid 7px`}
     }
     // debugger
     return(

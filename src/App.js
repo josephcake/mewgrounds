@@ -6,12 +6,14 @@ import pokemonData from './data/pokemonBasicData.json'
 
 import './App.css';
 import './style/Home.css'
+import './style/Footer.css'
 import './style/SpriteCard.css'
 import './style/Nav.css'
 import './style/Search.css'
 import './style/TempDisplay.css'
 import './style/pokemonStats.css'
 import './style/pokemonMoves.css'
+import './style/About.css'
 
 import Nav from './containers/Nav.js'
 import Home from './containers/Home.js'
@@ -188,7 +190,7 @@ class App extends Component{
              <Home basicData={pData} value={this.state.value} filterType={this.filterType} clickPoke={this.clickPoke} />
              </div>
           }/>
-        </Switch>
+        </Switch>        
       </div>
     );
   }

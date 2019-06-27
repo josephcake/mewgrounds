@@ -13,6 +13,7 @@
   border: none;
   height: 30px;
   background-color: rgba(0, 255, 221, 0.8);
+  cursor: pointer;
 }
 .tempName{
   margin: 10px auto;
