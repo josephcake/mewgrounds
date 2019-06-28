@@ -1,10 +1,14 @@
 import React, {Component} from 'react'
 
 class TeamMembers extends Component {
+  deletePoke=()=>{
+    this.props.deletePoke(this.props.p)
+  }
   render(){
 
     return(
       <tr className="pokemonStatsTR">
+        <td className="pokemonTableDatas"><span><i onClick ={this.deletePoke} class="fas fa-minus-circle"></i></span></td>
         <td className="pokemonTableDatas"><img alt={`${this.props.p.name} icon`} src={this.props.p.sprite}/></td>
         <td className="pokemonTableDatas">{this.props.p.poke_id}</td>
         <td className="pokemonTableDatas">{this.props.p.name}</td>

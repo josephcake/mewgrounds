@@ -56,7 +56,7 @@ class Sprite extends Component {
         }
       })
     }
-    let style = {}
+    let style = {border: `white solid 7px`}
     let color1=''
     let color2=''
     if(keys.length === 1){
@@ -224,11 +224,12 @@ class Sprite extends Component {
            color2 = '#D685AD'
          }
     }
-
-    if(keys.length === 1){
-      style={border: `${color1} solid 7px`}
-    } else {
-      style={borderTop:`${color1} solid 7px`, borderLeft:`${color1} solid 7px`, borderRight:`${color2} solid 7px`, borderBottom:`${color2} solid 7px`}
+    if(!this.props.team.includes(this.props.pokeData)){
+      if(keys.length === 1){
+        style={border: `${color1} solid 7px`}
+      } else {
+        style={borderTop:`${color1} solid 7px`, borderLeft:`${color1} solid 7px`, borderRight:`${color2} solid 7px`, borderBottom:`${color2} solid 7px`}
+      }
     }
     // debugger
     return(

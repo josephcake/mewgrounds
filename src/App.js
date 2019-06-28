@@ -123,14 +123,24 @@ class App extends Component{
     })
   }
   addPoke=(e)=>{
-    let copyTeam = [...this.state.team]
-    let foundId = copyTeam.find(copy=>copy.id === e.id)
+    if(this.state.team.length !== 6){
+      let copyTeam = [...this.state.team]
+      let foundId = copyTeam.find(copy=>copy.id === e.id)
       if(foundId){
       }else{
-      this.setState({
-        team: [...this.state.team, e]
-      })
+        this.setState({
+          team: [...this.state.team, e]
+        })
+      }
     }
+  }
+  deletePoke=(e)=>{
+    let copyTeam = [...this.state.team]
+    let foundId = copyTeam.find(copy=>copy.id === e.id)
+    copyTeam.splice(copyTeam.indexOf(foundId), 1);
+    this.setState({
+      team: copyTeam
+    })
   }
   scrollTop=()=>{
     window.scroll({top: 0, left: 0, behavior: 'smooth' })
@@ -184,14 +194,14 @@ class App extends Component{
         {
           this.state.quickDisplay
           ?
-          <QuickDisplay closeTemp={this.closeTemp} pData={this.state.team}/>
+          <QuickDisplay deletePoke={this.deletePoke} closeTemp={this.closeTemp} pData={this.state.team}/>
           :
           <img onClick={this.quickDisplay} id="pokeParty" src={require("./pokeparty.png")}/>
         }
         </div>
         <Switch>
           <Route exact path='/stats' render={() =>{
-            return <PokemonStats value={this.state.value} pData={pData}/>
+            return <PokemonStats value={this.state.value} currentPage={this.state.currentPage} pData={pData}/>
           }} />
           <Route exact path='/moves' render={() =>{
             return <PokemonMoves value={this.state.value} filteredType={this.state.filterType}/>
@@ -203,7 +213,7 @@ class App extends Component{
             return <About/>
           }} />
           <Route exact path='/teams' render={() =>{
-            return <TeamCompare team={this.state.team}/>
+            return <TeamCompare deletePoke={this.deletePoke} team={this.state.team}/>
           }} />
 
           <Route exact path='/abilities' render={() =>
@@ -228,7 +238,7 @@ class App extends Component{
                :
                null
              }
-             <Home addPoke={this.addPoke} basicData={pData} value={this.state.value} filterType={this.filterType} clickPoke={this.clickPoke} />
+             <Home team={this.state.team} addPoke={this.addPoke} basicData={pData} value={this.state.value} filterType={this.filterType} clickPoke={this.clickPoke} />
              </div>
           }/>
         </Switch>

@@ -242,7 +242,7 @@ class PokemonStats extends Component {
 
   }
   render(){
-    let statRows = this.props.pData.map(p=><Stat p={p} value={this.props.value}/>)
+    let statRows = this.props.pData.map(p=><Stat currentPage={this.props.currentPage} p={p} value={this.props.value}/>)
     return (
       <div className="pokemonTableDiv">
         <table className="pokemonTable">

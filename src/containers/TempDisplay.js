@@ -93,7 +93,7 @@ class TempDisplay extends Component {
     return(
       <div id="TempDisplayDiv">
         <div  className="topDisplayDiv">
-          <button id="closeTemp-btn" onClick={closeTemp}>X</button>
+          <button id="closeTemp-btn" onClick={closeTemp}>CLOSE</button>
           <h1 className="tempName">
             {currentPoke.name}
           </h1>

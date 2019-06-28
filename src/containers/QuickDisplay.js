@@ -4,16 +4,17 @@ import Stat from '../components/Stat.js'
 class QuickDisplay extends Component {
 
   render(){
-    let statRows = this.props.pData.map(p=><Stat p={p} value={p.name}/>)
+    let statRows = this.props.pData.map(p=><Stat deletePoke={this.props.deletePoke} p={p} value={p.name}/>)
     return(
       <div id="QuickDisplayDiv">
         <div  className="topDisplayDiv">
-          <button onClick={this.props.closeTemp} id="closeTemp-btn" >X</button>
+          <button onClick={this.props.closeTemp} id="closeTemp-btn" >CLOSE</button>
         </div>
         <div className="pokemonTableDiv">
           <table className="pokemonTable">
             <tbody>
             <tr className="pokemonTableTR">
+              <th className="pokemonTableHeaders" style={{width:"20px"}}></th>
               <th className="pokemonTableHeaders">img</th>
               <th className="pokemonTableHeaders">#</th>
               <th className="pokemonTableHeaders">Name</th>
