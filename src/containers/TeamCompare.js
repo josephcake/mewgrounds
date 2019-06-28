@@ -5,12 +5,6 @@ import PieChart from 'react-minimal-pie-chart';
 
 class TeamCompare extends Component {
 
-  // componentDidMount(){
-  //   fetch(`https://pokeapi.co/api/v2/type/${this.props.type}`)
-  //   .then(req=>req.json())
-  //   .then()
-  // }
-
   render(){
     let teamMembers = [],
         hp = null,
@@ -73,52 +67,55 @@ class TeamCompare extends Component {
 
 
     return(
-      <div className="pokemonTableDiv">
-        <table className="pokemonTable">
-          <tbody>
-          <tr className="pokemonTableTR">
-            <th className="pokemonTableHeaders" style={{width:"20px"}}></th>
-            <th className="pokemonTableHeaders">img</th>
-            <th className="pokemonTableHeaders">#</th>
-            <th className="pokemonTableHeaders">Name</th>
-            <th className="pokemonTableHeaders">Type</th>
-            <th className="pokemonTableHeaders">Total</th>
-            <th className="pokemonTableHeaders">HP</th>
-            <th className="pokemonTableHeaders">Attack</th>
-            <th className="pokemonTableHeaders">Defense</th>
-            <th className="pokemonTableHeaders">Sp.Atk</th>
-            <th className="pokemonTableHeaders">Sp.Def</th>
-            <th className="pokemonTableHeaders">Speed</th>
-          </tr>
-            {teamMembers}
-          </tbody>
-        </table>
-        <div className="statsDiv">
-          <h1 className="tempName-stat">Average Stats<span className="gray_italic_text"></span></h1>
-          <table id="statTable">
-            <tr className="statTr"><th className="statHeaders info-right">Stat</th><td className="info-right stat-data">Base</td><td className="bar"><div></div></td><td className="info-right stat-data">Min</td><td className="info-right stat-data">Max</td></tr>
-            <tr className="statTr"><th className="statHeaders info-right">HP</th><td className="info-right stat-data">{hp}</td><td className="bar"><div style={{width:`${hp/teamMembers.length/2.55}%`, borderRadius: `10px`, backgroundColor: '#5d965c', height: `15px`}}></div></td><td className="info-right stat-data">{minHP}</td><td className="info-right stat-data">{maxHP}</td></tr>
-            <tr className="statTr"><th className="statHeaders info-right">Attack</th><td className="info-right stat-data">{atk}</td><td className="bar"><div style={{width:`${atk/teamMembers.length/1.9}%`, borderRadius: `10px`, backgroundColor: '#e85e46', height: `15px`}}></div></td><td className="info-right stat-data">{minAtk}</td><td className="info-right stat-data">{maxAtk}</td></tr>
-            <tr className="statTr"><th className="statHeaders info-right">Defense</th><td className="info-right stat-data">{def}</td><td className="bar"><div style={{width:`${def/teamMembers.length/2.3}%`, borderRadius: `10px`, backgroundColor: '#1b5687', height: `15px`}}></div></td><td className="info-right stat-data">{minDef}</td><td className="info-right stat-data">{maxDef}</td></tr>
-            <tr className="statTr"><th className="statHeaders info-right">Sp.Atk</th><td className="info-right stat-data">{spAtk}</td><td className="bar"><div style={{width:`${spAtk/teamMembers.length/1.94}%`, borderRadius: `10px`, backgroundColor: '#ff691f', height: `15px`}}></div></td><td className="info-right stat-data">{minSpAtk}</td><td className="info-right stat-data">{maxSpAtk}</td></tr>
-            <tr className="statTr"><th className="statHeaders info-right">Sp.Def</th><td className="info-right stat-data">{spDef}</td><td className="bar"><div style={{width:`${spDef/teamMembers.length/2.3}%`, borderRadius: `10px`, backgroundColor: '#116363', height: `15px`}}></div></td><td className="info-right stat-data">{minSpDef}</td><td className="info-right stat-data">{maxSpDef}</td></tr>
-            <tr className="statTr"><th className="statHeaders info-right">Speed</th><td className="info-right stat-data">{speed}</td><td className="bar"><div style={{width:`${speed/teamMembers.length/1.8}%`, borderRadius: `10px`, backgroundColor: '#f0e511', height: `15px`}}></div></td><td className="info-right stat-data">{minSpeed}</td><td className="info-right stat-data">{maxSpeed}</td></tr>
-          </table>
-        </div>
+            this.props.team.length > 0
+            ?
+            <div className="pokemonTableDiv">
+              <table className="pokemonTable">
+                <tbody>
+                <tr className="pokemonTableTR">
+                  <th className="pokemonTableHeaders" style={{width:"20px"}}></th>
+                  <th className="pokemonTableHeaders">img</th>
+                  <th className="pokemonTableHeaders">#</th>
+                  <th className="pokemonTableHeaders">Name</th>
+                  <th className="pokemonTableHeaders">Type</th>
+                  <th className="pokemonTableHeaders">Total</th>
+                  <th className="pokemonTableHeaders">HP</th>
+                  <th className="pokemonTableHeaders">Attack</th>
+                  <th className="pokemonTableHeaders">Defense</th>
+                  <th className="pokemonTableHeaders">Sp.Atk</th>
+                  <th className="pokemonTableHeaders">Sp.Def</th>
+                  <th className="pokemonTableHeaders">Speed</th>
+                </tr>
+                  {teamMembers}
+                </tbody>
+              </table>
+              <div className="statsDiv">
+                <h1 className="tempName-stat">Average Stats<span className="gray_italic_text"></span></h1>
+                <table id="statTable">
+                  <tr className="statTr"><th className="statHeaders info-right">Stat</th><td className="info-right stat-data">Base</td><td className="bar"><div></div></td><td className="info-right stat-data">Min</td><td className="info-right stat-data">Max</td></tr>
+                  <tr className="statTr"><th className="statHeaders info-right">HP</th><td className="info-right stat-data">{hp}</td><td className="bar"><div style={{width:`${hp/teamMembers.length/2.55}%`, borderRadius: `10px`, backgroundColor: '#5d965c', height: `15px`}}></div></td><td className="info-right stat-data">{minHP}</td><td className="info-right stat-data">{maxHP}</td></tr>
+                  <tr className="statTr"><th className="statHeaders info-right">Attack</th><td className="info-right stat-data">{atk}</td><td className="bar"><div style={{width:`${atk/teamMembers.length/1.9}%`, borderRadius: `10px`, backgroundColor: '#e85e46', height: `15px`}}></div></td><td className="info-right stat-data">{minAtk}</td><td className="info-right stat-data">{maxAtk}</td></tr>
+                  <tr className="statTr"><th className="statHeaders info-right">Defense</th><td className="info-right stat-data">{def}</td><td className="bar"><div style={{width:`${def/teamMembers.length/2.3}%`, borderRadius: `10px`, backgroundColor: '#1b5687', height: `15px`}}></div></td><td className="info-right stat-data">{minDef}</td><td className="info-right stat-data">{maxDef}</td></tr>
+                  <tr className="statTr"><th className="statHeaders info-right">Sp.Atk</th><td className="info-right stat-data">{spAtk}</td><td className="bar"><div style={{width:`${spAtk/teamMembers.length/1.94}%`, borderRadius: `10px`, backgroundColor: '#ff691f', height: `15px`}}></div></td><td className="info-right stat-data">{minSpAtk}</td><td className="info-right stat-data">{maxSpAtk}</td></tr>
+                  <tr className="statTr"><th className="statHeaders info-right">Sp.Def</th><td className="info-right stat-data">{spDef}</td><td className="bar"><div style={{width:`${spDef/teamMembers.length/2.3}%`, borderRadius: `10px`, backgroundColor: '#116363', height: `15px`}}></div></td><td className="info-right stat-data">{minSpDef}</td><td className="info-right stat-data">{maxSpDef}</td></tr>
+                  <tr className="statTr"><th className="statHeaders info-right">Speed</th><td className="info-right stat-data">{speed}</td><td className="bar"><div style={{width:`${speed/teamMembers.length/1.8}%`, borderRadius: `10px`, backgroundColor: '#f0e511', height: `15px`}}></div></td><td className="info-right stat-data">{minSpeed}</td><td className="info-right stat-data">{maxSpeed}</td></tr>
+                </table>
+              </div>
 
-        <table className="pokemonTable">
-          <tr className="pokemonTableTR">
-            <th className="pokemonTableHeaders-small">Types</th>
-            <th className="pokemonTableHeaders-small">Strong Against</th>
-            <th className="pokemonTableHeaders-small">Weak Against</th>
-            <th className="pokemonTableHeaders-small">Resistence To</th>
-            <th className="pokemonTableHeaders-small">No Damage To</th>
-            <th className="pokemonTableHeaders-small">No Damage From</th>
-          </tr>
-          {statCompare}
-        </table>
-
-      </div>
+              <table className="pokemonTable">
+                <tr className="pokemonTableTR">
+                  <th className="pokemonTableHeaders-small">Types</th>
+                  <th className="pokemonTableHeaders-small">Strong Against</th>
+                  <th className="pokemonTableHeaders-small">Weak Against</th>
+                  <th className="pokemonTableHeaders-small">Resistence To</th>
+                  <th className="pokemonTableHeaders-small">No Damage To</th>
+                  <th className="pokemonTableHeaders-small">No Damage From</th>
+                </tr>
+                {statCompare}
+              </table>
+            </div>
+            :
+            <p id="noTeamText">Add Pokemon(s) to your team in order to display stats</p>
     )
   }
 }

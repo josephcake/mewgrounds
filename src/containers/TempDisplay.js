@@ -114,7 +114,8 @@ class TempDisplay extends Component {
         </div>
         <div className="mainDisplayDiv">
           <div className="mainSprite">
-            <img alt={`${currentPoke.name} sprite`} src={`https://img.pokemondb.net/artwork/${currentPoke.species.name}.jpg`}/>
+            <button className="hoverEvoText">Evolve</button>
+            <img className="mainSpriteImg" alt={`${currentPoke.name} sprite`} src={`https://img.pokemondb.net/artwork/${currentPoke.species.name}.jpg`}/>
           </div>
           <table  className="mainInfo">
             <h1 className="pokedexHeader">Pokedex Data</h1>
