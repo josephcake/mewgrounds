@@ -226,9 +226,15 @@ class Sprite extends Component {
     }
     if(!this.props.team.includes(this.props.pokeData)){
       if(keys.length === 1){
-        style={border: `${color1} solid 7px`}
+        style={border: `${color1} solid 3px`}
       } else {
-        style={borderTop:`${color1} solid 7px`, borderLeft:`${color1} solid 7px`, borderRight:`${color2} solid 7px`, borderBottom:`${color2} solid 7px`}
+        style={borderTop:`${color1} solid 3px`, borderLeft:`${color1} solid 3px`, borderRight:`${color2} solid 3px`, borderBottom:`${color2} solid 3px`}
+      }
+    }else{
+      if(keys.length === 1){
+        style={border: `${color1} solid 10px`}
+      } else {
+        style={borderTop:`${color1} solid 10px`, borderLeft:`${color1} solid 10px`, borderRight:`${color2} solid 10px`, borderBottom:`${color2} solid 10px`}
       }
     }
     // debugger

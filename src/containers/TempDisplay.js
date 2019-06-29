@@ -13,6 +13,16 @@ class TempDisplay extends Component {
       }
   }
 
+  evolve=()=>{
+    this.props.evolve(this.props.currentPokeDb.evo.evo_to.pokemon[Math.floor(Math.random() * this.props.currentPokeDb.evo.evo_to.pokemon.length)].id)
+  }
+  nextPoke=()=>{
+    this.props.nextPoke(this.props.currentPokeDb)
+  }
+  prevPoke=()=>{
+    this.props.prevPoke(this.props.currentPokeDb)
+  }
+
   render(){
     const {
       currentPoke,
@@ -92,6 +102,7 @@ class TempDisplay extends Component {
 
     return(
       <div id="TempDisplayDiv">
+
         <div  className="topDisplayDiv">
           <button id="closeTemp-btn" onClick={closeTemp}>CLOSE</button>
           <h1 className="tempName">
@@ -114,7 +125,13 @@ class TempDisplay extends Component {
         </div>
         <div className="mainDisplayDiv">
           <div className="mainSprite">
-            <button className="hoverEvoText">Evolve</button>
+            {
+              currentPokeDb.evo.evo_to.evo
+              ?
+              <button onClick={this.evolve} className="hoverEvoText">Evolve</button>
+              :
+              null
+            }
             <img className="mainSpriteImg" alt={`${currentPoke.name} sprite`} src={`https://img.pokemondb.net/artwork/${currentPoke.species.name}.jpg`}/>
           </div>
           <table  className="mainInfo">
@@ -125,6 +142,10 @@ class TempDisplay extends Component {
             <tr className="mainTr"><th className="info-left" >Weight: </th> <td className="info-right"> {(currentPoke.weight/10).toFixed(2)}kg <span className="conversion">({((currentPoke.weight/10)*2.2).toFixed(2)} lbs)</span></td></tr>
             <tr className="mainTr"><th className="info-left" >Abilities: </th> <td className="info-right"> {abilites} </td></tr>
           </table>
+        </div>
+        <div id="pageSelection">
+        <i onClick={this.prevPoke}class="fas fa-angle-double-left"></i>
+          <i onClick={this.nextPoke}class="fas fa-angle-double-right"></i>
         </div>
         <div className="statsDiv">
           <h1 className="tempName-stat">Base Stats <span className="gray_italic_text">(stats are compared to the highest within that category)</span></h1>

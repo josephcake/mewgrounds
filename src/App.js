@@ -151,6 +151,28 @@ class App extends Component{
       quickDisplay: true
     })
   }
+
+  evolve=(e)=>{
+    fetch(`https://pokeapi.co/api/v2/pokemon/${e}`)
+    .then(reqs =>reqs.json())
+    .then(resp => this.setState({
+        currentPoke: resp
+    }))
+  }
+  nextPoke=(e)=>{
+    fetch(`https://pokeapi.co/api/v2/pokemon/${e.id+1}`)
+    .then(reqs =>reqs.json())
+    .then(resp => this.setState({
+        currentPoke: resp
+    }))
+  }
+  prevPoke=(e)=>{
+    fetch(`https://pokeapi.co/api/v2/pokemon/${e.id-1}`)
+    .then(reqs =>reqs.json())
+    .then(resp => this.setState({
+        currentPoke: resp
+    }))
+  }
     render(){
 
       let pData = []
@@ -221,7 +243,7 @@ class App extends Component{
             {
               this.state.clickedPoke
               ?
-              <TempDisplay filterType={this.filterType} currentPokeDb={this.state.pData[this.state.currentPoke.id - 1]} currentPoke={this.state.currentPoke} closeTemp={this.closeTemp}/>
+              <TempDisplay nextPoke={this.nextPoke} prevPoke={this.prevPoke} evolve={this.evolve} filterType={this.filterType} currentPokeDb={this.state.pData[this.state.currentPoke.id - 1]} currentPoke={this.state.currentPoke} closeTemp={this.closeTemp}/>
               :
               null
             }
@@ -234,7 +256,7 @@ class App extends Component{
              {
                this.state.clickedPoke
                ?
-               <TempDisplay filterType={this.filterType} currentPokeDb={this.state.pData[this.state.currentPoke.id - 1]}currentPoke={this.state.currentPoke} closeTemp={this.closeTemp}/>
+               <TempDisplay nextPoke={this.nextPoke} prevPoke={this.prevPoke} evolve={this.evolve} filterType={this.filterType} currentPokeDb={this.state.pData[this.state.currentPoke.id - 1]}currentPoke={this.state.currentPoke} closeTemp={this.closeTemp}/>
                :
                null
              }

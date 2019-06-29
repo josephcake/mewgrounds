@@ -15,17 +15,32 @@
 }
 .mainSprite:hover .hoverEvoText{
   display: block;
-  z-index: 2000;
+  /* z-index: 2000; */
   /* color: red; */
 }
 .mainSprite:hover{
-  filter: grayscale(90%);
-  /* background-blend-mode: darken; */
-  /* display: block; */
-  /* color: red; */
+  filter: grayscale(0%);
 }
 .hoverEvoText:active{
   transform: translateY(4px);
+}
+#pageSelection{
+  flex-wrap: wrap;
+  display: flex;
+  text-align: justify;
+  width: 100%;
+  margin: auto;
+  align-content: center;
+}
+.fa-angle-double-left{
+  font-size: 3.5rem;
+  margin: auto auto auto 0;
+  cursor: pointer;
+}
+.fa-angle-double-right{
+  cursor: pointer;
+  font-size: 3.5rem;
+  margin: auto 0 auto auto;
 }
 .hoverEvoText{
   font-size: 1.5rem;
@@ -38,6 +53,7 @@
   height: 70px;
   position: absolute;
   margin: auto;
+  cursor: pointer;
   /* left: 40%; */
   top: 40%;
   display: none;
