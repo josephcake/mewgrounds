@@ -132,7 +132,7 @@ class TempDisplay extends Component {
               :
               null
             }
-            <img className="mainSpriteImg" alt={`${currentPoke.name} sprite`} src={`https://img.pokemondb.net/artwork/${currentPoke.species.name}.jpg`}/>
+            <img className="mainSpriteImg" alt={`${currentPoke.name} sprite`} src={`https://img.pokemondb.net/artwork/${currentPoke.name}.jpg`}/>
           </div>
           <table  className="mainInfo">
             <h1 className="pokedexHeader">Pokedex Data</h1>
