@@ -37,43 +37,7 @@ class TempDisplay extends Component {
     if(keys.length > 0){
       keys.forEach(a=>{
         // debugger
-        if(a==="normal"){
-          type.push(<p onClick={filterType} className="normalType temp-type">{a}</p>)
-        }else if(a==="flying"){
-          type.push(<p onClick={filterType} className="flyingType temp-type">{a}</p>)
-        }else if(a==="grass"){
-          type.push(<p onClick={filterType} className="grassType temp-type">{a}</p>)
-        }else if(a==="fire"){
-          type.push(<p onClick={filterType} className="fireType temp-type">{a}</p>)
-        }else if(a==="water"){
-          type.push(<p onClick={filterType} className="waterType temp-type">{a}</p>)
-        }else if(a==="bug"){
-          type.push(<p onClick={filterType} className="bugType temp-type">{a}</p>)
-        }else if(a==="poison"){
-          type.push(<p onClick={filterType} className="poisonType temp-type">{a}</p>)
-        }else if(a==="electric"){
-          type.push(<p onClick={filterType} className="electricType temp-type">{a}</p>)
-        }else if(a==="ground"){
-          type.push(<p onClick={filterType} className="groundType temp-type">{a}</p>)
-        }else if(a==="fairy"){
-          type.push(<p onClick={filterType} className="fairyType temp-type">{a}</p>)
-        }else if(a==="ghost"){
-          type.push(<p onClick={filterType} className="ghostType temp-type">{a}</p>)
-        }else if(a==="psychic"){
-          type.push(<p onClick={filterType} className="psychicType temp-type">{a}</p>)
-        }else if(a==="dark"){
-          type.push(<p onClick={filterType} className="darkType temp-type">{a}</p>)
-        }else if(a==="rock"){
-          type.push(<p onClick={filterType} className="rockType temp-type">{a}</p>)
-        }else if(a==="steel"){
-          type.push(<p onClick={filterType} className="steelType temp-type">{a}</p>)
-        }else if(a==="ice"){
-          type.push(<p onClick={filterType} className="iceType temp-type">{a}</p>)
-        }else if(a==="dragon"){
-          type.push(<p onClick={filterType} className="dragonType temp-type">{a}</p>)
-        }else if(a==="fighting"){
-          type.push(<p onClick={filterType} className="fightingType temp-type">{a}</p>)
-        }
+          type.push(<p onClick={filterType} className={`${a}Type temp-type`}>{a}</p>)
       })
     }
 

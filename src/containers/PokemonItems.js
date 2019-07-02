@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import items from '../data/pokemonItemsData.json'
 import Item from '../components/Item.js'
+import {compareAll} from '../methods/Sort.js'
 
 class PokemonItems extends Component {
   state = {
@@ -8,64 +9,14 @@ class PokemonItems extends Component {
     sort: false
   }
 
-  compareName=( a, b )=>{
-    if(this.state.sort){
-      if ( a.name < b.name ){
-        return 1;
-      }else if ( a.name > b.name ){
-        return -1;
-      }else{
-        return 0;
-      }
-    }else{
-
-      if ( a.name < b.name ){
-        return -1;
-      }else if ( a.name > b.name ){
-        return 1;
-      }else{
-        return 0;
-      }
-    }
-  }
-
-  compareCat=( a, b )=>{
-    if(this.state.sort){
-      if ( a.cat < b.cat ){
-        return -1;
-      }else if ( a.cat > b.cat ){
-        return 1;
-      }else{
-        return 0;
-      }
-    }else{
-
-      if ( a.cat < b.cat ){
-        return 1;
-      }else if ( a.cat > b.cat ){
-        return -1;
-      }else{
-        return 0;
-      }
-    }
-  }
-
   sort=(e)=>{
-    // console.log(e.target);
-
-    if(e.target.innerText === "Name"){
-      this.setState({
-        currentSort: this.state.currentSort.sort( this.compareName ),
-        sort: !this.state.sort
-      })
-    } else if(e.target.innerText === "Cat"){
-      this.setState({
-        currentSort: this.state.currentSort.sort( this.compareCat ),
-        sort: !this.state.sort
-      })
-    }
-
+  let value = e.target.innerText.toLowerCase()
+  this.setState({
+    currentSort: this.state.sort ? this.state.currentSort.sort( compareAll[`${value}`]) : this.state.currentSort.sort( compareAll[`${value}`]).reverse(),
+    sort: !this.state.sort
+  })
   }
+
   render(){
     let pItemsData = []
     if(this.props.filteredType !== "" && this.props.filteredType !== "all"){
