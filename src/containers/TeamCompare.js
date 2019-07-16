@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import TeamMembers from '../components/TeamMembers.js'
 import StatCompare from '../components/StatCompare.js'
-import PieChart from 'react-minimal-pie-chart';
 
 class TeamCompare extends Component {
 
