@@ -1,14 +1,12 @@
-import React, {Component} from 'react'
+import React from 'react'
 
-class IndieAbilityPokemon extends Component{
-  render(){
-    return(
-        <li  className={this.props.p.is_hidden ? "hidden-ability " : "ability"}>
-          <span onClick={()=>this.props.clickPoke(this.props.p.pokemon)} className="clickable">
-            {this.props.p.pokemon.name}
-          </span>
-        </li>
-    )
-  }
+function IndieAbilityPokemon(props){
+  return(
+      <li  className={props.p.is_hidden ? "hidden-ability " : "ability"}>
+        <span onClick={()=>props.clickPoke(props.p.pokemon)} className="clickable">
+          {props.p.pokemon.name}
+        </span>
+      </li>
+  )
 }
 export default IndieAbilityPokemon

@@ -8,8 +8,6 @@ import NavItems from '../components/NavItems.js'
 
 class Nav extends Component {
   render(){
-
-
     return(
       <div id="Nav">
         <div id="navSites" className="navDiv">
@@ -46,7 +44,7 @@ class Nav extends Component {
           :
           this.props.currentPage === "Items"
           ?
-          <NavItems filterType={this.props.filterType}/>          
+          <NavItems filterType={this.props.filterType}/>
           :
           null
         }

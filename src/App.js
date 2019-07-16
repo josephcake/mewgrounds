@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import { Switch, Route, withRouter } from "react-router-dom";
-// import axios from 'axios'
 
 import pokemonData from './data/pokemonBasicData.json'
 
@@ -47,9 +46,11 @@ class App extends Component{
     let href = window.location.href.split('/')
     href = href[href.length-1]
     href = href.charAt(0).toUpperCase() + href.slice(1)
-    this.setState({
-      currentPage: href
-    })
+    if(href !== ""){
+      this.setState({
+        currentPage: href
+      })
+    }
   }
 
   handleFilter=(e)=>{
