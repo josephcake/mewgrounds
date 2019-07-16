@@ -43,54 +43,31 @@ class App extends Component{
   }
 
   componentDidMount(){
-    if(window.location.href.includes("about")){
-      this.setState({
-        currentPage:"About"
-      })
-    }
-    if(window.location.href.includes("teams")){
-      this.setState({
-        currentPage:"Teams"
-      })
-    }
-    if(window.location.href.includes("items")){
-      this.setState({
-        currentPage:"Items"
-      })
-    }
-    if(window.location.href.includes("moves")){
-      this.setState({
-        currentPage:"Moves"
-      })
-    }
-    if(window.location.href.includes("stats")){
-      this.setState({
-        currentPage:"Stats"
-      })
-    }
-    if(window.location.href.includes("abilities")){
-      this.setState({
-        currentPage:"Abilities"
-      })
-    }
+    //Set the current page of site loading
+    let href = window.location.href.split('/')
+    href = href[href.length-1]
+    href = href.charAt(0).toUpperCase() + href.slice(1)
+    this.setState({
+      currentPage: href
+    })
   }
 
-  handleChange=(e)=>{
-    // console.log(e.target.value);
+  handleFilter=(e)=>{
+    //
     this.setState({
       value:e.target.value
     })
   }
 
   filterType=(e)=>{
-    // console.log(e.target.innerText.toLowerCase());
+    //filter first pokemon type
     this.setState({
       filterType: e.target.innerText.toLowerCase(),
       secondaryType: ""
     })
   }
   filterSecondType=(e)=>{
-    // console.log(e.target.innerText.toLowerCase());
+    //filter second pokemon type
     this.setState({
       secondaryType: e.target.innerText.toLowerCase()
     })
@@ -106,7 +83,7 @@ class App extends Component{
   }
 
   clickPoke=(e)=>{
-    // console.log(e);
+    //clicking a pokemon on home page to display the "TempDisplay"
       fetch(`https://pokeapi.co/api/v2/pokemon/${e.id}`)
       .then(reqs =>reqs.json())
       .then(resp => this.setState({
@@ -117,12 +94,14 @@ class App extends Component{
 
   }
   closeTemp=()=>{
+    //closing the "TempDisplay"
     this.setState({
       clickedPoke: false,
       quickDisplay: false
     })
   }
   addPoke=(e)=>{
+    //adding a Pokemon to the "QuickDisplay" && "Teams Component"
     if(this.state.team.length !== 6){
       let copyTeam = [...this.state.team]
       let foundId = copyTeam.find(copy=>copy.id === e.id)
@@ -135,6 +114,7 @@ class App extends Component{
     }
   }
   deletePoke=(e)=>{
+    //deleting a Pokemon from the "QuickDisplay" && "Teams Component"
     let copyTeam = [...this.state.team]
     let foundId = copyTeam.find(copy=>copy.id === e.id)
     copyTeam.splice(copyTeam.indexOf(foundId), 1);
@@ -147,6 +127,7 @@ class App extends Component{
   }
 
   quickDisplay=()=>{
+    //toggling QuickDisplay by the Poke-indicator
     this.setState({
       quickDisplay: true
     })
@@ -195,8 +176,6 @@ class App extends Component{
       	}
       }
       secondaryDataTypes=Object.keys(secondaryDataTypes)
-      // console.log(secondaryDataTypes);
-
       if(this.state.secondaryType !== ""){
         let newPData = []
         pData.forEach(p => {
@@ -206,12 +185,11 @@ class App extends Component{
         })
         pData = newPData
       }
-      // debugger
 
 
     return (
       <div id="App">
-        <Nav currentPage={this.state.currentPage} handlePage={this.handlePage} filterType={this.filterType} filterSecondType={this.filterSecondType} filteredType={this.state.filterType} secondaryDataTypes={secondaryDataTypes} handleSubmit={this.handleSubmit} handleChange={this.handleChange} value={this.state.value}/>
+        <Nav currentPage={this.state.currentPage} handlePage={this.handlePage} filterType={this.filterType} filterSecondType={this.filterSecondType} filteredType={this.state.filterType} secondaryDataTypes={secondaryDataTypes} handleSubmit={this.handleSubmit} handleFilter={this.handleFilter} value={this.state.value}/>
         <div id="quickDisplay">
         {
           this.state.quickDisplay

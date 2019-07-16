@@ -46,22 +46,14 @@ class Nav extends Component {
           :
           this.props.currentPage === "Items"
           ?
-          <NavItems filterType={this.props.filterType}/>
-          :
-          this.props.currentPage === "Items"
-          ?
-          null
-          :
-          this.props.currentPage === "About"
-          ?
-          null
+          <NavItems filterType={this.props.filterType}/>          
           :
           null
         }
 
 
         <div className="navDiv">
-          <Search currentPage={this.props.currentPage} handleSubmit={this.props.handleSubmit} handleChange={this.props.handleChange} value={this.props.value}/>
+          <Search currentPage={this.props.currentPage} handleSubmit={this.props.handleSubmit} handleFilter={this.props.handleFilter} value={this.props.value}/>
         </div>
       </div>
     )
