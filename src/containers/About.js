@@ -1,8 +1,8 @@
-import React, {Component} from 'react'
+import React from 'react'
 import badge from '../data/pokemonBadgesData.json'
 import Footer from './Footer.js'
 function About() {
-  let badges = badge.map(bg=> <img className="badgeImg" src={bg.src}/>)
+  let badges = badge.map(bg=> <img alt={bg.name} className="badgeImg" src={bg.src}/>)
   return(
     <div id="aboutPages">
       <div id="about-name">

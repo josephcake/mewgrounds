@@ -2,6 +2,8 @@ import React, {Component} from 'react'
 import pokemonMovesData from '../data/pokemonMovesData.json'
 import Move from '../components/Move.js'
 import {compareAll} from '../methods/Sort.js'
+import {allMoveHeaders} from '../data/headers.js'
+import HeaderCells from '../components/HeaderCells.js'
 
 class PokemonMoves extends Component {
   state = {
@@ -28,21 +30,13 @@ class PokemonMoves extends Component {
       pMovesData = this.state.currentSort
     }
     let movesRows = pMovesData.map(p=><Move p={p} value={this.props.value}/>)
-    // debugger
+    let movesHeader = allMoveHeaders.map(header => <HeaderCells sort={this.sort} header={header}/>)
     return(
       <div className="pokemonTableDiv">
         <table className="pokemonTable">
           <tbody>
           <tr className="pokemonTableTR">
-            <th onClick={this.sort} className="pokemonTableHeaders">Name</th>
-            <th onClick={this.sort} className="pokemonTableHeaders">Type</th>
-            <th onClick={this.sort} className="pokemonTableHeaders">Cat</th>
-            <th onClick={this.sort} className="pokemonTableHeaders">Power</th>
-            <th onClick={this.sort} className="pokemonTableHeaders">Acc</th>
-            <th onClick={this.sort} className="pokemonTableHeaders">PP</th>
-            <th onClick={this.sort} className="pokemonTableHeaders">TM</th>
-            <th className="pokemonTableHeaders">Desc</th>
-            <th onClick={this.sort} className="pokemonTableHeaders">Per</th>
+            {movesHeader}
           </tr>
           {movesRows}
           </tbody>

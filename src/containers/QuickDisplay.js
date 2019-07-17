@@ -1,38 +1,29 @@
-import React, {Component} from 'react'
+import React from 'react'
 import Stat from '../components/Stat.js'
+import HeaderCells from '../components/HeaderCells.js'
+import {allTeamHeaders} from '../data/headers.js'
 
-class QuickDisplay extends Component {
-
-  render(){
-    let statRows = this.props.pData.map(p=><Stat deletePoke={this.props.deletePoke} p={p} value={p.name}/>)
-    return(
-      <div id="QuickDisplayDiv">
-        <div  className="topDisplayDiv">
-          <button onClick={this.props.closeTemp} id="closeTemp-btn" >CLOSE</button>
-        </div>
-        <div className="pokemonTableDiv">
-          <table className="pokemonTable">
-            <tbody>
-            <tr className="pokemonTableTR">
-              <th className="pokemonTableHeaders" style={{width:"20px"}}></th>
-              <th className="pokemonTableHeaders">img</th>
-              <th className="pokemonTableHeaders">#</th>
-              <th className="pokemonTableHeaders">Name</th>
-              <th className="pokemonTableHeaders">Type</th>
-              <th className="pokemonTableHeaders">Total</th>
-              <th className="pokemonTableHeaders">HP</th>
-              <th className="pokemonTableHeaders">Attack</th>
-              <th className="pokemonTableHeaders">Defense</th>
-              <th className="pokemonTableHeaders">Sp.Atk</th>
-              <th className="pokemonTableHeaders">Sp.Def</th>
-              <th className="pokemonTableHeaders">Speed</th>
-            </tr>
-              {statRows}
-            </tbody>
-          </table>
-        </div>
+function QuickDisplay(props) {
+  let statRows = props.pData.map(p=><Stat key={p.name} deletePoke={props.deletePoke} p={p} value={p.name}/>)
+  const teamHeaders = allTeamHeaders.map(header => <HeaderCells header={header}/>)
+  return(
+    <div id="QuickDisplayDiv">
+      <div  className="topDisplayDiv">
+        <button onClick={props.closeTemp} id="closeTemp-btn" >CLOSE</button>
       </div>
-    )
-  }
+      <div className="pokemonTableDiv">
+        <table className="pokemonTable">
+          <tbody>
+          <tr className="pokemonTableTR">
+            <th className="pokemonTableHeaders" style={{width:"20px"}}></th>
+            {teamHeaders}
+          </tr>
+            {statRows}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  )
+
 }
 export default QuickDisplay

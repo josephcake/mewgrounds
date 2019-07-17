@@ -1,8 +1,9 @@
 import React from 'react'
-import DataCells from './DataCells'
+import NavCells from './NavCells'
+import {allItems} from '../data/headers.js'
+
 function NavItems(props){
-  let allItems = ['all','general','battle','hold','machines','pokeballs','medicine','berries']
-  let items = allItems.map(type => <DataCells filterType={props.filterType} type={type}/>)
+  let items = allItems.map(type => <NavCells key={type} filterType={props.filterType} type={type}/>)
   return(
       <div className="navDiv">
         {items}

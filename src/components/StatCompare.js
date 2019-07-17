@@ -29,13 +29,11 @@ class StatCompare extends Component {
           no_damage_to = [],
           no_damage_from = []
 
-
       this.state.strong_against.forEach(s=> strong_against.push(<p className={`${s.name}Type nav-tag`}>{s.name}</p>))
       this.state.weak_against.forEach(s=> weak_against.push(<p className={`${s.name}Type nav-tag`}>{s.name}</p>))
       this.state.resistence_to.forEach(s=> resistence_to.push(<p className={`${s.name}Type nav-tag`}>{s.name}</p>))
       this.state.no_damage_to.forEach(s=> no_damage_to.push(<p className={`${s.name}Type nav-tag`}>{s.name}</p>))
       this.state.no_damage_from.forEach(s=> no_damage_from.push(<p className={`${s.name}Type nav-tag`}>{s.name}</p>))
-      console.log(strong_against);
 
     return(
       <tr className="pokemonStatsTR">

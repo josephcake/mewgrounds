@@ -28203,7 +28203,7 @@
   {
     "id": 549,
     "poke_id": "549",
-    "sprite": "https://img.pokemondb.net/sprites/sun-moon/icon/lilligant.png-striped.png",
+    "sprite": "https://img.pokemondb.net/sprites/sun-moon/icon/lilligant.png",
     "stat": {
       "hp": {
         "base": 70,
@@ -28252,7 +28252,7 @@
   {
     "id": 550,
     "poke_id": "550",
-    "sprite": "https://img.pokemondb.net/sprites/sun-moon/icon/basculin-red",
+    "sprite": "https://img.pokemondb.net/sprites/sun-moon/icon/basculin.png",
     "stat": {
       "hp": {
         "base": 70,
@@ -28512,7 +28512,7 @@
   {
     "id": 555,
     "poke_id": "555",
-    "sprite": "https://img.pokemondb.net/sprites/sun-moon/icon/darmanitan-zen",
+    "sprite": "https://img.pokemondb.net/sprites/sun-moon/icon/darmanitan.png",
     "stat": {
       "hp": {
         "base": 105,

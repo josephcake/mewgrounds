@@ -9,14 +9,14 @@ function Search(props){
         null
         :
         <form id="SearchForm" onSubmit={props.handleSubmit}>
-        <input id="SearchInput"type="text" value={props.value} placeholder={
+        <input id="SearchInput" type="text" value={props.value} placeholder={
           props.currentPage === "Home" || props.currentPage === "Stats"
           ?
           "Search for a Pokemon..."
           :
           `Search for a ${props.currentPage}...`
 
-        } onChange={props.handleChange}/>
+        } onChange={props.handleFilter}/>
         </form>
       }
     </div>

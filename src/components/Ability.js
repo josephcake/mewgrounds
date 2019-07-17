@@ -11,7 +11,7 @@ class Ability extends Component {
     })
   }
   render(){
-    let listPokemon = this.props.p.pokemon.map(p=> <IndieAbilityPokemon clickPoke={this.props.clickPoke} p={p}/>)
+    let listPokemon = this.props.p.pokemon.map(p=> <IndieAbilityPokemon key={p.name} clickPoke={this.props.clickPoke} p={p}/>)
 
     return(
       <tr className={this.props.p.name.toLowerCase().includes(this.props.value.toLowerCase()) ? "pokemonStatsTR" : "hideSprite"}>

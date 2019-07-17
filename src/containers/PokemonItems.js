@@ -10,11 +10,11 @@ class PokemonItems extends Component {
   }
 
   sort=(e)=>{
-  let value = e.target.innerText.toLowerCase()
-  this.setState({
-    currentSort: this.state.sort ? this.state.currentSort.sort( compareAll[`${value}`]) : this.state.currentSort.sort( compareAll[`${value}`]).reverse(),
-    sort: !this.state.sort
-  })
+    let value = e.target.innerText.toLowerCase()
+    this.setState({
+      currentSort: this.state.sort ? this.state.currentSort.sort( compareAll[`${value}`]) : this.state.currentSort.sort( compareAll[`${value}`]).reverse(),
+      sort: !this.state.sort
+    })
   }
 
   render(){

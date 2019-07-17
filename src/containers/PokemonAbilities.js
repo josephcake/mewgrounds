@@ -9,14 +9,12 @@ class PokemonAbilities extends Component {
     currentSort:abilities,
     sort: false
   }
-
-
   sort=(e)=>{
-  let value = e.target.innerText.toLowerCase()
-  this.setState({
-    currentSort: this.state.sort ? this.state.currentSort.sort( compareAll[`${value}`]) : this.state.currentSort.sort( compareAll[`${value}`]).reverse(),
-    sort: !this.state.sort
-  })
+    let value = e.target.innerText.toLowerCase()
+    this.setState({
+      currentSort: this.state.sort ? this.state.currentSort.sort( compareAll[`${value}`]) : this.state.currentSort.sort( compareAll[`${value}`]).reverse(),
+      sort: !this.state.sort
+    })
   }
   render(){
     let pAbilitiesData = []
@@ -29,7 +27,7 @@ class PokemonAbilities extends Component {
     }else{
       pAbilitiesData = this.state.currentSort
     }
-    let abilitiesRows = pAbilitiesData.map(p=><Ability clickPoke={this.props.clickPoke} p={p} value={this.props.value}/>)
+    let abilitiesRows = pAbilitiesData.map(p=><Ability key={p.name} clickPoke={this.props.clickPoke} p={p} value={this.props.value}/>)
     // debugger
     return(
       <div className="pokemonTableDiv">

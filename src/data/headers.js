@@ -1,0 +1,6 @@
+export const allMoveHeaders = ["Name","Type","Cat","Power","Acc","PP","TM","Desc","Per"]
+export const allTeamHeaders = ['img', '#','Name','Type','Total','HP','Attach','Defense','Sp.Atk','Sp.Def','Speed']
+export const allWeaknessHeaders = ['Types', "Strong Against", "Weak Against", "Resistence To", "No Damage To", "No Damage From"]
+export const teamDisplayHeaders = ["Level","Move","Type","Cat","Power","PP","Acc"]
+export const allAttributeTypes = ['all','normal','flying','grass','fire','water','bug','poison','electric','ground','fairy','ghost','psychic','dark','rock','steel','fighting','dragon','ice']
+export const allItems = ['all','general','battle','hold','machines','pokeballs','medicine','berries']

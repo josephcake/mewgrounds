@@ -197,7 +197,7 @@ class App extends Component{
           ?
           <QuickDisplay deletePoke={this.deletePoke} closeTemp={this.closeTemp} pData={this.state.team}/>
           :
-          <img onClick={this.quickDisplay} id="pokeParty" src={require("./pokeparty.png")}/>
+          <img alt="pokeIndicator" onClick={this.quickDisplay} id="pokeParty" src={require("./pokeparty.png")}/>
         }
         </div>
         <Switch>
@@ -248,7 +248,7 @@ class App extends Component{
           ?
           null
           :
-          <i onClick={this.scrollTop} class="fas fa-reply"></i>
+          <i onClick={this.scrollTop} className="fas fa-reply"></i>
         }
       </div>
     );

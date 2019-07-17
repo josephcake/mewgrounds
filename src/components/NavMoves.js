@@ -1,9 +1,9 @@
 import React from 'react'
-import DataCells from './DataCells'
+import NavCells from './NavCells'
+import {allAttributeTypes} from '../data/headers.js'
 
 function NavMoves(props){
-  let allTypes = ['all','normal','flying','grass','fire','water','bug','poison','electric','ground','fairy','ghost','psychic','dark','rock','steel','fighting','dragon','ice']
-  let primary_types = allTypes.map(type => <DataCells filterType={props.filterType} type={type}/>)
+  let primary_types = allAttributeTypes.map(type => <NavCells key={type} filterType={props.filterType} type={type}/>)
   return(
       <div className="navDiv">
         {primary_types}

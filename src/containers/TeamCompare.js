@@ -1,6 +1,8 @@
 import React, {Component} from 'react'
 import TeamMembers from '../components/TeamMembers.js'
 import StatCompare from '../components/StatCompare.js'
+import HeaderCells from '../components/HeaderCells.js'
+import {allTeamHeaders, allWeaknessHeaders} from '../data/headers.js'
 
 class TeamCompare extends Component {
 
@@ -60,11 +62,9 @@ class TeamCompare extends Component {
         }
       }
     }
-
-    let statCompare = Object.keys(types).map(k=><StatCompare type={k}/>)
-
-
-
+    const teamHeaders = allTeamHeaders.map(header => <HeaderCells header={header}/>)
+    const weaknessHeaders = allWeaknessHeaders.map(header => <HeaderCells header={header}/>)
+    const statCompare = Object.keys(types).map(k=><StatCompare type={k}/>)
     return(
             this.props.team.length > 0
             ?
@@ -73,17 +73,7 @@ class TeamCompare extends Component {
                 <tbody>
                 <tr className="pokemonTableTR">
                   <th className="pokemonTableHeaders" style={{width:"20px"}}></th>
-                  <th className="pokemonTableHeaders">img</th>
-                  <th className="pokemonTableHeaders">#</th>
-                  <th className="pokemonTableHeaders">Name</th>
-                  <th className="pokemonTableHeaders">Type</th>
-                  <th className="pokemonTableHeaders">Total</th>
-                  <th className="pokemonTableHeaders">HP</th>
-                  <th className="pokemonTableHeaders">Attack</th>
-                  <th className="pokemonTableHeaders">Defense</th>
-                  <th className="pokemonTableHeaders">Sp.Atk</th>
-                  <th className="pokemonTableHeaders">Sp.Def</th>
-                  <th className="pokemonTableHeaders">Speed</th>
+                  {teamHeaders}
                 </tr>
                   {teamMembers}
                 </tbody>
@@ -103,12 +93,7 @@ class TeamCompare extends Component {
 
               <table className="pokemonTable">
                 <tr className="pokemonTableTR">
-                  <th className="pokemonTableHeaders-small">Types</th>
-                  <th className="pokemonTableHeaders-small">Strong Against</th>
-                  <th className="pokemonTableHeaders-small">Weak Against</th>
-                  <th className="pokemonTableHeaders-small">Resistence To</th>
-                  <th className="pokemonTableHeaders-small">No Damage To</th>
-                  <th className="pokemonTableHeaders-small">No Damage From</th>
+                  {weaknessHeaders}
                 </tr>
                 {statCompare}
               </table>

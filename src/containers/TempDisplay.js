@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 import TempDisplayMoves from '../components/TempDisplayMoves'
+import HeaderCells from '../components/HeaderCells.js'
+import {teamDisplayHeaders} from '../data/headers.js'
 
 class TempDisplay extends Component {
 
@@ -30,9 +32,7 @@ class TempDisplay extends Component {
       closeTemp,
       currentPokeDb
     } = this.props
-
     let type = []
-
     let keys = currentPoke.types.map(a=>a.type.name)
     if(keys.length > 0){
       keys.forEach(a=>{
@@ -61,7 +61,9 @@ class TempDisplay extends Component {
 		  obj = {}
     }
     moves.sort(this.compare)
+
     let tempDisplayMoves = moves.map(obj=><TempDisplayMoves m={obj}/>)
+    let teamHeaders = teamDisplayHeaders.map(header => <HeaderCells header={header}/>)
     // debugger
 
     return(
@@ -75,16 +77,16 @@ class TempDisplay extends Component {
         </div>
         <div className="headerDisplayDiv">
           <div className="frontSprite-nonShiny temp-sprites">
-            <img src={currentPoke.sprites.front_default}/>
+            <img alt ={currentPoke.sprites.front_default} src={currentPoke.sprites.front_default}/>
           </div>
           <div className="backSprite-nonShiny temp-sprites">
-            <img src={currentPoke.sprites.back_default}/>
+            <img alt ={currentPoke.sprites.back_default} src={currentPoke.sprites.back_default}/>
           </div>
           <div className="frontSprite-Shiny temp-sprites">
-            <img src={currentPoke.sprites.front_shiny}/>
+            <img alt ={currentPoke.sprites.front_shiny} src={currentPoke.sprites.front_shiny}/>
           </div>
           <div className="backSprite-Shiny temp-sprites">
-            <img src={currentPoke.sprites.back_shiny}/>
+            <img alt ={currentPoke.sprites.back_shiny} src={currentPoke.sprites.back_shiny}/>
           </div>
         </div>
         <div className="mainDisplayDiv">
@@ -127,13 +129,7 @@ class TempDisplay extends Component {
           <div  className="movesLvlDiv">
             <table className="movesTable">
               <tr className="pokemonTableTR-move">
-                <th className="pokemonTableHeaders-move">Level</th>
-                <th className="pokemonTableHeaders-move">Move</th>
-                <th className="pokemonTableHeaders-move">Type</th>
-                <th className="pokemonTableHeaders-move">Cat</th>
-                <th className="pokemonTableHeaders-move">Power</th>
-                <th className="pokemonTableHeaders-move">PP</th>
-                <th className="pokemonTableHeaders-move">Acc</th>
+                {teamHeaders}
               </tr>
               {tempDisplayMoves}
             </table>
