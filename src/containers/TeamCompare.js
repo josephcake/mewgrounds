@@ -29,7 +29,7 @@ class TeamCompare extends Component {
         types = {}
 
     for(let i=0; i< this.props.team.length; i++){
-      teamMembers.push(<TeamMembers deletePoke={this.props.deletePoke} p={this.props.team[i]}/>)
+      teamMembers.push(<TeamMembers key={i} deletePoke={this.props.deletePoke} p={this.props.team[i]}/>)
       hp += this.props.team[i].stat.hp.base
       atk += this.props.team[i].stat.attack.base
       def += this.props.team[i].stat.defense.base
@@ -62,9 +62,9 @@ class TeamCompare extends Component {
         }
       }
     }
-    const teamHeaders = allTeamHeaders.map(header => <HeaderCells header={header}/>)
-    const weaknessHeaders = allWeaknessHeaders.map(header => <HeaderCells header={header}/>)
-    const statCompare = Object.keys(types).map(k=><StatCompare type={k}/>)
+    const teamHeaders = allTeamHeaders.map(header => <HeaderCells key={header} header={header}/>)
+    const weaknessHeaders = allWeaknessHeaders.map(header => <HeaderCells key={header} header={header}/>)
+    const statCompare = Object.keys(types).map(k=><StatCompare key={k[0]} type={k}/>)
     return(
             this.props.team.length > 0
             ?

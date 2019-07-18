@@ -2,11 +2,12 @@ import React from 'react'
 
 function Stat(props){
   return(
-    <tr className={props.p.name.toLowerCase().includes(props.value.toLowerCase()) ? "pokemonStatsTR" : "hideSprite"}>
+
+    <tr className={((Object.keys(props.p.type).includes(props.primaryType) || props.primaryType === 'all') && (Object.keys(props.p.type).includes(props.secondaryType) || props.secondaryType === '')) && props.p.name.toLowerCase().includes(props.value.toLowerCase()) ? `pokemonStatsTR` : "hideSprite"}>
       {
         props.currentPage !== "Stats"
         ?
-        <td className="pokemonTableDatas"><span><i onClick ={()=>props.deletePoke(props.p)} class="fas fa-minus-circle"></i></span></td>
+        <td className="pokemonTableDatas"><span><i onClick ={()=>props.deletePoke(props.p)} className="fas fa-minus-circle"></i></span></td>
         :
         null
       }

@@ -1,7 +1,7 @@
-import React, {Component} from 'react'
+import React, {PureComponent} from 'react'
 import IndieAbilityPokemon from './indieAbilityPokemon'
 
-class Ability extends Component {
+class Ability extends PureComponent {
   state={
     showPokemonList:false
   }

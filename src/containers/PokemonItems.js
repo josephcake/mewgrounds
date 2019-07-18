@@ -28,7 +28,7 @@ class PokemonItems extends Component {
     }else{
       pItemsData = this.state.currentSort
     }
-    let itemsRows = pItemsData.map(p=><Item p={p} value={this.props.value}/>)
+    let itemsRows = pItemsData.map(p=><Item key={p.name} p={p} value={this.props.value}/>)
     // debugger
     return(
       <div className="pokemonTableDiv">

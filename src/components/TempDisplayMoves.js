@@ -5,7 +5,7 @@ class TempDisplayMoves extends Component {
     move : {
       acc:'',
       power:'',
-      pp:'',      
+      pp:'',
       type:'',
       cat:''
     }

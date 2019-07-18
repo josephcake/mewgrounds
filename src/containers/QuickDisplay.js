@@ -5,7 +5,7 @@ import {allTeamHeaders} from '../data/headers.js'
 
 function QuickDisplay(props) {
   let statRows = props.pData.map(p=><Stat key={p.name} deletePoke={props.deletePoke} p={p} value={p.name}/>)
-  const teamHeaders = allTeamHeaders.map(header => <HeaderCells header={header}/>)
+  const teamHeaders = allTeamHeaders.map(header => <HeaderCells key={header} header={header}/>)
   return(
     <div id="QuickDisplayDiv">
       <div  className="topDisplayDiv">

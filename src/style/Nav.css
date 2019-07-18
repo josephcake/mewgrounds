@@ -41,7 +41,7 @@
   text-transform: capitalize;
   cursor: pointer;
   text-align: center;
-  /* display: flex; */
+  /* height: 20px; */
   width: 85px;
   flex-wrap: wrap;
   margin: auto;

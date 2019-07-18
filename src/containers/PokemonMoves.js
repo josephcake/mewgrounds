@@ -29,8 +29,8 @@ class PokemonMoves extends Component {
     }else{
       pMovesData = this.state.currentSort
     }
-    let movesRows = pMovesData.map(p=><Move p={p} value={this.props.value}/>)
-    let movesHeader = allMoveHeaders.map(header => <HeaderCells sort={this.sort} header={header}/>)
+    let movesRows = pMovesData.map(p=><Move key={p.name} p={p} value={this.props.value}/>)
+    let movesHeader = allMoveHeaders.map(header => <HeaderCells key={header} sort={this.sort} header={header}/>)
     return(
       <div className="pokemonTableDiv">
         <table className="pokemonTable">

@@ -4,10 +4,8 @@ import {allAttributeTypes} from '../data/headers.js'
 
 function NavAttributes(props){
   let primary_types = allAttributeTypes.map(type => <NavCells key={type} filterType={props.filterType} type={type}/>)
-  let secondary_type = [<p className="allType nav-tag">Type 2</p>]
-  for(let i=0; i<props.secondaryDataTypes.length; i++){
-      secondary_type.push(<p onClick={props.filterSecondType} className={`${props.secondaryDataTypes[i]}Type nav-tag`}>{props.secondaryDataTypes[i]}</p>)
-  }
+  let secondary_type = props.secondaryDataTypes.map(type => <p key={type} onClick={props.filterSecondType} className={`${type}Type nav-tag`}>{type}</p>)
+  // debugger
   return(
       <div>
       {

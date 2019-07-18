@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import { Switch, Route, withRouter } from "react-router-dom";
-
 import pokemonData from './data/pokemonBasicData.json'
 
 import './App.css';
@@ -31,8 +30,9 @@ class App extends Component{
   state={
     pData: pokemonData,
     value:"",
-    filterType:"all",
+    primaryType:"all",
     secondaryType:"",
+    secondaryDataTypes:[],
     clickedPoke: false,
     currentPoke:{},
     team:[],
@@ -40,7 +40,6 @@ class App extends Component{
     quickDisplay:false
 
   }
-
   componentDidMount(){
     //Set the current page of site loading
     let href = window.location.href.split('/')
@@ -62,22 +61,44 @@ class App extends Component{
 
   filterType=(e)=>{
     //filter first pokemon type
-    this.setState({
-      filterType: e.target.innerText.toLowerCase(),
-      secondaryType: ""
-    })
+    if(e.target.innerText.toLowerCase() !== "all"){
+      let pData=pokemonData.filter(p=>{
+        return (Object.keys(p.type).includes(e.target.innerText.toLowerCase()))
+      })
+      let secondaryDataTypes={}
+      for(let i=0; i<pData.length; i++){
+      	if(Object.keys(pData[i].type)[0] && Object.keys(pData[i].type)[0] !== e.target.innerText.toLowerCase()){
+      		secondaryDataTypes[Object.keys(pData[i].type)[0]] = 1
+      	}
+      	if(Object.keys(pData[i].type)[1] && Object.keys(pData[i].type)[1] !== e.target.innerText.toLowerCase()){
+      		secondaryDataTypes[Object.keys(pData[i].type)[1]] = 1
+      	}
+      }
+      secondaryDataTypes=Object.keys(secondaryDataTypes)
+      this.setState({
+        primaryType: e.target.innerText.toLowerCase(),
+        secondaryDataTypes: secondaryDataTypes,
+        secondaryType: ""
+      })
+    }else{
+      this.setState({
+        primaryType:'all',
+        secondaryType: "",
+        pData:pokemonData
+      })
+    }
+
   }
   filterSecondType=(e)=>{
-    //filter second pokemon type
     this.setState({
-      secondaryType: e.target.innerText.toLowerCase()
+      secondaryType: e.target.innerText.toLowerCase(),
     })
   }
 
   handlePage=(e)=>{
     this.setState({
       currentPage:e.target.innerText,
-      filterType: "all",
+      primaryType: "all",
       secondaryType: "",
       value:""
     })
@@ -156,41 +177,10 @@ class App extends Component{
     }))
   }
     render(){
-
-      let pData = []
-      if(this.state.filterType !== "" && this.state.filterType !== "all"){
-        this.state.pData.forEach(p => {
-          if(Object.keys(p.type).includes(this.state.filterType.toLowerCase())){
-            pData.push(p)
-          }
-        })
-      }else{
-        pData = this.state.pData
-      }
-      let secondaryDataTypes={}
-      for(let i=0; i<pData.length; i++){
-      	if(Object.keys(pData[i].type)[0] && Object.keys(pData[i].type)[0] !== this.state.filterType){
-      		secondaryDataTypes[Object.keys(pData[i].type)[0]] = 1
-      	}
-      	if(Object.keys(pData[i].type)[1] && Object.keys(pData[i].type)[1] !== this.state.filterType){
-      		secondaryDataTypes[Object.keys(pData[i].type)[1]] = 1
-      	}
-      }
-      secondaryDataTypes=Object.keys(secondaryDataTypes)
-      if(this.state.secondaryType !== ""){
-        let newPData = []
-        pData.forEach(p => {
-          if(Object.keys(p.type).includes(this.state.secondaryType.toLowerCase())){
-            newPData.push(p)
-          }
-        })
-        pData = newPData
-      }
-
-
+      // debugger
     return (
       <div id="App">
-        <Nav currentPage={this.state.currentPage} handlePage={this.handlePage} filterType={this.filterType} filterSecondType={this.filterSecondType} filteredType={this.state.filterType} secondaryDataTypes={secondaryDataTypes} handleSubmit={this.handleSubmit} handleFilter={this.handleFilter} value={this.state.value}/>
+        <Nav currentPage={this.state.currentPage} handlePage={this.handlePage} filterType={this.filterType} filterSecondType={this.filterSecondType} filteredType={this.state.primaryType} secondaryDataTypes={this.state.secondaryDataTypes} handleFilter={this.handleFilter} value={this.state.value}/>
         <div id="quickDisplay">
         {
           this.state.quickDisplay
@@ -202,13 +192,13 @@ class App extends Component{
         </div>
         <Switch>
           <Route exact path='/stats' render={() =>{
-            return <PokemonStats value={this.state.value} currentPage={this.state.currentPage} pData={pData}/>
+            return <PokemonStats value={this.state.value} primaryType={this.state.primaryType} secondaryType={this.state.secondaryType} currentPage={this.state.currentPage} pData={this.state.pData}/>
           }} />
           <Route exact path='/moves' render={() =>{
-            return <PokemonMoves value={this.state.value} filteredType={this.state.filterType}/>
+            return <PokemonMoves value={this.state.value} filteredType={this.state.primaryType}/>
           }} />
           <Route exact path='/items' render={() =>{
-            return <PokemonItems value={this.state.value} filteredType={this.state.filterType}/>
+            return <PokemonItems value={this.state.value} filteredType={this.state.primaryType}/>
           }} />
           <Route exact path='/about' render={() =>{
             return <About/>
@@ -226,7 +216,7 @@ class App extends Component{
               :
               null
             }
-            <PokemonAbilities clickPoke={this.clickPoke} value={this.state.value} filteredType={this.state.filterType}/>
+            <PokemonAbilities clickPoke={this.clickPoke} value={this.state.value} filteredType={this.state.primaryType}/>
             </div>
           }/>
 
@@ -239,7 +229,7 @@ class App extends Component{
                :
                null
              }
-             <Home team={this.state.team} addPoke={this.addPoke} basicData={pData} value={this.state.value} filterType={this.filterType} clickPoke={this.clickPoke} />
+             <Home team={this.state.team} addPoke={this.addPoke} basicData={this.state.pData} value={this.state.value} secondaryType={this.state.secondaryType} primaryType={this.state.primaryType} clickPoke={this.clickPoke} />
              </div>
           }/>
         </Switch>

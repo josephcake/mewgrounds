@@ -1,9 +1,9 @@
-import React, {Component} from 'react'
+import React, {PureComponent} from 'react'
 import Stat from '../components/Stat.js'
 import {compareAll} from '../methods/Sort.js'
 
 
-class PokemonStats extends Component {
+class PokemonStats extends PureComponent {
   state = {
     currentSort:this.props.pData,
     sort: false
@@ -25,7 +25,7 @@ class PokemonStats extends Component {
     }
   }
   render(){
-    let statRows = this.props.pData.map(p=><Stat currentPage={this.props.currentPage} p={p} value={this.props.value}/>)
+    let statRows = this.props.pData.map(p=><Stat key={p.name} primaryType={this.props.primaryType} secondaryType={this.props.secondaryType} currentPage={this.props.currentPage} p={p} value={this.props.value}/>)
     return (
       <div className="pokemonTableDiv">
         <table className="pokemonTable">

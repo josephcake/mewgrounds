@@ -62,8 +62,8 @@ class TempDisplay extends Component {
     }
     moves.sort(this.compare)
 
-    let tempDisplayMoves = moves.map(obj=><TempDisplayMoves m={obj}/>)
-    let teamHeaders = teamDisplayHeaders.map(header => <HeaderCells header={header}/>)
+    let tempDisplayMoves = moves.map(obj=><TempDisplayMoves key={obj.name} m={obj}/>)
+    let teamHeaders = teamDisplayHeaders.map(header => <HeaderCells key={header} header={header}/>)
     // debugger
 
     return(
