@@ -10,24 +10,15 @@ class PokemonAbilities extends Component {
     sort: false
   }
   sort=(e)=>{
+    console.log("sort-yes");
     let value = e.target.innerText.toLowerCase()
     this.setState({
-      currentSort: this.state.sort ? this.state.currentSort.sort( compareAll[`${value}`]) : this.state.currentSort.sort( compareAll[`${value}`]).reverse(),
+      currentSort: this.state.sort ? compareAll.mergeSort(this.state.currentSort, value) : compareAll.mergeSort(this.state.currentSort, value).reverse(),
       sort: !this.state.sort
     })
   }
-  render(){
-    let pAbilitiesData = []
-    if(this.props.filteredType !== "" && this.props.filteredType !== "all"){
-      this.state.currentSort.forEach(p => {
-        if(p.gen.toLowerCase().includes(this.props.filteredType.toLowerCase())){
-          pAbilitiesData.push(p)
-        }
-      })
-    }else{
-      pAbilitiesData = this.state.currentSort
-    }
-    let abilitiesRows = pAbilitiesData.map(p=><Ability key={p.name} clickPoke={this.props.clickPoke} p={p} value={this.props.value}/>)
+    render(){
+    let abilitiesRows = this.state.currentSort.map(p=><Ability key={p.name} clickPoke={this.props.clickPoke} p={p} value={this.props.value}/>)
     // debugger
     return(
       <div className="pokemonTableDiv">

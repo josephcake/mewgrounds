@@ -1,164 +1,479 @@
 export const compareAll = {
-  hp: function(a, b){
-    if ( a.stat.hp.base < b.stat.hp.base ){
-      return -1
-    }else if ( a.stat.hp.base > b.stat.hp.base ){
-      return 1
+  mergeSort:function (arr, value){
+    if(arr.length <= 1) {
+      return arr
+    }
+    let mid = Math.floor(arr.length/2)
+    let left = this.mergeSort(arr.slice(0, mid), value)
+    let right = this.mergeSort(arr.slice(mid), value)
+    if(value === "hp"){
+      return this.hp(left, right)
+    }else if(value === "total"){
+      return this.total(left, right)
+    }else if(value === "name"){
+        return this.name(left, right)
+    }else if(value === "attack"){
+        return this.attack(left, right)
+    }else if(value === "defense"){
+        return this.defense(left, right)
+    }else if(value === "spatk"){
+        return this.spatk(left, right)
+    }else if(value === "spdef"){
+        return this.spdef(left, right)
+    }else if(value === "speed"){
+        return this.speed(left, right)
+    }else if(value === "power"){
+        return this.power(left, right)
+    }else if(value === "pp"){
+        return this.pp(left, right)
+    }else if(value === "tm"){
+        return this.tm(left, right)
+    }else if(value === "acc"){
+        return this.acc(left, right)
+    }else if(value === "gen"){
+        return this.gen(left, right)
+    }else if(value === "type"){
+        return this.type(left, right)
+    }else if(value === "per"){
+        return this.per(left, right)
+    }else if(value === "cat"){
+        return this.cat(left, right)
+    }else if(value === "pokemon"){
+        return this.pokemon(left, right)
     }else{
-      return 0;
+      return this.num(left, right)
     }
   },
-  num: function(a, b){
-    if ( a.id < b.id ){
-      return -1
-    }else if ( a.id > b.id ){
-      return 1
-    }else{
-      return 0;
+  num: function (arr1, arr2){
+    let ans = []
+    let i = 0
+    let k = 0
+
+    while (i < arr1.length && k < arr2.length){
+      if(arr1[i].id < arr2[k].id){
+        ans.push(arr1[i])
+        i ++
+      }else {
+        ans.push(arr2[k])
+        k ++
+      }
     }
+    while(i < arr1.length){
+      ans.push(arr1[i])
+      i ++
+    }
+    while(k < arr2.length){
+      ans.push(arr2[k])
+      k ++
+    }
+    return ans
   },
-  name: function(a, b){
-    if ( a.name < b.name ){
-      return -1
-    }else if ( a.name > b.name ){
-      return 1
-    }else{
-      return 0;
+  hp: function (arr1, arr2){
+    let ans = []
+    let i = 0
+    let k = 0
+
+    while (i < arr1.length && k < arr2.length){
+      if(arr1[i].stat.hp.base < arr2[k].stat.hp.base){
+        ans.push(arr1[i])
+        i ++
+      }else {
+        ans.push(arr2[k])
+        k ++
+      }
     }
+    while(i < arr1.length){
+      ans.push(arr1[i])
+      i ++
+    }
+    while(k < arr2.length){
+      ans.push(arr2[k])
+      k ++
+    }
+    return ans
   },
-  total: function(a, b){
-    if ( a.stat.hp.base+a.stat.attack.base+a.stat.defense.base+a.stat.spAtk.base+a.stat.spDef.base+a.stat.speed.base <  b.stat.hp.base+b.stat.attack.base+b.stat.defense.base+b.stat.spAtk.base+b.stat.spDef.base+b.stat.speed.base ){
-      return -1;
-    }else if (  a.stat.hp.base+a.stat.attack.base+a.stat.defense.base+a.stat.spAtk.base+a.stat.spDef.base+a.stat.speed.base > b.stat.hp.base+b.stat.attack.base+b.stat.defense.base+b.stat.spAtk.base+b.stat.spDef.base+b.stat.speed.base ){
-      return 1;
-    }else{
-      return 0;
+  name: function (arr1, arr2){
+    let ans = []
+    let i = 0
+    let k = 0
+
+    while (i < arr1.length && k < arr2.length){
+      if(arr1[i].name < arr2[k].name){
+        ans.push(arr1[i])
+        i ++
+      }else {
+        ans.push(arr2[k])
+        k ++
+      }
     }
+    while(i < arr1.length){
+      ans.push(arr1[i])
+      i ++
+    }
+    while(k < arr2.length){
+      ans.push(arr2[k])
+      k ++
+    }
+    return ans
   },
-  attack: function(a, b){
-    if ( a.stat.attack.base < b.stat.attack.base ){
-      return -1
-    }else if ( a.stat.attack.base > b.stat.attack.base ){
-      return 1
-    }else{
-      return 0;
+  attack: function (arr1, arr2){
+    let ans = []
+    let i = 0
+    let k = 0
+
+    while (i < arr1.length && k < arr2.length){
+      if(arr1[i].stat.attack.base < arr2[k].stat.attack.base){
+        ans.push(arr1[i])
+        i ++
+      }else {
+        ans.push(arr2[k])
+        k ++
+      }
     }
+    while(i < arr1.length){
+      ans.push(arr1[i])
+      i ++
+    }
+    while(k < arr2.length){
+      ans.push(arr2[k])
+      k ++
+    }
+    return ans
   },
-  defense: function(a, b){
-    if ( a.stat.defense.base < b.stat.defense.base ){
-      return -1
-    }else if ( a.stat.defense.base > b.stat.defense.base ){
-      return 1
-    }else{
-      return 0;
+  defense: function (arr1, arr2){
+    let ans = []
+    let i = 0
+    let k = 0
+
+    while (i < arr1.length && k < arr2.length){
+      if(arr1[i].stat.defense.base < arr2[k].stat.defense.base){
+        ans.push(arr1[i])
+        i ++
+      }else {
+        ans.push(arr2[k])
+        k ++
+      }
     }
+    while(i < arr1.length){
+      ans.push(arr1[i])
+      i ++
+    }
+    while(k < arr2.length){
+      ans.push(arr2[k])
+      k ++
+    }
+    return ans
   },
-  spatk: function(a, b){
-    if ( a.stat.spAtk.base < b.stat.spAtk.base ){
-      return -1
-    }else if ( a.stat.spAtk.base > b.stat.spAtk.base ){
-      return 1
-    }else{
-      return 0;
+  spatk: function (arr1, arr2){
+    let ans = []
+    let i = 0
+    let k = 0
+
+    while (i < arr1.length && k < arr2.length){
+      if(arr1[i].stat.spAtk.base < arr2[k].stat.spAtk.base){
+        ans.push(arr1[i])
+        i ++
+      }else {
+        ans.push(arr2[k])
+        k ++
+      }
     }
+    while(i < arr1.length){
+      ans.push(arr1[i])
+      i ++
+    }
+    while(k < arr2.length){
+      ans.push(arr2[k])
+      k ++
+    }
+    return ans
   },
-  spdef: function(a, b){
-    if ( a.stat.spDef.base < b.stat.spDef.base ){
-      return -1
-    }else if ( a.stat.spDef.base > b.stat.spDef.base ){
-      return 1
-    }else{
-      return 0;
+  spdef: function (arr1, arr2){
+    let ans = []
+    let i = 0
+    let k = 0
+
+    while (i < arr1.length && k < arr2.length){
+      if(arr1[i].stat.spDef.base < arr2[k].stat.spDef.base){
+        ans.push(arr1[i])
+        i ++
+      }else {
+        ans.push(arr2[k])
+        k ++
+      }
     }
+    while(i < arr1.length){
+      ans.push(arr1[i])
+      i ++
+    }
+    while(k < arr2.length){
+      ans.push(arr2[k])
+      k ++
+    }
+    return ans
   },
-  speed: function(a, b){
-    if ( a.stat.speed.base < b.stat.speed.base ){
-      return -1
-    }else if ( a.stat.speed.base > b.stat.speed.base ){
-      return 1
-    }else{
-      return 0;
+  speed: function (arr1, arr2){
+    let ans = []
+    let i = 0
+    let k = 0
+
+    while (i < arr1.length && k < arr2.length){
+      if(arr1[i].stat.speed.base < arr2[k].stat.speed.base){
+        ans.push(arr1[i])
+        i ++
+      }else {
+        ans.push(arr2[k])
+        k ++
+      }
     }
+    while(i < arr1.length){
+      ans.push(arr1[i])
+      i ++
+    }
+    while(k < arr2.length){
+      ans.push(arr2[k])
+      k ++
+    }
+    return ans
   },
-  cat: function(a, b){
-    if ( a.cat < b.cat ){
-      return -1;
-    }else if ( a.cat > b.cat ){
-      return 1;
-    }else{
-      return 0;
+  cat: function (arr1, arr2){
+    let ans = []
+    let i = 0
+    let k = 0
+
+    while (i < arr1.length && k < arr2.length){
+      if(arr1[i].cat < arr2[k].cat){
+        ans.push(arr1[i])
+        i ++
+      }else {
+        ans.push(arr2[k])
+        k ++
+      }
     }
+    while(i < arr1.length){
+      ans.push(arr1[i])
+      i ++
+    }
+    while(k < arr2.length){
+      ans.push(arr2[k])
+      k ++
+    }
+    return ans
   },
-  power:function(a, b){
-    if ( Number(a.power) < Number(b.power) ){
-      return -1;
-    }else if ( Number(a.power) > Number(b.power) ){
-      return 1;
-    }else{
-      return 0;
+  gen: function (arr1, arr2){
+    let ans = []
+    let i = 0
+    let k = 0
+
+    while (i < arr1.length && k < arr2.length){
+      if(arr1[i].gen < arr2[k].gen){
+        ans.push(arr1[i])
+        i ++
+      }else {
+        ans.push(arr2[k])
+        k ++
+      }
     }
+    while(i < arr1.length){
+      ans.push(arr1[i])
+      i ++
+    }
+    while(k < arr2.length){
+      ans.push(arr2[k])
+      k ++
+    }
+    return ans
   },
-  pp:function(a,b){
-    if ( Number(a.pp) < Number(b.pp) ){
-      return -1;
-    }else if ( Number(a.pp) > Number(b.pp) ){
-      return 1;
-    }else{
-      return 0;
+  type: function (arr1, arr2){
+    let ans = []
+    let i = 0
+    let k = 0
+
+    while (i < arr1.length && k < arr2.length){
+      if(arr1[i].type < arr2[k].type){
+        ans.push(arr1[i])
+        i ++
+      }else {
+        ans.push(arr2[k])
+        k ++
+      }
     }
+    while(i < arr1.length){
+      ans.push(arr1[i])
+      i ++
+    }
+    while(k < arr2.length){
+      ans.push(arr2[k])
+      k ++
+    }
+    return ans
   },
-  acc:function(a,b){
-    if ( Number(a.acc) < Number(b.acc) ){
-      return -1;
-    }else if ( Number(a.acc) > Number(b.acc) ){
-      return 1;
-    }else{
-      return 0;
+  tm: function (arr1, arr2){
+    let ans = []
+    let i = 0
+    let k = 0
+
+    while (i < arr1.length && k < arr2.length){
+      if(arr1[i].tm < arr2[k].tm){
+        ans.push(arr1[i])
+        i ++
+      }else {
+        ans.push(arr2[k])
+        k ++
+      }
     }
+    while(i < arr1.length){
+      ans.push(arr1[i])
+      i ++
+    }
+    while(k < arr2.length){
+      ans.push(arr2[k])
+      k ++
+    }
+    return ans
   },
-  tm:function(a,b){
-    if ( a.tm < b.tm ){
-      return -1;
-    }else if ( a.tm > b.tm ){
-      return 1;
-    }else{
-      return 0;
+  power: function (arr1, arr2){
+    let ans = []
+    let i = 0
+    let k = 0
+
+    while (i < arr1.length && k < arr2.length){
+      if(arr1[i].power < arr2[k].power){
+        ans.push(arr1[i])
+        i ++
+      }else {
+        ans.push(arr2[k])
+        k ++
+      }
     }
+    while(i < arr1.length){
+      ans.push(arr1[i])
+      i ++
+    }
+    while(k < arr2.length){
+      ans.push(arr2[k])
+      k ++
+    }
+    return ans
   },
-  per:function(a,b){
-    if ( Number(a.perc) < Number(b.perc) ){
-      return -1;
-    }else if ( Number(a.perc) > Number(b.perc) ){
-      return 1;
-    }else{
-      return 0;
+  pp: function (arr1, arr2){
+    let ans = []
+    let i = 0
+    let k = 0
+
+    while (i < arr1.length && k < arr2.length){
+      if(arr1[i].pp < arr2[k].pp){
+        ans.push(arr1[i])
+        i ++
+      }else {
+        ans.push(arr2[k])
+        k ++
+      }
     }
+    while(i < arr1.length){
+      ans.push(arr1[i])
+      i ++
+    }
+    while(k < arr2.length){
+      ans.push(arr2[k])
+      k ++
+    }
+    return ans
   },
-  type:function(a,b){
-    if ( a.type < b.type ){
-      return 1;
-    }else if ( a.type > b.type ){
-      return -1;
-    }else{
-      return 0;
+  acc: function (arr1, arr2){
+    let ans = []
+    let i = 0
+    let k = 0
+
+    while (i < arr1.length && k < arr2.length){
+      if(arr1[i].acc < arr2[k].acc){
+        ans.push(arr1[i])
+        i ++
+      }else {
+        ans.push(arr2[k])
+        k ++
+      }
     }
+    while(i < arr1.length){
+      ans.push(arr1[i])
+      i ++
+    }
+    while(k < arr2.length){
+      ans.push(arr2[k])
+      k ++
+    }
+    return ans
   },
-  gen: function(a,b){
-    if ( a.gen < b.gen ){
-      return -1;
-    }else if ( a.gen > b.gen ){
-      return 1;
-    }else{
-      return 0;
+  per: function (arr1, arr2){
+    let ans = []
+    let i = 0
+    let k = 0
+
+    while (i < arr1.length && k < arr2.length){
+      if(arr1[i].perc < arr2[k].perc){
+        ans.push(arr1[i])
+        i ++
+      }else {
+        ans.push(arr2[k])
+        k ++
+      }
     }
+    while(i < arr1.length){
+      ans.push(arr1[i])
+      i ++
+    }
+    while(k < arr2.length){
+      ans.push(arr2[k])
+      k ++
+    }
+    return ans
   },
-  pokemon:function(a,b){
-    if ( a.pokemon.length < b.pokemon.length ){
-      return -1;
-    }else if ( a.pokemon.length > b.pokemon.length ){
-      return 1;
-    }else{
-      return 0;
+  pokemon: function (arr1, arr2){
+    let ans = []
+    let i = 0
+    let k = 0
+
+    while (i < arr1.length && k < arr2.length){
+      if(arr1[i].pokemon.length < arr2[k].pokemon.length){
+        ans.push(arr1[i])
+        i ++
+      }else {
+        ans.push(arr2[k])
+        k ++
+      }
     }
-  }
+    while(i < arr1.length){
+      ans.push(arr1[i])
+      i ++
+    }
+    while(k < arr2.length){
+      ans.push(arr2[k])
+      k ++
+    }
+    return ans
+  },
+  total: function (arr1, arr2){
+    let ans = []
+    let i = 0
+    let k = 0
+
+    while (i < arr1.length && k < arr2.length){
+      if(arr1[i].stat.hp.base+arr1[i].stat.attack.base+arr1[i].stat.defense.base+arr1[i].stat.spAtk.base+arr1[i].stat.spDef.base+arr1[i].stat.speed.base < arr2[k].stat.hp.base+arr2[k].stat.attack.base+arr2[k].stat.defense.base+arr2[k].stat.spAtk.base+arr2[k].stat.spDef.base+arr2[k].stat.speed.base){
+        ans.push(arr1[i])
+        i ++
+      }else {
+        ans.push(arr2[k])
+        k ++
+      }
+    }
+    while(i < arr1.length){
+      ans.push(arr1[i])
+      i ++
+    }
+    while(k < arr2.length){
+      ans.push(arr2[k])
+      k ++
+    }
+    return ans
+  },
 }

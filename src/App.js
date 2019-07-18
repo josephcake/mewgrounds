@@ -84,7 +84,7 @@ class App extends Component{
       this.setState({
         primaryType:'all',
         secondaryType: "",
-        pData:pokemonData
+        pData:this.state.currentPage === "Home" ? pokemonData : null
       })
     }
 
@@ -178,6 +178,7 @@ class App extends Component{
   }
     render(){
       // debugger
+      console.log("App");
     return (
       <div id="App">
         <Nav currentPage={this.state.currentPage} handlePage={this.handlePage} filterType={this.filterType} filterSecondType={this.filterSecondType} filteredType={this.state.primaryType} secondaryDataTypes={this.state.secondaryDataTypes} handleFilter={this.handleFilter} value={this.state.value}/>
@@ -216,7 +217,7 @@ class App extends Component{
               :
               null
             }
-            <PokemonAbilities clickPoke={this.clickPoke} value={this.state.value} filteredType={this.state.primaryType}/>
+            <PokemonAbilities clickPoke={this.clickPoke} value={this.state.value} primaryType={this.state.primaryType}/>
             </div>
           }/>
 

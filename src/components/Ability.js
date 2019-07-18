@@ -12,7 +12,7 @@ class Ability extends PureComponent {
   }
   render(){
     let listPokemon = this.props.p.pokemon.map(p=> <IndieAbilityPokemon key={p.name} clickPoke={this.props.clickPoke} p={p}/>)
-
+    // <tr className={(this.props.p.gen.includes(this.props.primaryType) || this.props.primaryType === 'all') && this.props.p.name.toLowerCase().includes(this.props.value.toLowerCase()) ? `Sprite` : "hideSprite"}>
     return(
       <tr className={this.props.p.name.toLowerCase().includes(this.props.value.toLowerCase()) ? "pokemonStatsTR" : "hideSprite"}>
         <td onClick={this.showPokemonList} className="pokemonTableDatas clickable">{this.props.p.name}</td>

@@ -10,13 +10,13 @@ class PokemonItems extends Component {
   }
 
   sort=(e)=>{
+    console.log("sort-yes");
     let value = e.target.innerText.toLowerCase()
     this.setState({
-      currentSort: this.state.sort ? this.state.currentSort.sort( compareAll[`${value}`]) : this.state.currentSort.sort( compareAll[`${value}`]).reverse(),
+      currentSort: this.state.sort ? compareAll.mergeSort(this.state.currentSort, value) : compareAll.mergeSort(this.state.currentSort, value).reverse(),
       sort: !this.state.sort
     })
   }
-
   render(){
     let pItemsData = []
     if(this.props.filteredType !== "" && this.props.filteredType !== "all"){

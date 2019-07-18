@@ -10,22 +10,15 @@ class PokemonStats extends PureComponent {
   }
 
   sort=(e)=>{
-  let value = e.target.innerText.toLowerCase()
-    if(e.target.innerText === "img" || e.target.innerText === "#"){
-      this.setState({
-        currentSort: this.state.sort ? this.props.pData.sort( compareAll.num) : this.props.pData.sort( compareAll.num).reverse(),
-        sort: !this.state.sort
-      })
-    }else{
-      this.setState({
-        currentSort: this.state.sort ? this.props.pData.sort( compareAll[`${value}`]) : this.props.pData.sort( compareAll[`${value}`]).reverse(),
-        sort: !this.state.sort
-      })
-
-    }
+    console.log("sort-yes");
+    let value = e.target.innerText.toLowerCase()
+    this.setState({
+      currentSort: this.state.sort ? compareAll.mergeSort(this.state.currentSort, value) : compareAll.mergeSort(this.state.currentSort, value).reverse(),
+      sort: !this.state.sort
+    })
   }
   render(){
-    let statRows = this.props.pData.map(p=><Stat key={p.name} primaryType={this.props.primaryType} secondaryType={this.props.secondaryType} currentPage={this.props.currentPage} p={p} value={this.props.value}/>)
+    let statRows = this.state.currentSort.map(p=><Stat key={p.name} primaryType={this.props.primaryType} secondaryType={this.props.secondaryType} currentPage={this.props.currentPage} p={p} value={this.props.value}/>)
     return (
       <div className="pokemonTableDiv">
         <table className="pokemonTable">
