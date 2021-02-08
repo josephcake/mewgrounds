@@ -42,6 +42,11 @@ class App extends Component{
   }
   componentDidMount(){
     //Set the current page of site loading
+    console.log   = function(){};
+    console.warn  = function(){};
+    console.error = function(){};
+    console.info  = function(){};    
+
     let href = window.location.href.split('/')
     href = href[href.length-1]
     href = href.charAt(0).toUpperCase() + href.slice(1)
@@ -177,12 +182,11 @@ class App extends Component{
     }))
   }
     render(){
-      // debugger
-      console.log("App");
+      
     return (
       <div id="App">
         <Nav currentPage={this.state.currentPage} handlePage={this.handlePage} filterType={this.filterType} filterSecondType={this.filterSecondType} filteredType={this.state.primaryType} secondaryDataTypes={this.state.secondaryDataTypes} handleFilter={this.handleFilter} value={this.state.value}/>
-        <div id="quickDisplay">
+        {/* <div id="quickDisplay">
         {
           this.state.quickDisplay
           ?
@@ -190,7 +194,7 @@ class App extends Component{
           :
           <img alt="pokeIndicator" onClick={this.quickDisplay} id="pokeParty" src={require("./pokeparty.png")}/>
         }
-        </div>
+        </div> */}
         <Switch>
           <Route exact path='/stats' render={() =>{
             return <PokemonStats value={this.state.value} primaryType={this.state.primaryType} secondaryType={this.state.secondaryType} currentPage={this.state.currentPage} pData={this.state.pData}/>

@@ -7,8 +7,7 @@ import NavItems from '../components/NavItems.js'
 
 
 class Nav extends React.PureComponent{
-  render(){
-    console.log("Nav");
+  render(){    
     return(
       <div id="Nav">
         <div id="navSites" className="navDiv">

@@ -9,8 +9,7 @@ class PokemonItems extends Component {
     sort: false
   }
 
-  sort=(e)=>{
-    console.log("sort-yes");
+  sort=(e)=>{    
     let value = e.target.innerText.toLowerCase()
     this.setState({
       currentSort: this.state.sort ? compareAll.mergeSort(this.state.currentSort, value) : compareAll.mergeSort(this.state.currentSort, value).reverse(),
